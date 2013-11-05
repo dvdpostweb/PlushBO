@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSvodDates" targetNamespace="http://tempuri.org/dsSvodDates.xsd" xmlns:mstns="http://tempuri.org/dsSvodDates.xsd" xmlns="http://tempuri.org/dsSvodDates.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSvodDates" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSvodDates" msprop:Generator_DataSetName="dsSvodDates">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="svod_date" msprop:Generator_UserTableName="svod_date" msprop:Generator_RowDeletedName="svod_dateRowDeleted" msprop:Generator_TableClassName="svod_dateDataTable" msprop:Generator_RowChangedName="svod_dateRowChanged" msprop:Generator_RowClassName="svod_dateRow" msprop:Generator_RowChangingName="svod_dateRowChanging" msprop:Generator_RowEvArgName="svod_dateRowChangeEvent" msprop:Generator_RowEvHandlerName="svod_dateRowChangeEventHandler" msprop:Generator_TablePropName="svod_date" msprop:Generator_TableVarName="tablesvod_date" msprop:Generator_RowDeletingName="svod_dateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="start_on" msprop:Generator_UserColumnName="start_on" msprop:Generator_ColumnPropNameInRow="start_on" msprop:Generator_ColumnVarNameInTable="columnstart_on" msprop:Generator_ColumnPropNameInTable="start_onColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="imdb_id" msprop:Generator_UserColumnName="imdb_id" msprop:Generator_ColumnPropNameInRow="imdb_id" msprop:Generator_ColumnVarNameInTable="columnimdb_id" msprop:Generator_ColumnPropNameInTable="imdb_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="end_on" msprop:Generator_UserColumnName="end_on" msprop:Generator_ColumnPropNameInRow="end_on" msprop:Generator_ColumnVarNameInTable="columnend_on" msprop:Generator_ColumnPropNameInTable="end_onColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="created_at" msprop:Generator_UserColumnName="created_at" msprop:Generator_ColumnPropNameInRow="created_at" msprop:Generator_ColumnVarNameInTable="columncreated_at" msprop:Generator_ColumnPropNameInTable="created_atColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="updated_at" msprop:Generator_UserColumnName="updated_at" msprop:Generator_ColumnPropNameInRow="updated_at" msprop:Generator_ColumnVarNameInTable="columnupdated_at" msprop:Generator_ColumnPropNameInTable="updated_atColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

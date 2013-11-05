@@ -1,0 +1,1667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupSearch.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="cmbActiveCustomers.Items" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="cmbActiveCustomers.Items1" xml:space="preserve">
+    <value>Not Active</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbActiveCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 204</value>
+  </data>
+  <data name="cmbActiveCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbActiveCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="cmbActiveCustomers.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="&gt;&gt;cmbActiveCustomers.Name" xml:space="preserve">
+    <value>cmbActiveCustomers</value>
+  </data>
+  <data name="&gt;&gt;cmbActiveCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbActiveCustomers.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbActiveCustomers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 209</value>
+  </data>
+  <data name="LabelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="LabelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="LabelControl3.Text" xml:space="preserve">
+    <value>Customers Active</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Name" xml:space="preserve">
+    <value>LabelControl3</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbDirector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 62</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.1" name="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="cmbDirector.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbDirector.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbDirector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="cmbDirector.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;cmbDirector.Name" xml:space="preserve">
+    <value>cmbDirector</value>
+  </data>
+  <data name="&gt;&gt;cmbDirector.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDirector.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbDirector.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDirector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 65</value>
+  </data>
+  <data name="lblDirector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblDirector.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="lblDirector.Text" xml:space="preserve">
+    <value>Director</value>
+  </data>
+  <data name="&gt;&gt;lblDirector.Name" xml:space="preserve">
+    <value>lblDirector</value>
+  </data>
+  <data name="&gt;&gt;lblDirector.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblDirector.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblDirector.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbProductMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 31</value>
+  </data>
+  <data name="cmbProductMedia.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbProductMedia.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbProductMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="cmbProductMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;cmbProductMedia.Name" xml:space="preserve">
+    <value>cmbProductMedia</value>
+  </data>
+  <data name="&gt;&gt;cmbProductMedia.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbProductMedia.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbProductMedia.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblProductMedia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 31</value>
+  </data>
+  <data name="lblProductMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblProductMedia.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="lblProductMedia.Text" xml:space="preserve">
+    <value>Product Media</value>
+  </data>
+  <data name="&gt;&gt;lblProductMedia.Name" xml:space="preserve">
+    <value>lblProductMedia</value>
+  </data>
+  <data name="&gt;&gt;lblProductMedia.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblProductMedia.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblProductMedia.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 169</value>
+  </data>
+  <data name="LabelControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LabelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="LabelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="LabelControl2.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Name" xml:space="preserve">
+    <value>LabelControl2</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 164</value>
+  </data>
+  <data name="txtToDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtToDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtToDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="txtToDate.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Name" xml:space="preserve">
+    <value>txtToDate</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 167</value>
+  </data>
+  <data name="LabelControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LabelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="LabelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="LabelControl1.Text" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Name" xml:space="preserve">
+    <value>LabelControl1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 164</value>
+  </data>
+  <data name="txtFromDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtFromDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtFromDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="txtFromDate.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Name" xml:space="preserve">
+    <value>txtFromDate</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 96</value>
+  </data>
+  <data name="cmbProductType.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbProductType.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cmbProductType.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;cmbProductType.Name" xml:space="preserve">
+    <value>cmbProductType</value>
+  </data>
+  <data name="&gt;&gt;cmbProductType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbProductType.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbProductType.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 98</value>
+  </data>
+  <data name="lblProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="lblProductType.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lblProductType.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="&gt;&gt;lblProductType.Name" xml:space="preserve">
+    <value>lblProductType</value>
+  </data>
+  <data name="&gt;&gt;lblProductType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblProductType.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblProductType.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 96</value>
+  </data>
+  <data name="cmbRating.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbRating.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cmbRating.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;cmbRating.Name" xml:space="preserve">
+    <value>cmbRating</value>
+  </data>
+  <data name="&gt;&gt;cmbRating.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbRating.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbRating.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 98</value>
+  </data>
+  <data name="lblRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="lblRating.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lblRating.Text" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Name" xml:space="preserve">
+    <value>lblRating</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblRating.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chkProductNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 167</value>
+  </data>
+  <data name="chkProductNext.Properties.Caption" xml:space="preserve">
+    <value>Product Next</value>
+  </data>
+  <data name="chkProductNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 19</value>
+  </data>
+  <data name="chkProductNext.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;chkProductNext.Name" xml:space="preserve">
+    <value>chkProductNext</value>
+  </data>
+  <data name="&gt;&gt;chkProductNext.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkProductNext.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;chkProductNext.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbActor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 202</value>
+  </data>
+  <data name="cmbActor.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbActor.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbActor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="cmbActor.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="cmbActor.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbActor.Name" xml:space="preserve">
+    <value>cmbActor</value>
+  </data>
+  <data name="&gt;&gt;cmbActor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbActor.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbActor.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblActors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 207</value>
+  </data>
+  <data name="lblActors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblActors.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lblActors.Text" xml:space="preserve">
+    <value>Actor</value>
+  </data>
+  <data name="lblActors.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblActors.Name" xml:space="preserve">
+    <value>lblActors</value>
+  </data>
+  <data name="&gt;&gt;lblActors.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblActors.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblActors.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbStudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 62</value>
+  </data>
+  <data name="cmbStudio.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbStudio.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbStudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cmbStudio.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;cmbStudio.Name" xml:space="preserve">
+    <value>cmbStudio</value>
+  </data>
+  <data name="&gt;&gt;cmbStudio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbStudio.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbStudio.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cmbSerie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 31</value>
+  </data>
+  <data name="cmbSerie.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbSerie.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSerie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cmbSerie.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;cmbSerie.Name" xml:space="preserve">
+    <value>cmbSerie</value>
+  </data>
+  <data name="&gt;&gt;cmbSerie.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbSerie.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbSerie.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cmbSubtitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 62</value>
+  </data>
+  <data name="cmbSubtitle.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbSubtitle.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSubtitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cmbSubtitle.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;cmbSubtitle.Name" xml:space="preserve">
+    <value>cmbSubtitle</value>
+  </data>
+  <data name="&gt;&gt;cmbSubtitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbSubtitle.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbSubtitle.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblSubtitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 65</value>
+  </data>
+  <data name="lblSubtitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblSubtitle.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="lblSubtitle.Text" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="&gt;&gt;lblSubtitle.Name" xml:space="preserve">
+    <value>lblSubtitle</value>
+  </data>
+  <data name="&gt;&gt;lblSubtitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblSubtitle.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblSubtitle.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 31</value>
+  </data>
+  <data name="cmbLanguage.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbLanguage.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cmbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Name" xml:space="preserve">
+    <value>cmbLanguage</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 31</value>
+  </data>
+  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Name" xml:space="preserve">
+    <value>lblLanguage</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblSerie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 31</value>
+  </data>
+  <data name="lblSerie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblSerie.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lblSerie.Text" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="&gt;&gt;lblSerie.Name" xml:space="preserve">
+    <value>lblSerie</value>
+  </data>
+  <data name="&gt;&gt;lblSerie.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblSerie.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblSerie.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblStudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 65</value>
+  </data>
+  <data name="lblStudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblStudio.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblStudio.Text" xml:space="preserve">
+    <value>Studio</value>
+  </data>
+  <data name="&gt;&gt;lblStudio.Name" xml:space="preserve">
+    <value>lblStudio</value>
+  </data>
+  <data name="&gt;&gt;lblStudio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblStudio.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblStudio.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="cmbTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 166</value>
+  </data>
+  <data name="cmbTheme.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbTheme.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="cmbTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="cmbTheme.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbTheme.Name" xml:space="preserve">
+    <value>cmbTheme</value>
+  </data>
+  <data name="&gt;&gt;cmbTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbTheme.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbTheme.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cmbCategorie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 133</value>
+  </data>
+  <data name="cmbCategorie.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbCategorie.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbCategorie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="cmbCategorie.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="cmbCategorie.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbCategorie.Name" xml:space="preserve">
+    <value>cmbCategorie</value>
+  </data>
+  <data name="&gt;&gt;cmbCategorie.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbCategorie.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbCategorie.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="cmbAvailability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 127</value>
+  </data>
+  <data name="cmbAvailability.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbAvailability.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbAvailability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cmbAvailability.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;cmbAvailability.Name" xml:space="preserve">
+    <value>cmbAvailability</value>
+  </data>
+  <data name="&gt;&gt;cmbAvailability.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbAvailability.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbAvailability.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblAvailability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 132</value>
+  </data>
+  <data name="lblAvailability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblAvailability.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblAvailability.Text" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="&gt;&gt;lblAvailability.Name" xml:space="preserve">
+    <value>lblAvailability</value>
+  </data>
+  <data name="&gt;&gt;lblAvailability.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblAvailability.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblAvailability.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cmbStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 96</value>
+  </data>
+  <data name="cmbStatus.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbStatus.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cmbStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;cmbStatus.Name" xml:space="preserve">
+    <value>cmbStatus</value>
+  </data>
+  <data name="&gt;&gt;cmbStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbStatus.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbStatus.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 98</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblCategorie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 135</value>
+  </data>
+  <data name="lblCategorie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblCategorie.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblCategorie.Text" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="lblCategorie.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblCategorie.Name" xml:space="preserve">
+    <value>lblCategorie</value>
+  </data>
+  <data name="&gt;&gt;lblCategorie.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblCategorie.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblCategorie.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="btnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 250</value>
+  </data>
+  <data name="btnSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 45</value>
+  </data>
+  <data name="btnSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve">
+    <value>btnSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 171</value>
+  </data>
+  <data name="lblTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblTheme.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="lblTheme.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblTheme.Name" xml:space="preserve">
+    <value>lblTheme</value>
+  </data>
+  <data name="&gt;&gt;lblTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTheme.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblTheme.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="GroupSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="GroupSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 314</value>
+  </data>
+  <data name="GroupSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="GroupSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Name" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Parent" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="tabSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Name" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GridProducts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GridProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colId.Caption" xml:space="preserve">
+    <value>products_id</value>
+  </data>
+  <data name="colId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="colName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colName.Width" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="colStatus.Caption" xml:space="preserve">
+    <value>status</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStatus.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStatus.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStatus.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colStatus.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStatus.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colStatus.Width" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="colAvailability.Caption" xml:space="preserve">
+    <value>availability</value>
+  </data>
+  <data name="RepositoryItemLookUpEditAvailability.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEditAvailability.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEditAvailability.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colAvailability.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAvailability.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colAvailability.Width" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="colSerie.Caption" xml:space="preserve">
+    <value>serie</value>
+  </data>
+  <data name="RepositoryItemLookUpEditSerie.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEditSerie.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEditSerie.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colSerie.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSerie.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colSerie.Width" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="colStudio.Caption" xml:space="preserve">
+    <value>studio</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStudio.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStudio.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEditStudio.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colStudio.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStudio.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colStudio.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="colProductNext.Caption" xml:space="preserve">
+    <value>product next</value>
+  </data>
+  <data name="RepositoryItemChkProductNext.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colProductNext.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colRating.Caption" xml:space="preserve">
+    <value>rating</value>
+  </data>
+  <data name="colRating.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colRating.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colRating.Width" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="colProductType.Caption" xml:space="preserve">
+    <value>product type</value>
+  </data>
+  <data name="colProductType.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProductType.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colProductType.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="colCptDvdOK.Caption" xml:space="preserve">
+    <value># dvd ok</value>
+  </data>
+  <data name="colCptDvdOK.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colCptDvdOK.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colCptDvdOK.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="colcpt_cust.Caption" xml:space="preserve">
+    <value># cust wishlist</value>
+  </data>
+  <data name="colcpt_cust.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colcpt_cust.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colcpt_cust.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="coldate.Caption" xml:space="preserve">
+    <value>created date</value>
+  </data>
+  <data name="customers_active.Caption" xml:space="preserve">
+    <value>customers_active</value>
+  </data>
+  <data name="customers_active.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customers_active.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="customers_active.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="customers_not_active.Caption" xml:space="preserve">
+    <value>customers_not_active</value>
+  </data>
+  <data name="customers_not_active.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customers_not_active.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="customers_not_active.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="colCustHigh.Caption" xml:space="preserve">
+    <value>cust high</value>
+  </data>
+  <data name="colCustHigh.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colCustHigh.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="colCustHigh.Width" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="colVodExists.Caption" xml:space="preserve">
+    <value>vodexists</value>
+  </data>
+  <data name="colVodExists.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colVodExists.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colVodExists.Width" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="colProductsMedia.Caption" xml:space="preserve">
+    <value>Products Media</value>
+  </data>
+  <data name="colProductsMedia.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProductsMedia.VisibleIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="colProductsMedia.Width" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="RepositoryItemLookUpEditLanguage.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEditLanguage.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEditLanguage.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="GridProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GridProducts.Name" xml:space="preserve">
+    <value>GridProducts</value>
+  </data>
+  <data name="&gt;&gt;GridProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridProducts.Parent" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;GridProducts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="tabResult.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Name" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="DsSite1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <data name="chkSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 142</value>
+  </data>
+  <data name="chkSelected.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 18</value>
+  </data>
+  <data name="chkSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Name" xml:space="preserve">
+    <value>chkSelected</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="lblSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 145</value>
+  </data>
+  <data name="lblSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblSelected.Text" xml:space="preserve">
+    <value>selected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Name" xml:space="preserve">
+    <value>lblSelected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <metadata name="ContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 17</value>
+  </metadata>
+  <data name="ContextMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 26</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Name" xml:space="preserve">
+    <value>ContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Type" xml:space="preserve">
+    <value>DVDPostBuziness.contextMenu, DVDPostBuziness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="XtraTabControlTheme.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="XtraTabControlTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="XtraTabControlTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 836</value>
+  </data>
+  <data name="XtraTabControlTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Name" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>45</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 866</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAA////AAoKCgBfX18APDw8AAUFBQAJCQkAYGBgAEee1ABTotQAEhkeAAAXFwAGc3kAAAwMAIK1
+        1ABNrekADyIoAAAKCgAGb3UAMJHBAAYPFQA8ot4AFXSAAF5oaAA7OzsAAGpqAAwpNQA8mdQASLj/AEOq
+        5QBSXGIAMDAwAAQEBAACDAwABnp/ADyk3wAMHioAUJS/AFaj1ABKuf8ASK7vAEROVAAmJiYAESAiAAh+
+        gwBCs/QATbr/AEaazwCGj5UACBAVAA4fKgBFq+wALkFNACUvNAAJFh8ACD9ZAAyRnwBTu/YAaqzUABEh
+        KgAQEBAAFzA/AEKo6QA/nNcAP6vwAE249gCfxekAHSQqABAiLgAIERcACR0qACSQ1AA/p+kATazpAEGb
+        1AARJC8ALCwsABoaGgACAgIAAw4VADaKvwB2lqoAFCIqAAcQFgASEhIAWVlZADU1NQBejaoACxEVAAYG
+        BgAzMzMAExMTAAEBAQAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8A
+        AAD/AP8A//8AAB8fHwA5OTkARUVFAFJSUgBsbGwAeHh4AIWFhQCSkpIAn5+fAKurqwC4uLgAxcXFANLS
+        0gDe3t4A6+vrAPj4+ADw+/8ApKCgAMDcwADwyqYAAAA+AAAAXQAAAHwAAACbAAAAugAAANkAAADwACQk
+        /wBISP8AbGz/AJCQ/wC0tP8AABQ+AAAeXQAAKHwAADKbAAA8ugAARtkAAFXwACRt/wBIhf8AbJ3/AJC1
+        /wC0zf8AACo+AAA/XQAAVHwAAGmbAAB+ugAAk9kAAKrwACS2/wBIwv8AbM7/AJDa/wC05v8AAD4+AABd
+        XQAAfHwAAJubAAC6ugAA2dkAAPDwACT//wBI//8AbP//AJD//wC0//8AAD4qAABdPwAAfFQAAJtpAAC6
+        fgAA2ZMAAPCqACT/tgBI/8IAbP/OAJD/2gC0/+YAAD4UAABdHgAAfCgAAJsyAAC6PAAA2UYAAPBVACT/
+        bQBI/4UAbP+dAJD/tQC0/80AAD4AAABdAAAAfAAAAJsAAAC6AAAA2QAAAPAAACT/JABI/0gAbP9sAJD/
+        kAC0/7QAFD4AAB5dAAAofAAAMpsAADy6AABG2QAAVfAAAG3/JACF/0gAnf9sALX/kADN/7QAKj4AAD9d
+        AABUfAAAaZsAAH66AACT2QAAqvAAALb/JADC/0gAzv9sANr/kADm/7QAPj4AAF1dAAB8fAAAm5sAALq6
+        AADZ2QAA8PAAAP//JAD//0gA//9sAP//kAD//7QAPioAAF0/AAB8VAAAm2kAALp+AADZkwAA8KoAAP+2
+        JAD/wkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVcAAAAAAAAAAAAAAAAAFlaW1wAAAAAAAAAAABRUlNU
+        VVYFAAA7V1gAAAAAAEobS0xNTk8kUDsAAAAAAAA6LhtERUZHSEkUAAAAAAAAPT4cPz8bQEFCQwAAAAAx
+        MhscMzQ1Njc4OTo7PAAAJSYnHCgpKgUrLC0uLzAAAAAAGxwdHh8gISIjGyQAAAAAAAAVFhcYBREZGhQA
+        AAAAAAAODxAHBAUREhMUAAAAAAAACAkKBwQFAAsMDQAAAAAAAAAABgcEBQAAAAAAAAAAAAAAAAYHBAUA
+        AAAAAAAAAAAAAAACAwQFAAAAAAAAAPgfAAD4HwAA+B8AAMADAADgBwAA4AcAAOAHAACAAQAAgAEAAOAD
+        AADwBwAA4AcAAOAHAAD4HwAA+B8AAPgfAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Activation Code</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name" xml:space="preserve">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name" xml:space="preserve">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name" xml:space="preserve">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name" xml:space="preserve">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name" xml:space="preserve">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name" xml:space="preserve">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name" xml:space="preserve">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name" xml:space="preserve">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name" xml:space="preserve">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridViewProducts.Name" xml:space="preserve">
+    <value>GridViewProducts</value>
+  </data>
+  <data name="&gt;&gt;GridViewProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colId.Name" xml:space="preserve">
+    <value>colId</value>
+  </data>
+  <data name="&gt;&gt;colId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Name" xml:space="preserve">
+    <value>colStatus</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditStatus.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEditStatus</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colAvailability.Name" xml:space="preserve">
+    <value>colAvailability</value>
+  </data>
+  <data name="&gt;&gt;colAvailability.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditAvailability.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEditAvailability</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditAvailability.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colSerie.Name" xml:space="preserve">
+    <value>colSerie</value>
+  </data>
+  <data name="&gt;&gt;colSerie.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditSerie.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEditSerie</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditSerie.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colStudio.Name" xml:space="preserve">
+    <value>colStudio</value>
+  </data>
+  <data name="&gt;&gt;colStudio.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditStudio.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEditStudio</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditStudio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colProductNext.Name" xml:space="preserve">
+    <value>colProductNext</value>
+  </data>
+  <data name="&gt;&gt;colProductNext.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemChkProductNext.Name" xml:space="preserve">
+    <value>RepositoryItemChkProductNext</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemChkProductNext.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colRating.Name" xml:space="preserve">
+    <value>colRating</value>
+  </data>
+  <data name="&gt;&gt;colRating.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colProductType.Name" xml:space="preserve">
+    <value>colProductType</value>
+  </data>
+  <data name="&gt;&gt;colProductType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colCptDvdOK.Name" xml:space="preserve">
+    <value>colCptDvdOK</value>
+  </data>
+  <data name="&gt;&gt;colCptDvdOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colcpt_cust.Name" xml:space="preserve">
+    <value>colcpt_cust</value>
+  </data>
+  <data name="&gt;&gt;colcpt_cust.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;coldate.Name" xml:space="preserve">
+    <value>coldate</value>
+  </data>
+  <data name="&gt;&gt;coldate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;customers_active.Name" xml:space="preserve">
+    <value>customers_active</value>
+  </data>
+  <data name="&gt;&gt;customers_active.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;customers_not_active.Name" xml:space="preserve">
+    <value>customers_not_active</value>
+  </data>
+  <data name="&gt;&gt;customers_not_active.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colCustHigh.Name" xml:space="preserve">
+    <value>colCustHigh</value>
+  </data>
+  <data name="&gt;&gt;colCustHigh.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colVodExists.Name" xml:space="preserve">
+    <value>colVodExists</value>
+  </data>
+  <data name="&gt;&gt;colVodExists.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colProductsMedia.Name" xml:space="preserve">
+    <value>colProductsMedia</value>
+  </data>
+  <data name="&gt;&gt;colProductsMedia.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditLanguage.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEditLanguage</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEditLanguage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Name" xml:space="preserve">
+    <value>DsSite1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Type" xml:space="preserve">
+    <value>DVDPostLib.DsSite, DVDPostLib, Version=2.0.4926.8, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSearchProduct</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BizzLib.frmBKForm, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

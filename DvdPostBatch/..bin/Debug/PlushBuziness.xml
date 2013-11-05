@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PlushBuziness
+</name>
+</assembly>
+<members>
+<member name="M:PlushBuziness.clsCoda2.createItemDb(System.Collections.Generic.List{PlushBuziness.clsCoda2.Coda},System.String,System.Int32)">
+	<summary>
+  save struct in db (bank_account_movements) 
+ create range between two objects of type movementpart1 
+ </summary>
+	<param name="lstDataCoda"></param>
+	<param name="filePath"></param>
+	<remarks></remarks>
+</member><member name="M:PlushBuziness.clsCoda2.GetLstTypeCoda">
+	<summary>
+ get all object type of coda
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushBuziness.clsCoda2.LoadStruct(System.Collections.Generic.List{PlushBuziness.clsCoda2.Coda},System.String,System.Int32@)">
+	<summary>
+  load file in struct coda 
+ </summary>
+	<param name="lstCodaType"></param>
+	<param name="filePath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushBuziness.ClsCustomers.Initialisation(System.Int32,System.Boolean)">
+	<summary>
+ getcptdroselia 
+ update validityto = now()
+ update customers_dvd_home 
+ </summary>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushBuziness.ClsCustomers.Reconduction(PlushData.ClsCustomersData.Payment_Method,PlushData.ClsCustomersData.Country,System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ reconduction de type classique 
+ sinon reconduction Immediat 
+ </summary>
+	<param name="pay_method"></param>
+	<param name="idcountry"></param>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:PlushBuziness.clsDom70_128._sumNumAccount">
+	<summary>
+  create file to export domiciliation Isabel Activation (dvdpost =&gt; isabel activation)
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PlushBuziness.ClsDom80_128">
+	<summary>
+  create file to export domiciliation Isabel payment (dvdpost =&gt; isabel payment)
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PlushBuziness.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PlushBuziness.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PlushBuziness.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

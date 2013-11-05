@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PlushData
+</name>
+</assembly>
+<members>
+<member name="M:PlushData.clsOdersStatusHistory.GetListOrderHistoryOUTTEST">
+	<summary>
+  if problem with sent mail use for send the out mail
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsOdersStatusHistory.GetListOrderHistoryINTEST">
+	<summary>
+ if problem with sent mail use for send the IN mail
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:PlushData.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PlushData.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PlushData.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:PlushData.ClsMatching.getUpdateBankAccountMovements(System.Int32,PlushData.ClsMatching.matching_type,System.String)">
+	<summary>
+  customers_id is string but it's possible the field is null 
+ and with integer impossible used null
+ </summary>
+	<param name="id"></param>
+	<param name="matching"></param>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.ClsCustomersData.GetRecreateBatchOgonewithoutpaymentCreate(System.String)">
+	<summary>
+  if the batch automatic doesn't work and not create invoices 
+ </summary>
+	<param name="d"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.ClsCustomersData.GetSelectReplayReconductionOgoneCreateDate(System.String,System.Int32)">
+	<summary>
+ if the batch automatic doesn't work and the invoices are created 
+ </summary>
+	<param name="d"></param>
+	<param name="country_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsProductDvd.GetUpdateStepProductDisabled">
+	<summary>
+  compte le nombre de dvd encore physiquement en etat pour ce titre 
+ si il n'y en a plus alors passer le status du product a -1 pour les products qui etaient a -2 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.ClsPurchaseSale.GetDeletePrevisionPurchaseCurrentdate">
+	<summary>
+ delete the data if the table contains data of today 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectCritiqueCustomers(System.Int32)">
+	<summary>
+ calcul the number of critique and average quality DVDPOST
+ </summary>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectReviewsCustomers(System.Int32)">
+	<summary>
+ list of reviews of customer
+ </summary>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectAverageCritiqueCustomers(System.Object)">
+	<summary>
+ calcul the average_quality_public
+ </summary>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectRating(System.Int32)">
+	<summary>
+ calcul the number of rating
+ </summary>
+	<param name="customers_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectBestNumberCritique(System.Boolean)">
+	<summary>
+ calcul the list of best number of critiques
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectBestqualityDvdpostCritique(System.Boolean)">
+	<summary>
+ calcul the list of best quality dvdpost of critiques
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectBestCritiqueCustomers(System.Boolean)">
+	<summary>
+ calcul the list of best average critique of customers
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.clsReviews.GetSelectBestRating(System.Boolean)">
+	<summary>
+ calcul the list of best number rating
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.AboProcessData.GetCustomerwithAbo(System.Int32,System.Int32)">
+	<summary>
+  search customers that entry to the process abo  
+  disturb dvd to customers 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlushData.AboProcessData.GetCustomerwithAbo">
+	<summary>
+  search customers that entry to the process abo  
+  disturb dvd to customers 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlushData.AboProcessData.GetProductDVDAvailable(PlushData.clsProductDvd.Type_DVD)">
+	<summary>
+  list of DVD in stock
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.ClsPayment.UpdateStatusAutomatic(System.Int32,System.Int32,System.Int32,System.Boolean,System.String)">
+	<summary>
+  changement de status via la gestion du workflow recovery 
+ </summary>
+	<param name="old_status"></param>
+	<param name="new_status"></param>
+	<param name="delay"></param>
+	<param name="isclosed"></param>
+	<param name="account_movements_id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlushData.ClsPayment.CheckReconductionLogiq(System.DateTime)">
+	<summary>
+ check the date of reconduction payment 
+ if the gap between two payment is early 1 month is not always good 
+ </summary>
+	<param name="d"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

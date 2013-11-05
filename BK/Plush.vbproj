@@ -1,0 +1,627 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>Plush.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D043F11-DBB2-4003-BC02-5FD18D9D8CD4}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Plush</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>VBScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Plush</RootNamespace>
+    <StartupObject>Plush.frmMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ManifestCertificateThumbprint>9B13625395F1A52DA51046FF863FC10BCBE6DC3C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>DVDPost_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <PublishUrl>http://localhost/dvdpost/</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Plush.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Plush.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>Plush.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADODB">
+      <Name>adodb</Name>
+      <HintPath>C:\Program Files\Microsoft.NET\Primary Interop Assemblies\adodb.dll</HintPath>
+      <AssemblyFolderKey>hklm\primary interop assemblies</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="BizzLib, Version=1.0.3210.18722, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\BizzLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.BonusSkins.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Charts.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.Data.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1.Compact, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Data.v8.1.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1.Linq, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Data.v8.1.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.OfficeSkins.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Tutorials.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Tutorials.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.Utils.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGridView.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxGridView.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGridView.v8.1.Export, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxGridView.v8.1.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxHtmlEditor.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxPivotGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxScheduler.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxScheduler.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxSpellChecker.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.ASPxTreeList.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1.Compact, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1.Linq, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1.Providers, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.1.Providers.Compact, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Xpo.v8.1.Providers.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraBars.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraBars.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.UI, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.Web, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraEditors.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraGrid.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraLayout.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraLayout.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraNavBar.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraNavBar.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraPrinting.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPrinting.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1.Import, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.Import.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1.Web, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichTextEdit.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraRichTextEdit.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.Extensions, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.OutlookExchange, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.OutlookExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.VCalendarExchange, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraScheduler.v8.1.VCalendarExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraSpellChecker.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraSpellChecker.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraSpellChecker.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraTreeList.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraTreeList.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraVerticalGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraVerticalGrid.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="EmailVerifierComponent, Version=1.4.2676.29250, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\EmailVerifierComponent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="MyBCrypt, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=5.0.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SSH, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\SSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SSHLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\SSHLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Help\EN\BizzKeys" />
+    <None Include="bin\Help\EN\BizzKeys.hhc" />
+    <None Include="bin\Help\FR\BizzKeys" />
+    <None Include="bin\Help\FR\BizzKeys.chm" />
+    <None Include="bin\Help\FR\BizzKeys.hhc" />
+    <None Include="bin\Help\FR\BizzKeys.hhk" />
+    <None Include="bin\Help\FR\BizzKeys.hhp" />
+    <None Include="bin\Help\FR\BizzKeys.hpp" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\clsDataSecurity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\clsGeneral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Browse\frmGeneralGlobalParameter_Browse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Security\frmSecurityLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Security\frmSecurityRole_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Security\frmSecurityUser_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System\frmSystemMenu_Browse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System\frmSystemMenu_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\moGlobal1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Browse\frmGeneralGlobalParameter_Browse.fr.resx">
+      <DependentUpon>frmGeneralGlobalParameter_Browse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Browse\frmGeneralGlobalParameter_Browse.resx">
+      <DependentUpon>frmGeneralGlobalParameter_Browse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Security\frmSecurityLogin.resx">
+      <DependentUpon>frmSecurityLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Security\frmSecurityRole_Maintenance.resx">
+      <DependentUpon>frmSecurityRole_Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Security\frmSecurityUser_Maintenance.resx">
+      <DependentUpon>frmSecurityUser_Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\frmSystemMenu_Browse.fr.resx">
+      <DependentUpon>frmSystemMenu_Browse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\frmSystemMenu_Browse.resx">
+      <DependentUpon>frmSystemMenu_Browse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\frmSystemMenu_Maintenance.resx">
+      <DependentUpon>frmSystemMenu_Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <Content Include="bin\Help\FR\kribi-0001-000A-HOLDING.htm" />
+    <Content Include="bin\Help\FR\kribi-0001-000A-HOLDING_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0001-000A-HOLDING_files\image003.gif" />
+    <Content Include="bin\Help\FR\kribi-0001-000A-HOLDING_files\image004.gif" />
+    <Content Include="bin\Help\FR\kribi-0002-000A-ENTITY.htm" />
+    <Content Include="bin\Help\FR\kribi-0002-000A-ENTITY_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0003-000A-BANK.htm" />
+    <Content Include="bin\Help\FR\kribi-0003-000A-BANK_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0003-000A-BANK_files\image002.gif" />
+    <Content Include="bin\Help\FR\kribi-0004-000A-BANK_ACCOUNT.htm" />
+    <Content Include="bin\Help\FR\kribi-0004-000A-BANK_ACCOUNT_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0004-000A-BANK_ACCOUNT_files\image002.gif" />
+    <Content Include="bin\Help\FR\kribi-0005-000A-BANK_ACCOUNT_DEPOSIT.htm" />
+    <Content Include="bin\Help\FR\kribi-0005-000A-BANK_ACCOUNT_DEPOSIT_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0005-000A-BANK_ACCOUNT_DEPOSIT_files\image002.gif" />
+    <Content Include="bin\Help\FR\kribi-0006-000A-BANK_ACCOUNT_CREDIT.htm" />
+    <Content Include="bin\Help\FR\kribi-0006-000A-BANK_ACCOUNT_CREDIT_files\filelist.xml" />
+    <Content Include="bin\Help\FR\kribi-0006-000A-BANK_ACCOUNT_CREDIT_files\image001.gif" />
+    <Content Include="bin\Help\FR\kribi-0007-000A-ITEM.htm" />
+    <Content Include="bin\Help\FR\ToBeDone.htm" />
+    <Content Include="bin\Help\FR\Toolbars.htm" />
+    <Content Include="bin\Help\FR\ToolBar_In_Browse.htm" />
+    <Content Include="bin\Help\FR\ToolBar_In_Maintenance.htm" />
+    <Content Include="bin\Help\ICONS\browse1.ico" />
+    <Content Include="bin\Help\ICONS\currency.ico" />
+    <Content Include="bin\Help\ICONS\Filter.ico" />
+    <Content Include="bin\Help\ICONS\FilterIsON.ico" />
+    <Content Include="bin\Help\ICONS\form.ico" />
+    <Content Include="bin\Help\ICONS\formsel.ico" />
+    <Content Include="bin\Help\ICONS\import.ico" />
+    <Content Include="bin\Help\ICONS\maintenance.ico" />
+    <Content Include="bin\Help\ICONS\MECALOGO.BMP" />
+    <Content Include="bin\Help\ICONS\process1.ico" />
+    <Content Include="bin\Help\ICONS\refresh.bmp" />
+    <Content Include="bin\Help\ICONS\report.ico" />
+    <Content Include="bin\Help\ICONS\setup.ico" />
+    <Content Include="bin\ToolBars\108.ico" />
+    <Content Include="bin\ToolBars\109.ico" />
+    <Content Include="bin\ToolBars\attachement.ico" />
+    <Content Include="bin\ToolBars\comments.ico" />
+    <Content Include="bin\ToolBars\delete.ico" />
+    <Content Include="bin\ToolBars\DeleteReport.ico" />
+    <Content Include="bin\ToolBars\edit.ico" />
+    <Content Include="bin\ToolBars\EditReport.ico" />
+    <Content Include="bin\ToolBars\EditReportInfo.ico" />
+    <Content Include="bin\ToolBars\Filter.ico" />
+    <Content Include="bin\ToolBars\FilterIsON.ico" />
+    <Content Include="bin\ToolBars\First.ico" />
+    <Content Include="bin\ToolBars\international.ico" />
+    <Content Include="bin\ToolBars\Last.ico" />
+    <Content Include="bin\ToolBars\MakeCommon.ico" />
+    <Content Include="bin\ToolBars\new.ico" />
+    <Content Include="bin\ToolBars\NewReport.ico" />
+    <Content Include="bin\ToolBars\Next.ico" />
+    <Content Include="bin\ToolBars\Previous.ico" />
+    <Content Include="bin\ToolBars\print.ico" />
+    <Content Include="bin\ToolBars\RefreshData.ico" />
+    <Content Include="bin\ToolBars\RptCriteria.ico" />
+    <Content Include="bin\ToolBars\Save.ico" />
+    <Content Include="bin\ToolBars\SelectView.ico" />
+    <Content Include="bin\ToolBars\SendToUser.ico" />
+    <Content Include="bin\ToolBars\undo.ico" />
+    <Content Include="bin\ToolBars\view.ico" />
+    <Content Include="favicon.ico" />
+    <Content Include="Icons\BiggerCaps.ico" />
+    <Content Include="Icons\logo.ico" />
+    <Content Include="Icons\Down.ICO" />
+    <Content Include="Icons\EDIT.ICO" />
+    <Content Include="Icons\favicon.ico" />
+    <Content Include="Icons\Favorite.ico" />
+    <Content Include="Icons\FIRST.BMP" />
+    <Content Include="Icons\LANGUAGE.BMP" />
+    <Content Include="Icons\LAST.BMP" />
+    <Content Include="Icons\Left.ICO" />
+    <Content Include="Icons\Minus.ICO" />
+    <Content Include="Icons\NEXT.BMP" />
+    <Content Include="Icons\OK.BMP" />
+    <Content Include="Icons\plus.ICO" />
+    <Content Include="Icons\right.ICO" />
+    <Content Include="Icons\SmallerCaps.ico" />
+    <Content Include="Icons\UP.ICo" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DVDPostBuziness\PlushBuziness.vbproj">
+      <Project>{875CB9D2-5351-44A4-90C1-389E04CA26B3}</Project>
+      <Name>PlushBuziness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DvdPostData\PlushData.vbproj">
+      <Project>{CE179D5C-B3B4-4F6B-8B47-84C4F479D130}</Project>
+      <Name>PlushData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DVDPostLib\PlushLib.vbproj">
+      <Project>{BFCDE220-BF28-4A82-A699-16DBE6552121}</Project>
+      <Name>PlushLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DVDPostTools\PlushTools.csproj">
+      <Project>{35D76B95-2EA0-4429-9676-EC1896F9EBD6}</Project>
+      <Name>PlushTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsABOProcess" targetNamespace="http://tempuri.org/dsABOProcess.xsd" xmlns:mstns="http://tempuri.org/dsABOProcess.xsd" xmlns="http://tempuri.org/dsABOProcess.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsABOProcess" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsABOProcess" msprop:Generator_DataSetName="dsABOProcess">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="wishlist" msprop:Generator_UserTableName="wishlist" msprop:Generator_RowDeletedName="wishlistRowDeleted" msprop:Generator_RowChangedName="wishlistRowChanged" msprop:Generator_RowClassName="wishlistRow" msprop:Generator_RowChangingName="wishlistRowChanging" msprop:Generator_RowEvArgName="wishlistRowChangeEvent" msprop:Generator_RowEvHandlerName="wishlistRowChangeEventHandler" msprop:Generator_TableClassName="wishlistDataTable" msprop:Generator_TableVarName="tablewishlist" msprop:Generator_RowDeletingName="wishlistRowDeleting" msprop:Generator_TablePropName="wishlist">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="product_id" msprop:Generator_UserColumnName="product_id" msprop:Generator_ColumnVarNameInTable="columnproduct_id" msprop:Generator_ColumnPropNameInRow="product_id" msprop:Generator_ColumnPropNameInTable="product_idColumn" type="xs:int" />
+              <xs:element name="rank" msprop:Generator_UserColumnName="rank" msprop:Generator_ColumnVarNameInTable="columnrank" msprop:Generator_ColumnPropNameInRow="rank" msprop:Generator_ColumnPropNameInTable="rankColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wishlist_type" msprop:Generator_UserColumnName="wishlist_type" msprop:Generator_ColumnVarNameInTable="columnwishlist_type" msprop:Generator_ColumnPropNameInRow="wishlist_type" msprop:Generator_ColumnPropNameInTable="wishlist_typeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="products_series_id" msprop:Generator_UserColumnName="products_series_id" msprop:Generator_ColumnVarNameInTable="columnproducts_series_id" msprop:Generator_ColumnPropNameInRow="products_series_id" msprop:Generator_ColumnPropNameInTable="products_series_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="products_series_number" msprop:Generator_UserColumnName="products_series_number" msprop:Generator_ColumnVarNameInTable="columnproducts_series_number" msprop:Generator_ColumnPropNameInRow="products_series_number" msprop:Generator_ColumnPropNameInTable="products_series_numberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wl_id" msprop:Generator_UserColumnName="wl_id" msprop:Generator_ColumnVarNameInTable="columnwl_id" msprop:Generator_ColumnPropNameInRow="wl_id" msprop:Generator_ColumnPropNameInTable="wl_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="imdb_id" msprop:Generator_UserColumnName="imdb_id" msprop:Generator_ColumnPropNameInRow="imdb_id" msprop:Generator_ColumnVarNameInTable="columnimdb_id" msprop:Generator_ColumnPropNameInTable="imdb_idColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customers" msprop:Generator_UserTableName="customers" msprop:Generator_RowDeletedName="customersRowDeleted" msprop:Generator_RowChangedName="customersRowChanged" msprop:Generator_RowClassName="customersRow" msprop:Generator_RowChangingName="customersRowChanging" msprop:Generator_RowEvArgName="customersRowChangeEvent" msprop:Generator_RowEvHandlerName="customersRowChangeEventHandler" msprop:Generator_TableClassName="customersDataTable" msprop:Generator_TableVarName="tablecustomers" msprop:Generator_RowDeletingName="customersRowDeleting" msprop:Generator_TablePropName="customers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo" msprop:Generator_UserColumnName="customers_abo" msprop:Generator_ColumnVarNameInTable="columncustomers_abo" msprop:Generator_ColumnPropNameInRow="customers_abo" msprop:Generator_ColumnPropNameInTable="customers_aboColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_type" msprop:Generator_UserColumnName="customers_abo_type" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_type" msprop:Generator_ColumnPropNameInRow="customers_abo_type" msprop:Generator_ColumnPropNameInTable="customers_abo_typeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_norm" msprop:Generator_UserColumnName="customers_abo_dvd_norm" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_norm" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_norm" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_normColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_adult" msprop:Generator_UserColumnName="customers_abo_dvd_adult" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_adult" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_adult" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_adultColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_home_norm" msprop:Generator_UserColumnName="customers_abo_dvd_home_norm" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_home_norm" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_home_norm" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_home_normColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_home_adult" msprop:Generator_UserColumnName="customers_abo_dvd_home_adult" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_home_adult" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_home_adult" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_home_adultColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_credit" msprop:Generator_UserColumnName="customers_abo_dvd_credit" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_credit" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_credit" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_creditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_remain" msprop:Generator_UserColumnName="customers_abo_dvd_remain" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_remain" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_remain" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_remainColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_rank" msprop:Generator_UserColumnName="customers_abo_rank" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_rank" msprop:Generator_ColumnPropNameInRow="customers_abo_rank" msprop:Generator_ColumnPropNameInTable="customers_abo_rankColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_multishipment" msprop:Generator_UserColumnName="customers_abo_multishipment" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_multishipment" msprop:Generator_ColumnPropNameInRow="customers_abo_multishipment" msprop:Generator_ColumnPropNameInTable="customers_abo_multishipmentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="use_credit" msprop:Generator_UserColumnName="use_credit" msprop:Generator_ColumnVarNameInTable="columnuse_credit" msprop:Generator_ColumnPropNameInRow="use_credit" msprop:Generator_ColumnPropNameInTable="use_creditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="throttling" msprop:Generator_UserColumnName="throttling" msprop:Generator_ColumnVarNameInTable="columnthrottling" msprop:Generator_ColumnPropNameInRow="throttling" msprop:Generator_ColumnPropNameInTable="throttlingColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_suspended" msprop:Generator_UserColumnName="customers_abo_suspended" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_suspended" msprop:Generator_ColumnPropNameInRow="customers_abo_suspended" msprop:Generator_ColumnPropNameInTable="customers_abo_suspendedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NormToSend" msprop:Generator_UserColumnName="NormToSend" msprop:Generator_ColumnVarNameInTable="columnNormToSend" msprop:Generator_ColumnPropNameInRow="NormToSend" msprop:Generator_ColumnPropNameInTable="NormToSendColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AdultToSend" msprop:Generator_UserColumnName="AdultToSend" msprop:Generator_ColumnVarNameInTable="columnAdultToSend" msprop:Generator_ColumnPropNameInRow="AdultToSend" msprop:Generator_ColumnPropNameInTable="AdultToSendColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NormAssigned" msprop:Generator_UserColumnName="NormAssigned" msprop:Generator_ColumnVarNameInTable="columnNormAssigned" msprop:Generator_ColumnPropNameInRow="NormAssigned" msprop:Generator_ColumnPropNameInTable="NormAssignedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AdultAssigned" msprop:Generator_UserColumnName="AdultAssigned" msprop:Generator_ColumnVarNameInTable="columnAdultAssigned" msprop:Generator_ColumnPropNameInRow="AdultAssigned" msprop:Generator_ColumnPropNameInTable="AdultAssignedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="InNeed" msprop:Generator_UserColumnName="InNeed" msprop:Generator_ColumnVarNameInTable="columnInNeed" msprop:Generator_ColumnPropNameInRow="InNeed" msprop:Generator_ColumnPropNameInTable="InNeedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Served" msprop:Generator_UserColumnName="Served" msprop:Generator_ColumnVarNameInTable="columnServed" msprop:Generator_ColumnPropNameInRow="Served" msprop:Generator_ColumnPropNameInTable="ServedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NotServed" msprop:Generator_UserColumnName="NotServed" msprop:Generator_ColumnVarNameInTable="columnNotServed" msprop:Generator_ColumnPropNameInRow="NotServed" msprop:Generator_ColumnPropNameInTable="NotServedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NotEnoughtCredit" msprop:Generator_UserColumnName="NotEnoughtCredit" msprop:Generator_ColumnVarNameInTable="columnNotEnoughtCredit" msprop:Generator_ColumnPropNameInRow="NotEnoughtCredit" msprop:Generator_ColumnPropNameInTable="NotEnoughtCreditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NoDVDFound" msprop:Generator_UserColumnName="NoDVDFound" msprop:Generator_ColumnVarNameInTable="columnNoDVDFound" msprop:Generator_ColumnPropNameInRow="NoDVDFound" msprop:Generator_ColumnPropNameInTable="NoDVDFoundColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TooManyAtHome" msprop:Generator_UserColumnName="TooManyAtHome" msprop:Generator_ColumnVarNameInTable="columnTooManyAtHome" msprop:Generator_ColumnPropNameInRow="TooManyAtHome" msprop:Generator_ColumnPropNameInTable="TooManyAtHomeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NormCompensation" msprop:Generator_UserColumnName="NormCompensation" msprop:Generator_ColumnVarNameInTable="columnNormCompensation" msprop:Generator_ColumnPropNameInRow="NormCompensation" msprop:Generator_ColumnPropNameInTable="NormCompensationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AdultCompensation" msprop:Generator_UserColumnName="AdultCompensation" msprop:Generator_ColumnVarNameInTable="columnAdultCompensation" msprop:Generator_ColumnPropNameInRow="AdultCompensation" msprop:Generator_ColumnPropNameInTable="AdultCompensationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsCompensation" msprop:Generator_UserColumnName="IsCompensation" msprop:Generator_ColumnVarNameInTable="columnIsCompensation" msprop:Generator_ColumnPropNameInRow="IsCompensation" msprop:Generator_ColumnPropNameInTable="IsCompensationColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="npp_logic" msprop:Generator_UserColumnName="npp_logic" msprop:Generator_ColumnVarNameInTable="columnnpp_logic" msprop:Generator_ColumnPropNameInRow="npp_logic" msprop:Generator_ColumnPropNameInTable="npp_logicColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="compensation_summary" msprop:Generator_UserTableName="compensation_summary" msprop:Generator_RowDeletedName="compensation_summaryRowDeleted" msprop:Generator_RowChangedName="compensation_summaryRowChanged" msprop:Generator_RowClassName="compensation_summaryRow" msprop:Generator_RowChangingName="compensation_summaryRowChanging" msprop:Generator_RowEvArgName="compensation_summaryRowChangeEvent" msprop:Generator_RowEvHandlerName="compensation_summaryRowChangeEventHandler" msprop:Generator_TableClassName="compensation_summaryDataTable" msprop:Generator_TableVarName="tablecompensation_summary" msprop:Generator_RowDeletingName="compensation_summaryRowDeleting" msprop:Generator_TablePropName="compensation_summary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="products_type" msprop:Generator_UserColumnName="products_type" msprop:Generator_ColumnVarNameInTable="columnproducts_type" msprop:Generator_ColumnPropNameInRow="products_type" msprop:Generator_ColumnPropNameInTable="products_typeColumn" type="xs:string" />
+              <xs:element name="compensation_qty" msprop:Generator_UserColumnName="compensation_qty" msprop:Generator_ColumnVarNameInTable="columncompensation_qty" msprop:Generator_ColumnPropNameInRow="compensation_qty" msprop:Generator_ColumnPropNameInTable="compensation_qtyColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="user_log_view1" msprop:Generator_UserTableName="user_log_view1" msprop:Generator_RowDeletedName="user_log_view1RowDeleted" msprop:Generator_RowChangedName="user_log_view1RowChanged" msprop:Generator_RowClassName="user_log_view1Row" msprop:Generator_RowChangingName="user_log_view1RowChanging" msprop:Generator_RowEvArgName="user_log_view1RowChangeEvent" msprop:Generator_RowEvHandlerName="user_log_view1RowChangeEventHandler" msprop:Generator_TableClassName="user_log_view1DataTable" msprop:Generator_TableVarName="tableuser_log_view1" msprop:Generator_RowDeletingName="user_log_view1RowDeleting" msprop:Generator_TablePropName="user_log_view1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_log_id" msprop:Generator_UserColumnName="user_log_id" msprop:Generator_ColumnVarNameInTable="columnuser_log_id" msprop:Generator_ColumnPropNameInRow="user_log_id" msprop:Generator_ColumnPropNameInTable="user_log_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LogDate" msprop:Generator_UserColumnName="LogDate" msprop:Generator_ColumnVarNameInTable="columnLogDate" msprop:Generator_ColumnPropNameInRow="LogDate" msprop:Generator_ColumnPropNameInTable="LogDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="products_id" msprop:Generator_UserColumnName="products_id" msprop:Generator_ColumnVarNameInTable="columnproducts_id" msprop:Generator_ColumnPropNameInRow="products_id" msprop:Generator_ColumnPropNameInTable="products_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="dvd_id" msprop:Generator_UserColumnName="dvd_id" msprop:Generator_ColumnVarNameInTable="columndvd_id" msprop:Generator_ColumnPropNameInRow="dvd_id" msprop:Generator_ColumnPropNameInTable="dvd_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Log_Type" msprop:Generator_UserColumnName="Log_Type" msprop:Generator_ColumnVarNameInTable="columnLog_Type" msprop:Generator_ColumnPropNameInRow="Log_Type" msprop:Generator_ColumnPropNameInTable="Log_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="User_FullName" msprop:Generator_UserColumnName="User_FullName" msprop:Generator_ColumnVarNameInTable="columnUser_FullName" msprop:Generator_ColumnPropNameInRow="User_FullName" msprop:Generator_ColumnPropNameInTable="User_FullNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="wishlist_master" msprop:Generator_UserTableName="wishlist_master" msprop:Generator_RowDeletedName="wishlist_masterRowDeleted" msprop:Generator_RowChangedName="wishlist_masterRowChanged" msprop:Generator_RowClassName="wishlist_masterRow" msprop:Generator_RowChangingName="wishlist_masterRowChanging" msprop:Generator_RowEvArgName="wishlist_masterRowChangeEvent" msprop:Generator_RowEvHandlerName="wishlist_masterRowChangeEventHandler" msprop:Generator_TableClassName="wishlist_masterDataTable" msprop:Generator_TableVarName="tablewishlist_master" msprop:Generator_RowDeletingName="wishlist_masterRowDeleting" msprop:Generator_TablePropName="wishlist_master">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="wishlist_master_id" msdata:Caption="product_id" msprop:Generator_UserColumnName="wishlist_master_id" msprop:Generator_ColumnVarNameInTable="columnwishlist_master_id" msprop:Generator_ColumnPropNameInRow="wishlist_master_id" msprop:Generator_ColumnPropNameInTable="wishlist_master_idColumn" type="xs:int" />
+              <xs:element name="wishlist_type" msprop:Generator_UserColumnName="wishlist_type" msprop:Generator_ColumnVarNameInTable="columnwishlist_type" msprop:Generator_ColumnPropNameInRow="wishlist_type" msprop:Generator_ColumnPropNameInTable="wishlist_typeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Wishlist_name" msdata:Caption="products_series_aboprocess_id" msprop:Generator_UserColumnName="Wishlist_name" msprop:Generator_ColumnVarNameInTable="columnWishlist_name" msprop:Generator_ColumnPropNameInRow="Wishlist_name" msprop:Generator_ColumnPropNameInTable="Wishlist_nameColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="dvd_assigned" msdata:Caption="products_series_aboprocess_number" msprop:Generator_UserColumnName="dvd_assigned" msprop:Generator_ColumnVarNameInTable="columndvd_assigned" msprop:Generator_ColumnPropNameInRow="dvd_assigned" msprop:Generator_ColumnPropNameInTable="dvd_assignedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="dvd_home" msdata:Caption="wl_id" msprop:Generator_UserColumnName="dvd_home" msprop:Generator_ColumnVarNameInTable="columndvd_home" msprop:Generator_ColumnPropNameInRow="dvd_home" msprop:Generator_ColumnPropNameInTable="dvd_homeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="rank" msprop:Generator_UserColumnName="rank" msprop:Generator_ColumnVarNameInTable="columnrank" msprop:Generator_ColumnPropNameInRow="rank" msprop:Generator_ColumnPropNameInTable="rankColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customers2" msprop:Generator_UserTableName="customers2" msprop:Generator_RowDeletedName="customers2RowDeleted" msprop:Generator_RowChangedName="customers2RowChanged" msprop:Generator_RowClassName="customers2Row" msprop:Generator_RowChangingName="customers2RowChanging" msprop:Generator_RowEvArgName="customers2RowChangeEvent" msprop:Generator_RowEvHandlerName="customers2RowChangeEventHandler" msprop:Generator_TableClassName="customers2DataTable" msprop:Generator_TableVarName="tablecustomers2" msprop:Generator_RowDeletingName="customers2RowDeleting" msprop:Generator_TablePropName="customers2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo" msprop:Generator_UserColumnName="customers_abo" msprop:Generator_ColumnPropNameInRow="customers_abo" msprop:Generator_ColumnVarNameInTable="columncustomers_abo" msprop:Generator_ColumnPropNameInTable="customers_aboColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_type" msprop:Generator_UserColumnName="customers_abo_type" msprop:Generator_ColumnPropNameInRow="customers_abo_type" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_type" msprop:Generator_ColumnPropNameInTable="customers_abo_typeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_credit" msprop:Generator_UserColumnName="customers_abo_dvd_credit" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_credit" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_credit" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_creditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_dvd_remain" msprop:Generator_UserColumnName="customers_abo_dvd_remain" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd_remain" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd_remain" msprop:Generator_ColumnPropNameInTable="customers_abo_dvd_remainColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_multishipment" msprop:Generator_UserColumnName="customers_abo_multishipment" msprop:Generator_ColumnPropNameInRow="customers_abo_multishipment" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_multishipment" msprop:Generator_ColumnPropNameInTable="customers_abo_multishipmentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="use_credit" msprop:Generator_UserColumnName="use_credit" msprop:Generator_ColumnPropNameInRow="use_credit" msprop:Generator_ColumnVarNameInTable="columnuse_credit" msprop:Generator_ColumnPropNameInTable="use_creditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="throttling" msprop:Generator_UserColumnName="throttling" msprop:Generator_ColumnPropNameInRow="throttling" msprop:Generator_ColumnVarNameInTable="columnthrottling" msprop:Generator_ColumnPropNameInTable="throttlingColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_abo_suspended" msprop:Generator_UserColumnName="customers_abo_suspended" msprop:Generator_ColumnPropNameInRow="customers_abo_suspended" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_suspended" msprop:Generator_ColumnPropNameInTable="customers_abo_suspendedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ToSend" msdata:Caption="AdultToSend" msprop:Generator_UserColumnName="ToSend" msprop:Generator_ColumnPropNameInRow="ToSend" msprop:Generator_ColumnVarNameInTable="columnToSend" msprop:Generator_ColumnPropNameInTable="ToSendColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="InNeed" msprop:Generator_UserColumnName="InNeed" msprop:Generator_ColumnPropNameInRow="InNeed" msprop:Generator_ColumnVarNameInTable="columnInNeed" msprop:Generator_ColumnPropNameInTable="InNeedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Served" msprop:Generator_UserColumnName="Served" msprop:Generator_ColumnPropNameInRow="Served" msprop:Generator_ColumnVarNameInTable="columnServed" msprop:Generator_ColumnPropNameInTable="ServedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NotServed" msprop:Generator_UserColumnName="NotServed" msprop:Generator_ColumnPropNameInRow="NotServed" msprop:Generator_ColumnVarNameInTable="columnNotServed" msprop:Generator_ColumnPropNameInTable="NotServedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NotEnoughtCredit" msprop:Generator_UserColumnName="NotEnoughtCredit" msprop:Generator_ColumnPropNameInRow="NotEnoughtCredit" msprop:Generator_ColumnVarNameInTable="columnNotEnoughtCredit" msprop:Generator_ColumnPropNameInTable="NotEnoughtCreditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NoDVDFound" msprop:Generator_UserColumnName="NoDVDFound" msprop:Generator_ColumnPropNameInRow="NoDVDFound" msprop:Generator_ColumnVarNameInTable="columnNoDVDFound" msprop:Generator_ColumnPropNameInTable="NoDVDFoundColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TooManyAtHome" msprop:Generator_UserColumnName="TooManyAtHome" msprop:Generator_ColumnPropNameInRow="TooManyAtHome" msprop:Generator_ColumnVarNameInTable="columnTooManyAtHome" msprop:Generator_ColumnPropNameInTable="TooManyAtHomeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Compensation" msdata:Caption="AdultCompensation" msprop:Generator_UserColumnName="Compensation" msprop:Generator_ColumnPropNameInRow="Compensation" msprop:Generator_ColumnVarNameInTable="columnCompensation" msprop:Generator_ColumnPropNameInTable="CompensationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wishlist_master_id" msprop:Generator_UserColumnName="wishlist_master_id" msprop:Generator_ColumnPropNameInRow="wishlist_master_id" msprop:Generator_ColumnVarNameInTable="columnwishlist_master_id" msprop:Generator_ColumnPropNameInTable="wishlist_master_idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="wishlist_type" msprop:Generator_UserColumnName="wishlist_type" msprop:Generator_ColumnPropNameInRow="wishlist_type" msprop:Generator_ColumnVarNameInTable="columnwishlist_type" msprop:Generator_ColumnPropNameInTable="wishlist_typeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="wishlist_name" msprop:Generator_UserColumnName="wishlist_name" msprop:Generator_ColumnPropNameInRow="Wishlist_name" msprop:Generator_ColumnVarNameInTable="columnWishlist_name" msprop:Generator_ColumnPropNameInTable="Wishlist_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dvd_assigned" msprop:Generator_UserColumnName="dvd_assigned" msprop:Generator_ColumnPropNameInRow="dvd_assigned" msprop:Generator_ColumnVarNameInTable="columndvd_assigned" msprop:Generator_ColumnPropNameInTable="dvd_assignedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="customers_abo_dvd" msprop:Generator_UserColumnName="customers_abo_dvd" msprop:Generator_ColumnPropNameInRow="customers_abo_dvd" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_dvd" msprop:Generator_ColumnPropNameInTable="customers_abo_dvdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="customers_abo_rank" msprop:Generator_UserColumnName="customers_abo_rank" msprop:Generator_ColumnVarNameInTable="columncustomers_abo_rank" msprop:Generator_ColumnPropNameInRow="customers_abo_rank" msprop:Generator_ColumnPropNameInTable="customers_abo_rankColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="customers_info_date_account_created" msprop:Generator_UserColumnName="customers_info_date_account_created" msprop:Generator_ColumnVarNameInTable="columncustomers_info_date_account_created" msprop:Generator_ColumnPropNameInRow="customers_info_date_account_created" msprop:Generator_ColumnPropNameInTable="customers_info_date_account_createdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dvd_home" msprop:Generator_UserColumnName="dvd_home" msprop:Generator_ColumnPropNameInRow="dvd_home" msprop:Generator_ColumnVarNameInTable="columndvd_home" msprop:Generator_ColumnPropNameInTable="dvd_homeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customers_dvd_to_send" msprop:Generator_UserTableName="customers_dvd_to_send" msprop:Generator_RowDeletedName="customers_dvd_to_sendRowDeleted" msprop:Generator_RowChangedName="customers_dvd_to_sendRowChanged" msprop:Generator_RowClassName="customers_dvd_to_sendRow" msprop:Generator_RowChangingName="customers_dvd_to_sendRowChanging" msprop:Generator_RowEvArgName="customers_dvd_to_sendRowChangeEvent" msprop:Generator_RowEvHandlerName="customers_dvd_to_sendRowChangeEventHandler" msprop:Generator_TableClassName="customers_dvd_to_sendDataTable" msprop:Generator_TableVarName="tablecustomers_dvd_to_send" msprop:Generator_RowDeletingName="customers_dvd_to_sendRowDeleting" msprop:Generator_TablePropName="customers_dvd_to_send">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="products_id" msprop:Generator_UserColumnName="products_id" msprop:Generator_ColumnVarNameInTable="columnproducts_id" msprop:Generator_ColumnPropNameInRow="products_id" msprop:Generator_ColumnPropNameInTable="products_idColumn" type="xs:int" />
+              <xs:element name="products_dvdid" msprop:Generator_UserColumnName="products_dvdid" msprop:Generator_ColumnVarNameInTable="columnproducts_dvdid" msprop:Generator_ColumnPropNameInRow="products_dvdid" msprop:Generator_ColumnPropNameInTable="products_dvdidColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wl_id" msprop:Generator_UserColumnName="wl_id" msprop:Generator_ColumnVarNameInTable="columnwl_id" msprop:Generator_ColumnPropNameInRow="wl_id" msprop:Generator_ColumnPropNameInTable="wl_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="priority" msprop:Generator_UserColumnName="priority" msprop:Generator_ColumnPropNameInRow="priority" msprop:Generator_ColumnVarNameInTable="columnpriority" msprop:Generator_ColumnPropNameInTable="priorityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductType" msprop:Generator_UserColumnName="ProductType" msprop:Generator_ColumnVarNameInTable="columnProductType" msprop:Generator_ColumnPropNameInRow="ProductType" msprop:Generator_ColumnPropNameInTable="ProductTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="imdb_id" msprop:Generator_UserColumnName="imdb_id" msprop:Generator_ColumnPropNameInRow="imdb_id" msprop:Generator_ColumnVarNameInTable="columnimdb_id" msprop:Generator_ColumnPropNameInTable="imdb_idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customers_DVD_NORM" msprop:Generator_UserTableName="customers_DVD_NORM" msprop:Generator_RowDeletedName="customers_DVD_NORMRowDeleted" msprop:Generator_RowChangedName="customers_DVD_NORMRowChanged" msprop:Generator_RowClassName="customers_DVD_NORMRow" msprop:Generator_RowChangingName="customers_DVD_NORMRowChanging" msprop:Generator_RowEvArgName="customers_DVD_NORMRowChangeEvent" msprop:Generator_RowEvHandlerName="customers_DVD_NORMRowChangeEventHandler" msprop:Generator_TableClassName="customers_DVD_NORMDataTable" msprop:Generator_TableVarName="tablecustomers_DVD_NORM" msprop:Generator_RowDeletingName="customers_DVD_NORMRowDeleting" msprop:Generator_TablePropName="customers_DVD_NORM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="products_id" msprop:Generator_UserColumnName="products_id" msprop:Generator_ColumnVarNameInTable="columnproducts_id" msprop:Generator_ColumnPropNameInRow="products_id" msprop:Generator_ColumnPropNameInTable="products_idColumn" type="xs:int" />
+              <xs:element name="products_dvdid" msprop:Generator_UserColumnName="products_dvdid" msprop:Generator_ColumnVarNameInTable="columnproducts_dvdid" msprop:Generator_ColumnPropNameInRow="products_dvdid" msprop:Generator_ColumnPropNameInTable="products_dvdidColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wl_id" msprop:Generator_UserColumnName="wl_id" msprop:Generator_ColumnVarNameInTable="columnwl_id" msprop:Generator_ColumnPropNameInRow="wl_id" msprop:Generator_ColumnPropNameInTable="wl_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="priority" msprop:Generator_UserColumnName="priority" msprop:Generator_ColumnVarNameInTable="columnpriority" msprop:Generator_ColumnPropNameInRow="priority" msprop:Generator_ColumnPropNameInTable="priorityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductType" msprop:Generator_UserColumnName="ProductType" msprop:Generator_ColumnVarNameInTable="columnProductType" msprop:Generator_ColumnPropNameInRow="ProductType" msprop:Generator_ColumnPropNameInTable="ProductTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="imdb_id" msprop:Generator_UserColumnName="imdb_id" msprop:Generator_ColumnVarNameInTable="columnimdb_id" msprop:Generator_ColumnPropNameInRow="imdb_id" msprop:Generator_ColumnPropNameInTable="imdb_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="products_series_id" msprop:Generator_UserColumnName="products_series_id" msprop:Generator_ColumnPropNameInRow="products_series_id" msprop:Generator_ColumnVarNameInTable="columnproducts_series_id" msprop:Generator_ColumnPropNameInTable="products_series_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="products_series_number" msprop:Generator_UserColumnName="products_series_number" msprop:Generator_ColumnPropNameInRow="products_series_number" msprop:Generator_ColumnVarNameInTable="columnproducts_series_number" msprop:Generator_ColumnPropNameInTable="products_series_numberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="imdb_id_serie" msprop:Generator_UserColumnName="imdb_id_serie" msprop:Generator_ColumnPropNameInRow="imdb_id_serie" msprop:Generator_ColumnVarNameInTable="columnimdb_id_serie" msprop:Generator_ColumnPropNameInTable="imdb_id_serieColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customers_DVD_ADULT" msprop:Generator_UserTableName="customers_DVD_ADULT" msprop:Generator_RowDeletedName="customers_DVD_ADULTRowDeleted" msprop:Generator_RowChangedName="customers_DVD_ADULTRowChanged" msprop:Generator_RowClassName="customers_DVD_ADULTRow" msprop:Generator_RowChangingName="customers_DVD_ADULTRowChanging" msprop:Generator_RowEvArgName="customers_DVD_ADULTRowChangeEvent" msprop:Generator_RowEvHandlerName="customers_DVD_ADULTRowChangeEventHandler" msprop:Generator_TableClassName="customers_DVD_ADULTDataTable" msprop:Generator_TableVarName="tablecustomers_DVD_ADULT" msprop:Generator_RowDeletingName="customers_DVD_ADULTRowDeleting" msprop:Generator_TablePropName="customers_DVD_ADULT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" />
+              <xs:element name="products_id" msprop:Generator_UserColumnName="products_id" msprop:Generator_ColumnVarNameInTable="columnproducts_id" msprop:Generator_ColumnPropNameInRow="products_id" msprop:Generator_ColumnPropNameInTable="products_idColumn" type="xs:int" />
+              <xs:element name="products_dvdid" msprop:Generator_UserColumnName="products_dvdid" msprop:Generator_ColumnVarNameInTable="columnproducts_dvdid" msprop:Generator_ColumnPropNameInRow="products_dvdid" msprop:Generator_ColumnPropNameInTable="products_dvdidColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wl_id" msprop:Generator_UserColumnName="wl_id" msprop:Generator_ColumnVarNameInTable="columnwl_id" msprop:Generator_ColumnPropNameInRow="wl_id" msprop:Generator_ColumnPropNameInTable="wl_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="priority" msprop:Generator_UserColumnName="priority" msprop:Generator_ColumnVarNameInTable="columnpriority" msprop:Generator_ColumnPropNameInRow="priority" msprop:Generator_ColumnPropNameInTable="priorityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductType" msprop:Generator_UserColumnName="ProductType" msprop:Generator_ColumnVarNameInTable="columnProductType" msprop:Generator_ColumnPropNameInRow="ProductType" msprop:Generator_ColumnPropNameInTable="ProductTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="imdb_id" msprop:Generator_UserColumnName="imdb_id" msprop:Generator_ColumnVarNameInTable="columnimdb_id" msprop:Generator_ColumnPropNameInRow="imdb_id" msprop:Generator_ColumnPropNameInTable="imdb_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="products_series_id" msprop:Generator_UserColumnName="products_series_id" msprop:Generator_ColumnPropNameInRow="products_series_id" msprop:Generator_ColumnVarNameInTable="columnproducts_series_id" msprop:Generator_ColumnPropNameInTable="products_series_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="products_series_number" msprop:Generator_UserColumnName="products_series_number" msprop:Generator_ColumnPropNameInRow="products_series_number" msprop:Generator_ColumnVarNameInTable="columnproducts_series_number" msprop:Generator_ColumnPropNameInTable="products_series_numberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="imdb_id_serie" msprop:Generator_UserColumnName="imdb_id_serie" msprop:Generator_ColumnPropNameInRow="imdb_id_serie" msprop:Generator_ColumnVarNameInTable="columnimdb_id_serie" msprop:Generator_ColumnPropNameInTable="imdb_id_serieColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dsABOProcessKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:wishlist" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:product_id" />
+    </xs:unique>
+    <xs:unique name="dsABOProcessKey2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:compensation_summary" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:products_type" />
+    </xs:unique>
+    <xs:unique name="wishlist_master_dsABOProcessKey1" msdata:ConstraintName="dsABOProcessKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:wishlist_master" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:wishlist_master_id" />
+    </xs:unique>
+    <xs:unique name="dsABOProcessKey3">
+      <xs:selector xpath=".//mstns:wishlist_master" />
+      <xs:field xpath="mstns:rank" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:customers_dvd_to_send" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:products_id" />
+    </xs:unique>
+    <xs:unique name="customers_DVD_NORM_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:customers_DVD_NORM" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:products_id" />
+    </xs:unique>
+    <xs:unique name="customers_DVD_ADULT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:customers_DVD_ADULT" />
+      <xs:field xpath="mstns:customers_id" />
+      <xs:field xpath="mstns:products_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

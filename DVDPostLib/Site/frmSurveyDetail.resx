@@ -1,0 +1,1082 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupSearch.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbSurvey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 76</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.1" name="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="cmbSurvey.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbSurvey.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSurvey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbSurvey.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;cmbSurvey.Name" xml:space="preserve">
+    <value>cmbSurvey</value>
+  </data>
+  <data name="&gt;&gt;cmbSurvey.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbSurvey.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbSurvey.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSurvey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 82</value>
+  </data>
+  <data name="lblSurvey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="lblSurvey.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lblSurvey.Text" xml:space="preserve">
+    <value>Survey Title_fr</value>
+  </data>
+  <data name="&gt;&gt;lblSurvey.Name" xml:space="preserve">
+    <value>lblSurvey</value>
+  </data>
+  <data name="&gt;&gt;lblSurvey.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblSurvey.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblSurvey.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtSurvey_DetailId.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtSurvey_DetailId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 36</value>
+  </data>
+  <data name="TxtSurvey_DetailId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="TxtSurvey_DetailId.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_DetailId.Name" xml:space="preserve">
+    <value>TxtSurvey_DetailId</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_DetailId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_DetailId.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_DetailId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNewSurveyDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 39</value>
+  </data>
+  <data name="btnNewSurveyDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="btnNewSurveyDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnNewSurveyDetail.Text" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail.Name" xml:space="preserve">
+    <value>btnNewSurveyDetail</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEventThemeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="lblEventThemeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 16</value>
+  </data>
+  <data name="lblEventThemeId.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblEventThemeId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Name" xml:space="preserve">
+    <value>lblEventThemeId</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 245</value>
+  </data>
+  <data name="btnSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 52</value>
+  </data>
+  <data name="btnSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve">
+    <value>btnSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GroupSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 3</value>
+  </data>
+  <data name="GroupSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 302</value>
+  </data>
+  <data name="GroupSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="GroupSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Name" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Parent" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 797</value>
+  </data>
+  <data name="tabSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Name" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GridSurvey_Details.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GridSurvey_Details.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RepositoryItemSurvey.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemSurvey.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemSurvey.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridSurvey_Details.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 797</value>
+  </data>
+  <data name="GridSurvey_Details.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GridSurvey_Details.Name" xml:space="preserve">
+    <value>GridSurvey_Details</value>
+  </data>
+  <data name="&gt;&gt;GridSurvey_Details.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridSurvey_Details.Parent" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;GridSurvey_Details.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 797</value>
+  </data>
+  <data name="tabResult.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Name" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="DsSite1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>314, 17</value>
+  </metadata>
+  <data name="chkSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 142</value>
+  </data>
+  <data name="chkSelected.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="chkSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Name" xml:space="preserve">
+    <value>chkSelected</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="lblSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 145</value>
+  </data>
+  <data name="lblSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblSelected.Text" xml:space="preserve">
+    <value>selected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Name" xml:space="preserve">
+    <value>lblSelected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <metadata name="ContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <data name="ContextMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 28</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Name" xml:space="preserve">
+    <value>ContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Type" xml:space="preserve">
+    <value>DVDPostBuziness.contextMenu, DVDPostBuziness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="XtraTabControlTheme.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="XtraTabControlTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="XtraTabControlTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 831</value>
+  </data>
+  <data name="XtraTabControlTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmbReference_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 243</value>
+  </data>
+  <data name="cmbReference_id.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbReference_id.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbReference_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="cmbReference_id.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;cmbReference_id.Name" xml:space="preserve">
+    <value>cmbReference_id</value>
+  </data>
+  <data name="&gt;&gt;cmbReference_id.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReference_id.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;cmbReference_id.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnRating.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="spnRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 167</value>
+  </data>
+  <data name="spnRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="spnRating.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;spnRating.Name" xml:space="preserve">
+    <value>spnRating</value>
+  </data>
+  <data name="&gt;&gt;spnRating.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;spnRating.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;spnRating.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 172</value>
+  </data>
+  <data name="lblRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="lblRating.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="lblRating.Text" xml:space="preserve">
+    <value>rating</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Name" xml:space="preserve">
+    <value>lblRating</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblRating.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblRating.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtTitleEditEN.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleEditEN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 97</value>
+  </data>
+  <data name="txtTitleEditEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="txtTitleEditEN.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditEN.Name" xml:space="preserve">
+    <value>txtTitleEditEN</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditEN.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditEN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTitleEditEN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 103</value>
+  </data>
+  <data name="lblTitleEditEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="lblTitleEditEN.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="lblTitleEditEN.Text" xml:space="preserve">
+    <value>Title EN</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditEN.Name" xml:space="preserve">
+    <value>lblTitleEditEN</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditEN.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditEN.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtTitleEditNL.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleEditNL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 57</value>
+  </data>
+  <data name="txtTitleEditNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="txtTitleEditNL.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditNL.Name" xml:space="preserve">
+    <value>txtTitleEditNL</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditNL.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditNL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTitleEditNL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 59</value>
+  </data>
+  <data name="lblTitleEditNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="lblTitleEditNL.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="lblTitleEditNL.Text" xml:space="preserve">
+    <value>Title NL</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditNL.Name" xml:space="preserve">
+    <value>lblTitleEditNL</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditNL.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditNL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTitleEditFR.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleEditFR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 18</value>
+  </data>
+  <data name="txtTitleEditFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="txtTitleEditFR.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditFR.Name" xml:space="preserve">
+    <value>txtTitleEditFR</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditFR.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEditFR.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTitleEditFR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="lblTitleEditFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="lblTitleEditFR.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="lblTitleEditFR.Text" xml:space="preserve">
+    <value>Title FR</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditFR.Name" xml:space="preserve">
+    <value>lblTitleEditFR</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditFR.Parent" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEditFR.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GBFreeTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 295</value>
+  </data>
+  <data name="GBFreeTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 135</value>
+  </data>
+  <data name="GBFreeTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="GBFreeTxt.Text" xml:space="preserve">
+    <value>Free Text</value>
+  </data>
+  <data name="&gt;&gt;GBFreeTxt.Name" xml:space="preserve">
+    <value>GBFreeTxt</value>
+  </data>
+  <data name="&gt;&gt;GBFreeTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GBFreeTxt.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;GBFreeTxt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="imgSurveyDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 183</value>
+  </data>
+  <data name="imgSurveyDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 139</value>
+  </data>
+  <data name="imgSurveyDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="&gt;&gt;imgSurveyDetail.Name" xml:space="preserve">
+    <value>imgSurveyDetail</value>
+  </data>
+  <data name="&gt;&gt;imgSurveyDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;imgSurveyDetail.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;imgSurveyDetail.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblReference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 246</value>
+  </data>
+  <data name="lblReference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="lblReference.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="lblReference.Text" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="&gt;&gt;lblReference.Name" xml:space="preserve">
+    <value>lblReference</value>
+  </data>
+  <data name="&gt;&gt;lblReference.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblReference.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblReference.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbSurveyEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 81</value>
+  </data>
+  <data name="cmbSurveyEdit.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbSurveyEdit.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSurveyEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="cmbSurveyEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;cmbSurveyEdit.Name" xml:space="preserve">
+    <value>cmbSurveyEdit</value>
+  </data>
+  <data name="&gt;&gt;cmbSurveyEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbSurveyEdit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;cmbSurveyEdit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSurveyEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 84</value>
+  </data>
+  <data name="lblSurveyEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="lblSurveyEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lblSurveyEdit.Text" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="&gt;&gt;lblSurveyEdit.Name" xml:space="preserve">
+    <value>lblSurveyEdit</value>
+  </data>
+  <data name="&gt;&gt;lblSurveyEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblSurveyEdit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblSurveyEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 87</value>
+  </data>
+  <data name="lblId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 16</value>
+  </data>
+  <data name="lblId.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblId.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="&gt;&gt;lblId.Name" xml:space="preserve">
+    <value>lblId</value>
+  </data>
+  <data name="&gt;&gt;lblId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblId.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblId.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 20</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnSaveSurveyDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 20</value>
+  </data>
+  <data name="btnSaveSurveyDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="btnSaveSurveyDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="btnSaveSurveyDetail.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnSaveSurveyDetail.Name" xml:space="preserve">
+    <value>btnSaveSurveyDetail</value>
+  </data>
+  <data name="&gt;&gt;btnSaveSurveyDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSaveSurveyDetail.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnSaveSurveyDetail.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnEditSurveyDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="btnEditSurveyDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="btnEditSurveyDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="btnEditSurveyDetail.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;btnEditSurveyDetail.Name" xml:space="preserve">
+    <value>btnEditSurveyDetail</value>
+  </data>
+  <data name="&gt;&gt;btnEditSurveyDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnEditSurveyDetail.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnEditSurveyDetail.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnNewSurveyDetail_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 20</value>
+  </data>
+  <data name="btnNewSurveyDetail_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="btnNewSurveyDetail_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="btnNewSurveyDetail_edit.Text" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail_edit.Name" xml:space="preserve">
+    <value>btnNewSurveyDetail_edit</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail_edit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail_edit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnNewSurveyDetail_edit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TxtSurvey_detailId_edit.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtSurvey_detailId_edit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TxtSurvey_detailId_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 84</value>
+  </data>
+  <data name="TxtSurvey_detailId_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 22</value>
+  </data>
+  <data name="TxtSurvey_detailId_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_detailId_edit.Name" xml:space="preserve">
+    <value>TxtSurvey_detailId_edit</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_detailId_edit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_detailId_edit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;TxtSurvey_detailId_edit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 797</value>
+  </data>
+  <data name="tabDetail.Text" xml:space="preserve">
+    <value>detail</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Name" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Name" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OFDPicture.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>417, 17</value>
+  </metadata>
+  <data name="OFDPicture.Filter" xml:space="preserve">
+    <value>JPEG|*.jpg</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>74</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 866</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AADwBwAA4AcAAOAHAAD4HwAA+B8AAPgfAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Activation Code</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name" xml:space="preserve">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name" xml:space="preserve">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name" xml:space="preserve">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name" xml:space="preserve">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name" xml:space="preserve">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name" xml:space="preserve">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name" xml:space="preserve">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name" xml:space="preserve">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name" xml:space="preserve">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridViewSurvey_Details.Name" xml:space="preserve">
+    <value>GridViewSurvey_Details</value>
+  </data>
+  <data name="&gt;&gt;GridViewSurvey_Details.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSurvey.Name" xml:space="preserve">
+    <value>RepositoryItemSurvey</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSurvey.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Name" xml:space="preserve">
+    <value>DsSite1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Type" xml:space="preserve">
+    <value>DVDPostLib.DsSite, DataSets.DsSite.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OFDPicture.Name" xml:space="preserve">
+    <value>OFDPicture</value>
+  </data>
+  <data name="&gt;&gt;OFDPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSurveyDetail</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BizzLib.frmBKForm, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

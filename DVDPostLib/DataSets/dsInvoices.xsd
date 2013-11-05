@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInvoices" targetNamespace="http://tempuri.org/dsInvoices.xsd" xmlns:mstns="http://tempuri.org/dsInvoices.xsd" xmlns="http://tempuri.org/dsInvoices.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInvoices" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsInvoices" msprop:Generator_DataSetName="dsInvoices">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="studio_invoices" msprop:Generator_UserTableName="studio_invoices" msprop:Generator_RowDeletedName="studio_invoicesRowDeleted" msprop:Generator_RowChangedName="studio_invoicesRowChanged" msprop:Generator_RowClassName="studio_invoicesRow" msprop:Generator_RowChangingName="studio_invoicesRowChanging" msprop:Generator_RowEvArgName="studio_invoicesRowChangeEvent" msprop:Generator_RowEvHandlerName="studio_invoicesRowChangeEventHandler" msprop:Generator_TableClassName="studio_invoicesDataTable" msprop:Generator_TableVarName="tablestudio_invoices" msprop:Generator_RowDeletingName="studio_invoicesRowDeleting" msprop:Generator_TablePropName="studio_invoices">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="invoice_id" msprop:Generator_UserColumnName="invoice_id" msprop:Generator_ColumnPropNameInRow="invoice_id" msprop:Generator_ColumnVarNameInTable="columninvoice_id" msprop:Generator_ColumnPropNameInTable="invoice_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="supplier_name" msprop:Generator_UserColumnName="supplier_name" msprop:Generator_ColumnPropNameInRow="supplier_name" msprop:Generator_ColumnVarNameInTable="columnsupplier_name" msprop:Generator_ColumnPropNameInTable="supplier_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="invoice_date" msprop:Generator_UserColumnName="invoice_date" msprop:Generator_ColumnPropNameInRow="invoice_date" msprop:Generator_ColumnVarNameInTable="columninvoice_date" msprop:Generator_ColumnPropNameInTable="invoice_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="supplier_invoce_number" msprop:Generator_UserColumnName="supplier_invoce_number" msprop:Generator_ColumnPropNameInRow="supplier_invoce_number" msprop:Generator_ColumnVarNameInTable="columnsupplier_invoce_number" msprop:Generator_ColumnPropNameInTable="supplier_invoce_numberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dvdpost_invoice_number" msprop:Generator_UserColumnName="dvdpost_invoice_number" msprop:Generator_ColumnPropNameInRow="dvdpost_invoice_number" msprop:Generator_ColumnVarNameInTable="columndvdpost_invoice_number" msprop:Generator_ColumnPropNameInTable="dvdpost_invoice_numberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="invoice_total" msprop:Generator_UserColumnName="invoice_total" msprop:Generator_ColumnPropNameInRow="invoice_total" msprop:Generator_ColumnVarNameInTable="columninvoice_total" msprop:Generator_ColumnPropNameInTable="invoice_totalColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="invoice_items" msprop:Generator_UserTableName="invoice_items" msprop:Generator_RowDeletedName="invoice_itemsRowDeleted" msprop:Generator_RowChangedName="invoice_itemsRowChanged" msprop:Generator_RowClassName="invoice_itemsRow" msprop:Generator_RowChangingName="invoice_itemsRowChanging" msprop:Generator_RowEvArgName="invoice_itemsRowChangeEvent" msprop:Generator_RowEvHandlerName="invoice_itemsRowChangeEventHandler" msprop:Generator_TableClassName="invoice_itemsDataTable" msprop:Generator_TableVarName="tableinvoice_items" msprop:Generator_RowDeletingName="invoice_itemsRowDeleting" msprop:Generator_TablePropName="invoice_items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dvd_title" msprop:Generator_UserColumnName="dvd_title" msprop:Generator_ColumnVarNameInTable="columndvd_title" msprop:Generator_ColumnPropNameInRow="dvd_title" msprop:Generator_ColumnPropNameInTable="dvd_titleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dvd_quantity" msprop:Generator_UserColumnName="dvd_quantity" msprop:Generator_ColumnVarNameInTable="columndvd_quantity" msprop:Generator_ColumnPropNameInRow="dvd_quantity" msprop:Generator_ColumnPropNameInTable="dvd_quantityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="dvd_unit_price" msprop:Generator_UserColumnName="dvd_unit_price" msprop:Generator_ColumnVarNameInTable="columndvd_unit_price" msprop:Generator_ColumnPropNameInRow="dvd_unit_price" msprop:Generator_ColumnPropNameInTable="dvd_unit_priceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dvd_total" msprop:Generator_UserColumnName="dvd_total" msprop:Generator_ColumnVarNameInTable="columndvd_total" msprop:Generator_ColumnPropNameInRow="dvd_total" msprop:Generator_ColumnPropNameInTable="dvd_totalColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="invoice_id" msprop:Generator_UserColumnName="invoice_id" msprop:Generator_ColumnVarNameInTable="columninvoice_id" msprop:Generator_ColumnPropNameInRow="invoice_id" msprop:Generator_ColumnPropNameInTable="invoice_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnDelete.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnCopyView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnNewReport.Name">
+    <value>btnNewReport</value>
+  </data>
+  <data name="&gt;&gt;Report_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnSendFilterUSer.Name">
+    <value>btnSendFilterUSer</value>
+  </data>
+  <data name="&gt;&gt;btnAttachements.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Type">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.SaveLiteral" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnView.Name">
+    <value>btnView</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Name">
+    <value>TabResult</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.EditMask">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;btnNewReport.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnMakeFilterCommon.Name">
+    <value>btnMakeFilterCommon</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.PlaceHolder" type="System.Char, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;btnNewView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnUser5.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Name">
+    <value>PopMenuEdit</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteReport.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;Report_Bar.Name">
+    <value>Report_Bar</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Type">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditDefault.Name">
+    <value>btnEditDefault</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name">
+    <value>btnEdit</value>
+  </data>
+  <data name="StatusBar1.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 430</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Name">
+    <value>UcPivotGrid1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.PlaceHolder" type="System.Char, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Type">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnBigger.Name">
+    <value>MainBtns_btnBigger</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.BeepOnError" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Name">
+    <value>RightMouseMenu</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.Text">
+    <value />
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnNewFilter.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Name">
+    <value>PopMenuAssociatedTasks</value>
+  </data>
+  <data name="&gt;&gt;btnPrevious.Name">
+    <value>btnPrevious</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnMakeDefaultCommon.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Parent">
+    <value>TabResult</value>
+  </data>
+  <data name="&gt;&gt;btnUser4.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Name">
+    <value>StatusBar1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSendReportUser.Name">
+    <value>btnSendReportUser</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.SaveLiteral" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Name">
+    <value>MenuItem9</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 351</value>
+  </data>
+  <data name="&gt;&gt;btnUser4.Name">
+    <value>btnUser4</value>
+  </data>
+  <data name="&gt;&gt;Grid1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCopyDefault.Name">
+    <value>btnCopyDefault</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;Nav_Bar.Name">
+    <value>Nav_Bar</value>
+  </data>
+  <data name="&gt;&gt;btnNewFilter.Name">
+    <value>btnNewFilter</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Name">
+    <value>Grid1</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnFirst.Name">
+    <value>btnFirst</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="$this.Text">
+    <value>##</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.ToolTipTitle">
+    <value />
+  </data>
+  <data name="$this.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSendReportUser.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 13</value>
+  </data>
+  <data name="&gt;&gt;btnEditView.Name">
+    <value>btnEditView</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnTranslation.Name">
+    <value>btnTranslation</value>
+  </data>
+  <data name="&gt;&gt;objDS.Type">
+    <value>System.Data.DataSet, System.Data, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.BeepOnError" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.EditMask">
+    <value />
+  </data>
+  <data name="Grid1.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Type">
+    <value>BizzLib.ucPivotGrid, BizzLib, Version=1.0.2482.22764, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;QuickSearch_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;QuickSearch_Bar.Name">
+    <value>QuickSearch_Bar</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Type">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnEditReportInfo.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnCopyFilter.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 351</value>
+  </data>
+  <data name="&gt;&gt;btnTranslation.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabResult.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BarManager1.Type">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnNewView.Name">
+    <value>btnNewView</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterList.Type">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnCopyFilter.Name">
+    <value>btnCopyFilter</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name">
+    <value>btnNew</value>
+  </data>
+  <data name="TabResult.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 321</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="StatusBar1.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 22</value>
+  </data>
+  <data name="&gt;&gt;Main_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;Main_Bar.Name">
+    <value>Main_Bar</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Parent">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Name">
+    <value>btnPrint</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="RightMouseMenu.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 17</value>
+  </data>
+  <data name="&gt;&gt;btnEditReportInfo.Name">
+    <value>btnEditReportInfo</value>
+  </data>
+  <data name="&gt;&gt;btnCopyView.Name">
+    <value>btnCopyView</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Default</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnSendViewUser.Name">
+    <value>btnSendViewUser</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnUser1.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Default</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.PlaceHolder" type="System.Char, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>_</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.SaveLiteral" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;View_Bar.Name">
+    <value>View_Bar</value>
+  </data>
+  <data name="&gt;&gt;btnSaveDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveDefault.Name">
+    <value>btnSaveDefault</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEditDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;View_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteFilter.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="TabAnalyse.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1095, 416</value>
+  </data>
+  <data name="&gt;&gt;Misc_Bar2.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;Filter_Bar.Name">
+    <value>Filter_Bar</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.BeepOnError" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="Grid1.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Name">
+    <value>btnNext</value>
+  </data>
+  <data name="&gt;&gt;Nav_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="UcPivotGrid1.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnMakeViewCommon.Name">
+    <value>btnMakeViewCommon</value>
+  </data>
+  <data name="&gt;&gt;Misc_Bar2.Name">
+    <value>Misc_Bar2</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnMakeReportCommon.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.BeepOnError" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Name">
+    <value>SaveFileDialog1</value>
+  </data>
+  <data name="HelpProvider1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Default</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Name">
+    <value>frmEDocType_Browse</value>
+  </data>
+  <data name="Grid1.HelpKeyword">
+    <value>ZZ</value>
+  </data>
+  <data name="&gt;&gt;BarManager1.Name">
+    <value>BarManager1</value>
+  </data>
+  <data name="&gt;&gt;DefaultSet_Bar.Name">
+    <value>DefaultSet_Bar</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.SaveLiteral" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnLast.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;Filter_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnLast.Name">
+    <value>btnLast</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Parent">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;objDS.Name">
+    <value>objDS</value>
+  </data>
+  <data name="$this.HelpString">
+    <value>Holding Browse</value>
+  </data>
+  <data name="UcPivotGrid1.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1095, 416</value>
+  </data>
+  <data name="&gt;&gt;btnMakeDefaultCommon.Name">
+    <value>btnMakeDefaultCommon</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Parent">
+    <value>TabControl1</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearch.Name">
+    <value>txtQuickSearch</value>
+  </data>
+  <data name="&gt;&gt;cmbViewList.Type">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Type">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="StatusBar1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 408</value>
+  </data>
+  <data name="&gt;&gt;btnFirst.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnExcel.Name">
+    <value>MainBtns_btnExcel</value>
+  </data>
+  <data name="$this.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel1.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="objDS.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>260, 17</value>
+  </data>
+  <data name="TabResult.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="cmbReportListRepos.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>BizzLib.frmGeneral_Browse, BizzLib, Version=1.0.2482.22764, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TabParameters.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1095, 416</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Name">
+    <value>HelpProvider1</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.PlaceHolder" type="System.Char, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;btnEditView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearch.Type">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnUser1.Name">
+    <value>btnUser1</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnUser2.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Type">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Name">
+    <value>btnFilter</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.EditMask">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword">
+    <value>Holding</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;btnSendDefaultUser.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMakeReportCommon.Name">
+    <value>btnMakeReportCommon</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Name">
+    <value>PopMenuSave</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveView.Name">
+    <value>btnSaveView</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnSmaller.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnAttachements.Name">
+    <value>btnAttachements</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnDeleteReport.Name">
+    <value>btnDeleteReport</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnDesignReport.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.BeepOnError" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSendDefaultUser.Name">
+    <value>btnSendDefaultUser</value>
+  </data>
+  <data name="TabParameters.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Name">
+    <value>PopMenuDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbReportList.Type">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbViewList.Name">
+    <value>cmbViewList</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Name">
+    <value>PopMenuNew</value>
+  </data>
+  <data name="&gt;&gt;btnCopyReport.Name">
+    <value>btnCopyReport</value>
+  </data>
+  <data name="&gt;&gt;btnQuickSearch.Name">
+    <value>btnQuickSearch</value>
+  </data>
+  <data name="&gt;&gt;Bar1.Name">
+    <value>Bar1</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Name">
+    <value>PopMenuPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;cmbReportList.Name">
+    <value>cmbReportList</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultList.Name">
+    <value>cmbDefaultList</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="Grid1.HelpString">
+    <value>This is the List of GL Accounts</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.PlaceHolder" type="System.Char, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnBestFit.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnMakeViewCommon.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnNewDefault.Name">
+    <value>btnNewDefault</value>
+  </data>
+  <data name="$this.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 57</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Name">
+    <value>btnDefault</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnUser2.Name">
+    <value>btnUser2</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Type">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView, DevExpress.XtraGrid.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Type">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteView.Name">
+    <value>btnDeleteView</value>
+  </data>
+  <data name="&gt;&gt;btnDesignReport.Name">
+    <value>btnDesignReport</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name">
+    <value>btnComments</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;DefaultSet_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnQuickSearch.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Name">
+    <value>TabParameters</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.SaveLiteral" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnUser3.Name">
+    <value>btnUser3</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;btnUndo.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnUser3.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="BarManager1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>341, 17</value>
+  </data>
+  <data name="$this.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnEditFilter.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Type">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnSendViewUser.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name">
+    <value>TabControl1</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.TextStringFormat">
+    <value>Record {0} of {1}</value>
+  </data>
+  <data name="&gt;&gt;btnUndo.Name">
+    <value>btnUndo</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Name">
+    <value>TabAnalyse</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Name">
+    <value>GridView1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnBestFit.Name">
+    <value>MainBtns_btnBestFit</value>
+  </data>
+  <data name="&gt;&gt;btnNewDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="cmbDefaultListRepos.Mask.EditMask">
+    <value />
+  </data>
+  <data name="TabAnalyse.ShowHelp" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnExcel.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteFilter.Name">
+    <value>btnDeleteFilter</value>
+  </data>
+  <data name="cmbViewListRepos.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Parent">
+    <value>TabAnalyse</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;btnUser5.Name">
+    <value>btnUser5</value>
+  </data>
+  <data name="&gt;&gt;btnPrevious.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnBigger.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="txtQuickSearchRepos.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>frmEDocType_Browse</value>
+  </data>
+  <data name="&gt;&gt;btnEditFilter.Name">
+    <value>btnEditFilter</value>
+  </data>
+  <data name="&gt;&gt;btnCopyReport.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterList.Name">
+    <value>cmbFilterList</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="cmbReportListRepos.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;Bar1.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="Grid1.EmbeddedNavigator.ToolTip">
+    <value />
+  </data>
+  <data name="&gt;&gt;Misc_Bar.Name">
+    <value>Misc_Bar</value>
+  </data>
+  <data name="&gt;&gt;btnView.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="cmbFilterListRepos.Mask.EditMask">
+    <value />
+  </data>
+  <data name="&gt;&gt;Misc_Bar.Type">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="Grid1.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 321</value>
+  </data>
+  <data name="&gt;&gt;btnSendFilterUSer.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnMakeFilterCommon.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;MainBtns_btnSmaller.Name">
+    <value>MainBtns_btnSmaller</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultList.Type">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="SaveFileDialog1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>458, 17</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCopyDefault.Type">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v6.3, Culture=neutral, PublicKeyToken=79868b8147b5eae4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDefault.Name">
+    <value>btnDeleteDefault</value>
+  </data>
+</root>

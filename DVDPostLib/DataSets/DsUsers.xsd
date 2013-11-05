@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsUsers" targetNamespace="http://tempuri.org/DsUsers.xsd" xmlns:mstns="http://tempuri.org/DsUsers.xsd" xmlns="http://tempuri.org/DsUsers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dvdpost_be_prodConnectionString1" IsAppSettingsProperty="True" Modifier="Assembly" Name="dvdpost_be_prodConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PlushLib.My.MySettings.GlobalReference.Default.dvdpost_be_prodConnectionString1" Provider="MySql.Data.MySqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsUsers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsUsers" msprop:Generator_DataSetName="DsUsers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="securityuser" msprop:Generator_UserTableName="securityuser" msprop:Generator_RowDeletedName="securityuserRowDeleted" msprop:Generator_RowChangedName="securityuserRowChanged" msprop:Generator_RowClassName="securityuserRow" msprop:Generator_RowChangingName="securityuserRowChanging" msprop:Generator_RowEvArgName="securityuserRowChangeEvent" msprop:Generator_RowEvHandlerName="securityuserRowChangeEventHandler" msprop:Generator_TableClassName="securityuserDataTable" msprop:Generator_TableVarName="tablesecurityuser" msprop:Generator_RowDeletingName="securityuserRowDeleting" msprop:Generator_TablePropName="securityuser">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="63" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="FullName" msprop:Generator_UserColumnName="FullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInTable="LoginColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PassWord" msprop:Generator_UserColumnName="PassWord" msprop:Generator_ColumnPropNameInRow="PassWord" msprop:Generator_ColumnVarNameInTable="columnPassWord" msprop:Generator_ColumnPropNameInTable="PassWordColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShortCutID" msprop:Generator_UserColumnName="ShortCutID" msprop:Generator_ColumnPropNameInRow="ShortCutID" msprop:Generator_ColumnVarNameInTable="columnShortCutID" msprop:Generator_ColumnPropNameInTable="ShortCutIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lang" msprop:Generator_UserColumnName="Lang" msprop:Generator_ColumnPropNameInRow="Lang" msprop:Generator_ColumnVarNameInTable="columnLang" msprop:Generator_ColumnPropNameInTable="LangColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DefaultRoleID" msprop:Generator_UserColumnName="DefaultRoleID" msprop:Generator_ColumnPropNameInRow="DefaultRoleID" msprop:Generator_ColumnVarNameInTable="columnDefaultRoleID" msprop:Generator_ColumnPropNameInTable="DefaultRoleIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BannerVisible" msprop:Generator_UserColumnName="BannerVisible" msprop:Generator_ColumnPropNameInRow="BannerVisible" msprop:Generator_ColumnVarNameInTable="columnBannerVisible" msprop:Generator_ColumnPropNameInTable="BannerVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AutoSaveViews" msprop:Generator_UserColumnName="AutoSaveViews" msprop:Generator_ColumnPropNameInRow="AutoSaveViews" msprop:Generator_ColumnVarNameInTable="columnAutoSaveViews" msprop:Generator_ColumnPropNameInTable="AutoSaveViewsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ShowInTaskBar" msprop:Generator_UserColumnName="ShowInTaskBar" msprop:Generator_ColumnPropNameInRow="ShowInTaskBar" msprop:Generator_ColumnVarNameInTable="columnShowInTaskBar" msprop:Generator_ColumnPropNameInTable="ShowInTaskBarColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AutoHideMenu" msprop:Generator_UserColumnName="AutoHideMenu" msprop:Generator_ColumnPropNameInRow="AutoHideMenu" msprop:Generator_ColumnVarNameInTable="columnAutoHideMenu" msprop:Generator_ColumnPropNameInTable="AutoHideMenuColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="UserDocPath" msprop:Generator_UserColumnName="UserDocPath" msprop:Generator_ColumnPropNameInRow="UserDocPath" msprop:Generator_ColumnVarNameInTable="columnUserDocPath" msprop:Generator_ColumnPropNameInTable="UserDocPathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OrderLocID" msprop:Generator_UserColumnName="OrderLocID" msprop:Generator_ColumnPropNameInRow="OrderLocID" msprop:Generator_ColumnVarNameInTable="columnOrderLocID" msprop:Generator_ColumnPropNameInTable="OrderLocIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="box_id" msprop:Generator_UserColumnName="box_id" msprop:Generator_ColumnPropNameInRow="box_id" msprop:Generator_ColumnVarNameInTable="columnbox_id" msprop:Generator_ColumnPropNameInTable="box_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="isencrypt" msprop:Generator_UserColumnName="isencrypt" msprop:Generator_ColumnPropNameInRow="isencrypt" msprop:Generator_ColumnVarNameInTable="columnisencrypt" msprop:Generator_ColumnPropNameInTable="isencryptColumn" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="securityuser_role" msprop:Generator_UserTableName="securityuser_role" msprop:Generator_RowDeletedName="securityuser_roleRowDeleted" msprop:Generator_RowChangedName="securityuser_roleRowChanged" msprop:Generator_RowClassName="securityuser_roleRow" msprop:Generator_RowChangingName="securityuser_roleRowChanging" msprop:Generator_RowEvArgName="securityuser_roleRowChangeEvent" msprop:Generator_RowEvHandlerName="securityuser_roleRowChangeEventHandler" msprop:Generator_TableClassName="securityuser_roleDataTable" msprop:Generator_TableVarName="tablesecurityuser_role" msprop:Generator_RowDeletingName="securityuser_roleRowDeleting" msprop:Generator_TablePropName="securityuser_role">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserId" msprop:Generator_UserColumnName="UserId" msprop:Generator_ColumnPropNameInRow="UserId" msprop:Generator_ColumnVarNameInTable="columnUserId" msprop:Generator_ColumnPropNameInTable="UserIdColumn" type="xs:int" />
+              <xs:element name="RoleID" msprop:Generator_UserColumnName="RoleID" msprop:Generator_ColumnPropNameInRow="RoleID" msprop:Generator_ColumnVarNameInTable="columnRoleID" msprop:Generator_ColumnPropNameInTable="RoleIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="securitymenu_role" msprop:Generator_UserTableName="securitymenu_role" msprop:Generator_RowDeletedName="securitymenu_roleRowDeleted" msprop:Generator_RowChangedName="securitymenu_roleRowChanged" msprop:Generator_RowClassName="securitymenu_roleRow" msprop:Generator_RowChangingName="securitymenu_roleRowChanging" msprop:Generator_RowEvArgName="securitymenu_roleRowChangeEvent" msprop:Generator_RowEvHandlerName="securitymenu_roleRowChangeEventHandler" msprop:Generator_TableClassName="securitymenu_roleDataTable" msprop:Generator_TableVarName="tablesecuritymenu_role" msprop:Generator_RowDeletingName="securitymenu_roleRowDeleting" msprop:Generator_TablePropName="securitymenu_role">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoleID" msprop:Generator_UserColumnName="RoleID" msprop:Generator_ColumnPropNameInRow="RoleID" msprop:Generator_ColumnVarNameInTable="columnRoleID" msprop:Generator_ColumnPropNameInTable="RoleIDColumn" type="xs:int" />
+              <xs:element name="MenuID" msprop:Generator_UserColumnName="MenuID" msprop:Generator_ColumnPropNameInRow="MenuID" msprop:Generator_ColumnVarNameInTable="columnMenuID" msprop:Generator_ColumnPropNameInTable="MenuIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="securityrole" msprop:Generator_UserTableName="securityrole" msprop:Generator_RowDeletedName="securityroleRowDeleted" msprop:Generator_RowChangedName="securityroleRowChanged" msprop:Generator_RowClassName="securityroleRow" msprop:Generator_RowChangingName="securityroleRowChanging" msprop:Generator_RowEvArgName="securityroleRowChangeEvent" msprop:Generator_RowEvHandlerName="securityroleRowChangeEventHandler" msprop:Generator_TableClassName="securityroleDataTable" msprop:Generator_TableVarName="tablesecurityrole" msprop:Generator_RowDeletingName="securityroleRowDeleting" msprop:Generator_TablePropName="securityrole">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoleID" msprop:Generator_UserColumnName="RoleID" msprop:Generator_ColumnPropNameInRow="RoleID" msprop:Generator_ColumnVarNameInTable="columnRoleID" msprop:Generator_ColumnPropNameInTable="RoleIDColumn" type="xs:int" />
+              <xs:element name="EntityID" msprop:Generator_UserColumnName="EntityID" msprop:Generator_ColumnPropNameInRow="EntityID" msprop:Generator_ColumnVarNameInTable="columnEntityID" msprop:Generator_ColumnPropNameInTable="EntityIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CanModifyGlobalViews" msprop:Generator_UserColumnName="CanModifyGlobalViews" msprop:Generator_ColumnPropNameInRow="CanModifyGlobalViews" msprop:Generator_ColumnVarNameInTable="columnCanModifyGlobalViews" msprop:Generator_ColumnPropNameInTable="CanModifyGlobalViewsColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:securityuser" />
+      <xs:field xpath="mstns:Login" />
+    </xs:unique>
+    <xs:unique name="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:securityuser" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:unique>
+    <xs:unique name="securityuser_role_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:securityuser_role" />
+      <xs:field xpath="mstns:UserId" />
+      <xs:field xpath="mstns:RoleID" />
+    </xs:unique>
+    <xs:unique name="securitymenu_role_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:securitymenu_role" />
+      <xs:field xpath="mstns:RoleID" />
+      <xs:field xpath="mstns:MenuID" />
+    </xs:unique>
+    <xs:unique name="securityrole_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:securityrole" />
+      <xs:field xpath="mstns:RoleID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

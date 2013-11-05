@@ -1,0 +1,144 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E10B6B5D-3E4D-417D-BD93-D8C7DDB9B756}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSHLibrary</RootNamespace>
+    <AssemblyName>SSHLibrary</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiffieHellman, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+<<<<<<< HEAD
+      <HintPath>..\..\..\BK\bin\DiffieHellman.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Mentalis.Security, Version=1.0.13.715, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BK\bin\Org.Mentalis.Security.dll</HintPath>
+=======
+      <HintPath>..\..\..\DLL\DiffieHellman.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Mentalis.Security, Version=1.0.13.715, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Org.Mentalis.Security.dll</HintPath>
+>>>>>>> link dll
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="jce\AES128CBC.cs" />
+    <Compile Include="jce\BlowfishCBC.cs" />
+    <Compile Include="jce\DH.cs" />
+    <Compile Include="jce\HMACMD5.cs" />
+    <Compile Include="jce\HMACMD596.cs" />
+    <Compile Include="jce\HMACSHA1.cs" />
+    <Compile Include="jce\HMACSHA196.cs" />
+    <Compile Include="jce\KeyPairGenDSA.cs" />
+    <Compile Include="jce\KeyPairGenRSA.cs" />
+    <Compile Include="jce\MD5.cs" />
+    <Compile Include="jce\Random.cs" />
+    <Compile Include="jce\SHA1.cs" />
+    <Compile Include="jce\SignatureDSA.cs" />
+    <Compile Include="jce\SignatureRSA.cs" />
+    <Compile Include="jce\TripleDESCBC.cs" />
+    <Compile Include="Jsch\Buffer.cs" />
+    <Compile Include="Jsch\Channel.cs" />
+    <Compile Include="Jsch\ChannelDirectTCPIP.cs" />
+    <Compile Include="Jsch\ChannelExec.cs" />
+    <Compile Include="Jsch\ChannelForwardedTCPIP.cs" />
+    <Compile Include="Jsch\ChannelSession.cs" />
+    <Compile Include="Jsch\ChannelSftp.cs" />
+    <Compile Include="Jsch\ChannelShell.cs" />
+    <Compile Include="Jsch\ChannelX11.cs" />
+    <Compile Include="Jsch\Cipher.cs" />
+    <Compile Include="Jsch\Compression.cs" />
+    <Compile Include="Jsch\DH.cs" />
+    <Compile Include="Jsch\DHG1.cs" />
+    <Compile Include="Jsch\DHGEX.cs" />
+    <Compile Include="Jsch\HASH.cs" />
+    <Compile Include="Jsch\HostKey.cs" />
+    <Compile Include="Jsch\HostKeyRepository.cs" />
+    <Compile Include="Jsch\Identity.cs" />
+    <Compile Include="Jsch\IdentityFile.cs" />
+    <Compile Include="Jsch\IO.cs" />
+    <Compile Include="Jsch\JSch.cs" />
+    <Compile Include="Jsch\JSchAuthCancelException.cs" />
+    <Compile Include="Jsch\JSchException.cs" />
+    <Compile Include="Jsch\JSchPartialAuthException.cs" />
+    <Compile Include="Jsch\KeyExchange.cs" />
+    <Compile Include="Jsch\KeyPairGenDSA.cs" />
+    <Compile Include="Jsch\KeyPairGenRSA.cs" />
+    <Compile Include="Jsch\KnownHosts.cs" />
+    <Compile Include="Jsch\MAC.cs" />
+    <Compile Include="Jsch\Packet.cs" />
+    <Compile Include="Jsch\PortWatcher.cs" />
+    <Compile Include="Jsch\Proxy.cs" />
+    <Compile Include="Jsch\Random.cs" />
+    <Compile Include="Jsch\Request.cs" />
+    <Compile Include="Jsch\RequestExec.cs" />
+    <Compile Include="Jsch\RequestPtyReq.cs" />
+    <Compile Include="Jsch\RequestSftp.cs" />
+    <Compile Include="Jsch\RequestShell.cs" />
+    <Compile Include="Jsch\RequestSignal.cs" />
+    <Compile Include="Jsch\RequestWindowChange.cs" />
+    <Compile Include="Jsch\RequestX11.cs" />
+    <Compile Include="Jsch\Session.cs" />
+    <Compile Include="Jsch\SftpATTRS.cs" />
+    <Compile Include="Jsch\SftpException.cs" />
+    <Compile Include="Jsch\SftpProgressMonitor.cs" />
+    <Compile Include="Jsch\SignatureDSA.cs" />
+    <Compile Include="Jsch\SignatureRSA.cs" />
+    <Compile Include="Jsch\SocketFactory.cs" />
+    <Compile Include="Jsch\UIKeyboardInteractive.cs" />
+    <Compile Include="Jsch\UserAuth.cs" />
+    <Compile Include="Jsch\UserAuthKeyboardInteractive.cs" />
+    <Compile Include="Jsch\UserAuthNone.cs" />
+    <Compile Include="Jsch\UserAuthPassword.cs" />
+    <Compile Include="Jsch\UserAuthPublicKey.cs" />
+    <Compile Include="Jsch\UserInfo.cs" />
+    <Compile Include="Jsch\Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SshStream.cs" />
+    <Compile Include="Streams\PipedInputStream.cs" />
+    <Compile Include="Streams\PipedOutputStream.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

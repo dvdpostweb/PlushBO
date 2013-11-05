@@ -1,0 +1,949 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</AssemblyFullName>
+///   <AssemblyLocation>C:\windows\assembly\GAC_MSIL\DevExpress.XtraReports.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraReports.v8.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <References>
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\ltzkfp5n01\DVDPostLib.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.VisualBasic\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Data.SqlXml\2.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\2.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.VisualC\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.DirectoryServices\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Drawing.Design\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.DirectoryServices.Protocols\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.ServiceProcess\2.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Management\2.0.0.0__b03f5f7f11d50a3a\System.Management.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.JScript\8.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.Vsa\8.0.0.0__b03f5f7f11d50a3a\Microsoft.Vsa.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraEditors.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraEditors.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.Utils.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.Utils.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.Data.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.Data.v8.1.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\3pfo2wlc01\BizzLib.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraGrid.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraLayout.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraBars.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraBars.v8.1.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\49tezlrg01\MySql.Data.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraPrinting.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraPrinting.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraRichTextEdit.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraRichTextEdit.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraCharts.v8.1.UI\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraCharts.v8.1.UI.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraCharts.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraCharts.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.Charts.v8.1.Core\8.1.1.0__9b171c9fd64da1d1\DevExpress.Charts.v8.1.Core.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraNavBar.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraPivotGrid.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v8.1.Core\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraPivotGrid.v8.1.Core.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraReports.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraReports.v8.1.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\ftx1rwwj01\DvdPostData.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\tvssqg8w01\DVDPostTools.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\d9ikymrc01\DVDPostBuziness.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\euqa6j4s01\PayPal_Merchant_SDK.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\yzpuislq01\log4net.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraTreeList.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraTreeList.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraSpellChecker.v8.1\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraSpellChecker.v8.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraSpellChecker.v8.1.Core\8.1.1.0__9b171c9fd64da1d1\DevExpress.XtraSpellChecker.v8.1.Core.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\dojuaeel01\SSH.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\6_lzcz3r01\SSHLibrary.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\yyxe8f8c01\Org.Mentalis.Security.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\9rib81uy01\DiffieHellman.dll" />
+///     <Reference Path="C:\Users\Igor\AppData\Local\Microsoft\VisualStudio\8.0\ProjectAssemblies\pz7lw--e01\EmailVerifierComponent.dll" />
+///   </References>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class XtraReport1 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.XRLabel dateLimitPayment;
+        private DevExpress.XtraReports.UI.XRLabel accountNumber;
+        private DevExpress.XtraReports.UI.XRLabel communication;
+        private DevExpress.XtraReports.UI.XRLabel aboDate;
+        private DevExpress.XtraReports.UI.XRLabel montant;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel1;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText2;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel3;
+        private DevExpress.XtraReports.UI.XRLabel xrTextModel2;
+        private DevExpress.XtraReports.UI.XRLabel xrTextlResult2;
+        private DevExpress.XtraReports.UI.XRRichText xrTextModel1;
+        private DevExpress.XtraReports.UI.XRRichText xrTextResult1;
+        private DevExpress.XtraReports.UI.XRRichText xrTextModel3;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel6;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel5;
+        private DevExpress.XtraReports.UI.XRLabel postCodeAndCityResult;
+        private DevExpress.XtraReports.UI.XRLabel nameResult;
+        private DevExpress.XtraReports.UI.XRLabel postCodeAndCity;
+        private DevExpress.XtraReports.UI.XRLabel name;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel16;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText1;
+        private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
+        private DevExpress.XtraReports.UI.XRLabel addressCustomersResult;
+        private DevExpress.XtraReports.UI.XRLabel addressCustomers;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
+        private DevExpress.XtraReports.UI.XRLabel iban;
+        private DevExpress.XtraReports.UI.XRLabel bic;
+        private DevExpress.XtraReports.UI.XRLabel hesaddress1;
+        private DevExpress.XtraReports.UI.XRLabel hesaddress2;
+        private DevExpress.XtraReports.UI.XRLabel hesaddress3;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel13;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel7;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel9;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel10;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel11;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel12;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel8;
+        private System.Data.DataTable dataTable1;
+        private System.Resources.ResourceManager _resources;
+        public XtraReport1() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAANAAAAAAAAAFBBRFBBRFAGzImHH" +
+                        "hmLrUiJyLd4lD/JnCNa1AArINswUFLdzJz/3k5GHe8fbOcNcuOUGn8ZvnKxvR1zAAAAAIIAAAD3AgAAJ" +
+                        "QAAADwCAADHAAAAQgMAAGMCAADzAQAArAIAAKwBAAAiAQAAZQEAAKsEAAAgJAB0AGgAaQBzAC4AUwBuA" +
+                        "GEAcABUAG8ARwByAGkAZAAAAAAAWGEAZABkAHIAZQBzAHMAQwB1AHMAdABvAG0AZQByAHMAUgBlAHMAd" +
+                        "QBsAHQALgBTAGMAcgBpAHAAdABzAC4ATwBuAEIAZQBmAG8AcgBlAFAAcgBpAG4AdAACAAAAQG4AYQBtA" +
+                        "GUAUgBlAHMAdQBsAHQALgBTAGMAcgBpAHAAdABzAC4ATwBuAEIAZQBmAG8AcgBlAFAAcgBpAG4AdAAgA" +
+                        "gAAVnAAbwBzAHQAQwBvAGQAZQBBAG4AZABDAGkAdAB5AFIAZQBzAHUAbAB0AC4AUwBjAHIAaQBwAHQAc" +
+                        "wAuAE8AbgBCAGUAZgBvAHIAZQBQAHIAaQBuAHQA1QQAAD54AHIATABhAGIAZQBsADEAMgAuAFMAYwByA" +
+                        "GkAcAB0AHMALgBPAG4AQgBlAGYAbwByAGUAUAByAGkAbgB0AJIHAABCeAByAFIAaQBjAGgAVABlAHgAd" +
+                        "AAxAC4AUwBlAHIAaQBhAGwAaQB6AGEAYgBsAGUAUgB0AGYAUwB0AHIAaQBuAGcAbQoAAEJ4AHIAUgBpA" +
+                        "GMAaABUAGUAeAB0ADIALgBTAGUAcgBpAGEAbABpAHoAYQBiAGwAZQBSAHQAZgBTAHQAcgBpAG4AZwAwD" +
+                        "AAARHgAcgBUAGUAeAB0AE0AbwBkAGUAbAAxAC4AUwBlAHIAaQBhAGwAaQB6AGEAYgBsAGUAUgB0AGYAU" +
+                        "wB0AHIAaQBuAGcAUxIAACJ4AHIAVABlAHgAdABNAG8AZABlAGwAMgAuAFQAZQB4AHQAThUAAER4AHIAV" +
+                        "ABlAHgAdABNAG8AZABlAGwAMwAuAFMAZQByAGkAYQBsAGkAegBhAGIAbABlAFIAdABmAFMAdAByAGkAb" +
+                        "gBnACoWAABGeAByAFQAZQB4AHQAUgBlAHMAdQBsAHQAMQAuAFMAYwByAGkAcAB0AHMALgBPAG4AQgBlA" +
+                        "GYAbwByAGUAUAByAGkAbgB0ACEcAABGeAByAFQAZQB4AHQAUgBlAHMAdQBsAHQAMQAuAFMAZQByAGkAY" +
+                        "QBsAGkAegBhAGIAbABlAFIAdABmAFMAdAByAGkAbgBnAJkfAABIeAByAFQAZQB4AHQAbABSAGUAcwB1A" +
+                        "GwAdAAyAC4AUwBjAHIAaQBwAHQAcwAuAE8AbgBCAGUAZgBvAHIAZQBQAHIAaQBuAHQAtCAAAAIAAZsEU" +
+                        "HJpdmF0ZSBTdWIgT25CZWZvcmVQcmludChCeVZhbCBzZW5kZXIgQXMgT2JqZWN0LCBCeVZhbCBlIEFzI" +
+                        "FN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50RXZlbnRBcmdzKQ0KICBEaW0gcmVzdWx0IGFzIFhST" +
+                        "GFiZWwgPSBzZW5kZXINCiAgRGltIF9TdHJFbnRyeVN0cmVldEFkZHJlc3MgYXMgc3RyaW5nID0gR2V0Q" +
+                        "3VycmVudENvbHVtblZhbHVlKCJlbnRyeV9zdHJlZXRfYWRkcmVzcyIpLlRvU3RyaW5nKCkNCiANCiAgI" +
+                        "HJlc3VsdC5UZXh0ID0gYWRkcmVzc0N1c3RvbWVycy5UZXh0LlJlcGxhY2UoIiQkJGFkZHJlc3NDdXN0b" +
+                        "21lcnMkJCQiICwgTWljcm9zb2Z0LlZpc3VhbEJhc2ljLlN0ckNvbnYoX1N0ckVudHJ5U3RyZWV0QWRkc" +
+                        "mVzcywgTWljcm9zb2Z0LlZpc3VhbEJhc2ljLlZiU3RyQ29udi5Qcm9wZXJDYXNlKSApIA0KDQogIHJlc" +
+                        "3VsdC50ZXh0ID0gU3lzdGVtLlRleHQuRW5jb2RpbmcuQVNDSUkuR2V0U3RyaW5nKFN5c3RlbS5UZXh0L" +
+                        "kVuY29kaW5nLkdldEVuY29kaW5nKDEyNTEpLkdldEJ5dGVzKHJlc3VsdC50ZXh0KSkNCkVuZCBTdWIBs" +
+                        "gVQcml2YXRlIFN1YiBPbkJlZm9yZVByaW50KEJ5VmFsIHNlbmRlciBBcyBPYmplY3QsIEJ5VmFsIGUgQ" +
+                        "XMgU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRFdmVudEFyZ3MpDQpEaW0gcmVzdWx0IGFzIFhST" +
+                        "GFiZWwgPSBzZW5kZXIgIA0KICBEaW0gX1N0ckZ1bGxOYW1lIGFzIHN0cmluZyA9ICIiDQogIERpbSBfU" +
+                        "3RyRmlyc3ROYW1lIGFzIHN0cmluZyA9IEdldEN1cnJlbnRDb2x1bW5WYWx1ZSgiY3VzdG9tZXJzX2Zpc" +
+                        "nN0bmFtZSIpLlRvU3RyaW5nKCkNCiAgRGltIF9TdHJMYXN0TmFtZSBhcyBzdHJpbmcgPSBHZXRDdXJyZ" +
+                        "W50Q29sdW1uVmFsdWUoImN1c3RvbWVyc19sYXN0bmFtZSIpLlRvU3RyaW5nKCkNCg0KICAgX1N0ckZ1b" +
+                        "GxOYW1lID0gX1N0ckZ1bGxOYW1lICYgX1N0ckZpcnN0TmFtZSAmICIgIiAmIF9TdHJMYXN0TmFtZSANC" +
+                        "iAgIHJlc3VsdC50ZXh0ID0gICBuYW1lLlRleHQuUmVwbGFjZSgiJCQkbmFtZSQkJCIgLCBNaWNyb3NvZ" +
+                        "nQuVmlzdWFsQmFzaWMuU3RyQ29udihfU3RyRnVsbE5hbWUsIE1pY3Jvc29mdC5WaXN1YWxCYXNpYy5WY" +
+                        "lN0ckNvbnYuUHJvcGVyQ2FzZSkpDQogIA0KcmVzdWx0LnRleHQgPSBTeXN0ZW0uVGV4dC5FbmNvZGluZ" +
+                        "y5BU0NJSS5HZXRTdHJpbmcoU3lzdGVtLlRleHQuRW5jb2RpbmcuR2V0RW5jb2RpbmcoMTI1MSkuR2V0Q" +
+                        "nl0ZXMocmVzdWx0LnRleHQpKQ0KICANCkVuZCBTdWIBugVQcml2YXRlIFN1YiBPbkJlZm9yZVByaW50K" +
+                        "EJ5VmFsIHNlbmRlciBBcyBPYmplY3QsIEJ5VmFsIGUgQXMgU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuU" +
+                        "HJpbnRFdmVudEFyZ3MpDQpEaW0gcmVzdWx0IGFzIFhSTGFiZWwgPSBzZW5kZXINCiBEaW0gX1N0clBvc" +
+                        "3RDb2RlIGFzIHN0cmluZyAgPSBHZXRDdXJyZW50Q29sdW1uVmFsdWUoImVudHJ5X3Bvc3Rjb2RlIikuV" +
+                        "G9TdHJpbmcoKQ0KIERpbSBfc3RyRW50cnlDaXR5IGFzIHN0cmluZyA9IEdldEN1cnJlbnRDb2x1bW5WY" +
+                        "Wx1ZSgiZW50cnlfY2l0eSIpLlRvU3RyaW5nKCkNCiAgDQogIERpbSBfU3RyUG9zdENvZGVBbmRDaXR5I" +
+                        "GFzIHN0cmluZyA9ICIiDQoNCiAgX1N0clBvc3RDb2RlQW5kQ2l0eSA9IF9TdHJQb3N0Q29kZSAmICIgI" +
+                        "iAmIF9zdHJFbnRyeUNpdHkNCiAgcmVzdWx0LlRleHQgPSBwb3N0Q29kZUFuZENpdHkuVGV4dC5SZXBsY" +
+                        "WNlKCIkJCRwb3N0Q29kZUFuZENpdHkkJCQiICwgTWljcm9zb2Z0LlZpc3VhbEJhc2ljLlN0ckNvbnYoX" +
+                        "1N0clBvc3RDb2RlQW5kQ2l0eSwgTWljcm9zb2Z0LlZpc3VhbEJhc2ljLlZiU3RyQ29udi5Qcm9wZXJDY" +
+                        "XNlKSAgICkNCg0KcmVzdWx0LnRleHQgPSBTeXN0ZW0uVGV4dC5FbmNvZGluZy5BU0NJSS5HZXRTdHJpb" +
+                        "mcoU3lzdGVtLlRleHQuRW5jb2RpbmcuR2V0RW5jb2RpbmcoMTI1MSkuR2V0Qnl0ZXMocmVzdWx0LnRle" +
+                        "HQpKQ0KRW5kIFN1YgHYBVByaXZhdGUgU3ViIE9uQmVmb3JlUHJpbnQoQnlWYWwgc2VuZGVyIEFzIE9ia" +
+                        "mVjdCwgQnlWYWwgZSBBcyBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludEV2ZW50QXJncykNCiAgI" +
+                        "CdHZXQgdGhlIGN1cnJlbnQgdmFsdWUgb2YgdGhlICJGYXgiIGRhdGEgY29sdW1uDQogICBEaW0gX1N0c" +
+                        "kNvbSBhcyBzdHJpbmcgPSBHZXRDdXJyZW50Q29sdW1uVmFsdWUoImNvbW11bmljYXRpb24iKS5Ub1N0c" +
+                        "mluZygpDQogICBEaW0gX0NoYXIgYXMgY2hhcg0KICAgRGltIF9pIGFzIGludGVnZXINCiAgICdDaGVja" +
+                        "yBpZiB0aGUgdmFsdWUgaXMgbnVsbCwgdGhlbiBjYW5jZWwgdGhlIHByaW50aW5nDQogICB4ckxhYmVsM" +
+                        "TIudGV4dCA9ICIrICArICArIg0KICAgZm9yIF9pID0gMCB0byBfU3RyQ29tLkxlbmd0aCAtIDENCiAgI" +
+                        "CAgIF9jaGFyID0gX3N0ckNvbS5jaGFycyhfaSkNCiAgICAgIHhyTGFiZWwxMi50ZXh0ID0geHJMYWJlb" +
+                        "DEyLnRleHQgJiAiICAgIiAmIF9jaGFyDQogICAgICBpZiBfaSA9IDIgdGhlbg0KICAgICAgICB4ckxhY" +
+                        "mVsMTIudGV4dCA9IHhyTGFiZWwxMi50ZXh0ICYgIiAgLyINCiAgICAgIGVuZCBpZg0KICAgICAgaWYgX" +
+                        "2kgPSA2IHRoZW4NCiAgICAgICAgeHJMYWJlbDEyLnRleHQgPSB4ckxhYmVsMTIudGV4dCAmICIgIC8iD" +
+                        "QogICAgICBlbmQgaWYNCiAgIE5leHQNCiAgIHhyTGFiZWwxMi50ZXh0ID0geHJMYWJlbDEyLnRleHQgJ" +
+                        "iAiICArICArICArIg0KDQpFbmQgU3ViAcADZXdCY0FISUFkQUJtQURFQVhBQmhBRzRBY3dCcEFHTUFjQ" +
+                        "UJuQURFQU1nQTFBRElBRFFBS0FIc0FEUUFLQUZ3QVpnQnZBRzRBZEFCMEFHSUFiQUFOQUFvQWV3QmNBR" +
+                        "1lBTUFBZ0FGUUFhUUJ0QUdVQWN3QWdBRTRBWlFCM0FDQUFVZ0J2QUcwQVlRQnVBRHNBZlFBTkFBb0Fld" +
+                        "0JjQUdZQU1RQWdBRllBWlFCeUFHUUFZUUJ1QUdFQU93QjlBQTBBQ2dCOUFBMEFDZ0I3QUEwQUNnQmNBR" +
+                        "01BYndCc0FHOEFjZ0IwQUdJQWJBQU5BQW9BT3dBTkFBb0FYQUJ5QUdVQVpBQXdBRndBWndCeUFHVUFaU" +
+                        "UJ1QURBQVhBQmlBR3dBZFFCbEFEQUFPd0FOQUFvQWZRQU5BQW9BZXdCY0FIQUFZUUJ5QUdRQVhBQndBR" +
+                        "3dBWVFCcEFHNEFYQUJ4QUd3QWV3QmNBR1lBTVFCY0FHWUFjd0F5QURBQVhBQmpBR1lBTVFBZ0FFRUFiZ" +
+                        "0JrQUdVQWNnQnNBR1VBWXdCb0FIUUFMQUI5QUZ3QWNBQmhBSElBZlFBTkFBb0FmUUFOQUFvQQGgDGV3Q" +
+                        "mNBSElBZEFCbUFERUFYQUJoQUc0QWN3QnBBRndBWVFCdUFITUFhUUJqQUhBQVp3QXhBRElBTlFBeUFGd" +
+                        "0FaQUJsQUdZQVpnQXdBSHNBWEFCbUFHOEFiZ0IwQUhRQVlnQnNBSHNBWEFCbUFEQUFYQUJtQUc0QWFRQ" +
+                        "nNBQ0FBVmdCbEFISUFaQUJoQUc0QVlRQTdBSDBBZXdCY0FHWUFNUUJjQUdZQWJnQnBBR3dBWEFCbUFHT" +
+                        "UFhQUJoQUhJQWN3QmxBSFFBTUFBZ0FGWUFaUUJ5QUdRQVlRQnVBR0VBT3dCOUFIc0FYQUJtQURJQVhBQ" +
+                        "m1BRzRBYVFCc0FDQUFWQUJwQUcwQVpRQnpBQ0FBVGdCbEFIY0FJQUJTQUc4QWJRQmhBRzRBT3dCOUFIc" +
+                        "0FYQUJtQURNQVhBQm1BSElBYndCdEFHRUFiZ0JjQUdZQWNBQnlBSEVBTWdCY0FHWUFZd0JvQUdFQWNnQ" +
+                        "npBR1VBZEFBd0FDQUFWQUJwQUcwQVpRQnpBQ0FBVGdCbEFIY0FJQUJTQUc4QWJRQmhBRzRBT3dCOUFIM" +
+                        "EFEUUFLQUhzQVhBQmpBRzhBYkFCdkFISUFkQUJpQUd3QUlBQTdBRndBY2dCbEFHUUFNQUJjQUdjQWNnQ" +
+                        "mxBR1VBYmdBd0FGd0FZZ0JzQUhVQVpRQXdBRHNBZlFBTkFBb0FYQUIyQUdrQVpRQjNBR3NBYVFCdUFHU" +
+                        "UFOQUJjQUhVQVl3QXhBRndBY0FCaEFISUFaQUJjQUhFQVl3QmNBR01BWmdBeEFGd0FiQUJoQUc0QVp3Q" +
+                        "XlBREFBTmdBd0FGd0FaZ0F3QUZ3QVpnQnpBREVBTmdBZ0FFZ0Fid0J0QUdVQUlBQkZBRzRBZEFCbEFIS" +
+                        "UFkQUJoQUdrQWJnQnRBR1VBYmdCMEFDQUFVd0JsQUhJQWRnQnBBR01BWlFCekFDQUFjd0JoQUM4QWJnQ" +
+                        "jJBQ0FBTFFBZ0FFNEFkUUJ0QUZ3QVpnQXhBRndBSndCbEFEa0FYQUJtQURBQUlBQnlBRzhBSUFCU0FGd" +
+                        "0FaZ0F4QUZ3QUp3QmxBRGtBWEFCbUFEQUFJQUJ3QUc4QWJnQnpBR1VBTVFBd0FEY0FNQUF0QURrQU9RQ" +
+                        "WdBQzBBSUFBeEFEQUFOd0F3QUNBQVFRQnVBR1FBWlFCeUFHd0FaUUJqQUdnQWRBQWdBRTBBWVFCcEFHd" +
+                        "0FJQUF0QUNBQVZBQldBRUVBSUFBNkFDQUFRZ0JGQURBQU5BQTNBRGdBTGdBMUFERUFNQUF1QURVQU1BQ" +
+                        "XlBRndBWXdCbUFEQUFYQUJtQURJQVhBQm1BSE1BTWdBMEFGd0FjQUJoQUhJQURRQUtBRndBWXdCbUFER" +
+                        "UFYQUJtQURFQVhBQm1BSE1BTVFBMkFDQUFWQUJsQUd3QU9nQWdBQ3NBTXdBeUFDQUFLQUF3QUNrQUlBQ" +
+                        "mNBR01BWmdBd0FDQUFNZ0FnQURVQU1BQXpBQ0FBTmdBNEFDQUFNUUF4QUZ3QVpnQXpBRndBWmdCekFES" +
+                        "UFOQUFnQUNBQVhBQmpBR1lBTVFCY0FHWUFNQUJjQUdZQWN3QXhBRFlBSUFBZ0FDQUFJQUJHQUdFQWVBQ" +
+                        "TZBQ0FBS3dBekFESUFJQUFvQURBQUtRQWdBRElBSUFCY0FHWUFNUUFnQURjQU9RQXhBRndBWmdBd0FDQ" +
+                        "UFJQUJjQUdZQU1RQWdBRFVBTWdCY0FHWUFNQUFnQUNBQVhBQm1BREVBSUFBNEFEUUFYQUJtQURBQUlBQ" +
+                        "WdBQ0FBSUFBZ0FFUUFaUUI0QUdrQVlRQTZBQ0FBTUFBMkFEZ0FJQUF5QURRQU1RQTJBRGdBT0FBMkFDQ" +
+                        "UFOZ0F4QUNBQUlBQWdBRWtBUWdCQkFFNEFPZ0FnQUVJQVJRQTJBRElBSUFBd0FEWUFPQUF5QUNBQU5BQ" +
+                        "XhBRFlBT0FBZ0FEZ0FOZ0EyQURFQVhBQmpBR1lBTUFCY0FHWUFNZ0JjQUdZQWN3QXlBRFFBWEFCd0FHR" +
+                        "UFjZ0FOQUFvQVhBQndBR0VBY2dCa0FGd0FjQUJoQUhJQURRQUtBRndBY0FCaEFISUFEUUFLQUgwQURRQ" +
+                        "UtBQT09AfgFZXdCY0FISUFkQUJtQURFQVhBQmhBRzRBY3dCcEFGd0FZUUJ1QUhNQWFRQmpBSEFBWndBe" +
+                        "EFESUFOUUF5QUZ3QVpBQmxBR1lBWmdBd0FIc0FYQUJtQUc4QWJnQjBBSFFBWWdCc0FIc0FYQUJtQURBQ" +
+                        "VhBQm1BRzRBYVFCc0FDQUFWZ0JsQUhJQVpBQmhBRzRBWVFBN0FIMEFld0JjQUdZQU1RQmNBR1lBYmdCc" +
+                        "EFHd0FYQUJtQUdNQWFBQmhBSElBY3dCbEFIUUFNQUFnQUZZQVpRQnlBR1FBWVFCdUFHRUFPd0I5QUhzQ" +
+                        "VhBQm1BRElBWEFCbUFHNEFhUUJzQUNBQVZBQnBBRzBBWlFCekFDQUFUZ0JsQUhjQUlBQlNBRzhBYlFCa" +
+                        "EFHNEFPd0I5QUgwQURRQUtBSHNBWEFCakFHOEFiQUJ2QUhJQWRBQmlBR3dBSUFBN0FGd0FjZ0JsQUdRQ" +
+                        "U1BQmNBR2NBY2dCbEFHVUFiZ0F3QUZ3QVlnQnNBSFVBWlFBd0FEc0FmUUFOQUFvQVhBQjJBR2tBWlFCM" +
+                        "0FHc0FhUUJ1QUdRQU5BQmNBSFVBWXdBeEFGd0FjQUJoQUhJQVpBQmNBR01BWmdBeEFGd0FiQUJoQUc0Q" +
+                        "Vp3QXlBREFBTmdBd0FGd0FaZ0F3QUZ3QVpnQnpBRElBTUFBZ0FGb0FhUUJsQUNBQWFBQnBBR1VBY2dBZ" +
+                        "0FHZ0FaUUIwQUNBQWJ3QjJBR1VBY2dCekFHTUFhQUJ5QUdrQWFnQjJBR2tBYmdCbkFITUFaZ0J2QUhJQ" +
+                        "WJRQjFBR3dBYVFCbEFISUFJQUIyQUc4QWJ3QnlBQ0FBZFFCM0FDQUFZUUJpQUc4QWJnQnVBR1VBYlFCb" +
+                        "EFHNEFkQUFnQUdJQWFRQnFBQ0FBUkFCV0FFUUFVQUJ2QUhNQWRBQmNBR1lBTVFBZ0FDNEFYQUJqQUdZQ" +
+                        "U1BQmNBR1lBTWdCY0FHWUFjd0F5QURRQVhBQndBR0VBY2dBTkFBb0FmUUFOQUFvQQHZAVZlcnNjaHVsZ" +
+                        "GlnZCBiZWRyYWc6ICAgICAgICAgIOKCrA0KQWJvbm5lbWVudCB2YW46IDE4KyBTVk9ELg0KRmFjdHVyY" +
+                        "XRpZWRhdHVtOiAgICAgICAgICAgICAgICAgICAuDQpCYW5rcmVrZW5pbmc6ICAgICAgICAgICAgICAgI" +
+                        "CAgICAgICAgICAgICAgICAgICAgICAgICAuDQpDb21tdW5pY2F0aWU6ICAgICAgICAgICAgICAgICAgI" +
+                        "CAgICAuICAgICAgICAgICAgICAgICAgICAgICAB9Atld0JjQUhJQWRBQm1BREVBWEFCaEFHNEFjd0JwQ" +
+                        "UZ3QVlRQnVBSE1BYVFCakFIQUFad0F4QURJQU5RQXlBRndBWkFCbEFHWUFaZ0F3QUhzQVhBQm1BRzhBY" +
+                        "mdCMEFIUUFZZ0JzQUhzQVhBQm1BREFBWEFCbUFHNEFhUUJzQUNBQVZnQmxBSElBWkFCaEFHNEFZUUE3Q" +
+                        "UgwQWV3QmNBR1lBTVFCY0FHWUFiZ0JwQUd3QVhBQm1BR01BYUFCaEFISUFjd0JsQUhRQU1BQWdBRllBW" +
+                        "lFCeUFHUUFZUUJ1QUdFQU93QjlBSHNBWEFCbUFESUFYQUJtQUc0QWFRQnNBQ0FBUWdCaEFIVUFhQUJoQ" +
+                        "UhVQWN3QWdBRGtBTXdBN0FIMEFld0JjQUdZQU13QmNBR1lBYmdCcEFHd0FJQUJVQUdrQWJRQmxBSE1BS" +
+                        "UFCT0FHVUFkd0FnQUZJQWJ3QnRBR0VBYmdBN0FIMEFmUUFOQUFvQWV3QmNBR01BYndCc0FHOEFjZ0IwQ" +
+                        "UdJQWJBQWdBRHNBWEFCeUFHVUFaQUF3QUZ3QVp3QnlBR1VBWlFCdUFEQUFYQUJpQUd3QWRRQmxBREFBT" +
+                        "3dCOUFBMEFDZ0JjQUhZQWFRQmxBSGNBYXdCcEFHNEFaQUEwQUZ3QWRRQmpBREVBWEFCd0FHRUFjZ0JrQ" +
+                        "UZ3QVl3Qm1BREVBWEFCc0FHRUFiZ0JuQURJQU1BQTJBREFBWEFCbUFEQUFYQUJtQUhNQU1nQXdBQ0FBU" +
+                        "ndCeUFHRUFZUUJuQUNBQWJ3QnVBSFFBZGdCcEFHNEFad0JsQUc0QUlBQjNBR2tBYWdBZ0FIVUFkd0FnQ" +
+                        "UdJQVpRQjBBR0VBYkFCcEFHNEFad0FnQUhZQVhBQm1BREVBWEFBbkFHWUFNd0JjQUNjQVpnQXpBRndBW" +
+                        "mdBd0FDQUFjZ0FnQUNBQUlBQWdBQ0FBSUFBZ0FDQUFJQUFnQUNBQUlBQWdBQ0FBSUFBZ0FDQUFYQUJtQ" +
+                        "URFQUlBQWdBQ0FBWEFCbUFEQUFJQUF1QUZ3QWNBQmhBSElBRFFBS0FGd0FZd0JtQURBQVhBQm1BRElBW" +
+                        "EFCd0FHRUFjZ0FOQUFvQVhBQmpBR1lBTVFCY0FHWUFNQUFnQUZjQWFRQnFBQ0FBWkFCaEFHNEFhd0JsQ" +
+                        "Uc0QUlBQjFBQ0FBZGdCdkFHOEFjZ0FnQUhVQWR3QWdBRzBBWlFCa0FHVUFkd0JsQUhJQWF3QnBBRzRBW" +
+                        "ndBZ0FHVUFiZ0FnQUdJQWJBQnBBR29BZGdCbEFHNEFJQUIwQUdVQWNnQWdBSFVBZHdCbEFISUFJQUJpQ" +
+                        "UdVQWN3QmpBR2dBYVFCckFHc0FhUUJ1QUdjQUlBQjJBRzhBYndCeUFDQUFkZ0JsQUhJQVpBQmxBSElBW" +
+                        "lFBZ0FIWUFjZ0JoQUdjQVpRQnVBQ0FBYndCd0FDQUFhQUJsQUhRQUlBQnVBSFVBYlFCdEFHVUFjZ0FnQ" +
+                        "URBQU1nQXZBRFVBTUFBekFDNEFOZ0E0QUM0QU1RQXhBQ0FBYndCbUFDQUFjQUJsQUhJQUlBQmxBRzBBW" +
+                        "VFCcEFHd0FJQUJoQUdFQWJnQWdBR01BY2dCbEFHUUFhUUIwQUdNQWJ3QnVBSFFBY2dCdkFHd0FRQUJrQ" +
+                        "UhZQVpBQndBRzhBY3dCMEFDNEFZZ0JsQUM0QUlBQWdBQ0FBSUFBZ0FDQUFJQUFnQUNBQUlBQWdBQ0FBS" +
+                        "UFBZ0FDQUFJQUFnQUNBQVhBQmpBR1lBTUFCY0FHWUFNd0JjQUdZQWN3QXlBRFFBWEFCd0FHRUFjZ0FOQ" +
+                        "UFvQVhBQm1BRElBWEFCbUFITUFNZ0F3QUZ3QWNBQmhBSElBRFFBS0FGd0FZd0JtQURFQVhBQm1BREFBS" +
+                        "UFCTkFHVUFkQUFnQUdJQVpRQnNBR1VBWlFCbUFHUUFaUUFnQUdjQWNnQnZBR1VBZEFCbEFHNEFMQUJjQ" +
+                        "UdNQVpnQXdBRndBWmdBekFGd0FaZ0J6QURJQU5BQmNBSEFBWVFCeUFBMEFDZ0I5QUEwQUNnQT0B9QZQc" +
+                        "ml2YXRlIFN1YiBPbkJlZm9yZVByaW50KEJ5VmFsIHNlbmRlciBBcyBPYmplY3QsIEJ5VmFsIGUgQXMgU" +
+                        "3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRFdmVudEFyZ3MpDQpEaW0gcmVzdWx0IGFzIFhSUmlja" +
+                        "FRleHQgPSBzZW5kZXIgCQ0KICBEaW0gX1N0ckZpcnN0TmFtZSBhcyBzdHJpbmcgPSBHZXRDdXJyZW50Q" +
+                        "29sdW1uVmFsdWUoImN1c3RvbWVyc19maXJzdG5hbWUiKS5Ub1N0cmluZygpDQogICBEaW0gX1N0ckxhc" +
+                        "3ROYW1lIGFzIHN0cmluZyA9IEdldEN1cnJlbnRDb2x1bW5WYWx1ZSgiY3VzdG9tZXJzX2xhc3RuYW1lI" +
+                        "ikuVG9TdHJpbmcoKQ0KICAgRGltIF9TdHJHZW5kZXIgYXMgc3RyaW5nID0gR2V0Q3VycmVudENvbHVtb" +
+                        "lZhbHVlKCJjdXN0b21lcnNfZ2VuZGVyIikNCg0KDQoNCiAgIERpbSBfU3RyRnVsbE5hbWUgYXMgc3Rya" +
+                        "W5nID0gIiINCiAgICdpZiBfc3RyR2VuZGVyID0gIkYiIG9yIF9zdHJHZW5kZXIgPSAiZiIgdGhlbg0KI" +
+                        "CAgJyAgX1N0ckZ1bGxOYW1lID0gIkNoZXJlICINCiAgICdlbHNlDQogICAnICAgX1N0ckZ1bGxOYW1lI" +
+                        "D0gIkNoZXIgIg0KICAgJ2VuZCBpZg0KICAgX1N0ckZ1bGxOYW1lID0gIkJlc3RlIiAmICIgIiAmIF9Td" +
+                        "HJGaXJzdE5hbWUgJiAiICIgJiBfU3RyTGFzdE5hbWUgJiAiLCINCiAgIA0KICAgJ3Jlc3VsdC50ZXh0I" +
+                        "D0gICB4clRleHRNb2RlbDEuVGV4dC5SZXBsYWNlKCIkJCRuYW1lJCQkIiAsIF9TdHJGdWxsTmFtZSAgK" +
+                        "Q0KICAgIHJlc3VsdC50ZXh0ID0gICB4clRleHRNb2RlbDEuVGV4dA0KICAgeHJMYWJlbDEudGV4dCA9I" +
+                        "E1pY3Jvc29mdC5WaXN1YWxCYXNpYy5TdHJDb252KF9TdHJGdWxsTmFtZSwgTWljcm9zb2Z0LlZpc3Vhb" +
+                        "EJhc2ljLlZiU3RyQ29udi5Qcm9wZXJDYXNlKQ0KDQogICANCkVuZCBTdWIBmAJld0JjQUhJQWRBQm1BR" +
+                        "EVBWEFCaEFHNEFjd0JwQUdNQWNBQm5BREVBTWdBMUFESUFEUUFLQUhzQURRQUtBRndBWmdCdkFHNEFkQ" +
+                        "UIwQUdJQWJBQU5BQW9BZXdCY0FHWUFNQUFnQUZRQWFRQnRBR1VBY3dBZ0FFNEFaUUIzQUNBQVVnQnZBR" +
+                        "zBBWVFCdUFEc0FmUUFOQUFvQWZRQU5BQW9BZXdBTkFBb0FYQUJqQUc4QWJBQnZBSElBZEFCaUFHd0FEU" +
+                        "UFLQURzQURRQUtBSDBBRFFBS0FIc0FYQUJ3QUdFQWNnQmtBRndBY0FCc0FHRUFhUUJ1QUZ3QWNRQnNBR" +
+                        "ndBY0FCaEFISUFmUUFOQUFvQWZRQU5BQW9BAcYIUHJpdmF0ZSBTdWIgT25CZWZvcmVQcmludChCeVZhb" +
+                        "CBzZW5kZXIgQXMgT2JqZWN0LCBCeVZhbCBlIEFzIFN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50R" +
+                        "XZlbnRBcmdzKQ0KRGltIHJlc3VsdCBhcyBYUkxhYmVsID0gc2VuZGVyIA0KDQogICBEaW0gX1N0ckRhd" +
+                        "GUgYXMgRGF0ZVRpbWUgPSBHZXRDdXJyZW50Q29sdW1uVmFsdWUoImRhdGVfYWRkZWQiKS5Ub1N0cmluZ" +
+                        "ygpDQogICBEaW0gX1N0ck1vbnRhbnQgYXMgc3RyaW5nID0gR2V0Q3VycmVudENvbHVtblZhbHVlKCJhb" +
+                        "W91bnQiKS5Ub1N0cmluZygpDQogICBkaW0gX3N0ckNvbW11bmljYXRpb24gYXMgc3RyaW5nID0gR2V0Q" +
+                        "3VycmVudENvbHVtblZhbHVlKCJjb21tdW5pY2F0aW9uIikuVG9TdHJpbmcoKSAgIA0KICAgRGltIF9zd" +
+                        "HJEYXRlTm93IGFzIERhdGUgPSBEYXRlLk5vdyAgIA0KICAgJ0RpbSBfc3RyRGF0ZVBheW1lbnQgYXMgc" +
+                        "3RyaW5nID1HZXRDdXJyZW50Q29sdW1uVmFsdWUoImxpbWl0X2RhdGVfcGF5bWVudCIpLlRvU3RyaW5nK" +
+                        "CkNCg0KDQogICAncmVzdWx0LnRleHQgPSAgIHhyVGV4dE1vZGVsMi5UZXh0LlJlcGxhY2UoIiQkJGFib" +
+                        "2RhdGUkJCQiICwgX1N0ckRhdGUuVG9TaG9ydERhdGVTdHJpbmcpDQogICAncmVzdWx0LnRleHQgPSAgI" +
+                        "HJlc3VsdC5UZXh0LlJlcGxhY2UoIiQkJG1vbnRhbnQkJCQiICwgX1N0cm1vbnRhbnQpCQ0KICAgJ3Jlc" +
+                        "3VsdC50ZXh0ID0gICByZXN1bHQuVGV4dC5SZXBsYWNlKCIkJCRjb21tdW5pY2F0aW9uJCQkIiAsIF9Td" +
+                        "HJjb21tdW5pY2F0aW9uICkNCiAgIG1vbnRhbnQudGV4dCA9IF9TdHJNb250YW50DQogICBhYm9EYXRlL" +
+                        "nRleHQgPSBfU3RyRGF0ZS5Ub1Nob3J0RGF0ZVN0cmluZw0KICAgY29tbXVuaWNhdGlvbi50ZXh0ID0gX" +
+                        "3N0ckNvbW11bmljYXRpb24NCg0KICAgRGltIHN0ckludGVydmFsIEFzIERhdGUgPSAgTWljcm9zb2Z0L" +
+                        "lZpc3VhbEJhc2ljLkRhdGVBZGQoIE1pY3Jvc29mdC5WaXN1YWxCYXNpYy5EYXRlSW50ZXJ2YWwuRGF5L" +
+                        "CAxMCwgX3N0ckRhdGVOb3cpDQogICBkYXRlTGltaXRQYXltZW50LnRleHQgPSAgc3RySW50ZXJ2YWwuV" +
+                        "G9TaG9ydERhdGVTdHJpbmcgICAgICAgDQogICAgICAgDQoNCkVuZCBTdWI=";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.dateLimitPayment = new DevExpress.XtraReports.UI.XRLabel();
+            this.accountNumber = new DevExpress.XtraReports.UI.XRLabel();
+            this.communication = new DevExpress.XtraReports.UI.XRLabel();
+            this.aboDate = new DevExpress.XtraReports.UI.XRLabel();
+            this.montant = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrTextModel2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrTextlResult2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrTextModel1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrTextResult1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrTextModel3 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.postCodeAndCityResult = new DevExpress.XtraReports.UI.XRLabel();
+            this.nameResult = new DevExpress.XtraReports.UI.XRLabel();
+            this.postCodeAndCity = new DevExpress.XtraReports.UI.XRLabel();
+            this.name = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel16 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.addressCustomersResult = new DevExpress.XtraReports.UI.XRLabel();
+            this.addressCustomers = new DevExpress.XtraReports.UI.XRLabel();
+            this.iban = new DevExpress.XtraReports.UI.XRLabel();
+            this.bic = new DevExpress.XtraReports.UI.XRLabel();
+            this.hesaddress1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.hesaddress2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.hesaddress3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.dataTable1 = new System.Data.DataTable();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextModel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextResult1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextModel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.dateLimitPayment,
+                        this.accountNumber,
+                        this.communication,
+                        this.aboDate,
+                        this.montant,
+                        this.xrLabel1,
+                        this.xrRichText2,
+                        this.xrLabel3,
+                        this.xrTextModel2,
+                        this.xrTextlResult2,
+                        this.xrTextModel1,
+                        this.xrTextResult1,
+                        this.xrTextModel3});
+            this.Detail.Dpi = 254F;
+            this.Detail.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Detail.Height = 1196;
+            this.Detail.Name = "Detail";
+            this.Detail.PageBreak = DevExpress.XtraReports.UI.PageBreak.AfterBand;
+            this.Detail.StylePriority.UseFont = false;
+            // 
+            // GroupHeader1
+            // 
+            this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrPictureBox1,
+                        this.xrLabel6,
+                        this.xrLabel5,
+                        this.postCodeAndCityResult,
+                        this.nameResult,
+                        this.postCodeAndCity,
+                        this.name,
+                        this.xrLabel16,
+                        this.xrRichText1,
+                        this.xrPageInfo1,
+                        this.addressCustomersResult,
+                        this.addressCustomers});
+            this.GroupHeader1.Dpi = 254F;
+            this.GroupHeader1.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+                        new DevExpress.XtraReports.UI.GroupField("payment_offline_request_id", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader1.Height = 751;
+            this.GroupHeader1.Name = "GroupHeader1";
+            this.GroupHeader1.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
+            this.GroupHeader1.RepeatEveryPage = true;
+            // 
+            // GroupFooter1
+            // 
+            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.iban,
+                        this.bic,
+                        this.hesaddress1,
+                        this.hesaddress2,
+                        this.hesaddress3,
+                        this.xrLabel13,
+                        this.xrLabel7,
+                        this.xrLabel9,
+                        this.xrLabel10,
+                        this.xrLabel11,
+                        this.xrLabel12,
+                        this.xrLabel8});
+            this.GroupFooter1.Dpi = 254F;
+            this.GroupFooter1.Height = 881;
+            this.GroupFooter1.Name = "GroupFooter1";
+            this.GroupFooter1.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
+            this.GroupFooter1.RepeatEveryPage = true;
+            // 
+            // dateLimitPayment
+            // 
+            this.dateLimitPayment.Dpi = 254F;
+            this.dateLimitPayment.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateLimitPayment.Location = new System.Drawing.Point(762, 490);
+            this.dateLimitPayment.Name = "dateLimitPayment";
+            this.dateLimitPayment.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.dateLimitPayment.Size = new System.Drawing.Size(254, 42);
+            this.dateLimitPayment.StylePriority.UseFont = false;
+            this.dateLimitPayment.Text = "00/00/0000";
+            // 
+            // accountNumber
+            // 
+            this.accountNumber.Dpi = 254F;
+            this.accountNumber.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountNumber.Location = new System.Drawing.Point(810, 383);
+            this.accountNumber.Name = "accountNumber";
+            this.accountNumber.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.accountNumber.Size = new System.Drawing.Size(540, 42);
+            this.accountNumber.StylePriority.UseFont = false;
+            this.accountNumber.Text = "B E 6 2 0 6 8 2 4 16 8 8 6 6 1";
+            // 
+            // communication
+            // 
+            this.communication.Dpi = 254F;
+            this.communication.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.communication.ForeColor = System.Drawing.Color.Black;
+            this.communication.Location = new System.Drawing.Point(931, 423);
+            this.communication.Name = "communication";
+            this.communication.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.communication.Size = new System.Drawing.Size(423, 42);
+            this.communication.StylePriority.UseFont = false;
+            this.communication.StylePriority.UseForeColor = false;
+            this.communication.Text = "123456789123";
+            // 
+            // aboDate
+            // 
+            this.aboDate.Dpi = 254F;
+            this.aboDate.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aboDate.ForeColor = System.Drawing.Color.Black;
+            this.aboDate.Location = new System.Drawing.Point(974, 339);
+            this.aboDate.Name = "aboDate";
+            this.aboDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.aboDate.Size = new System.Drawing.Size(317, 64);
+            this.aboDate.StylePriority.UseFont = false;
+            this.aboDate.StylePriority.UseForeColor = false;
+            this.aboDate.Text = "00/00/0000";
+            // 
+            // montant
+            // 
+            this.montant.Dpi = 254F;
+            this.montant.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.montant.ForeColor = System.Drawing.Color.IndianRed;
+            this.montant.Location = new System.Drawing.Point(1045, 261);
+            this.montant.Name = "montant";
+            this.montant.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.montant.Size = new System.Drawing.Size(127, 42);
+            this.montant.StylePriority.UseFont = false;
+            this.montant.StylePriority.UseForeColor = false;
+            this.montant.StylePriority.UseTextAlignment = false;
+            this.montant.Text = "10,00";
+            this.montant.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel1
+            // 
+            this.xrLabel1.Dpi = 254F;
+            this.xrLabel1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel1.Location = new System.Drawing.Point(85, 127);
+            this.xrLabel1.Name = "xrLabel1";
+            this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrLabel1.Size = new System.Drawing.Size(1058, 64);
+            this.xrLabel1.StylePriority.UseFont = false;
+            this.xrLabel1.Text = "$$$name$$$ ";
+            // 
+            // xrRichText2
+            // 
+            this.xrRichText2.Dpi = 254F;
+            this.xrRichText2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrRichText2.Location = new System.Drawing.Point(169, 1101);
+            this.xrRichText2.Name = "xrRichText2";
+            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
+            this.xrRichText2.Size = new System.Drawing.Size(1630, 85);
+            this.xrRichText2.StylePriority.UseFont = false;
+            this.xrRichText2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel3
+            // 
+            this.xrLabel3.Dpi = 254F;
+            this.xrLabel3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel3.Location = new System.Drawing.Point(85, 868);
+            this.xrLabel3.Multiline = true;
+            this.xrLabel3.Name = "xrLabel3";
+            this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel3.Size = new System.Drawing.Size(529, 63);
+            this.xrLabel3.StylePriority.UseFont = false;
+            this.xrLabel3.StylePriority.UsePadding = false;
+            this.xrLabel3.Text = "Customer Service Manager";
+            // 
+            // xrTextModel2
+            // 
+            this.xrTextModel2.BackColor = System.Drawing.Color.Empty;
+            this.xrTextModel2.Dpi = 254F;
+            this.xrTextModel2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTextModel2.Location = new System.Drawing.Point(402, 254);
+            this.xrTextModel2.Multiline = true;
+            this.xrTextModel2.Name = "xrTextModel2";
+            this.xrTextModel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrTextModel2.Size = new System.Drawing.Size(1080, 212);
+            this.xrTextModel2.StylePriority.UseBackColor = false;
+            this.xrTextModel2.StylePriority.UseFont = false;
+            this.xrTextModel2.StylePriority.UseTextAlignment = false;
+            this.xrTextModel2.Text = resources.GetString("xrTextModel2.Text");
+            this.xrTextModel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTextlResult2
+            // 
+            this.xrTextlResult2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.xrTextlResult2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTextlResult2.BorderWidth = 1;
+            this.xrTextlResult2.Dpi = 254F;
+            this.xrTextlResult2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTextlResult2.Location = new System.Drawing.Point(402, 254);
+            this.xrTextlResult2.Multiline = true;
+            this.xrTextlResult2.Name = "xrTextlResult2";
+            this.xrTextlResult2.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrTextlResult2.Scripts.OnBeforePrint = resources.GetString("xrTextlResult2.Scripts.OnBeforePrint");
+            this.xrTextlResult2.Size = new System.Drawing.Size(1080, 212);
+            this.xrTextlResult2.StylePriority.UseBackColor = false;
+            this.xrTextlResult2.StylePriority.UseBorders = false;
+            this.xrTextlResult2.StylePriority.UseBorderWidth = false;
+            this.xrTextlResult2.StylePriority.UseFont = false;
+            this.xrTextlResult2.StylePriority.UseTextAlignment = false;
+            this.xrTextlResult2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTextModel1
+            // 
+            this.xrTextModel1.BackColor = System.Drawing.Color.Transparent;
+            this.xrTextModel1.CanGrow = false;
+            this.xrTextModel1.Dpi = 254F;
+            this.xrTextModel1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTextModel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrTextModel1.Location = new System.Drawing.Point(85, 190);
+            this.xrTextModel1.Name = "xrTextModel1";
+            this.xrTextModel1.SerializableRtfString = resources.GetString("xrTextModel1.SerializableRtfString");
+            this.xrTextModel1.Size = new System.Drawing.Size(1778, 64);
+            this.xrTextModel1.StylePriority.UseFont = false;
+            this.xrTextModel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrTextModel1.Visible = false;
+            // 
+            // xrTextResult1
+            // 
+            this.xrTextResult1.BackColor = System.Drawing.Color.Transparent;
+            this.xrTextResult1.CanGrow = false;
+            this.xrTextResult1.Dpi = 254F;
+            this.xrTextResult1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTextResult1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrTextResult1.Location = new System.Drawing.Point(85, 190);
+            this.xrTextResult1.Name = "xrTextResult1";
+            this.xrTextResult1.Scripts.OnBeforePrint = resources.GetString("xrTextResult1.Scripts.OnBeforePrint");
+            this.xrTextResult1.SerializableRtfString = resources.GetString("xrTextResult1.SerializableRtfString");
+            this.xrTextResult1.Size = new System.Drawing.Size(1778, 64);
+            this.xrTextResult1.StylePriority.UseFont = false;
+            // 
+            // xrTextModel3
+            // 
+            this.xrTextModel3.BackColor = System.Drawing.Color.Transparent;
+            this.xrTextModel3.CanGrow = false;
+            this.xrTextModel3.Dpi = 254F;
+            this.xrTextModel3.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTextModel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrTextModel3.Location = new System.Drawing.Point(85, 487);
+            this.xrTextModel3.Name = "xrTextModel3";
+            this.xrTextModel3.SerializableRtfString = resources.GetString("xrTextModel3.SerializableRtfString");
+            this.xrTextModel3.Size = new System.Drawing.Size(1778, 275);
+            this.xrTextModel3.StylePriority.UseFont = false;
+            this.xrTextModel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrPictureBox1
+            // 
+            this.xrPictureBox1.Dpi = 254F;
+            this.xrPictureBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.xrPictureBox1.ImageUrl = "\\\\stockholm\\share\\Bizkeys\\Reports\\Compta\\letterClick&Post\\image\\logo_dvdpost_BE_C" +
+                "MJN.jpg";
+            this.xrPictureBox1.Location = new System.Drawing.Point(106, 42);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.Size = new System.Drawing.Size(572, 360);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // xrLabel6
+            // 
+            this.xrLabel6.Dpi = 254F;
+            this.xrLabel6.Font = new System.Drawing.Font("Verdana", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel6.Location = new System.Drawing.Point(85, 572);
+            this.xrLabel6.Name = "xrLabel6";
+            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrLabel6.Size = new System.Drawing.Size(360, 42);
+            this.xrLabel6.StylePriority.UseFont = false;
+            this.xrLabel6.Text = "Uw referentie:";
+            // 
+            // xrLabel5
+            // 
+            this.xrLabel5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.customers_id", "")});
+            this.xrLabel5.Dpi = 254F;
+            this.xrLabel5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel5.Location = new System.Drawing.Point(381, 572);
+            this.xrLabel5.Name = "xrLabel5";
+            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrLabel5.Size = new System.Drawing.Size(381, 42);
+            this.xrLabel5.StylePriority.UseFont = false;
+            this.xrLabel5.Text = "xrLabel15";
+            // 
+            // postCodeAndCityResult
+            // 
+            this.postCodeAndCityResult.Dpi = 254F;
+            this.postCodeAndCityResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.postCodeAndCityResult.Location = new System.Drawing.Point(1080, 635);
+            this.postCodeAndCityResult.Name = "postCodeAndCityResult";
+            this.postCodeAndCityResult.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.postCodeAndCityResult.Scripts.OnBeforePrint = resources.GetString("postCodeAndCityResult.Scripts.OnBeforePrint");
+            this.postCodeAndCityResult.Size = new System.Drawing.Size(572, 42);
+            this.postCodeAndCityResult.StylePriority.UseFont = false;
+            this.postCodeAndCityResult.StylePriority.UseTextAlignment = false;
+            this.postCodeAndCityResult.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // nameResult
+            // 
+            this.nameResult.Dpi = 254F;
+            this.nameResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameResult.Location = new System.Drawing.Point(783, 508);
+            this.nameResult.Name = "nameResult";
+            this.nameResult.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.nameResult.Scripts.OnBeforePrint = resources.GetString("nameResult.Scripts.OnBeforePrint");
+            this.nameResult.Size = new System.Drawing.Size(868, 42);
+            this.nameResult.StylePriority.UseFont = false;
+            this.nameResult.StylePriority.UseTextAlignment = false;
+            this.nameResult.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // postCodeAndCity
+            // 
+            this.postCodeAndCity.Dpi = 254F;
+            this.postCodeAndCity.Location = new System.Drawing.Point(1228, 635);
+            this.postCodeAndCity.Name = "postCodeAndCity";
+            this.postCodeAndCity.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.postCodeAndCity.Size = new System.Drawing.Size(423, 42);
+            this.postCodeAndCity.StylePriority.UseTextAlignment = false;
+            this.postCodeAndCity.Text = "$$$postCodeAndCity$$$";
+            this.postCodeAndCity.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.postCodeAndCity.Visible = false;
+            // 
+            // name
+            // 
+            this.name.Dpi = 254F;
+            this.name.Location = new System.Drawing.Point(1164, 508);
+            this.name.Multiline = true;
+            this.name.Name = "name";
+            this.name.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.name.Size = new System.Drawing.Size(487, 42);
+            this.name.StylePriority.UseTextAlignment = false;
+            this.name.Text = "$$$name$$$";
+            this.name.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.name.Visible = false;
+            // 
+            // xrLabel16
+            // 
+            this.xrLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.xrLabel16.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.xrLabel16.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel16.BorderWidth = 1;
+            this.xrLabel16.Dpi = 254F;
+            this.xrLabel16.Font = new System.Drawing.Font("Verdana", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel16.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrLabel16.Location = new System.Drawing.Point(85, 508);
+            this.xrLabel16.Name = "xrLabel16";
+            this.xrLabel16.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrLabel16.Size = new System.Drawing.Size(444, 64);
+            this.xrLabel16.StylePriority.UseFont = false;
+            this.xrLabel16.Text = "Factuur";
+            this.xrLabel16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrRichText1
+            // 
+            this.xrRichText1.BackColor = System.Drawing.Color.Transparent;
+            this.xrRichText1.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.xrRichText1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrRichText1.BorderWidth = 1;
+            this.xrRichText1.Dpi = 254F;
+            this.xrRichText1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrRichText1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrRichText1.Location = new System.Drawing.Point(85, 656);
+            this.xrRichText1.Name = "xrRichText1";
+            this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
+            this.xrRichText1.Size = new System.Drawing.Size(212, 64);
+            this.xrRichText1.StylePriority.UseFont = false;
+            this.xrRichText1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrPageInfo1
+            // 
+            this.xrPageInfo1.BackColor = System.Drawing.Color.Transparent;
+            this.xrPageInfo1.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.xrPageInfo1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrPageInfo1.BorderWidth = 1;
+            this.xrPageInfo1.Dpi = 254F;
+            this.xrPageInfo1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrPageInfo1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrPageInfo1.Format = "{0:dd/MM/yyyy}";
+            this.xrPageInfo1.Location = new System.Drawing.Point(296, 656);
+            this.xrPageInfo1.Name = "xrPageInfo1";
+            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrPageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.xrPageInfo1.Size = new System.Drawing.Size(254, 64);
+            this.xrPageInfo1.StylePriority.UseFont = false;
+            this.xrPageInfo1.StylePriority.UsePadding = false;
+            this.xrPageInfo1.StylePriority.UseTextAlignment = false;
+            this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // addressCustomersResult
+            // 
+            this.addressCustomersResult.Dpi = 254F;
+            this.addressCustomersResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressCustomersResult.Location = new System.Drawing.Point(783, 572);
+            this.addressCustomersResult.Name = "addressCustomersResult";
+            this.addressCustomersResult.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.addressCustomersResult.Scripts.OnBeforePrint = resources.GetString("addressCustomersResult.Scripts.OnBeforePrint");
+            this.addressCustomersResult.Size = new System.Drawing.Size(868, 42);
+            this.addressCustomersResult.StylePriority.UseFont = false;
+            this.addressCustomersResult.StylePriority.UseTextAlignment = false;
+            this.addressCustomersResult.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // addressCustomers
+            // 
+            this.addressCustomers.Dpi = 254F;
+            this.addressCustomers.Location = new System.Drawing.Point(783, 572);
+            this.addressCustomers.Name = "addressCustomers";
+            this.addressCustomers.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.addressCustomers.Size = new System.Drawing.Size(868, 42);
+            this.addressCustomers.StylePriority.UseTextAlignment = false;
+            this.addressCustomers.Text = "$$$addressCustomers$$$";
+            this.addressCustomers.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.addressCustomers.Visible = false;
+            // 
+            // iban
+            // 
+            this.iban.Dpi = 254F;
+            this.iban.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iban.Location = new System.Drawing.Point(275, 519);
+            this.iban.Name = "iban";
+            this.iban.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.iban.Size = new System.Drawing.Size(1058, 40);
+            this.iban.StylePriority.UseFont = false;
+            this.iban.Text = "B E 6 2 0 6 8 2 4 1 6 8 8 6 6 1";
+            // 
+            // bic
+            // 
+            this.bic.Dpi = 254F;
+            this.bic.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bic.Location = new System.Drawing.Point(275, 603);
+            this.bic.Name = "bic";
+            this.bic.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.bic.Size = new System.Drawing.Size(1058, 40);
+            this.bic.StylePriority.UseFont = false;
+            this.bic.Text = "G K C C B E B B";
+            // 
+            // hesaddress1
+            // 
+            this.hesaddress1.Dpi = 254F;
+            this.hesaddress1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hesaddress1.Location = new System.Drawing.Point(275, 667);
+            this.hesaddress1.Name = "hesaddress1";
+            this.hesaddress1.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.hesaddress1.Size = new System.Drawing.Size(1058, 40);
+            this.hesaddress1.StylePriority.UseFont = false;
+            this.hesaddress1.Text = "HOME ENTERTAINMENT";
+            // 
+            // hesaddress2
+            // 
+            this.hesaddress2.Dpi = 254F;
+            this.hesaddress2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hesaddress2.Location = new System.Drawing.Point(275, 706);
+            this.hesaddress2.Name = "hesaddress2";
+            this.hesaddress2.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.hesaddress2.Size = new System.Drawing.Size(1058, 40);
+            this.hesaddress2.StylePriority.UseFont = false;
+            this.hesaddress2.Text = "SERVICES S A";
+            // 
+            // hesaddress3
+            // 
+            this.hesaddress3.Dpi = 254F;
+            this.hesaddress3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hesaddress3.Location = new System.Drawing.Point(275, 741);
+            this.hesaddress3.Name = "hesaddress3";
+            this.hesaddress3.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.hesaddress3.Size = new System.Drawing.Size(1058, 40);
+            this.hesaddress3.StylePriority.UseFont = false;
+            this.hesaddress3.Text = "1070 BRUXELLES";
+            // 
+            // xrLabel13
+            // 
+            this.xrLabel13.CanGrow = false;
+            this.xrLabel13.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.entry_city", "")});
+            this.xrLabel13.Dpi = 254F;
+            this.xrLabel13.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel13.Location = new System.Drawing.Point(466, 431);
+            this.xrLabel13.Name = "xrLabel13";
+            this.xrLabel13.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.xrLabel13.Size = new System.Drawing.Size(487, 42);
+            this.xrLabel13.Text = "xrLabel13";
+            // 
+            // xrLabel7
+            // 
+            this.xrLabel7.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.amount", "{0: #  #  #    .   0   0}")});
+            this.xrLabel7.Dpi = 254F;
+            this.xrLabel7.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel7.Location = new System.Drawing.Point(1482, 180);
+            this.xrLabel7.Name = "xrLabel7";
+            this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel7.Size = new System.Drawing.Size(479, 42);
+            this.xrLabel7.StylePriority.UsePadding = false;
+            this.xrLabel7.Text = "xrLabel7";
+            this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel9
+            // 
+            this.xrLabel9.CanGrow = false;
+            this.xrLabel9.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.customers_lastname", "")});
+            this.xrLabel9.Dpi = 254F;
+            this.xrLabel9.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel9.Location = new System.Drawing.Point(487, 349);
+            this.xrLabel9.Name = "xrLabel9";
+            this.xrLabel9.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel9.Size = new System.Drawing.Size(471, 45);
+            this.xrLabel9.StylePriority.UsePadding = false;
+            this.xrLabel9.Text = "xrLabel9";
+            // 
+            // xrLabel10
+            // 
+            this.xrLabel10.CanGrow = false;
+            this.xrLabel10.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.entry_street_address", "")});
+            this.xrLabel10.Dpi = 254F;
+            this.xrLabel10.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel10.Location = new System.Drawing.Point(275, 392);
+            this.xrLabel10.Name = "xrLabel10";
+            this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel10.Size = new System.Drawing.Size(669, 45);
+            this.xrLabel10.StylePriority.UsePadding = false;
+            this.xrLabel10.Text = "xrLabel10";
+            // 
+            // xrLabel11
+            // 
+            this.xrLabel11.CanGrow = false;
+            this.xrLabel11.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.entry_postcode", "")});
+            this.xrLabel11.Dpi = 254F;
+            this.xrLabel11.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel11.Location = new System.Drawing.Point(275, 431);
+            this.xrLabel11.Name = "xrLabel11";
+            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel11.Size = new System.Drawing.Size(161, 40);
+            this.xrLabel11.StylePriority.UsePadding = false;
+            this.xrLabel11.Text = "xrLabel11";
+            // 
+            // xrLabel12
+            // 
+            this.xrLabel12.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.communication", "{0:# # # - # # # # - # # # # #}")});
+            this.xrLabel12.Dpi = 254F;
+            this.xrLabel12.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel12.Location = new System.Drawing.Point(275, 828);
+            this.xrLabel12.Name = "xrLabel12";
+            this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel12.Scripts.OnBeforePrint = resources.GetString("xrLabel12.Scripts.OnBeforePrint");
+            this.xrLabel12.Size = new System.Drawing.Size(1199, 40);
+            this.xrLabel12.StylePriority.UseFont = false;
+            this.xrLabel12.StylePriority.UsePadding = false;
+            this.xrLabel12.Text = "1234567891234";
+            // 
+            // xrLabel8
+            // 
+            this.xrLabel8.CanGrow = false;
+            this.xrLabel8.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "Offline_Payment_Step_View1.customers_firstname", "")});
+            this.xrLabel8.Dpi = 254F;
+            this.xrLabel8.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.xrLabel8.Location = new System.Drawing.Point(275, 349);
+            this.xrLabel8.Name = "xrLabel8";
+            this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254F);
+            this.xrLabel8.Size = new System.Drawing.Size(190, 45);
+            this.xrLabel8.StylePriority.UsePadding = false;
+            this.xrLabel8.Text = "xrLabel8";
+            // 
+            // dataTable1
+            // 
+            this.dataTable1.CaseSensitive = false;
+            this.dataTable1.Locale = new System.Globalization.CultureInfo("fr-BE");
+            this.dataTable1.Namespace = "";
+            // 
+            // XtraReport1
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail,
+                        this.GroupHeader1,
+                        this.GroupFooter1});
+            this.DataSource = this.dataTable1;
+            this.Dpi = 254F;
+            this.ExportOptions.Pdf.NeverEmbeddedFonts = "Microsoft Sans Serif";
+            this.Margins = new System.Drawing.Printing.Margins(99, 0, 0, 0);
+            this.Name = "XtraReport1";
+            this.PageHeight = 2969;
+            this.PageWidth = 2101;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter;
+            this.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic;
+            this.Version = "8.1";
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextModel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextResult1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTextModel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE179D5C-B3B4-4F6B-8B47-84C4F479D130}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PlushData</RootNamespace>
+    <AssemblyName>PlushData</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..bin\Debug\</OutputPath>
+    <DocumentationFile>PlushData.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PlushData.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>PlushData.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>PlushData.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BizzLib, Version=1.0.3210.18722, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\BizzLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.Data.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.Utils.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <HintPath>..\DLL\DevExpress.XtraEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.0.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer\clsCallHistory.vb" />
+    <Compile Include="Customer\clsCallMeBrowse.vb" />
+    <Compile Include="Customer\clsDiscountCode.vb" />
+    <Compile Include="Customer\clsMessagerie.vb" />
+    <Compile Include="Payment\clsInvoice.vb" />
+    <Compile Include="Payment\clsPPVPayments.vb" />
+    <Compile Include="Payment\clsStudio.vb" />
+    <Compile Include="Product\clsActors.vb" />
+    <Compile Include="Product\clsDirectors.vb" />
+    <Compile Include="Product\clsProducts.vb" />
+    <Compile Include="Product\clsReviews.vb" />
+    <Compile Include="Site\clsAvatarNickName.vb" />
+    <Compile Include="Site\clsSurveys.vb" />
+    <Compile Include="Stat\Customer\clsStatCallHistory.vb" />
+    <Compile Include="Logistic\Customer_stat.vb" />
+    <Compile Include="Logistic\Customer_TypeDvd.vb" />
+    <Compile Include="Site\clsLandings.vb" />
+    <Compile Include="Site\clsPicture.vb" />
+    <Compile Include="Site\clsThemeEvent.vb" />
+    <Compile Include="Logistic\AboProcessData.vb" />
+    <Compile Include="clsAboSuspended.vb" />
+    <Compile Include="Customer\clsActivationCode.vb" />
+    <Compile Include="Customer\clsAddressBook.vb" />
+    <Compile Include="Customer\clsCompensation.vb" />
+    <Compile Include="Customer\clsCreditHistory.vb" />
+    <Compile Include="Customer\clsCustomersComment.vb" />
+    <Compile Include="Customer\ClsCustserv.vb" />
+    <Compile Include="Customer\ClsDroselia.vb" />
+    <Compile Include="Logistic\clsStatLogisticAboProcess.vb" />
+    <Compile Include="Logistic\clsStock.vb" />
+    <Compile Include="Logistic\clsStatDvdSent.vb" />
+    <Compile Include="Payment\ClsPayment.vb" />
+    <Compile Include="Site\clsProductsThemes.vb" />
+    <Compile Include="Purchase\clsFeeSharing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Customer\clsMemberGetMember.vb" />
+    <Compile Include="clsMsgError.vb" />
+    <Compile Include="Logistic\clsOdersStatusHistory.vb" />
+    <Compile Include="Customer\ClsParrainage.vb" />
+    <Compile Include="Customer\clsPhoneActivation.vb" />
+    <Compile Include="Product\clsProductsAlert.vb" />
+    <Compile Include="Product\clsProductsRating.vb" />
+    <Compile Include="Product\ClsProducts_dvd_state.vb" />
+    <Compile Include="Purchase\ClsPurchaseSale.vb" />
+    <Compile Include="Sale\ClsSale.vb" />
+    <Compile Include="Sale\clsShopping.vb" />
+    <Compile Include="clsUsers.vb" />
+    <Compile Include="Product\ClsVod.vb" />
+    <Compile Include="Stat\Customer\ClsStatCustomer.vb" />
+    <Compile Include="Payment\clsBatchBankTransfert.vb" />
+    <Compile Include="Payment\ClsBatchOgone.vb" />
+    <Compile Include="clsAboStopWhy.vb" />
+    <Compile Include="Payment\ClsBatchDomiciliation.vb" />
+    <Compile Include="clsConnection.vb" />
+    <Compile Include="Customer\ClsCustomers.vb" />
+    <Compile Include="clsEmailWishList.vb" />
+    <Compile Include="clsMassEmail.vb" />
+    <Compile Include="Logistic\clsProcessIN.vb" />
+    <Compile Include="Product\clsProductDvd.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment\ClsMatching.vb" />
+    <Compile Include="Stat\IPhoneIPad\clsIPhoneIPad.vb" />
+    <Compile Include="Stat\payment\ClsStatPayment.vb" />
+    <Compile Include="Payment\PaymentOfflineData.vb" />
+    <Compile Include="clsSession.vb" />
+    <Compile Include="Site\clsThemeTop.vb" />
+    <Compile Include="Site\clsTranslate.vb" />
+    <Compile Include="Stat\Product\clsStatProduct.vb" />
+    <Compile Include="Stat\SmartTV\clsSmartTV.vb" />
+    <Compile Include="Stat\VOD\clsStatVOD.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DVDPostTools\PlushTools.csproj">
+      <Project>{35D76B95-2EA0-4429-9676-EC1896F9EBD6}</Project>
+      <Name>PlushTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

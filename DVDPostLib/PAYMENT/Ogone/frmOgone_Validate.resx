@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>363, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 574</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Name" xml:space="preserve">
+    <value>StatusBar1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 544</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="RightMouseMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>492, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 598</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABACAAqBAAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAAAB
+        AAASCwAAEgsAAAABAAAAAQAAHQLUAB4F0QAkD84AJQ3VACoN0AArD9QAKw7WACcU0wAqEtIAKxLXACoW
+        0QAtFtMALhXRAC4W0gAvFNgALBnTADAZ1AAyHtQANBnVADUa2QA2INQANSTWADkg0gA8JtcAPCXaAD4n
+        2gBBJ9oAQCnXAEIr1wBCLdYASDDaAEkz2wBMNd4AUTjfAFE82ABSPtsAVUDbAFRA3gBVRd0AW0fdAFxH
+        3gBaSdoAXUnaAF1H4ABfU+IAa1ffAGtd3wBxXt4AYE3hAGNM5QBkUeAAaFThAGpi5ACBc+EAg3PjAIN3
+        5ACJfuMAiHzlAIl76ACMguAAj4XnAJOF6gCTjOkAnJHlAJ2Q6wCelukAopjoAKSb6gCso+oArKPtAK6l
+        6QCupe4Asq3qALCs7AC0r+8Atq7tALmv8gC7te0AvLbrAL267wC3svEAuLDxALu08ADBuu8AwLrwAMXC
+        7gDBwPIAxMXyAMfE8wDHxvEAyMHwAMjG8wDKx/MAy8X0ANTR8wDX1fYA29rzANjZ9gDa2PcA3drzAN3Z
+        9gDc2vcA3dr2ANrb+ADg3voA5uP2AOXk9gDj4fkA4uL5AOvn+wDq6/cA7O/1AO/s9wDr6vgA6+z5AO3u
+        +QDt7vsA7uz5AO/v/ADs8PgA8O34APHt+gDw7vkA8O76APDx+ADx8fgA8/X7APTz/AD09/kA9vT5APf1
+        +wD39/sA9vb8APX7+QD3+fsA9vv5APj2+AD4+vcA/Pv3AP/99wD5+vsA+/n7APr6+wD6+/sA+fj9APj6
+        /AD4+/wA+fv8APn7/QD6+/wA+/r9APv7/QD4/foA+vz5APr9+gD7/PsA+/36APv9+wD6/fwA+/z9APv+
+        /AD++/oA/fv+AP76/QD8/PgA/Pz5APz9+QD9/PkA/f34APz9+wD9/PsA/f36AP39+wD8/voA/f77AP78
+        +gD+/PsA/v37AP/8+gD//fsA/v77AP/++wD8/PwA/P38APz9/QD9/PwA/f39APz9/gD9/f8A/P78APz+
+        /QD9/v4A/vz8AP78/QD+/fwA/v39AP/8/AD//fwA//39AP78/gD//P4A/v78AP7+/QD//vwA/v7+AP7+
+        /wD//v4A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALa2tra2tra2tra2tra2tra2tra2fHxsbHd8tra2tra2tra2XjQQ
+        CgIKJFaetra2tra2VRYdO2xeVDAQPZ62tra2bCkWbLa2tra2QgpQtra2tikwpLa2tra2trY1FoS2tmwQ
+        T7akfFQ7Xp62bApRtrZWAnG2tj0WMjB4kXgwNXh8RBaetnIsSGEtVVYCAgIbSU4Wd7ajNSUyJGy2HSsr
+        G3hoEFq2pGE9NVq2tjsKEEK2tiQynp62pLaktra2GxZstrZWCjuRtra2tra2tj89tra2pEQKMFWRnmg1
+        VrZ8eLa2nrakVicQBAICG062tra2tqSetraEXlFMVnyRmba2trYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAEAAAEgsAABILAAAAAAAAAAAAAP7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v36//79
+        +v/9+vr//v7+//79+v/+/v7//vr+//r9/v/+/fr//v36//r9/v/++v7//vr+//79+v/9+vr/+v36//7+
+        /v/++v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/29v7/+vr+//r6+v/+/fr//v36//369v/+/fr//v7+//7+/v/+/v7//v7+//7+9v/7/fL/+fX+//76
+        /v/+/v7//vr+//79+v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//79+v/3+fr/7vH9/+bq/P/f4fv/2976/8rJ9//CwfT/wbr2/8LB9P/P0fj/4+X7/+bw
+        +//2+v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v36//Hv/v/CwfT/hobm/1dK3/8qDs3/HwTX/x0C1f8fBNf/HAPP/x4J
+        y/82JNj/b2Dj/6uk7f/p6/r/+v3+//r9+v/6/vb//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//r9/v/p6fb/nZPo/0w63f8aA9n/HQLV/yIGzf8dAtX/HQLR/x8G
+        y/8eBtL/HgLZ/x4E2/8fBsv/MRnN/3do4//Fx/H/8vn5//X2+f/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/6/f7/8/P8/2hW4v8qFcb/GQXV/xcE0v81I87/dWTo/62q
+        7P+8v/L/vsLw/7e29P+aje//Y0/Y/yIK2f8aA9b/JAXd/0wy1/+tn+//9fb5//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v36//79+v/++v7/+/3y/9rb+f9gSuL/FwTS/yMG0/9JJtz/rJzq/+/u
+        9v/6+vr/+vr+//r6/v/6+v7/9vr+//r9/v/3+fr/08v2/3Rc3/8xFdH/GgPW/x8J0v+MkOr/7vH9//j6
+        9//++v7//v7+//79+v/+/fr//v7+//7+/v/+/v7//v36//76/v/f4fX/bV/U/yoOzf8kCtT/YU3e/8XH
+        8f/3+fr/+fX+//r9+v/+/v7/+v36//79+v/+/v7//v7+//79+v/6/f7/7PP7/5uT5f9DKOH/HQXO/y8X
+        2f+tquz/8vX9//79+v/9+vr//v36//7+/v/+/v7//v7+//79+v/9+vb/9/n6/4h+6/8sEs3/IQLZ/2pT
+        1P/U1PT/9f31//r+9v/6/vb/+v3+//7+/v/+/v7//v7+//7+/v/++v7//vr+//79+v/9+vr/8vX2/62q
+        7P8+KND/HgbS/0060v/U1PT//v36//79+v/+/fr/+v3+//7+/v/+/v7//v7+//76/v/a2/n/NBzT/x0C
+        1f9JJtz/5eP2//r6/v/+/fr//vr+//79+v/6/fr//v7+//7+/v/+/fr//v7+//7+/v/+/v7//v72//z2
+        /P/9+vr/9fb2/5WN6f8mDNH/HwTX/4Z74P/6+v7//v7+//r9+v/6/f7//v7+//7+/v/6/fr/+fX+/4p2
+        5P8WBc3/KxTT/7Sl9v/7/fL//vr+//36+v/+/fr//vr+//76/v/6+vr/+v3+//r6/v/6+vr/+v36//r+
+        9v/6/fr//vr+//76/v/++v7/7vH9/2JR1f8aA9b/MRXR/9rb+f/++v7//v36//r6/v/+/v7//v7+//b9
+        /f/m3/n/WDrQ/xoD2f9iWdr/6+ry//b6/v/6+v7//vr+//7+9v/+/vb//fr6/+jl+v/OxOr/yb/o/9rV
+        9v/y9f3/9v35//L5+f/2+vb//vr+//7+9v/6/fr/ubPu/yMNz/8jBtP/nIr4//X99f/+/fr//vr+//7+
+        /v/+/v7/+v3+/7Gs6/80HNP/LQzT/6WY5//9+vr/9v39//76/v/+/vb//v72//76/v/Kv/v/d2jj/4qE
+        4v+Ifuv/hXzp/5eE6//y8vr/8v36//r6+v/+/v7/+vr6//r9+v/l4/b/V0PV/xoD1v9VReT/9v35//7+
+        9v/6/vb//v7+//7+/v/6+v7/i4rg/x8J0v9EJdv/y8Lz//79+v/6/f7//v7+//79+v/6/fr/x8Pz/29i
+        zf9VReT/MRXX/zIV2/81J8X/X0vi/4p25P/y+fn//v36//z68//+/v7/+vr6//n1/v+RgOX/IgjR/0Ar
+        0f/a1fb//vr+//n1/v/6/fr//v7+//b2/v94beH/HQLV/1I63v/l6fv/+v72//7+/v/+/fr/+vr6/+7x
+        /f+Vjen/WUTj/zEV1/94ZOT/kIHs/0o21f82GeD/a1fs/8vC8//++v7//fr2/+jl+v/l4/3/5+f7/5eL
+        7f8qCt3/NBzT/7qx8f/l4/b/4+X7/+jl+v/4+vf/7uz6/3Bf4/8eAtn/WUTb//P7/P/+/fr//v36//7+
+        /v/+/v7/2dzz/42D6/8xItP/bF3c/+ju9f/3+fr/tKvx/zob1f9zbOH/nZPo//r6/v/v7vb/j4Hf/2NP
+        2P9iUdX/SDTe/yIK2f8iCtn/UDnW/2NL3v9iUdX/inbk/9/h9f/u7Pr/bFzg/x0C0f9bSt7/9v39//r9
+        +v/+/fr//v7+//r9+v/U1PT/ioTi/zoj3v98auH/+Pr3//r6+v/Hw/P/SSbc/3ht4f+TjOP/9vr+//L1
+        /f+Qgez/JArU/x4C2f8aCMv/GgjL/xwB4P8dBc7/HgTb/x8Gy/+Ecer/7PP7//Ly+v91at3/HAPP/1lE
+        2//s8/v//v7+//7+/v/+/v7//v7+/+vq/P+bk+X/SjbV/0Qp3f+koOr/xcP1/3Ri5P8xFMr/e2/e/7ew
+        7v/89vz//vr+/83T9P9KNtX/IQLZ/ykJ1v9NOtL/TDrd/yMNz/8dAtX/RCnd/9PL9v/6/vb/+vr6/4yD
+        4/8iCNH/RDHX/8/R+P/6+vr/+v3+//7+/v/++v7/+vr+/7Gs6/9uWuH/OiPe/zEV1/86HNn/LQzT/1I6
+        3v96auT/6en2//7+9v/+/fr/9vr2/42D6/8pBtP/KxTT/6mj8f+0uPX/LhjR/yIGzf+Ecer/+vr6//79
+        +v/6/fr/p5rr/ywSzf8rFNP/rars//36+v/6/fr//fr6//76/v/6/vb/6ev6/5OM4/9ZROP/bWLo/2hW
+        4v9lU+P/dV7b/8vC8//6+vr//v72//76/v/++v7/09H4/zofx/8aAs//XUXX/2FU3f8aA9b/LBLN/9XN
+        +//+/v7//v7+//79+v/Vzfv/RCzO/yIG2P96cN7/8vX2//79+v/+/fr//vr+//7+9v/6/vb/8/P8/9HX
+        6/+mnOj/oJPr/7mz7v/p6fb/+vr+//r9+v/9+vr//vr+//76/v/29v7/hHXl/x0Fzv8iBs3/HQXO/xsF
+        y/91ZOj/+vr6//7+/v/+/v7//v36//b2/v9qU9T/HQLV/0Ql2//Fw/X//fr6//79+v/6+v7/+vr+//79
+        +v/++v7//fr6//r9+v/6/f7/+v3+//76/v/+/vb//v36//79+v/++v7/+v36//b9+f/Pzvn/OyDV/x4E
+        2/8WBc3/NSPO/8G69v/+/v7//v7+//7+/v/+/fr//vr+/8C39P8kCtT/HQLR/2xc4P/u8f3/9v35//r9
+        +v/++v7//v36//76/v/9/PH//v36//79+v/++v7//fr2//7+9v/+/fr//v7+//76/v/+/v7/+v36//L1
+        9v+EdeX/HwnS/xoF0v9yXuf/6+r8//79+v/+/v7//v7+//79+v/++v7/8vX9/2FU3f8eCcv/JgzR/5SM
+        3v/u8f3/+v36//79+v/+/vb/+vr6//79+v/++v7/+vr+//r+9v/9+vr//v7+//7+/v/+/fr//v36//r6
+        /v/++v7//v72/8G96/87K8v/MhXb/7Sr8f/++v7/+/3y//7+/v/+/v7//v7+//369v/3+fr/zdP0/0c7
+        1/8eBtL/KhXG/4Z73f/l4/3//v36//r9+v/6/f7//v7+//79+v/6/fr/+v3+//r9/v/+/fr//v7+//r9
+        +v/2+vb//vr+//76/v/+/v7/+fX+/3xq4f9uWuH/9/n6//36+v/6/f7//v7+//7+/v/6/f7//vr+//79
+        +v/19vn/urHx/0w3zP8aBdL/LBLN/3Vk6P/KxPH/9fb2//r6/v/+/v7//v7+//76/v/++v7//v7+//r6
+        +v/l6fv/tKXt/8m88v/6/fr//v72//76/v/++v7/08fs/87E6v/++v7/+v36//7+/v/+/v7//v7+//r9
+        /v/++v7//v36//388f/y8vr/urHx/zEi0/8dBc7/KQnW/0Qszv94beH/tbX6/+ju9f/2/fn/9v35//L1
+        /f/a1fb/pJrd/1dK3/8xGc3/YlHV/9ve+v/2/fn/+v36//r+9v/59f7/+fX+//r+9v/6/vb//v7+//7+
+        /v/+/v7/+v3+//7+/v/9+vr//v72//388f/6+vr/wMn1/2FN3v8rFNP/HQLV/x8J0v8lEtL/OhvV/zob
+        1f80HNP/OhzZ/zgU3/8rDdX/GgXS/yIG2P9JL87/wb3r//r+9v/9+vr//v36//7+/v/+/fr//v36//79
+        +v/+/v7//v7+//7+/v/6/fr/+v3+//76/v/+/fr//v36//79+v/4+vf/7vH9/6uk7f9gStX/QCbS/yMG
+        0/8bBcv/GgLP/yQF3f8dAtX/HQXO/y4Y0f9NOtL/e2/e/9PR+P/6+v7//vr+//79+v/+/v7//v7+//7+
+        /v/+/v7//vr+//76/v/+/v7//v7+//r9+v/6/f7/+v3+//7+/v/++v7//vr+//369v/+/v7/+vr+/+Xj
+        /f/At/T/nZPo/4R15f96auT/fWzq/35x5P+KhOL/qaPx/9PL9v/y9f3/9fb2//z68//9+vb//fr6//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//vr+//r9+v/6/fr/+v3+//r9/v/6/f7//vr+//7+
+        /v/+/fr/+v36//r+9v/6/fr/9O7+//Hv/v/y8vr/8vL6//b6/v/9+vr//v72//36+v/6+vr/9v35//b9
+        +f/6/fr//v36//7+/v/+/v7//v36//79+v/+/fr//v7+//7+/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Name" xml:space="preserve">
+    <value>HelpProvider1</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Name" xml:space="preserve">
+    <value>RightMouseMenu</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Name" xml:space="preserve">
+    <value>PopMenuNew</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Name" xml:space="preserve">
+    <value>PopMenuEdit</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Name" xml:space="preserve">
+    <value>PopMenuDelete</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Name" xml:space="preserve">
+    <value>PopMenuSave</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Name" xml:space="preserve">
+    <value>PopMenuPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Name" xml:space="preserve">
+    <value>PopMenuAssociatedTasks</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Name" xml:space="preserve">
+    <value>MenuItem9</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Name" xml:space="preserve">
+    <value>SaveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objDS.Name" xml:space="preserve">
+    <value>objDS</value>
+  </data>
+  <data name="&gt;&gt;objDS.Type" xml:space="preserve">
+    <value>System.Data.DataSet, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name" xml:space="preserve">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name" xml:space="preserve">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name" xml:space="preserve">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name" xml:space="preserve">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name" xml:space="preserve">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name" xml:space="preserve">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name" xml:space="preserve">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name" xml:space="preserve">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name" xml:space="preserve">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;OFDFileOgone.Name" xml:space="preserve">
+    <value>OFDFileOgone</value>
+  </data>
+  <data name="&gt;&gt;OFDFileOgone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOgone_Validate</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BizzLib.frmGeneral_Browse, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 544</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupControl1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="BtnChangeCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 239</value>
+  </data>
+  <data name="BtnChangeCard.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnChangeCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 23</value>
+  </data>
+  <data name="BtnChangeCard.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="BtnChangeCard.Text" xml:space="preserve">
+    <value>change Card</value>
+  </data>
+  <data name="BtnChangeCard.ToolTip" xml:space="preserve">
+    <value>Batch No Paid</value>
+  </data>
+  <data name="&gt;&gt;BtnChangeCard.Name" xml:space="preserve">
+    <value>BtnChangeCard</value>
+  </data>
+  <data name="&gt;&gt;BtnChangeCard.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BtnChangeCard.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;BtnChangeCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnMatching.Location" type="System.Drawing.Point, System.Drawing">
+    <value>637, 64</value>
+  </data>
+  <data name="BtnMatching.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnMatching.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="BtnMatching.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="BtnMatching.Text" xml:space="preserve">
+    <value>Matching</value>
+  </data>
+  <data name="BtnMatching.ToolTip" xml:space="preserve">
+    <value>match file ogone</value>
+  </data>
+  <data name="&gt;&gt;BtnMatching.Name" xml:space="preserve">
+    <value>BtnMatching</value>
+  </data>
+  <data name="&gt;&gt;BtnMatching.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BtnMatching.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;BtnMatching.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtSourceOgone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 67</value>
+  </data>
+  <data name="TxtSourceOgone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 20</value>
+  </data>
+  <data name="TxtSourceOgone.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;TxtSourceOgone.Name" xml:space="preserve">
+    <value>TxtSourceOgone</value>
+  </data>
+  <data name="&gt;&gt;TxtSourceOgone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtSourceOgone.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;TxtSourceOgone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnReconductionBE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 113</value>
+  </data>
+  <data name="btnReconductionBE.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnReconductionBE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 23</value>
+  </data>
+  <data name="btnReconductionBE.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnReconductionBE.Text" xml:space="preserve">
+    <value>Create Batch Reconduction Be</value>
+  </data>
+  <data name="btnReconductionBE.ToolTip" xml:space="preserve">
+    <value>batch reconduction BE</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionBE.Name" xml:space="preserve">
+    <value>btnReconductionBE</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionBE.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionBE.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionBE.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnReconductionNL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 181</value>
+  </data>
+  <data name="btnReconductionNL.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnReconductionNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 23</value>
+  </data>
+  <data name="btnReconductionNL.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnReconductionNL.Text" xml:space="preserve">
+    <value>Create Batch Reconduction NL</value>
+  </data>
+  <data name="btnReconductionNL.ToolTip" xml:space="preserve">
+    <value>batch reconduction NL</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionNL.Name" xml:space="preserve">
+    <value>btnReconductionNL</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionNL.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnReconductionNL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 23</value>
+  </data>
+  <data name="ProgressBar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 18</value>
+  </data>
+  <data name="ProgressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Name" xml:space="preserve">
+    <value>ProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnBatchReject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 239</value>
+  </data>
+  <data name="btnBatchReject.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBatchReject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 23</value>
+  </data>
+  <data name="btnBatchReject.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnBatchReject.Text" xml:space="preserve">
+    <value>Create Batch Reject</value>
+  </data>
+  <data name="btnBatchReject.ToolTip" xml:space="preserve">
+    <value>Batch No Paid</value>
+  </data>
+  <data name="&gt;&gt;btnBatchReject.Name" xml:space="preserve">
+    <value>btnBatchReject</value>
+  </data>
+  <data name="&gt;&gt;btnBatchReject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnBatchReject.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnBatchReject.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 64</value>
+  </data>
+  <data name="LabelControl2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="LabelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LabelControl2.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="LabelControl2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Name" xml:space="preserve">
+    <value>LabelControl2</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 32</value>
+  </data>
+  <data name="LabelControl1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="LabelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LabelControl1.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="LabelControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Name" xml:space="preserve">
+    <value>LabelControl1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 64</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.1" name="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="txtToDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtToDate.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtToDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtToDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtToDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Name" xml:space="preserve">
+    <value>txtToDate</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;txtToDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 32</value>
+  </data>
+  <data name="txtFromDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="txtFromDate.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtFromDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtFromDate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtFromDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Name" xml:space="preserve">
+    <value>txtFromDate</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.Parent" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;txtFromDate.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GroupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 3</value>
+  </data>
+  <data name="GroupControl1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GroupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>909, 293</value>
+  </data>
+  <data name="GroupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="GroupControl1.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="&gt;&gt;GroupControl1.Name" xml:space="preserve">
+    <value>GroupControl1</value>
+  </data>
+  <data name="&gt;&gt;GroupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GroupControl1.Parent" xml:space="preserve">
+    <value>TabParameters</value>
+  </data>
+  <data name="&gt;&gt;GroupControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 544</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Name" xml:space="preserve">
+    <value>TabParameters</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabParameters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 514</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Name" xml:space="preserve">
+    <value>TabResult</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabResult.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabAnalyse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 544</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Name" xml:space="preserve">
+    <value>TabAnalyse</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabAnalyse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>226, 17</value>
+  </metadata>
+  <data name="UcPivotGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 544</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Name" xml:space="preserve">
+    <value>UcPivotGrid1</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Type" xml:space="preserve">
+    <value>BizzLib.ucPivotGrid, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.Parent" xml:space="preserve">
+    <value>TabAnalyse</value>
+  </data>
+  <data name="&gt;&gt;UcPivotGrid1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UcChart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 544</value>
+  </data>
+  <data name="&gt;&gt;UcChart1.Name" xml:space="preserve">
+    <value>UcChart1</value>
+  </data>
+  <data name="&gt;&gt;UcChart1.Type" xml:space="preserve">
+    <value>BizzLib.ucChart, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcChart1.Parent" xml:space="preserve">
+    <value>TabChart</value>
+  </data>
+  <data name="&gt;&gt;UcChart1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 544</value>
+  </data>
+  <data name="&gt;&gt;TabChart.Name" xml:space="preserve">
+    <value>TabChart</value>
+  </data>
+  <data name="&gt;&gt;TabChart.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabChart.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabChart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="objDS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="OFDFileOgone.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>641, 17</value>
+  </metadata>
+</root>

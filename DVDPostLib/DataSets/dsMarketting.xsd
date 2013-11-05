@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMarketting" targetNamespace="http://tempuri.org/dsMarketting.xsd" xmlns:mstns="http://tempuri.org/dsMarketting.xsd" xmlns="http://tempuri.org/dsMarketting.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dvdpost_be_prodConnectionString" IsAppSettingsProperty="True" Modifier="Assembly" Name="dvdpost_be_prodConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PlushLib.My.MySettings.GlobalReference.Default.dvdpost_be_prodConnectionString" Provider="MySql.Data.MySqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMarketting" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsMarketting" msprop:Generator_DataSetName="dsMarketting">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="activation_code" msprop:Generator_UserTableName="activation_code" msprop:Generator_RowDeletedName="activation_codeRowDeleted" msprop:Generator_RowChangedName="activation_codeRowChanged" msprop:Generator_RowClassName="activation_codeRow" msprop:Generator_RowChangingName="activation_codeRowChanging" msprop:Generator_RowEvArgName="activation_codeRowChangeEvent" msprop:Generator_RowEvHandlerName="activation_codeRowChangeEventHandler" msprop:Generator_TableClassName="activation_codeDataTable" msprop:Generator_TableVarName="tableactivation_code" msprop:Generator_RowDeletingName="activation_codeRowDeleting" msprop:Generator_TablePropName="activation_code">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="activation_id" msprop:Generator_UserColumnName="activation_id" msprop:Generator_ColumnPropNameInRow="activation_id" msprop:Generator_ColumnVarNameInTable="columnactivation_id" msprop:Generator_ColumnPropNameInTable="activation_idColumn" type="xs:int" />
+              <xs:element name="activation_code" msprop:Generator_UserColumnName="activation_code" msprop:Generator_ColumnPropNameInRow="activation_code" msprop:Generator_ColumnVarNameInTable="columnactivation_code" msprop:Generator_ColumnPropNameInTable="activation_codeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="activation_group" msprop:Generator_UserColumnName="activation_group" msprop:Generator_ColumnPropNameInRow="activation_group" msprop:Generator_ColumnVarNameInTable="columnactivation_group" msprop:Generator_ColumnPropNameInTable="activation_groupColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_group_id" msprop:Generator_UserColumnName="activation_group_id" msprop:Generator_ColumnPropNameInRow="activation_group_id" msprop:Generator_ColumnVarNameInTable="columnactivation_group_id" msprop:Generator_ColumnPropNameInTable="activation_group_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_pack" msprop:Generator_UserColumnName="activation_pack" msprop:Generator_ColumnPropNameInRow="activation_pack" msprop:Generator_ColumnVarNameInTable="columnactivation_pack" msprop:Generator_ColumnPropNameInTable="activation_packColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_code_creation_date" msprop:Generator_UserColumnName="activation_code_creation_date" msprop:Generator_ColumnPropNameInRow="activation_code_creation_date" msprop:Generator_ColumnVarNameInTable="columnactivation_code_creation_date" msprop:Generator_ColumnPropNameInTable="activation_code_creation_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="activation_code_validto_date" msprop:Generator_UserColumnName="activation_code_validto_date" msprop:Generator_ColumnPropNameInRow="activation_code_validto_date" msprop:Generator_ColumnVarNameInTable="columnactivation_code_validto_date" msprop:Generator_ColumnPropNameInTable="activation_code_validto_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="activation_products_id" msprop:Generator_UserColumnName="activation_products_id" msprop:Generator_ColumnPropNameInRow="activation_products_id" msprop:Generator_ColumnVarNameInTable="columnactivation_products_id" msprop:Generator_ColumnPropNameInTable="activation_products_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_validity_month" msprop:Generator_UserColumnName="activation_validity_month" msprop:Generator_ColumnPropNameInRow="activation_validity_month" msprop:Generator_ColumnVarNameInTable="columnactivation_validity_month" msprop:Generator_ColumnPropNameInTable="activation_validity_monthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_validity_type" msprop:Generator_UserColumnName="activation_validity_type" msprop:Generator_ColumnPropNameInRow="activation_validity_type" msprop:Generator_ColumnVarNameInTable="columnactivation_validity_type" msprop:Generator_ColumnPropNameInTable="activation_validity_typeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_validity_value" msprop:Generator_UserColumnName="activation_validity_value" msprop:Generator_ColumnPropNameInRow="activation_validity_value" msprop:Generator_ColumnVarNameInTable="columnactivation_validity_value" msprop:Generator_ColumnPropNameInTable="activation_validity_valueColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_waranty" msprop:Generator_UserColumnName="activation_waranty" msprop:Generator_ColumnPropNameInRow="activation_waranty" msprop:Generator_ColumnVarNameInTable="columnactivation_waranty" msprop:Generator_ColumnPropNameInTable="activation_warantyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="customers_id" msprop:Generator_UserColumnName="customers_id" msprop:Generator_ColumnPropNameInRow="customers_id" msprop:Generator_ColumnVarNameInTable="columncustomers_id" msprop:Generator_ColumnPropNameInTable="customers_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="activation_date" msprop:Generator_UserColumnName="activation_date" msprop:Generator_ColumnPropNameInRow="activation_date" msprop:Generator_ColumnVarNameInTable="columnactivation_date" msprop:Generator_ColumnPropNameInTable="activation_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_ColumnVarNameInTable="columncomment" msprop:Generator_ColumnPropNameInTable="commentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="abo_dvd_credit" msprop:Generator_UserColumnName="abo_dvd_credit" msprop:Generator_ColumnPropNameInRow="abo_dvd_credit" msprop:Generator_ColumnVarNameInTable="columnabo_dvd_credit" msprop:Generator_ColumnPropNameInTable="abo_dvd_creditColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="abo_dvd_remain" msprop:Generator_UserColumnName="abo_dvd_remain" msprop:Generator_ColumnVarNameInTable="columnabo_dvd_remain" msprop:Generator_ColumnPropNameInRow="abo_dvd_remain" msprop:Generator_ColumnPropNameInTable="abo_dvd_remainColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="next_discount" msprop:Generator_UserColumnName="next_discount" msprop:Generator_ColumnPropNameInRow="next_discount" msprop:Generator_ColumnVarNameInTable="columnnext_discount" msprop:Generator_ColumnPropNameInTable="next_discountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="credit0_auto_reconduct" msprop:Generator_UserColumnName="credit0_auto_reconduct" msprop:Generator_ColumnPropNameInRow="credit0_auto_reconduct" msprop:Generator_ColumnVarNameInTable="columncredit0_auto_reconduct" msprop:Generator_ColumnPropNameInTable="credit0_auto_reconductColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="abo_auto_stop_next_reconduction" msprop:Generator_UserColumnName="abo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInRow="abo_auto_stop_next_reconduction" msprop:Generator_ColumnVarNameInTable="columnabo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInTable="abo_auto_stop_next_reconductionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="banner" msprop:Generator_UserColumnName="banner" msprop:Generator_ColumnPropNameInRow="banner" msprop:Generator_ColumnVarNameInTable="columnbanner" msprop:Generator_ColumnPropNameInTable="bannerColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="activation_group" msprop:Generator_UserTableName="activation_group" msprop:Generator_RowDeletedName="activation_groupRowDeleted" msprop:Generator_RowChangedName="activation_groupRowChanged" msprop:Generator_RowClassName="activation_groupRow" msprop:Generator_RowChangingName="activation_groupRowChanging" msprop:Generator_RowEvArgName="activation_groupRowChangeEvent" msprop:Generator_RowEvHandlerName="activation_groupRowChangeEventHandler" msprop:Generator_TableClassName="activation_groupDataTable" msprop:Generator_TableVarName="tableactivation_group" msprop:Generator_RowDeletingName="activation_groupRowDeleting" msprop:Generator_TablePropName="activation_group">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="activation_group_id" msprop:Generator_UserColumnName="activation_group_id" msprop:Generator_ColumnPropNameInRow="activation_group_id" msprop:Generator_ColumnVarNameInTable="columnactivation_group_id" msprop:Generator_ColumnPropNameInTable="activation_group_idColumn" type="xs:int" />
+              <xs:element name="activation_group_name" msprop:Generator_UserColumnName="activation_group_name" msprop:Generator_ColumnPropNameInRow="activation_group_name" msprop:Generator_ColumnVarNameInTable="columnactivation_group_name" msprop:Generator_ColumnPropNameInTable="activation_group_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="included_partner_file" msprop:Generator_UserColumnName="included_partner_file" msprop:Generator_ColumnPropNameInRow="included_partner_file" msprop:Generator_ColumnVarNameInTable="columnincluded_partner_file" msprop:Generator_ColumnPropNameInTable="included_partner_fileColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="activation_validity_type" msprop:Generator_UserTableName="activation_validity_type" msprop:Generator_RowDeletedName="activation_validity_typeRowDeleted" msprop:Generator_RowChangedName="activation_validity_typeRowChanged" msprop:Generator_RowClassName="activation_validity_typeRow" msprop:Generator_RowChangingName="activation_validity_typeRowChanging" msprop:Generator_RowEvArgName="activation_validity_typeRowChangeEvent" msprop:Generator_RowEvHandlerName="activation_validity_typeRowChangeEventHandler" msprop:Generator_TableClassName="activation_validity_typeDataTable" msprop:Generator_TableVarName="tableactivation_validity_type" msprop:Generator_RowDeletingName="activation_validity_typeRowDeleting" msprop:Generator_TablePropName="activation_validity_type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="validity_type_id" msprop:Generator_UserColumnName="validity_type_id" msprop:Generator_ColumnPropNameInRow="validity_type_id" msprop:Generator_ColumnVarNameInTable="columnvalidity_type_id" msprop:Generator_ColumnPropNameInTable="validity_type_idColumn" type="xs:int" />
+              <xs:element name="validity_type_explained" msprop:Generator_UserColumnName="validity_type_explained" msprop:Generator_ColumnPropNameInRow="validity_type_explained" msprop:Generator_ColumnVarNameInTable="columnvalidity_type_explained" msprop:Generator_ColumnPropNameInTable="validity_type_explainedColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="activation_code_view1" msprop:Generator_UserTableName="activation_code_view1" msprop:Generator_RowDeletedName="activation_code_view1RowDeleted" msprop:Generator_RowChangedName="activation_code_view1RowChanged" msprop:Generator_RowClassName="activation_code_view1Row" msprop:Generator_RowChangingName="activation_code_view1RowChanging" msprop:Generator_RowEvArgName="activation_code_view1RowChangeEvent" msprop:Generator_RowEvHandlerName="activation_code_view1RowChangeEventHandler" msprop:Generator_TableClassName="activation_code_view1DataTable" msprop:Generator_TableVarName="tableactivation_code_view1" msprop:Generator_RowDeletingName="activation_code_view1RowDeleting" msprop:Generator_TablePropName="activation_code_view1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="activation_code_id" msprop:Generator_UserColumnName="activation_code_id" msprop:Generator_ColumnVarNameInTable="columnactivation_code_id" msprop:Generator_ColumnPropNameInRow="activation_code_id" msprop:Generator_ColumnPropNameInTable="activation_code_idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="discount_code_view1" msprop:Generator_UserTableName="discount_code_view1" msprop:Generator_RowDeletedName="discount_code_view1RowDeleted" msprop:Generator_RowChangedName="discount_code_view1RowChanged" msprop:Generator_RowClassName="discount_code_view1Row" msprop:Generator_RowChangingName="discount_code_view1RowChanging" msprop:Generator_RowEvArgName="discount_code_view1RowChangeEvent" msprop:Generator_RowEvHandlerName="discount_code_view1RowChangeEventHandler" msprop:Generator_TableClassName="discount_code_view1DataTable" msprop:Generator_TableVarName="tablediscount_code_view1" msprop:Generator_RowDeletingName="discount_code_view1RowDeleting" msprop:Generator_TablePropName="discount_code_view1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="discount_code_id" msprop:Generator_UserColumnName="discount_code_id" msprop:Generator_ColumnPropNameInRow="discount_code_id" msprop:Generator_ColumnVarNameInTable="columndiscount_code_id" msprop:Generator_ColumnPropNameInTable="discount_code_idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="discount_type" msprop:Generator_UserTableName="discount_type" msprop:Generator_RowDeletedName="discount_typeRowDeleted" msprop:Generator_RowChangedName="discount_typeRowChanged" msprop:Generator_RowClassName="discount_typeRow" msprop:Generator_RowChangingName="discount_typeRowChanging" msprop:Generator_RowEvArgName="discount_typeRowChangeEvent" msprop:Generator_RowEvHandlerName="discount_typeRowChangeEventHandler" msprop:Generator_TableClassName="discount_typeDataTable" msprop:Generator_TableVarName="tablediscount_type" msprop:Generator_RowDeletingName="discount_typeRowDeleting" msprop:Generator_TablePropName="discount_type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="discount_type" msprop:Generator_UserColumnName="discount_type" msprop:Generator_ColumnPropNameInRow="discount_type" msprop:Generator_ColumnVarNameInTable="columndiscount_type" msprop:Generator_ColumnPropNameInTable="discount_typeColumn" type="xs:int" />
+              <xs:element name="discount_explained" msprop:Generator_UserColumnName="discount_explained" msprop:Generator_ColumnPropNameInRow="discount_explained" msprop:Generator_ColumnVarNameInTable="columndiscount_explained" msprop:Generator_ColumnPropNameInTable="discount_explainedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="discount_abo_validityto_type" msprop:Generator_UserTableName="discount_abo_validityto_type" msprop:Generator_RowDeletedName="discount_abo_validityto_typeRowDeleted" msprop:Generator_RowChangedName="discount_abo_validityto_typeRowChanged" msprop:Generator_RowClassName="discount_abo_validityto_typeRow" msprop:Generator_RowChangingName="discount_abo_validityto_typeRowChanging" msprop:Generator_RowEvArgName="discount_abo_validityto_typeRowChangeEvent" msprop:Generator_RowEvHandlerName="discount_abo_validityto_typeRowChangeEventHandler" msprop:Generator_TableClassName="discount_abo_validityto_typeDataTable" msprop:Generator_TableVarName="tablediscount_abo_validityto_type" msprop:Generator_RowDeletingName="discount_abo_validityto_typeRowDeleting" msprop:Generator_TablePropName="discount_abo_validityto_type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="discount_abo_validityto_type_id" msprop:Generator_UserColumnName="discount_abo_validityto_type_id" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_type_id" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_type_id" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_type_idColumn" type="xs:int" />
+              <xs:element name="discount_abo_validityto_type_name" msprop:Generator_UserColumnName="discount_abo_validityto_type_name" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_type_name" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_type_name" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_type_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="products" msprop:Generator_UserTableName="products" msprop:Generator_RowDeletedName="productsRowDeleted" msprop:Generator_RowChangedName="productsRowChanged" msprop:Generator_RowClassName="productsRow" msprop:Generator_RowChangingName="productsRowChanging" msprop:Generator_RowEvArgName="productsRowChangeEvent" msprop:Generator_RowEvHandlerName="productsRowChangeEventHandler" msprop:Generator_TableClassName="productsDataTable" msprop:Generator_TableVarName="tableproducts" msprop:Generator_RowDeletingName="productsRowDeleting" msprop:Generator_TablePropName="products">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="products_id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="products_id" msprop:Generator_ColumnPropNameInRow="products_id" msprop:Generator_ColumnVarNameInTable="columnproducts_id" msprop:Generator_ColumnPropNameInTable="products_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="discount_code" msprop:Generator_UserTableName="discount_code" msprop:Generator_RowDeletedName="discount_codeRowDeleted" msprop:Generator_RowChangedName="discount_codeRowChanged" msprop:Generator_RowClassName="discount_codeRow" msprop:Generator_RowChangingName="discount_codeRowChanging" msprop:Generator_RowEvArgName="discount_codeRowChangeEvent" msprop:Generator_RowEvHandlerName="discount_codeRowChangeEventHandler" msprop:Generator_TableClassName="discount_codeDataTable" msprop:Generator_TableVarName="tablediscount_code" msprop:Generator_RowDeletingName="discount_codeRowDeleting" msprop:Generator_TablePropName="discount_code">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="discount_code_id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="discount_code_id" msprop:Generator_ColumnVarNameInTable="columndiscount_code_id" msprop:Generator_ColumnPropNameInRow="discount_code_id" msprop:Generator_ColumnPropNameInTable="discount_code_idColumn" type="xs:int" />
+              <xs:element name="discount_code" msprop:Generator_UserColumnName="discount_code" msprop:Generator_ColumnVarNameInTable="columndiscount_code" msprop:Generator_ColumnPropNameInRow="discount_code" msprop:Generator_ColumnPropNameInTable="discount_codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_type" msprop:Generator_UserColumnName="discount_type" msprop:Generator_ColumnVarNameInTable="columndiscount_type" msprop:Generator_ColumnPropNameInRow="discount_type" msprop:Generator_ColumnPropNameInTable="discount_typeColumn" type="xs:int" />
+              <xs:element name="discount_value" msprop:Generator_UserColumnName="discount_value" msprop:Generator_ColumnVarNameInTable="columndiscount_value" msprop:Generator_ColumnPropNameInRow="discount_value" msprop:Generator_ColumnPropNameInTable="discount_valueColumn" type="xs:decimal" />
+              <xs:element name="discount_limit" msprop:Generator_UserColumnName="discount_limit" msprop:Generator_ColumnVarNameInTable="columndiscount_limit" msprop:Generator_ColumnPropNameInRow="discount_limit" msprop:Generator_ColumnPropNameInTable="discount_limitColumn" type="xs:int" />
+              <xs:element name="discount_commitment" msprop:Generator_UserColumnName="discount_commitment" msprop:Generator_ColumnVarNameInTable="columndiscount_commitment" msprop:Generator_ColumnPropNameInRow="discount_commitment" msprop:Generator_ColumnPropNameInTable="discount_commitmentColumn" type="xs:int" />
+              <xs:element name="discount_status" msprop:Generator_UserColumnName="discount_status" msprop:Generator_ColumnVarNameInTable="columndiscount_status" msprop:Generator_ColumnPropNameInRow="discount_status" msprop:Generator_ColumnPropNameInTable="discount_statusColumn" type="xs:int" />
+              <xs:element name="discount_text_fr" msprop:Generator_UserColumnName="discount_text_fr" msprop:Generator_ColumnVarNameInTable="columndiscount_text_fr" msprop:Generator_ColumnPropNameInRow="discount_text_fr" msprop:Generator_ColumnPropNameInTable="discount_text_frColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_text_nl" msprop:Generator_UserColumnName="discount_text_nl" msprop:Generator_ColumnVarNameInTable="columndiscount_text_nl" msprop:Generator_ColumnPropNameInRow="discount_text_nl" msprop:Generator_ColumnPropNameInTable="discount_text_nlColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_text_en" msprop:Generator_UserColumnName="discount_text_en" msprop:Generator_ColumnVarNameInTable="columndiscount_text_en" msprop:Generator_ColumnPropNameInRow="discount_text_en" msprop:Generator_ColumnPropNameInTable="discount_text_enColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_abo_validityto_type" msprop:Generator_UserColumnName="discount_abo_validityto_type" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_type" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_type" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_typeColumn" type="xs:int" />
+              <xs:element name="discount_abo_validityto_value" msprop:Generator_UserColumnName="discount_abo_validityto_value" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_value" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_value" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_valueColumn" type="xs:int" />
+              <xs:element name="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnVarNameInTable="columncomment" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_ColumnPropNameInTable="commentColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_nbr_month_before_reuse" msprop:Generator_UserColumnName="discount_nbr_month_before_reuse" msprop:Generator_ColumnVarNameInTable="columndiscount_nbr_month_before_reuse" msprop:Generator_ColumnPropNameInRow="discount_nbr_month_before_reuse" msprop:Generator_ColumnPropNameInTable="discount_nbr_month_before_reuseColumn" type="xs:int" />
+              <xs:element name="discount_recurring_nbr_of_month" msprop:Generator_UserColumnName="discount_recurring_nbr_of_month" msprop:Generator_ColumnVarNameInTable="columndiscount_recurring_nbr_of_month" msprop:Generator_ColumnPropNameInRow="discount_recurring_nbr_of_month" msprop:Generator_ColumnPropNameInTable="discount_recurring_nbr_of_monthColumn" type="xs:int" />
+              <xs:element name="bypass_discountuse" msprop:Generator_UserColumnName="bypass_discountuse" msprop:Generator_ColumnVarNameInTable="columnbypass_discountuse" msprop:Generator_ColumnPropNameInRow="bypass_discountuse" msprop:Generator_ColumnPropNameInTable="bypass_discountuseColumn" type="xs:int" />
+              <xs:element name="discount_validityto" msprop:Generator_UserColumnName="discount_validityto" msprop:Generator_ColumnVarNameInTable="columndiscount_validityto" msprop:Generator_ColumnPropNameInRow="discount_validityto" msprop:Generator_ColumnPropNameInTable="discount_validitytoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="payable" msprop:Generator_UserColumnName="payable" msprop:Generator_ColumnVarNameInTable="columnpayable" msprop:Generator_ColumnPropNameInRow="payable" msprop:Generator_ColumnPropNameInTable="payableColumn" type="xs:int" />
+              <xs:element name="abo_dvd_credit" msprop:Generator_UserColumnName="abo_dvd_credit" msprop:Generator_ColumnVarNameInTable="columnabo_dvd_credit" msprop:Generator_ColumnPropNameInRow="abo_dvd_credit" msprop:Generator_ColumnPropNameInTable="abo_dvd_creditColumn" type="xs:int" />
+              <xs:element name="abo_dvd_remain" msprop:Generator_UserColumnName="abo_dvd_remain" msprop:Generator_ColumnVarNameInTable="columnabo_dvd_remain" msprop:Generator_ColumnPropNameInRow="abo_dvd_remain" msprop:Generator_ColumnPropNameInTable="abo_dvd_remainColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="next_discount" msprop:Generator_UserColumnName="next_discount" msprop:Generator_ColumnVarNameInTable="columnnext_discount" msprop:Generator_ColumnPropNameInRow="next_discount" msprop:Generator_ColumnPropNameInTable="next_discountColumn" type="xs:int" />
+              <xs:element name="credit0_auto_reconduct" msprop:Generator_UserColumnName="credit0_auto_reconduct" msprop:Generator_ColumnVarNameInTable="columncredit0_auto_reconduct" msprop:Generator_ColumnPropNameInRow="credit0_auto_reconduct" msprop:Generator_ColumnPropNameInTable="credit0_auto_reconductColumn" type="xs:int" />
+              <xs:element name="landing_page" msprop:Generator_UserColumnName="landing_page" msprop:Generator_ColumnVarNameInTable="columnlanding_page" msprop:Generator_ColumnPropNameInRow="landing_page" msprop:Generator_ColumnPropNameInTable="landing_pageColumn" type="xs:int" />
+              <xs:element name="landing_page_php" msprop:Generator_UserColumnName="landing_page_php" msprop:Generator_ColumnVarNameInTable="columnlanding_page_php" msprop:Generator_ColumnPropNameInRow="landing_page_php" msprop:Generator_ColumnPropNameInTable="landing_page_phpColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="listing_products_allowed" msprop:Generator_UserColumnName="listing_products_allowed" msprop:Generator_ColumnVarNameInTable="columnlisting_products_allowed" msprop:Generator_ColumnPropNameInRow="listing_products_allowed" msprop:Generator_ColumnPropNameInTable="listing_products_allowedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="abo_auto_stop_next_reconduction" msprop:Generator_UserColumnName="abo_auto_stop_next_reconduction" msprop:Generator_ColumnVarNameInTable="columnabo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInRow="abo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInTable="abo_auto_stop_next_reconductionColumn" type="xs:int" />
+              <xs:element name="goto_step" msprop:Generator_UserColumnName="goto_step" msprop:Generator_ColumnVarNameInTable="columngoto_step" msprop:Generator_ColumnPropNameInRow="goto_step" msprop:Generator_ColumnPropNameInTable="goto_stepColumn" type="xs:int" />
+              <xs:element name="banner" msprop:Generator_UserColumnName="banner" msprop:Generator_ColumnVarNameInTable="columnbanner" msprop:Generator_ColumnPropNameInRow="banner" msprop:Generator_ColumnPropNameInTable="bannerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Footer" msprop:Generator_UserColumnName="Footer" msprop:Generator_ColumnVarNameInTable="columnFooter" msprop:Generator_ColumnPropNameInRow="Footer" msprop:Generator_ColumnPropNameInTable="FooterColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="free_upgrade_allowed" msprop:Generator_UserColumnName="free_upgrade_allowed" msprop:Generator_ColumnVarNameInTable="columnfree_upgrade_allowed" msprop:Generator_ColumnPropNameInRow="free_upgrade_allowed" msprop:Generator_ColumnPropNameInTable="free_upgrade_allowedColumn" type="xs:int" />
+              <xs:element name="group_id" msprop:Generator_UserColumnName="group_id" msprop:Generator_ColumnVarNameInTable="columngroup_id" msprop:Generator_ColumnPropNameInRow="group_id" msprop:Generator_ColumnPropNameInTable="group_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="discount_code_combo" msprop:Generator_UserTableName="discount_code_combo" msprop:Generator_RowDeletedName="discount_code_comboRowDeleted" msprop:Generator_RowChangedName="discount_code_comboRowChanged" msprop:Generator_RowClassName="discount_code_comboRow" msprop:Generator_RowChangingName="discount_code_comboRowChanging" msprop:Generator_RowEvArgName="discount_code_comboRowChangeEvent" msprop:Generator_RowEvHandlerName="discount_code_comboRowChangeEventHandler" msprop:Generator_TableClassName="discount_code_comboDataTable" msprop:Generator_TableVarName="tablediscount_code_combo" msprop:Generator_RowDeletingName="discount_code_comboRowDeleting" msprop:Generator_TablePropName="discount_code_combo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="discount_code_id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="discount_code_id" msprop:Generator_ColumnPropNameInRow="discount_code_id" msprop:Generator_ColumnVarNameInTable="columndiscount_code_id" msprop:Generator_ColumnPropNameInTable="discount_code_idColumn" type="xs:int" />
+              <xs:element name="discount_code" msprop:Generator_UserColumnName="discount_code" msprop:Generator_ColumnPropNameInRow="discount_code" msprop:Generator_ColumnVarNameInTable="columndiscount_code" msprop:Generator_ColumnPropNameInTable="discount_codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_type" msprop:Generator_UserColumnName="discount_type" msprop:Generator_ColumnPropNameInRow="discount_type" msprop:Generator_ColumnVarNameInTable="columndiscount_type" msprop:Generator_ColumnPropNameInTable="discount_typeColumn" type="xs:int" />
+              <xs:element name="discount_value" msprop:Generator_UserColumnName="discount_value" msprop:Generator_ColumnPropNameInRow="discount_value" msprop:Generator_ColumnVarNameInTable="columndiscount_value" msprop:Generator_ColumnPropNameInTable="discount_valueColumn" type="xs:decimal" />
+              <xs:element name="discount_limit" msprop:Generator_UserColumnName="discount_limit" msprop:Generator_ColumnPropNameInRow="discount_limit" msprop:Generator_ColumnVarNameInTable="columndiscount_limit" msprop:Generator_ColumnPropNameInTable="discount_limitColumn" type="xs:int" />
+              <xs:element name="discount_commitment" msprop:Generator_UserColumnName="discount_commitment" msprop:Generator_ColumnPropNameInRow="discount_commitment" msprop:Generator_ColumnVarNameInTable="columndiscount_commitment" msprop:Generator_ColumnPropNameInTable="discount_commitmentColumn" type="xs:int" />
+              <xs:element name="discount_status" msprop:Generator_UserColumnName="discount_status" msprop:Generator_ColumnPropNameInRow="discount_status" msprop:Generator_ColumnVarNameInTable="columndiscount_status" msprop:Generator_ColumnPropNameInTable="discount_statusColumn" type="xs:int" />
+              <xs:element name="discount_text_fr" msprop:Generator_UserColumnName="discount_text_fr" msprop:Generator_ColumnPropNameInRow="discount_text_fr" msprop:Generator_ColumnVarNameInTable="columndiscount_text_fr" msprop:Generator_ColumnPropNameInTable="discount_text_frColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_text_nl" msprop:Generator_UserColumnName="discount_text_nl" msprop:Generator_ColumnPropNameInRow="discount_text_nl" msprop:Generator_ColumnVarNameInTable="columndiscount_text_nl" msprop:Generator_ColumnPropNameInTable="discount_text_nlColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_text_en" msprop:Generator_UserColumnName="discount_text_en" msprop:Generator_ColumnPropNameInRow="discount_text_en" msprop:Generator_ColumnVarNameInTable="columndiscount_text_en" msprop:Generator_ColumnPropNameInTable="discount_text_enColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_abo_validityto_type" msprop:Generator_UserColumnName="discount_abo_validityto_type" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_type" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_type" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_typeColumn" type="xs:int" />
+              <xs:element name="discount_abo_validityto_value" msprop:Generator_UserColumnName="discount_abo_validityto_value" msprop:Generator_ColumnPropNameInRow="discount_abo_validityto_value" msprop:Generator_ColumnVarNameInTable="columndiscount_abo_validityto_value" msprop:Generator_ColumnPropNameInTable="discount_abo_validityto_valueColumn" type="xs:int" />
+              <xs:element name="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_ColumnVarNameInTable="columncomment" msprop:Generator_ColumnPropNameInTable="commentColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="discount_nbr_month_before_reuse" msprop:Generator_UserColumnName="discount_nbr_month_before_reuse" msprop:Generator_ColumnPropNameInRow="discount_nbr_month_before_reuse" msprop:Generator_ColumnVarNameInTable="columndiscount_nbr_month_before_reuse" msprop:Generator_ColumnPropNameInTable="discount_nbr_month_before_reuseColumn" type="xs:int" />
+              <xs:element name="discount_recurring_nbr_of_month" msprop:Generator_UserColumnName="discount_recurring_nbr_of_month" msprop:Generator_ColumnPropNameInRow="discount_recurring_nbr_of_month" msprop:Generator_ColumnVarNameInTable="columndiscount_recurring_nbr_of_month" msprop:Generator_ColumnPropNameInTable="discount_recurring_nbr_of_monthColumn" type="xs:int" />
+              <xs:element name="bypass_discountuse" msprop:Generator_UserColumnName="bypass_discountuse" msprop:Generator_ColumnPropNameInRow="bypass_discountuse" msprop:Generator_ColumnVarNameInTable="columnbypass_discountuse" msprop:Generator_ColumnPropNameInTable="bypass_discountuseColumn" type="xs:int" />
+              <xs:element name="discount_validityto" msprop:Generator_UserColumnName="discount_validityto" msprop:Generator_ColumnPropNameInRow="discount_validityto" msprop:Generator_ColumnVarNameInTable="columndiscount_validityto" msprop:Generator_ColumnPropNameInTable="discount_validitytoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="payable" msprop:Generator_UserColumnName="payable" msprop:Generator_ColumnPropNameInRow="payable" msprop:Generator_ColumnVarNameInTable="columnpayable" msprop:Generator_ColumnPropNameInTable="payableColumn" type="xs:int" />
+              <xs:element name="abo_dvd_credit" msprop:Generator_UserColumnName="abo_dvd_credit" msprop:Generator_ColumnPropNameInRow="abo_dvd_credit" msprop:Generator_ColumnVarNameInTable="columnabo_dvd_credit" msprop:Generator_ColumnPropNameInTable="abo_dvd_creditColumn" type="xs:int" />
+              <xs:element name="next_discount" msprop:Generator_UserColumnName="next_discount" msprop:Generator_ColumnPropNameInRow="next_discount" msprop:Generator_ColumnVarNameInTable="columnnext_discount" msprop:Generator_ColumnPropNameInTable="next_discountColumn" type="xs:int" />
+              <xs:element name="credit0_auto_reconduct" msprop:Generator_UserColumnName="credit0_auto_reconduct" msprop:Generator_ColumnPropNameInRow="credit0_auto_reconduct" msprop:Generator_ColumnVarNameInTable="columncredit0_auto_reconduct" msprop:Generator_ColumnPropNameInTable="credit0_auto_reconductColumn" type="xs:int" />
+              <xs:element name="landing_page" msprop:Generator_UserColumnName="landing_page" msprop:Generator_ColumnPropNameInRow="landing_page" msprop:Generator_ColumnVarNameInTable="columnlanding_page" msprop:Generator_ColumnPropNameInTable="landing_pageColumn" type="xs:int" />
+              <xs:element name="landing_page_php" msprop:Generator_UserColumnName="landing_page_php" msprop:Generator_ColumnPropNameInRow="landing_page_php" msprop:Generator_ColumnVarNameInTable="columnlanding_page_php" msprop:Generator_ColumnPropNameInTable="landing_page_phpColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="listing_products_allowed" msprop:Generator_UserColumnName="listing_products_allowed" msprop:Generator_ColumnPropNameInRow="listing_products_allowed" msprop:Generator_ColumnVarNameInTable="columnlisting_products_allowed" msprop:Generator_ColumnPropNameInTable="listing_products_allowedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="abo_auto_stop_next_reconduction" msprop:Generator_UserColumnName="abo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInRow="abo_auto_stop_next_reconduction" msprop:Generator_ColumnVarNameInTable="columnabo_auto_stop_next_reconduction" msprop:Generator_ColumnPropNameInTable="abo_auto_stop_next_reconductionColumn" type="xs:int" />
+              <xs:element name="goto_step" msprop:Generator_UserColumnName="goto_step" msprop:Generator_ColumnPropNameInRow="goto_step" msprop:Generator_ColumnVarNameInTable="columngoto_step" msprop:Generator_ColumnPropNameInTable="goto_stepColumn" type="xs:int" />
+              <xs:element name="banner" msprop:Generator_UserColumnName="banner" msprop:Generator_ColumnPropNameInRow="banner" msprop:Generator_ColumnVarNameInTable="columnbanner" msprop:Generator_ColumnPropNameInTable="bannerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Footer" msprop:Generator_UserColumnName="Footer" msprop:Generator_ColumnPropNameInRow="Footer" msprop:Generator_ColumnVarNameInTable="columnFooter" msprop:Generator_ColumnPropNameInTable="FooterColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="free_upgrade_allowed" msprop:Generator_UserColumnName="free_upgrade_allowed" msprop:Generator_ColumnPropNameInRow="free_upgrade_allowed" msprop:Generator_ColumnVarNameInTable="columnfree_upgrade_allowed" msprop:Generator_ColumnPropNameInTable="free_upgrade_allowedColumn" type="xs:int" />
+              <xs:element name="group_id" msprop:Generator_UserColumnName="group_id" msprop:Generator_ColumnPropNameInRow="group_id" msprop:Generator_ColumnVarNameInTable="columngroup_id" msprop:Generator_ColumnPropNameInTable="group_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:activation_code" />
+      <xs:field xpath="mstns:activation_id" />
+    </xs:unique>
+    <xs:unique name="activation_group_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:activation_group" />
+      <xs:field xpath="mstns:activation_group_id" />
+    </xs:unique>
+    <xs:unique name="activation_validity_type_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:activation_validity_type" />
+      <xs:field xpath="mstns:validity_type_id" />
+    </xs:unique>
+    <xs:unique name="discount_type_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:discount_type" />
+      <xs:field xpath="mstns:discount_type" />
+    </xs:unique>
+    <xs:unique name="discount_abo_validityto_typeKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:discount_abo_validityto_type" />
+      <xs:field xpath="mstns:discount_abo_validityto_type_id" />
+    </xs:unique>
+    <xs:unique name="products_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:products" />
+      <xs:field xpath="mstns:products_id" />
+    </xs:unique>
+    <xs:unique name="discount_code_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:discount_code" />
+      <xs:field xpath="mstns:discount_code" />
+    </xs:unique>
+    <xs:unique name="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:discount_code" />
+      <xs:field xpath="mstns:discount_code_id" />
+    </xs:unique>
+    <xs:unique name="discount_code_combo_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:discount_code_combo" />
+      <xs:field xpath="mstns:discount_code" />
+    </xs:unique>
+    <xs:unique name="discount_code_combo_Constraint2" msdata:ConstraintName="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:discount_code_combo" />
+      <xs:field xpath="mstns:discount_code_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

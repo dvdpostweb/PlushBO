@@ -1,0 +1,2717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tabBannerPageFR.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="image_banner_page_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="image_banner_page_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_banner_page_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="image_banner_page_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_FR.Name" xml:space="preserve">
+    <value>image_banner_page_FR</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_FR.Parent" xml:space="preserve">
+    <value>tabBannerPageFR</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBannerPageFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBannerPageFR.Text" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageFR.Name" xml:space="preserve">
+    <value>tabBannerPageFR</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageFR.Parent" xml:space="preserve">
+    <value>tabControl_Bannerpage_image</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupSearch.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="TxtEventThemeId.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtEventThemeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 31</value>
+  </data>
+  <data name="TxtEventThemeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="TxtEventThemeId.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId.Name" xml:space="preserve">
+    <value>TxtEventThemeId</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnNewTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 34</value>
+  </data>
+  <data name="btnNewTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnNewTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnNewTheme.Text" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme.Name" xml:space="preserve">
+    <value>btnNewTheme</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEventThemeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 34</value>
+  </data>
+  <data name="lblEventThemeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="lblEventThemeId.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblEventThemeId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Name" xml:space="preserve">
+    <value>lblEventThemeId</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblEventThemeId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 120</value>
+  </data>
+  <data name="btnSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="btnSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve">
+    <value>btnSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 68</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>title</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtTitle.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 65</value>
+  </data>
+  <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
+    <value>txtTitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GroupSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="GroupSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 181</value>
+  </data>
+  <data name="GroupSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="GroupSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Name" xml:space="preserve">
+    <value>GroupSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.Parent" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;GroupSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="tabSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Name" xml:space="preserve">
+    <value>tabSearch</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GridThemeEvent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GridThemeEvent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GridThemeEvent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="GridThemeEvent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GridThemeEvent.Name" xml:space="preserve">
+    <value>GridThemeEvent</value>
+  </data>
+  <data name="&gt;&gt;GridThemeEvent.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridThemeEvent.Parent" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;GridThemeEvent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="tabResult.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Name" xml:space="preserve">
+    <value>tabResult</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabResult.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="DsSite1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <data name="chkSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 142</value>
+  </data>
+  <data name="chkSelected.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="chkSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Name" xml:space="preserve">
+    <value>chkSelected</value>
+  </data>
+  <data name="&gt;&gt;chkSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="lblSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 145</value>
+  </data>
+  <data name="lblSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblSelected.Text" xml:space="preserve">
+    <value>selected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Name" xml:space="preserve">
+    <value>lblSelected</value>
+  </data>
+  <data name="&gt;&gt;lblSelected.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <metadata name="ContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 17</value>
+  </metadata>
+  <data name="ContextMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 26</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Name" xml:space="preserve">
+    <value>ContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenu1.Type" xml:space="preserve">
+    <value>DVDPostBuziness.contextMenu, DVDPostBuziness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="XtraTabControlTheme.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="XtraTabControlTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="XtraTabControlTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 836</value>
+  </data>
+  <data name="XtraTabControlTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtLastModified.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastModified.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 558</value>
+  </data>
+  <data name="txtLastModified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 20</value>
+  </data>
+  <data name="txtLastModified.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;txtLastModified.Name" xml:space="preserve">
+    <value>txtLastModified</value>
+  </data>
+  <data name="&gt;&gt;txtLastModified.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtLastModified.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;txtLastModified.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCreatedAt.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCreatedAt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 507</value>
+  </data>
+  <data name="txtCreatedAt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 20</value>
+  </data>
+  <data name="txtCreatedAt.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;txtCreatedAt.Name" xml:space="preserve">
+    <value>txtCreatedAt</value>
+  </data>
+  <data name="&gt;&gt;txtCreatedAt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtCreatedAt.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;txtCreatedAt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 561</value>
+  </data>
+  <data name="LabelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="LabelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="LabelControl3.Text" xml:space="preserve">
+    <value>Updated at</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Name" xml:space="preserve">
+    <value>LabelControl3</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;LabelControl3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 514</value>
+  </data>
+  <data name="LabelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="LabelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="LabelControl2.Text" xml:space="preserve">
+    <value>Created at</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Name" xml:space="preserve">
+    <value>LabelControl2</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;LabelControl2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GpHome_Page.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="txt_home_page_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 31</value>
+  </data>
+  <data name="txt_home_page_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txt_home_page_color.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_home_page_color.Name" xml:space="preserve">
+    <value>txt_home_page_color</value>
+  </data>
+  <data name="&gt;&gt;txt_home_page_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txt_home_page_color.Parent" xml:space="preserve">
+    <value>GpHome_Page</value>
+  </data>
+  <data name="&gt;&gt;txt_home_page_color.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_HP_Color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="lbl_HP_Color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lbl_HP_Color.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lbl_HP_Color.Text" xml:space="preserve">
+    <value>color</value>
+  </data>
+  <data name="&gt;&gt;lbl_HP_Color.Name" xml:space="preserve">
+    <value>lbl_HP_Color</value>
+  </data>
+  <data name="&gt;&gt;lbl_HP_Color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lbl_HP_Color.Parent" xml:space="preserve">
+    <value>GpHome_Page</value>
+  </data>
+  <data name="&gt;&gt;lbl_HP_Color.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GpHome_Page.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 405</value>
+  </data>
+  <data name="GpHome_Page.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 61</value>
+  </data>
+  <data name="GpHome_Page.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="GpHome_Page.Text" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="&gt;&gt;GpHome_Page.Name" xml:space="preserve">
+    <value>GpHome_Page</value>
+  </data>
+  <data name="&gt;&gt;GpHome_Page.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GpHome_Page.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;GpHome_Page.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbSelectedType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 139</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.1" name="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="cmbSelectedType.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbSelectedType.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSelectedType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="cmbSelectedType.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectedType.Name" xml:space="preserve">
+    <value>cmbSelectedType</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectedType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectedType.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectedType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 87</value>
+  </data>
+  <data name="cmbType.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbType.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="cmbType.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name" xml:space="preserve">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 92</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gpPicture.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="TabPictures.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TabPictures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 19</value>
+  </data>
+  <data name="chkBackground.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkBackground.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;chkBackground.Name" xml:space="preserve">
+    <value>chkBackground</value>
+  </data>
+  <data name="&gt;&gt;chkBackground.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkBackground.Parent" xml:space="preserve">
+    <value>tabBackground</value>
+  </data>
+  <data name="&gt;&gt;chkBackground.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_Background_Image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_Background_Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="image_Background_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Background_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Background_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Background_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_Background_FR.Name" xml:space="preserve">
+    <value>image_Background_FR</value>
+  </data>
+  <data name="&gt;&gt;image_Background_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Background_FR.Parent" xml:space="preserve">
+    <value>tabBackgroundFR</value>
+  </data>
+  <data name="&gt;&gt;image_Background_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBackgroundFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBackgroundFR.Text" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundFR.Name" xml:space="preserve">
+    <value>tabBackgroundFR</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundFR.Parent" xml:space="preserve">
+    <value>tabControl_Background_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_Background_Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_Background_Image.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="image_Background_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Background_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Background_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Background_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_Background_NL.Name" xml:space="preserve">
+    <value>image_Background_NL</value>
+  </data>
+  <data name="&gt;&gt;image_Background_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Background_NL.Parent" xml:space="preserve">
+    <value>tabBackgroundNL</value>
+  </data>
+  <data name="&gt;&gt;image_Background_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBackgroundNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBackgroundNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundNL.Name" xml:space="preserve">
+    <value>tabBackgroundNL</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundNL.Parent" xml:space="preserve">
+    <value>tabControl_Background_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_Background_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Background_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Background_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Background_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_Background_EN.Name" xml:space="preserve">
+    <value>image_Background_EN</value>
+  </data>
+  <data name="&gt;&gt;image_Background_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Background_EN.Parent" xml:space="preserve">
+    <value>tabBackgroundEN</value>
+  </data>
+  <data name="&gt;&gt;image_Background_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBackgroundEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBackgroundEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundEN.Name" xml:space="preserve">
+    <value>tabBackgroundEN</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundEN.Parent" xml:space="preserve">
+    <value>tabControl_Background_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBackgroundEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl_Background_Image.Text" xml:space="preserve">
+    <value>Wallpaper</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Background_Image.Name" xml:space="preserve">
+    <value>tabControl_Background_Image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Background_Image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Background_Image.Parent" xml:space="preserve">
+    <value>tabBackground</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Background_Image.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabBackground.Text" xml:space="preserve">
+    <value>BackGround</value>
+  </data>
+  <data name="&gt;&gt;tabBackground.Name" xml:space="preserve">
+    <value>tabBackground</value>
+  </data>
+  <data name="&gt;&gt;tabBackground.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBackground.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabBackground.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPictures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 277</value>
+  </data>
+  <data name="TabPictures.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="tabControl_Logo_Image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_Logo_Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="image_Logo_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Logo_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Logo_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Logo_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_FR.Name" xml:space="preserve">
+    <value>image_Logo_FR</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_FR.Parent" xml:space="preserve">
+    <value>tabLogoFR</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLogoFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabLogoFR.Text" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="&gt;&gt;tabLogoFR.Name" xml:space="preserve">
+    <value>tabLogoFR</value>
+  </data>
+  <data name="&gt;&gt;tabLogoFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabLogoFR.Parent" xml:space="preserve">
+    <value>tabControl_Logo_Image</value>
+  </data>
+  <data name="&gt;&gt;tabLogoFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_Logo_Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_Logo_Image.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="image_Logo_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Logo_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Logo_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Logo_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_NL.Name" xml:space="preserve">
+    <value>image_Logo_NL</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_NL.Parent" xml:space="preserve">
+    <value>tabLogoNL</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLogoNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabLogoNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabLogoNL.Name" xml:space="preserve">
+    <value>tabLogoNL</value>
+  </data>
+  <data name="&gt;&gt;tabLogoNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabLogoNL.Parent" xml:space="preserve">
+    <value>tabControl_Logo_Image</value>
+  </data>
+  <data name="&gt;&gt;tabLogoNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_Logo_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_Logo_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_Logo_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_Logo_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_EN.Name" xml:space="preserve">
+    <value>image_Logo_EN</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_EN.Parent" xml:space="preserve">
+    <value>tabLogoEN</value>
+  </data>
+  <data name="&gt;&gt;image_Logo_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLogoEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabLogoEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabLogoEN.Name" xml:space="preserve">
+    <value>tabLogoEN</value>
+  </data>
+  <data name="&gt;&gt;tabLogoEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabLogoEN.Parent" xml:space="preserve">
+    <value>tabControl_Logo_Image</value>
+  </data>
+  <data name="&gt;&gt;tabLogoEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Logo_Image.Name" xml:space="preserve">
+    <value>tabControl_Logo_Image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Logo_Image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Logo_Image.Parent" xml:space="preserve">
+    <value>tabLogo</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Logo_Image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkLogoPicture.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkLogoPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkLogoPicture.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkLogoPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkLogoPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;chkLogoPicture.Name" xml:space="preserve">
+    <value>chkLogoPicture</value>
+  </data>
+  <data name="&gt;&gt;chkLogoPicture.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkLogoPicture.Parent" xml:space="preserve">
+    <value>tabLogo</value>
+  </data>
+  <data name="&gt;&gt;chkLogoPicture.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabLogo.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="&gt;&gt;tabLogo.Name" xml:space="preserve">
+    <value>tabLogo</value>
+  </data>
+  <data name="&gt;&gt;tabLogo.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabLogo.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl_Bannerpage_image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_Bannerpage_image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="tabControl_Bannerpage_image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_Bannerpage_image.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="image_banner_page_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_banner_page_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_banner_page_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_banner_page_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_NL.Name" xml:space="preserve">
+    <value>image_banner_page_NL</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_NL.Parent" xml:space="preserve">
+    <value>tabBannerPageNL</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBannerPageNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBannerPageNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageNL.Name" xml:space="preserve">
+    <value>tabBannerPageNL</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageNL.Parent" xml:space="preserve">
+    <value>tabControl_Bannerpage_image</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_banner_page_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_banner_page_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_banner_page_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_banner_page_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_EN.Name" xml:space="preserve">
+    <value>image_banner_page_EN</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_EN.Parent" xml:space="preserve">
+    <value>tabBannerPageEN</value>
+  </data>
+  <data name="&gt;&gt;image_banner_page_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBannerPageEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBannerPageEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageEN.Name" xml:space="preserve">
+    <value>tabBannerPageEN</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageEN.Parent" xml:space="preserve">
+    <value>tabControl_Bannerpage_image</value>
+  </data>
+  <data name="&gt;&gt;tabBannerPageEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Bannerpage_image.Name" xml:space="preserve">
+    <value>tabControl_Bannerpage_image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Bannerpage_image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Bannerpage_image.Parent" xml:space="preserve">
+    <value>tabBanner_page</value>
+  </data>
+  <data name="&gt;&gt;tabControl_Bannerpage_image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkBannerPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkBannerPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkBannerPage.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkBannerPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkBannerPage.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;chkBannerPage.Name" xml:space="preserve">
+    <value>chkBannerPage</value>
+  </data>
+  <data name="&gt;&gt;chkBannerPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkBannerPage.Parent" xml:space="preserve">
+    <value>tabBanner_page</value>
+  </data>
+  <data name="&gt;&gt;chkBannerPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabBanner_page.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabBanner_page.Text" xml:space="preserve">
+    <value>Banner Page</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_page.Name" xml:space="preserve">
+    <value>tabBanner_page</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_page.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_page.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_page.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl_BannerMenu_Image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_BannerMenu_Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="image_BannerMenu_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_BannerMenu_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_BannerMenu_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_BannerMenu_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_FR.Name" xml:space="preserve">
+    <value>image_BannerMenu_FR</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_FR.Parent" xml:space="preserve">
+    <value>tabBanner_menuFR</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBanner_menuFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBanner_menuFR.Text" xml:space="preserve">
+    <value>FR</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuFR.Name" xml:space="preserve">
+    <value>tabBanner_menuFR</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuFR.Parent" xml:space="preserve">
+    <value>tabControl_BannerMenu_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_BannerMenu_Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_BannerMenu_Image.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="image_BannerMenu_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_BannerMenu_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_BannerMenu_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_BannerMenu_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_NL.Name" xml:space="preserve">
+    <value>image_BannerMenu_NL</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_NL.Parent" xml:space="preserve">
+    <value>tabBanner_menuNL</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBanner_menuNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBanner_menuNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuNL.Name" xml:space="preserve">
+    <value>tabBanner_menuNL</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuNL.Parent" xml:space="preserve">
+    <value>tabControl_BannerMenu_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_BannerMenu_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_BannerMenu_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_BannerMenu_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_BannerMenu_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_EN.Name" xml:space="preserve">
+    <value>image_BannerMenu_EN</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_EN.Parent" xml:space="preserve">
+    <value>tabBanner_menuEN</value>
+  </data>
+  <data name="&gt;&gt;image_BannerMenu_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabBanner_menuEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabBanner_menuEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuEN.Name" xml:space="preserve">
+    <value>tabBanner_menuEN</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuEN.Parent" xml:space="preserve">
+    <value>tabControl_BannerMenu_Image</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menuEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_BannerMenu_Image.Name" xml:space="preserve">
+    <value>tabControl_BannerMenu_Image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_BannerMenu_Image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_BannerMenu_Image.Parent" xml:space="preserve">
+    <value>tabBanner_menu</value>
+  </data>
+  <data name="&gt;&gt;tabControl_BannerMenu_Image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkBannerMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkBannerMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkBannerMenu.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkBannerMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkBannerMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;chkBannerMenu.Name" xml:space="preserve">
+    <value>chkBannerMenu</value>
+  </data>
+  <data name="&gt;&gt;chkBannerMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkBannerMenu.Parent" xml:space="preserve">
+    <value>tabBanner_menu</value>
+  </data>
+  <data name="&gt;&gt;chkBannerMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabBanner_menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabBanner_menu.Text" xml:space="preserve">
+    <value>Banner Menu</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menu.Name" xml:space="preserve">
+    <value>tabBanner_menu</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menu.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menu.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabBanner_menu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl_TitlePage_image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_TitlePage_image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="image_title_page_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_title_page_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_title_page_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_title_page_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_FR.Name" xml:space="preserve">
+    <value>image_title_page_FR</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_FR.Parent" xml:space="preserve">
+    <value>tabTitlePageFR</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabTitlePageFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabTitlePageFR.Text" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageFR.Name" xml:space="preserve">
+    <value>tabTitlePageFR</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageFR.Parent" xml:space="preserve">
+    <value>tabControl_TitlePage_image</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_TitlePage_image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_TitlePage_image.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="image_title_page_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_title_page_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_title_page_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_title_page_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_NL.Name" xml:space="preserve">
+    <value>image_title_page_NL</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_NL.Parent" xml:space="preserve">
+    <value>tabTitlePageNL</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabTitlePageNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabTitlePageNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageNL.Name" xml:space="preserve">
+    <value>tabTitlePageNL</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageNL.Parent" xml:space="preserve">
+    <value>tabControl_TitlePage_image</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_title_page_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_title_page_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_title_page_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_title_page_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_EN.Name" xml:space="preserve">
+    <value>image_title_page_EN</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_EN.Parent" xml:space="preserve">
+    <value>tabTitlePageEN</value>
+  </data>
+  <data name="&gt;&gt;image_title_page_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabTitlePageEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="tabTitlePageEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageEN.Name" xml:space="preserve">
+    <value>tabTitlePageEN</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageEN.Parent" xml:space="preserve">
+    <value>tabControl_TitlePage_image</value>
+  </data>
+  <data name="&gt;&gt;tabTitlePageEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_TitlePage_image.Name" xml:space="preserve">
+    <value>tabControl_TitlePage_image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_TitlePage_image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_TitlePage_image.Parent" xml:space="preserve">
+    <value>tabTitle_page</value>
+  </data>
+  <data name="&gt;&gt;tabControl_TitlePage_image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkTitlePage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkTitlePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkTitlePage.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkTitlePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkTitlePage.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;chkTitlePage.Name" xml:space="preserve">
+    <value>chkTitlePage</value>
+  </data>
+  <data name="&gt;&gt;chkTitlePage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkTitlePage.Parent" xml:space="preserve">
+    <value>tabTitle_page</value>
+  </data>
+  <data name="&gt;&gt;chkTitlePage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabTitle_page.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabTitle_page.Text" xml:space="preserve">
+    <value>Title page</value>
+  </data>
+  <data name="&gt;&gt;tabTitle_page.Name" xml:space="preserve">
+    <value>tabTitle_page</value>
+  </data>
+  <data name="&gt;&gt;tabTitle_page.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabTitle_page.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabTitle_page.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControl_thumbs_image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_thumbs_image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="image_thumbs_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_thumbs_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_thumbs_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_thumbs_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_FR.Name" xml:space="preserve">
+    <value>image_thumbs_FR</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_FR.Parent" xml:space="preserve">
+    <value>XtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="XtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="XtraTabPage1.Text" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage1.Name" xml:space="preserve">
+    <value>XtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage1.Parent" xml:space="preserve">
+    <value>tabControl_thumbs_image</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_thumbs_image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 215</value>
+  </data>
+  <data name="tabControl_thumbs_image.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="image_thumbs_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_thumbs_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_thumbs_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_thumbs_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_NL.Name" xml:space="preserve">
+    <value>image_thumbs_NL</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_NL.Parent" xml:space="preserve">
+    <value>XtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="XtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="XtraTabPage2.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage2.Name" xml:space="preserve">
+    <value>XtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage2.Parent" xml:space="preserve">
+    <value>tabControl_thumbs_image</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_thumbs_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_thumbs_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_thumbs_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="image_thumbs_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_EN.Name" xml:space="preserve">
+    <value>image_thumbs_EN</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_EN.Parent" xml:space="preserve">
+    <value>XtraTabPage3</value>
+  </data>
+  <data name="&gt;&gt;image_thumbs_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="XtraTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 184</value>
+  </data>
+  <data name="XtraTabPage3.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage3.Name" xml:space="preserve">
+    <value>XtraTabPage3</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage3.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage3.Parent" xml:space="preserve">
+    <value>tabControl_thumbs_image</value>
+  </data>
+  <data name="&gt;&gt;XtraTabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_thumbs_image.Name" xml:space="preserve">
+    <value>tabControl_thumbs_image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_thumbs_image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_thumbs_image.Parent" xml:space="preserve">
+    <value>tabThumbs</value>
+  </data>
+  <data name="&gt;&gt;tabControl_thumbs_image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkthumbs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkthumbs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkthumbs.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkthumbs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkthumbs.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;chkthumbs.Name" xml:space="preserve">
+    <value>chkthumbs</value>
+  </data>
+  <data name="&gt;&gt;chkthumbs.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkthumbs.Parent" xml:space="preserve">
+    <value>tabThumbs</value>
+  </data>
+  <data name="&gt;&gt;chkthumbs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabThumbs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabThumbs.Text" xml:space="preserve">
+    <value>thumbs</value>
+  </data>
+  <data name="&gt;&gt;tabThumbs.Name" xml:space="preserve">
+    <value>tabThumbs</value>
+  </data>
+  <data name="&gt;&gt;tabThumbs.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabThumbs.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabThumbs.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabControl_home_page_image.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl_home_page_image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="image_home_page_FR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_home_page_FR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_home_page_FR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="image_home_page_FR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_FR.Name" xml:space="preserve">
+    <value>image_home_page_FR</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_FR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_FR.Parent" xml:space="preserve">
+    <value>tabhome_pageFR</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_FR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabhome_pageFR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="tabhome_pageFR.Text" xml:space="preserve">
+    <value>FR</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageFR.Name" xml:space="preserve">
+    <value>tabhome_pageFR</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageFR.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageFR.Parent" xml:space="preserve">
+    <value>tabControl_home_page_image</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageFR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl_home_page_image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 231</value>
+  </data>
+  <data name="tabControl_home_page_image.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="image_home_page_NL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_home_page_NL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_home_page_NL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="image_home_page_NL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_NL.Name" xml:space="preserve">
+    <value>image_home_page_NL</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_NL.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_NL.Parent" xml:space="preserve">
+    <value>tabhome_pageNL</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_NL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabhome_pageNL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="tabhome_pageNL.Text" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageNL.Name" xml:space="preserve">
+    <value>tabhome_pageNL</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageNL.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageNL.Parent" xml:space="preserve">
+    <value>tabControl_home_page_image</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageNL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="image_home_page_EN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="image_home_page_EN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="image_home_page_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="image_home_page_EN.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_EN.Name" xml:space="preserve">
+    <value>image_home_page_EN</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_EN.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_EN.Parent" xml:space="preserve">
+    <value>tabhome_pageEN</value>
+  </data>
+  <data name="&gt;&gt;image_home_page_EN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabhome_pageEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 200</value>
+  </data>
+  <data name="tabhome_pageEN.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageEN.Name" xml:space="preserve">
+    <value>tabhome_pageEN</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageEN.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageEN.Parent" xml:space="preserve">
+    <value>tabControl_home_page_image</value>
+  </data>
+  <data name="&gt;&gt;tabhome_pageEN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl_home_page_image.Name" xml:space="preserve">
+    <value>tabControl_home_page_image</value>
+  </data>
+  <data name="&gt;&gt;tabControl_home_page_image.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabControl_home_page_image.Parent" xml:space="preserve">
+    <value>tabHomePage</value>
+  </data>
+  <data name="&gt;&gt;tabControl_home_page_image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkhome_page.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkhome_page.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkhome_page.Properties.Caption" xml:space="preserve">
+    <value>preview picture</value>
+  </data>
+  <data name="chkhome_page.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 19</value>
+  </data>
+  <data name="chkhome_page.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkhome_page.Name" xml:space="preserve">
+    <value>chkhome_page</value>
+  </data>
+  <data name="&gt;&gt;chkhome_page.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkhome_page.Parent" xml:space="preserve">
+    <value>tabHomePage</value>
+  </data>
+  <data name="&gt;&gt;chkhome_page.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabHomePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 246</value>
+  </data>
+  <data name="tabHomePage.Text" xml:space="preserve">
+    <value>Banner HP</value>
+  </data>
+  <data name="&gt;&gt;tabHomePage.Name" xml:space="preserve">
+    <value>tabHomePage</value>
+  </data>
+  <data name="&gt;&gt;tabHomePage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabHomePage.Parent" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;tabHomePage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TabPictures.Name" xml:space="preserve">
+    <value>TabPictures</value>
+  </data>
+  <data name="&gt;&gt;TabPictures.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TabPictures.Parent" xml:space="preserve">
+    <value>gpPicture</value>
+  </data>
+  <data name="&gt;&gt;TabPictures.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gpPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 176</value>
+  </data>
+  <data name="gpPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 297</value>
+  </data>
+  <data name="gpPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="gpPicture.Text" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="&gt;&gt;gpPicture.Name" xml:space="preserve">
+    <value>gpPicture</value>
+  </data>
+  <data name="&gt;&gt;gpPicture.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;gpPicture.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;gpPicture.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 89</value>
+  </data>
+  <data name="lblId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 13</value>
+  </data>
+  <data name="lblId.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblId.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="&gt;&gt;lblId.Name" xml:space="preserve">
+    <value>lblId</value>
+  </data>
+  <data name="&gt;&gt;lblId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblId.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GpBanner.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="txtPage_border_color.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPage_border_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 68</value>
+  </data>
+  <data name="txtPage_border_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txtPage_border_color.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;txtPage_border_color.Name" xml:space="preserve">
+    <value>txtPage_border_color</value>
+  </data>
+  <data name="&gt;&gt;txtPage_border_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtPage_border_color.Parent" xml:space="preserve">
+    <value>GpBanner</value>
+  </data>
+  <data name="&gt;&gt;txtPage_border_color.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPage_border_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="lblPage_border_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lblPage_border_color.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lblPage_border_color.Text" xml:space="preserve">
+    <value>page border color</value>
+  </data>
+  <data name="&gt;&gt;lblPage_border_color.Name" xml:space="preserve">
+    <value>lblPage_border_color</value>
+  </data>
+  <data name="&gt;&gt;lblPage_border_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblPage_border_color.Parent" xml:space="preserve">
+    <value>GpBanner</value>
+  </data>
+  <data name="&gt;&gt;lblPage_border_color.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBannerMenu_text_color.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBannerMenu_text_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 31</value>
+  </data>
+  <data name="txtBannerMenu_text_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txtBannerMenu_text_color.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;txtBannerMenu_text_color.Name" xml:space="preserve">
+    <value>txtBannerMenu_text_color</value>
+  </data>
+  <data name="&gt;&gt;txtBannerMenu_text_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtBannerMenu_text_color.Parent" xml:space="preserve">
+    <value>GpBanner</value>
+  </data>
+  <data name="&gt;&gt;txtBannerMenu_text_color.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblBanner_menu_text_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="lblBanner_menu_text_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblBanner_menu_text_color.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lblBanner_menu_text_color.Text" xml:space="preserve">
+    <value>Menu text color</value>
+  </data>
+  <data name="&gt;&gt;lblBanner_menu_text_color.Name" xml:space="preserve">
+    <value>lblBanner_menu_text_color</value>
+  </data>
+  <data name="&gt;&gt;lblBanner_menu_text_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblBanner_menu_text_color.Parent" xml:space="preserve">
+    <value>GpBanner</value>
+  </data>
+  <data name="&gt;&gt;lblBanner_menu_text_color.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GpBanner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 287</value>
+  </data>
+  <data name="GpBanner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 101</value>
+  </data>
+  <data name="GpBanner.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="GpBanner.Text" xml:space="preserve">
+    <value>Banner</value>
+  </data>
+  <data name="&gt;&gt;GpBanner.Name" xml:space="preserve">
+    <value>GpBanner</value>
+  </data>
+  <data name="&gt;&gt;GpBanner.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GpBanner.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;GpBanner.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GpBackground.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="cmbBackgroundAttachment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 63</value>
+  </data>
+  <data name="cmbBackgroundAttachment.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.1">
+    <value>Combo</value>
+  </data>
+  <data name="cmbBackgroundAttachment.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBackgroundAttachment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="cmbBackgroundAttachment.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;cmbBackgroundAttachment.Name" xml:space="preserve">
+    <value>cmbBackgroundAttachment</value>
+  </data>
+  <data name="&gt;&gt;cmbBackgroundAttachment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbBackgroundAttachment.Parent" xml:space="preserve">
+    <value>GpBackground</value>
+  </data>
+  <data name="&gt;&gt;cmbBackgroundAttachment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBackground_attachment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 73</value>
+  </data>
+  <data name="lblBackground_attachment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblBackground_attachment.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lblBackground_attachment.Text" xml:space="preserve">
+    <value>attachment</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_attachment.Name" xml:space="preserve">
+    <value>lblBackground_attachment</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_attachment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_attachment.Parent" xml:space="preserve">
+    <value>GpBackground</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_attachment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblBackground_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 37</value>
+  </data>
+  <data name="lblBackground_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lblBackground_color.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="lblBackground_color.Text" xml:space="preserve">
+    <value>color</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_color.Name" xml:space="preserve">
+    <value>lblBackground_color</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_color.Parent" xml:space="preserve">
+    <value>GpBackground</value>
+  </data>
+  <data name="&gt;&gt;lblBackground_color.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtBackground_color.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBackground_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="txtBackground_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txtBackground_color.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;txtBackground_color.Name" xml:space="preserve">
+    <value>txtBackground_color</value>
+  </data>
+  <data name="&gt;&gt;txtBackground_color.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtBackground_color.Parent" xml:space="preserve">
+    <value>GpBackground</value>
+  </data>
+  <data name="&gt;&gt;txtBackground_color.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GpBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 176</value>
+  </data>
+  <data name="GpBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 96</value>
+  </data>
+  <data name="GpBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="GpBackground.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="&gt;&gt;GpBackground.Name" xml:space="preserve">
+    <value>GpBackground</value>
+  </data>
+  <data name="&gt;&gt;GpBackground.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GpBackground.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;GpBackground.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LabelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 141</value>
+  </data>
+  <data name="LabelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="LabelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="LabelControl1.Text" xml:space="preserve">
+    <value>selected_type</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Name" xml:space="preserve">
+    <value>LabelControl1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;LabelControl1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 17</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnSaveTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 17</value>
+  </data>
+  <data name="btnSaveTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSaveTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="btnSaveTheme.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTheme.Name" xml:space="preserve">
+    <value>btnSaveTheme</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTheme.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTheme.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnEditTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="btnEditTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEditTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="btnEditTheme.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;btnEditTheme.Name" xml:space="preserve">
+    <value>btnEditTheme</value>
+  </data>
+  <data name="&gt;&gt;btnEditTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnEditTheme.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnEditTheme.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnNewTheme_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="btnNewTheme_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnNewTheme_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="btnNewTheme_edit.Text" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme_edit.Name" xml:space="preserve">
+    <value>btnNewTheme_edit</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme_edit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme_edit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;btnNewTheme_edit.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TxtEventThemeId_edit.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtEventThemeId_edit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TxtEventThemeId_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 86</value>
+  </data>
+  <data name="TxtEventThemeId_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="TxtEventThemeId_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId_edit.Name" xml:space="preserve">
+    <value>TxtEventThemeId_edit</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId_edit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId_edit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;TxtEventThemeId_edit.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtTitleEdit.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTitleEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 112</value>
+  </data>
+  <data name="txtTitleEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="txtTitleEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEdit.Name" xml:space="preserve">
+    <value>txtTitleEdit</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEdit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;txtTitleEdit.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblTitleEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 115</value>
+  </data>
+  <data name="lblTitleEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="lblTitleEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="lblTitleEdit.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEdit.Name" xml:space="preserve">
+    <value>lblTitleEdit</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEdit.Parent" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;lblTitleEdit.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tabDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1183, 805</value>
+  </data>
+  <data name="tabDetail.Text" xml:space="preserve">
+    <value>detail</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Name" xml:space="preserve">
+    <value>tabDetail</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.Parent" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;tabDetail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Name" xml:space="preserve">
+    <value>XtraTabControlTheme</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XtraTabControlTheme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OFDPicture.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>366, 17</value>
+  </metadata>
+  <data name="OFDPicture.Filter" xml:space="preserve">
+    <value>JPEG|*.jpg</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1192, 866</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAA////AAoKCgBfX18APDw8AAUFBQAJCQkAYGBgAEee1ABTotQAEhkeAAAXFwAGc3kAAAwMAIK1
+        1ABNrekADyIoAAAKCgAGb3UAMJHBAAYPFQA8ot4AFXSAAF5oaAA7OzsAAGpqAAwpNQA8mdQASLj/AEOq
+        5QBSXGIAMDAwAAQEBAACDAwABnp/ADyk3wAMHioAUJS/AFaj1ABKuf8ASK7vAEROVAAmJiYAESAiAAh+
+        gwBCs/QATbr/AEaazwCGj5UACBAVAA4fKgBFq+wALkFNACUvNAAJFh8ACD9ZAAyRnwBTu/YAaqzUABEh
+        KgAQEBAAFzA/AEKo6QA/nNcAP6vwAE249gCfxekAHSQqABAiLgAIERcACR0qACSQ1AA/p+kATazpAEGb
+        1AARJC8ALCwsABoaGgACAgIAAw4VADaKvwB2lqoAFCIqAAcQFgASEhIAWVlZADU1NQBejaoACxEVAAYG
+        BgAzMzMAExMTAAEBAQAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8A
+        AAD/AP8A//8AAB8fHwA5OTkARUVFAFJSUgBsbGwAeHh4AIWFhQCSkpIAn5+fAKurqwC4uLgAxcXFANLS
+        0gDe3t4A6+vrAPj4+ADw+/8ApKCgAMDcwADwyqYAAAA+AAAAXQAAAHwAAACbAAAAugAAANkAAADwACQk
+        /wBISP8AbGz/AJCQ/wC0tP8AABQ+AAAeXQAAKHwAADKbAAA8ugAARtkAAFXwACRt/wBIhf8AbJ3/AJC1
+        /wC0zf8AACo+AAA/XQAAVHwAAGmbAAB+ugAAk9kAAKrwACS2/wBIwv8AbM7/AJDa/wC05v8AAD4+AABd
+        XQAAfHwAAJubAAC6ugAA2dkAAPDwACT//wBI//8AbP//AJD//wC0//8AAD4qAABdPwAAfFQAAJtpAAC6
+        fgAA2ZMAAPCqACT/tgBI/8IAbP/OAJD/2gC0/+YAAD4UAABdHgAAfCgAAJsyAAC6PAAA2UYAAPBVACT/
+        bQBI/4UAbP+dAJD/tQC0/80AAD4AAABdAAAAfAAAAJsAAAC6AAAA2QAAAPAAACT/JABI/0gAbP9sAJD/
+        kAC0/7QAFD4AAB5dAAAofAAAMpsAADy6AABG2QAAVfAAAG3/JACF/0gAnf9sALX/kADN/7QAKj4AAD9d
+        AABUfAAAaZsAAH66AACT2QAAqvAAALb/JADC/0gAzv9sANr/kADm/7QAPj4AAF1dAAB8fAAAm5sAALq6
+        AADZ2QAA8PAAAP//JAD//0gA//9sAP//kAD//7QAPioAAF0/AAB8VAAAm2kAALp+AADZkwAA8KoAAP+2
+        JAD/wkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVcAAAAAAAAAAAAAAAAAFlaW1wAAAAAAAAAAABRUlNU
+        VVYFAAA7V1gAAAAAAEobS0xNTk8kUDsAAAAAAAA6LhtERUZHSEkUAAAAAAAAPT4cPz8bQEFCQwAAAAAx
+        MhscMzQ1Njc4OTo7PAAAJSYnHCgpKgUrLC0uLzAAAAAAGxwdHh8gISIjGyQAAAAAAAAVFhcYBREZGhQA
+        AAAAAAAODxAHBAUREhMUAAAAAAAACAkKBwQFAAsMDQAAAAAAAAAABgcEBQAAAAAAAAAAAAAAAAYHBAUA
+        AAAAAAAAAAAAAAACAwQFAAAAAAAAAPgfAAD4HwAA+B8AAMADAADgBwAA4AcAAOAHAACAAQAAgAEAAOAD
+        AADwBwAA4AcAAOAHAAD4HwAA+B8AAPgfAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Activation Code</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name" xml:space="preserve">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name" xml:space="preserve">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name" xml:space="preserve">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name" xml:space="preserve">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name" xml:space="preserve">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name" xml:space="preserve">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name" xml:space="preserve">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name" xml:space="preserve">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name" xml:space="preserve">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;GridViewThemeEvent.Name" xml:space="preserve">
+    <value>GridViewThemeEvent</value>
+  </data>
+  <data name="&gt;&gt;GridViewThemeEvent.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Name" xml:space="preserve">
+    <value>DsSite1</value>
+  </data>
+  <data name="&gt;&gt;DsSite1.Type" xml:space="preserve">
+    <value>DVDPostLib.DsSite, DVDPostLib, Version=2.0.4671.22, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OFDPicture.Name" xml:space="preserve">
+    <value>OFDPicture</value>
+  </data>
+  <data name="&gt;&gt;OFDPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmThemeEvent</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BizzLib.frmBKForm, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

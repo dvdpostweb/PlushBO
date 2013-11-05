@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAE
+        DgAAAk1TRnQBSQFMAgEBBgEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wEAEP8wAAX/AfMB8AEH
+        AbwBBwG8AfMB9AP/MAAD/wH0AfEB7QFtARIBbQHrAW0B7AHvAfMC/wYAAwcnAAL/AfQBBwFtAQcB8AGS
+        Ae0BBwG8AW0BEwHtAfQB/wUAAwcoAAL/AfEB7wHzAfIBBwHtAesB7AGSAbwBkgHsAfQB/wQAAwcCAAEH
+        JgAC/wLxAbwB7wH3Ae0BkgHtAfcB7QHqAe0B9AH/AwAEBwEAAQcBAALsJAAC/wEHAfcCvAHwAbwBBwHv
+        AZIB7AESAe0B9AH/AgACBwIAAgcBAAPsJAAC/wG8AfAB8QHwAbwB8AIHAfABvAFtAe8B9AH/AQACBwEA
+        Av8BAAIHAQAB7AEAAgciAAL/AfEBvAEHAe8BBwPxAgcBkgHzAv8DAAT/AQACBwEAAgcBAAEHIQAD/wHy
+        AQcB8QO8AQcB7wEHAfQD/wIABv8BAAIHAgABByIABP8BBwMZAd0B7QEHAfQE/wMABv8BAAMHIwAD/wH0
+        AbUEGQHsAfMF/wQABf8BAAIHJAAD/wHxAfAD9AEHAe8B9AX/BQAD/wEAAgclAAP/AbwB9APzAQcB8gb/
+        BgAB/wEAAgcmAAP/AfQE/wH0B/8IAAEHJwAQ/0AABP8BvAFDAQsCHgELAQABQwG8A/8HAAEOAQABDgYA
+        EP8QAAP/AW0IHgEAAZIC/wUAAQ4BDwISARMBDgUAA/8B8AG8A/AFvAHzAv8HAAEOAQABDgYAAv8BRQMe
+        Ax8EHgEAAZIB/wQAARABBwHvAe0BEQEQARQBDgQAAv8BGgGSAe8D3QQJAbUBvAL/BQABDgEPAhIBEwEO
+        BQAB/wGTAR4BHwFFBR8BRQMeAQABvAMAAQ8B7QH3ARMB8QEbAbwBFQEUAg4CAAL/ARoBdAGSAbwFGQEJ
+        AbUBvAL/BAABEAF5ARwB7AERARABFAUAAf8DHwHiAf8DHwFFAv8CHgELAW0CAAEOAewBEwHxAbwBGwLz
+        AQcBEAEOARMCDgP/AZkBdAH3AfAEGQEJAbUBvAL/AwABDwHtARwBFQHrAfABvAEVARIBDgMAAbwDHwGS
+        Av8BHwFFAeIB/wFtAx8BQwEAAQ4BEQHxARsB8AFDAQ8BbQLrARIBDwETAQ8BEgP/AbwBGgGTAe8BCQEZ
+        Ad0CCQG1AbwC/wIAAQ4B7AETAfECGwL2AfIBBwERARIBDgEAAUYCHwEgAR8BkgT/AW0EHwEAAQ4BvAEb
+        AfYB8wHsARMBDwFtA/cB7AFDARMB6gP/AfAB9AHwAQkBGQL0AfACCQHwAv8BAAEOAREB8QEbAvMB7QHy
+        AvYB9AG8AXkBDwEAAh8DIAEfAbwC/wFuBR8CAAHwAvYBwwEaAesBkwF0AUQBmQL0AbwBDwEOA/8B8AH/
+        AfECGQH0Af8BGQIJAfAC/wEOAbwBGwH2AfMB7QEbARoB7QEbAvYB8gIUAQ4FIAFGAeIC/wHiAR8CIAIf
+        AwABvATDARsBWQFSAUQBCAEbAQgBDgEAA/8B8QH/AfECGQLiARkCCQHwAv8BAAHwAvYBwwEbAe0CGwHw
+        AfYC/wEHAQ8BAAFGAyABRgHiAf8BbgG7Av8DIAEfAUMDAAHwAv8B9AHsAXMBWQFSASIBDgMAA/8BGQH/
+        AfIB8QMZAwkB8AL/AgABvAPDARsB8APDAfMB8AERAgABvAEgAfkBRgHiAf8BbgIgAZIB/wHiAyABkgQA
+        AfAC/wEbAVIBdAFZAVIBIgMAA/8BGQL/AfEFCQG1AfAC/wMAAfAF/wH2AfABEQEOAwAB/wEgAUcBRgG7
+        AW4EIAGSAUUCIAEeAf8FAAHwAfMBCAEiAVIBdAFZAVIBDgIAA/8B8wT/AfQB8QG1ArQB8QL/BAAB8AP/
+        AfMBCAERBQAB/wG9AkcB4wJHAvkBRwFGAUcCIAG8Af8GAAEOAwABUgF0AVgBEwEOAQAD/wEZBf8B8gG1
+        AdsBCQP/BQAB8AHzAQgBEQEOBgAC/wFvAUcG4wJHAfkBvAL/CwABUgFLAW8BEwEAA/8EGQLxAQkBtQHd
+        BP8GAAEOCQAD/wGUAUcB4wKUAuMBRwEgBP8MAAEUAW0BjgEOA/8G9ALzBf8QAAX/Ab0BbwJHAW8BvQX/
+        DQABEgGOAQ4Q/wFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AwAC/wYAAfwBfwYA
+        AfgBPwYAAfABHwYAAeABDwYAAcABBwYAAYABAwcAAQEOAAGAAQEGAAHAAQMGAAHgAQcGAAHwAQ8GAAH4
+        AR8GAAH8AT8GAAH+AX8EAAL/AgAB+AG/AgAC/wIAAfABHwIAAfgBvwIAAeABDwIAAfABHwIAAcABAwIA
+        AeABHwIAAYADAAHAAQcGAAGACwABgAcAAcABAQIAAYABAQIAAeABBwIAAcABAQIAAfABAwIAAeABBwIA
+        AfgBAQIAAfABHwIAAf0BwAIAAfgBPwIAAf8B4AIAAf0B/wIAAf8B8AIAAv8CAAH/AfgCAAs=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatusBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 532</value>
+  </data>
+  <data name="StatusBarPanel1.Name" xml:space="preserve">
+    <value>StatusBarPanel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatusBarPanel1.Width" type="System.Int32, mscorlib">
+    <value>1051</value>
+  </data>
+  <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
+  </metadata>
+  <data name="HelpProvider1.HelpNamespace" xml:space="preserve">
+    <value>.\Help\BizzKeys.chm</value>
+  </data>
+  <data name="StatusBar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="StatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1072, 26</value>
+  </data>
+  <data name="StatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="StatusBar1.Text" xml:space="preserve">
+    <value>StatusBar1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Name" xml:space="preserve">
+    <value>StatusBar1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="RightMouseMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
+  </metadata>
+  <data name="PopMenuNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="PopMenuEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="PopMenuDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PopMenuSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MenuItem5.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="PopMenuPrintPreview.Text" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="MenuItem7.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="PopMenuAssociatedTasks.Text" xml:space="preserve">
+    <value>Associated Tasks</value>
+  </data>
+  <data name="MenuItem9.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="PopMenuUserTasks.Text" xml:space="preserve">
+    <value>User Tasks</value>
+  </data>
+  <data name="Grid1.DataMember" xml:space="preserve">
+    <value>systemmenu</value>
+  </data>
+  <metadata name="objDS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>461, 17</value>
+  </metadata>
+  <data name="Grid1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Grid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="colMenuID.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colMenuID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colMenuID.Width" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="colMenuLabel.Caption" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="colMenuLabel.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuLabel.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colMenuLabel.Width" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="colFormName.Caption" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="colFormName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFormName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colFormName.Width" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="colMenuIcon.Caption" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="colMenuIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuIcon.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colMenuIcon.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="colMenuIconExpanded.Caption" xml:space="preserve">
+    <value>Expanded Icon</value>
+  </data>
+  <data name="colMenuIconExpanded.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuIconExpanded.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colMenuIconExpanded.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="colMenuStartID.Caption" xml:space="preserve">
+    <value>StartID</value>
+  </data>
+  <data name="colMenuStartID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colMenuStartID.Width" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="colMenuStartCode.Caption" xml:space="preserve">
+    <value>Start Code</value>
+  </data>
+  <data name="colMenuStartCode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartCode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colMenuStartCode2.Caption" xml:space="preserve">
+    <value>MenuStartCode2</value>
+  </data>
+  <data name="colMenuStartCode2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartCode2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colMenuAssembly.Caption" xml:space="preserve">
+    <value>MenuAssembly</value>
+  </data>
+  <data name="colMenuAssembly.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuAssembly.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colMenuLandScape.Caption" xml:space="preserve">
+    <value>LandScape</value>
+  </data>
+  <data name="colMenuLandScape.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuLandScape.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="GridView1.GroupFormat" xml:space="preserve">
+    <value>{0}: {1} {2}</value>
+  </data>
+  <data name="GridView1.GroupPanelText" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="Grid1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Grid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 460</value>
+  </data>
+  <data name="Grid1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Name" xml:space="preserve">
+    <value>Grid1</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;Grid1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Grid1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="OleDbDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>554, 17</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM systemmenu WHERE (MenuID = ?) AND (MenuAssembly = ? OR ? IS NULL AND MenuAssembly IS NULL) AND (MenuForm = ? OR ? IS NULL AND MenuForm IS NULL) AND (MenuIcon = ? OR ? IS NULL AND MenuIcon IS NULL) AND (MenuIconExpanded = ? OR ? IS NULL AND MenuIconExpanded IS NULL) AND (MenuLabel = ? OR ? IS NULL AND MenuLabel IS NULL) AND (MenuLandScape = ? OR ? IS NULL AND MenuLandScape IS NULL) AND (MenuStartCode = ? OR ? IS NULL AND MenuStartCode IS NULL) AND (MenuStartCode2 = ? OR ? IS NULL AND MenuStartCode2 IS NULL) AND (MenuStartID = ? OR ? IS NULL AND MenuStartID IS NULL)</value>
+  </data>
+  <metadata name="OleDbConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <data name="OleDbConnection1.ConnectionString" xml:space="preserve">
+    <value>Integrated Security=SSPI;User ID=CashIBA;Data Source="BizzKEys-Acer";Tag with column collation when possible=False;Initial Catalog=CashIBA;Use Procedure for Prepare=1;Auto Translate=True;Persist Security Info=False;Provider="SQLOLEDB.1";Workstation ID="BIZZKEYS-ACER";Use Encryption for Data=False;Packet Size=4096</value>
+  </data>
+  <metadata name="OleDbInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO systemmenu(MenuID, MenuLabel, MenuForm, MenuIcon, MenuIconExpanded, MenuStartID, MenuStartCode, MenuStartCode2, MenuAssembly, MenuLandScape) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?); SELECT MenuID, MenuLabel, MenuForm, MenuIcon, MenuIconExpanded, MenuStartID, MenuStartCode, MenuStartCode2, MenuAssembly, MenuLandScape FROM systemmenu WHERE (MenuID = ?)</value>
+  </data>
+  <metadata name="OleDbSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE systemmenu SET MenuID = ?, MenuLabel = ?, MenuForm = ?, MenuIcon = ?, MenuIconExpanded = ?, MenuStartID = ?, MenuStartCode = ?, MenuStartCode2 = ?, MenuAssembly = ?, MenuLandScape = ? WHERE (MenuID = ?) AND (MenuAssembly = ? OR ? IS NULL AND MenuAssembly IS NULL) AND (MenuForm = ? OR ? IS NULL AND MenuForm IS NULL) AND (MenuIcon = ? OR ? IS NULL AND MenuIcon IS NULL) AND (MenuIconExpanded = ? OR ? IS NULL AND MenuIconExpanded IS NULL) AND (MenuLabel = ? OR ? IS NULL AND MenuLabel IS NULL) AND (MenuLandScape = ? OR ? IS NULL AND MenuLandScape IS NULL) AND (MenuStartCode = ? OR ? IS NULL AND MenuStartCode IS NULL) AND (MenuStartCode2 = ? OR ? IS NULL AND MenuStartCode2 IS NULL) AND (MenuStartID = ? OR ? IS NULL AND MenuStartID IS NULL); SELECT MenuID, MenuLabel, MenuForm, MenuIcon, MenuIconExpanded, MenuStartID, MenuStartCode, MenuStartCode2, MenuAssembly, MenuLandScape FROM systemmenu WHERE (MenuID = ?)</value>
+  </data>
+  <data name="btnNew1.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnEdit1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDelete1.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSave1.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnPrint1.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ToolBar1.ButtonSize" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="ToolBar1.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ToolBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolBar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolBar1.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 72</value>
+  </data>
+  <data name="ToolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Name" xml:space="preserve">
+    <value>ToolBar1</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.Parent" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;ToolBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 37</value>
+  </data>
+  <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 0</value>
+  </data>
+  <data name="Splitter2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="Splitter2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Name" xml:space="preserve">
+    <value>Splitter2</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Splitter2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 0</value>
+  </data>
+  <data name="Panel4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 37</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 35</value>
+  </data>
+  <data name="Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 497</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colMenuLabel1.Caption" xml:space="preserve">
+    <value>MenuLabel</value>
+  </data>
+  <data name="colMenuLabel1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuLabel1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colMenuLabel1.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="colSequence.Caption" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="colSequence.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSequence.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colSequence.Width" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="colMenuStartID1.Caption" xml:space="preserve">
+    <value>MenuStartID</value>
+  </data>
+  <data name="colMenuStartID1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartID1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colMenuStartID1.Width" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="colMenuStartCode1.Caption" xml:space="preserve">
+    <value>MenuStartCode</value>
+  </data>
+  <data name="colMenuStartCode1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartCode1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colMenuStartCode1.Width" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="colMenuStartCode21.Caption" xml:space="preserve">
+    <value>MenuStartCode2</value>
+  </data>
+  <data name="colMenuStartCode21.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMenuStartCode21.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colMenuStartCode21.Width" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="TreeList1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TreeList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="RepositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TreeList1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TreeList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 469</value>
+  </data>
+  <data name="TreeList1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TreeList1.Name" xml:space="preserve">
+    <value>TreeList1</value>
+  </data>
+  <data name="&gt;&gt;TreeList1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;TreeList1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;TreeList1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPlus.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnMinus.ImageIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnLeft.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnRight.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnUp.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDown.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnRefresh.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ToolBar2.ButtonSize" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ToolBar2.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ImageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>199, 60</value>
+  </metadata>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABQ
+        CwAAAk1TRnQBSQFMAgEBBwEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wEAAq4BhgJmAbUB3QK1
+        Bt0BCQUABfwmAAG8AQcC7wH3AfIB/wGZAXQBGgX/AfQDAAn8JAAC8gHxAfAB9AL/AZoBWAF5ARsE/wH0
+        AgAL/AkABPkWAAHtAewBbQESAfAC/wHDAaABeQF0BP8B9AEABvwC/wX8BgAI+RQAAvIB8QHwAfQC/wH2
+        AcMBmgF5ARwD/wH0AQAG/AL/BvwEAAr5EwABvAEHAu8B9wHyAv8BGwEaAZoBdAGZAv8B9Af8Av8G/AQA
+        CvkTAAHvAfcC7AHrAfAB9AHyAQcBmQEaAXkBdAHxAf8B9Af8Av8H/AIADPkSAAb/AQcBcwLrARwBoAFY
+        AW4B/wH0A/wK/wP8AgAC+Qj/AvkSAAHvAfcC7AHxAf8BGgGZAxoBoAF6AXQB7AH0A/wK/wP8AgAC+Qj/
+        AvkSAAG8AQcC7wHzAf8BGwEaAsMBoAF6AXkBGgHvAfQH/AL/B/wCAAz5EgAC8gHxAvAB9AH/ARsCwwGg
+        AXoBdAHyAf8B9Af8Av8H/AMACvkTAAHtAewBbQISAbwC/wH2AsMBoAFYAXMB/wH0AQAG/AL/BvwEAAr5
+        EwAC8gHxAvAB9AL/ARsBGgHDAaABegFSAZIB9AEABvwC/wb8BQAI+RQAAbwBBwLvAfcB8gL/AfQBGwLD
+        AaABWQFzAfcCAAz8CAAE+RYAAe8B9wLsAesB8AP/AfYCwwGgAXoBdAFtAwAK/CMACv8BGwOZAXQBcwUA
+        BvwlAAEHDuwyAAMHCOwLAAHsFwAC7BAABgcC7A4AAewXAALsEQAGBw4AAuwWAAPsEQAGBw4AAuwWAATs
+        EQAFBw0AA+wWAATsEQAFBw0AA+wVAAXsEgAEBwwABOwVAAbsEQAEBwwABOwJAAwHBuwSAAMHCwAF7AsA
+        CgcG7AsHBwADBwsABewNAAkHBOwKBwoAAgcKAAbsDwAHBwTsCAcMAAIHCgAG7BEABQcE7AYHDwABBwkA
+        BuwCBxIABAcC7AUHEQABBwkAA+wIBxEAAgcC7AMHHAAB7A4HEAADBw4AAUIBTQE+BwABPgMAASgDAAFA
+        AwABIAMAAQEBAAEBBgABARYAA/8DAAH4AT8C/wQAAeABDwL/BAABwAEHAfwBPwQAAYABAwHwAQ8EAAGA
+        AQEB4AEHBQABAQHgAQcGAAHAAQMGAAHAAQMGAAHAAQMGAAHAAQMGAAHgAQcEAAGAAQEB4AEHBAABgAEB
+        AfABDwQAAcABAwH8AT8EAAHgAQcC/wQAAfgBHwL/BAAB/wF/Af8B/AF/Af8BgAEAAf4BfwH/AfABHwH/
+        AYABAQH+AT8B/wHAAQcB/wHAAQEB/AE/Af8BAAEBAf8BwAEDAfwBHwH8AgABfwHgAQMB+AEfAfACAAEf
+        AeABBwH4AQ8BwAIAAQcB8AEHAfABDwMAAQEB8AEPAfABBwGAAwAB+AEPAeABBwHgAgABAwH4AR8B4AED
+        AfgCAAEPAfwBHwHAAQMB/gIAAT8B/AE/AcABAQH/AYABAAH/Af4BPwGAAQEB/wHgAQMB/wH+AX8BgAEA
+        Af8B+AEPAv8BfwIAAf8B/gE/Af8L
+</value>
+  </data>
+  <data name="ToolBar2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ToolBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolBar2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolBar2.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 28</value>
+  </data>
+  <data name="ToolBar2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolBar2.Name" xml:space="preserve">
+    <value>ToolBar2</value>
+  </data>
+  <data name="&gt;&gt;ToolBar2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolBar2.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;ToolBar2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 35</value>
+  </data>
+  <data name="Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 497</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Splitter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 35</value>
+  </data>
+  <data name="Splitter1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 497</value>
+  </data>
+  <data name="Splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Name" xml:space="preserve">
+    <value>Splitter1</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="OleDbDataAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>325, 60</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbSelectCommand3.CommandText" xml:space="preserve">
+    <value>SELECT systemmenutree.ParentID, systemmenu_1.MenuID, systemmenu_1.MenuLabel, SystemMenu_1.MenuForm, systemmenu_1.MenuIcon, systemmenu_1.MenuIconExpanded, SystemMenuTree.Sequence, systemmenu_1.MenuStartID, systemmenu_1.MenuStartCode, SystemMenu_1.MenuStartCode2 FROM systemmenu systemmenu_1 RIGHT OUTER JOIN systemmenutree ON systemmenu_1.MenuID = systemmenutree.MenuID LEFT OUTER JOIN systemmenu ON SystemMenuTree.ParentID = systemmenu.MenuID</value>
+  </data>
+  <metadata name="OleDbDataAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>516, 60</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE systemmenutree SET ParentID = ?, MenuID = ?, Sequence = ? WHERE (MenuID = ?) AND (ParentID = ?) AND (Sequence = ? OR ? IS NULL AND Sequence IS NULL); SELECT ParentID, MenuID, Sequence FROM systemmenutree WHERE (MenuID = ?) AND (ParentID = ?)</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1072, 558</value>
+  </data>
+  <data name="$this.HelpKeyword" xml:space="preserve">
+    <value>Menu Definition</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABACAAqBAAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAAAB
+        AAASCwAAEgsAAAABAAAAAQAAHQLUAB4F0QAkD84AJQ3VACoN0AArD9QAKw7WACcU0wAqEtIAKxLXACoW
+        0QAtFtMALhXRAC4W0gAvFNgALBnTADAZ1AAyHtQANBnVADUa2QA2INQANSTWADkg0gA8JtcAPCXaAD4n
+        2gBBJ9oAQCnXAEIr1wBCLdYASDDaAEkz2wBMNd4AUTjfAFE82ABSPtsAVUDbAFRA3gBVRd0AW0fdAFxH
+        3gBaSdoAXUnaAF1H4ABfU+IAa1ffAGtd3wBxXt4AYE3hAGNM5QBkUeAAaFThAGpi5ACBc+EAg3PjAIN3
+        5ACJfuMAiHzlAIl76ACMguAAj4XnAJOF6gCTjOkAnJHlAJ2Q6wCelukAopjoAKSb6gCso+oArKPtAK6l
+        6QCupe4Asq3qALCs7AC0r+8Atq7tALmv8gC7te0AvLbrAL267wC3svEAuLDxALu08ADBuu8AwLrwAMXC
+        7gDBwPIAxMXyAMfE8wDHxvEAyMHwAMjG8wDKx/MAy8X0ANTR8wDX1fYA29rzANjZ9gDa2PcA3drzAN3Z
+        9gDc2vcA3dr2ANrb+ADg3voA5uP2AOXk9gDj4fkA4uL5AOvn+wDq6/cA7O/1AO/s9wDr6vgA6+z5AO3u
+        +QDt7vsA7uz5AO/v/ADs8PgA8O34APHt+gDw7vkA8O76APDx+ADx8fgA8/X7APTz/AD09/kA9vT5APf1
+        +wD39/sA9vb8APX7+QD3+fsA9vv5APj2+AD4+vcA/Pv3AP/99wD5+vsA+/n7APr6+wD6+/sA+fj9APj6
+        /AD4+/wA+fv8APn7/QD6+/wA+/r9APv7/QD4/foA+vz5APr9+gD7/PsA+/36APv9+wD6/fwA+/z9APv+
+        /AD++/oA/fv+AP76/QD8/PgA/Pz5APz9+QD9/PkA/f34APz9+wD9/PsA/f36AP39+wD8/voA/f77AP78
+        +gD+/PsA/v37AP/8+gD//fsA/v77AP/++wD8/PwA/P38APz9/QD9/PwA/f39APz9/gD9/f8A/P78APz+
+        /QD9/v4A/vz8AP78/QD+/fwA/v39AP/8/AD//fwA//39AP78/gD//P4A/v78AP7+/QD//vwA/v7+AP7+
+        /wD//v4A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALa2tra2tra2tra2tra2tra2tra2fHxsbHd8tra2tra2tra2XjQQ
+        CgIKJFaetra2tra2VRYdO2xeVDAQPZ62tra2bCkWbLa2tra2QgpQtra2tikwpLa2tra2trY1FoS2tmwQ
+        T7akfFQ7Xp62bApRtrZWAnG2tj0WMjB4kXgwNXh8RBaetnIsSGEtVVYCAgIbSU4Wd7ajNSUyJGy2HSsr
+        G3hoEFq2pGE9NVq2tjsKEEK2tiQynp62pLaktra2GxZstrZWCjuRtra2tra2tj89tra2pEQKMFWRnmg1
+        VrZ8eLa2nrakVicQBAICG062tra2tqSetraEXlFMVnyRmba2trYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAEAAAEgsAABILAAAAAAAAAAAAAP7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v36//79
+        +v/9+vr//v7+//79+v/+/v7//vr+//r9/v/+/fr//v36//r9/v/++v7//vr+//79+v/9+vr/+v36//7+
+        /v/++v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/29v7/+vr+//r6+v/+/fr//v36//369v/+/fr//v7+//7+/v/+/v7//v7+//7+9v/7/fL/+fX+//76
+        /v/+/v7//vr+//79+v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//79+v/3+fr/7vH9/+bq/P/f4fv/2976/8rJ9//CwfT/wbr2/8LB9P/P0fj/4+X7/+bw
+        +//2+v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v36//Hv/v/CwfT/hobm/1dK3/8qDs3/HwTX/x0C1f8fBNf/HAPP/x4J
+        y/82JNj/b2Dj/6uk7f/p6/r/+v3+//r9+v/6/vb//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//r9/v/p6fb/nZPo/0w63f8aA9n/HQLV/yIGzf8dAtX/HQLR/x8G
+        y/8eBtL/HgLZ/x4E2/8fBsv/MRnN/3do4//Fx/H/8vn5//X2+f/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/6/f7/8/P8/2hW4v8qFcb/GQXV/xcE0v81I87/dWTo/62q
+        7P+8v/L/vsLw/7e29P+aje//Y0/Y/yIK2f8aA9b/JAXd/0wy1/+tn+//9fb5//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v36//79+v/++v7/+/3y/9rb+f9gSuL/FwTS/yMG0/9JJtz/rJzq/+/u
+        9v/6+vr/+vr+//r6/v/6+v7/9vr+//r9/v/3+fr/08v2/3Rc3/8xFdH/GgPW/x8J0v+MkOr/7vH9//j6
+        9//++v7//v7+//79+v/+/fr//v7+//7+/v/+/v7//v36//76/v/f4fX/bV/U/yoOzf8kCtT/YU3e/8XH
+        8f/3+fr/+fX+//r9+v/+/v7/+v36//79+v/+/v7//v7+//79+v/6/f7/7PP7/5uT5f9DKOH/HQXO/y8X
+        2f+tquz/8vX9//79+v/9+vr//v36//7+/v/+/v7//v7+//79+v/9+vb/9/n6/4h+6/8sEs3/IQLZ/2pT
+        1P/U1PT/9f31//r+9v/6/vb/+v3+//7+/v/+/v7//v7+//7+/v/++v7//vr+//79+v/9+vr/8vX2/62q
+        7P8+KND/HgbS/0060v/U1PT//v36//79+v/+/fr/+v3+//7+/v/+/v7//v7+//76/v/a2/n/NBzT/x0C
+        1f9JJtz/5eP2//r6/v/+/fr//vr+//79+v/6/fr//v7+//7+/v/+/fr//v7+//7+/v/+/v7//v72//z2
+        /P/9+vr/9fb2/5WN6f8mDNH/HwTX/4Z74P/6+v7//v7+//r9+v/6/f7//v7+//7+/v/6/fr/+fX+/4p2
+        5P8WBc3/KxTT/7Sl9v/7/fL//vr+//36+v/+/fr//vr+//76/v/6+vr/+v3+//r6/v/6+vr/+v36//r+
+        9v/6/fr//vr+//76/v/++v7/7vH9/2JR1f8aA9b/MRXR/9rb+f/++v7//v36//r6/v/+/v7//v7+//b9
+        /f/m3/n/WDrQ/xoD2f9iWdr/6+ry//b6/v/6+v7//vr+//7+9v/+/vb//fr6/+jl+v/OxOr/yb/o/9rV
+        9v/y9f3/9v35//L5+f/2+vb//vr+//7+9v/6/fr/ubPu/yMNz/8jBtP/nIr4//X99f/+/fr//vr+//7+
+        /v/+/v7/+v3+/7Gs6/80HNP/LQzT/6WY5//9+vr/9v39//76/v/+/vb//v72//76/v/Kv/v/d2jj/4qE
+        4v+Ifuv/hXzp/5eE6//y8vr/8v36//r6+v/+/v7/+vr6//r9+v/l4/b/V0PV/xoD1v9VReT/9v35//7+
+        9v/6/vb//v7+//7+/v/6+v7/i4rg/x8J0v9EJdv/y8Lz//79+v/6/f7//v7+//79+v/6/fr/x8Pz/29i
+        zf9VReT/MRXX/zIV2/81J8X/X0vi/4p25P/y+fn//v36//z68//+/v7/+vr6//n1/v+RgOX/IgjR/0Ar
+        0f/a1fb//vr+//n1/v/6/fr//v7+//b2/v94beH/HQLV/1I63v/l6fv/+v72//7+/v/+/fr/+vr6/+7x
+        /f+Vjen/WUTj/zEV1/94ZOT/kIHs/0o21f82GeD/a1fs/8vC8//++v7//fr2/+jl+v/l4/3/5+f7/5eL
+        7f8qCt3/NBzT/7qx8f/l4/b/4+X7/+jl+v/4+vf/7uz6/3Bf4/8eAtn/WUTb//P7/P/+/fr//v36//7+
+        /v/+/v7/2dzz/42D6/8xItP/bF3c/+ju9f/3+fr/tKvx/zob1f9zbOH/nZPo//r6/v/v7vb/j4Hf/2NP
+        2P9iUdX/SDTe/yIK2f8iCtn/UDnW/2NL3v9iUdX/inbk/9/h9f/u7Pr/bFzg/x0C0f9bSt7/9v39//r9
+        +v/+/fr//v7+//r9+v/U1PT/ioTi/zoj3v98auH/+Pr3//r6+v/Hw/P/SSbc/3ht4f+TjOP/9vr+//L1
+        /f+Qgez/JArU/x4C2f8aCMv/GgjL/xwB4P8dBc7/HgTb/x8Gy/+Ecer/7PP7//Ly+v91at3/HAPP/1lE
+        2//s8/v//v7+//7+/v/+/v7//v7+/+vq/P+bk+X/SjbV/0Qp3f+koOr/xcP1/3Ri5P8xFMr/e2/e/7ew
+        7v/89vz//vr+/83T9P9KNtX/IQLZ/ykJ1v9NOtL/TDrd/yMNz/8dAtX/RCnd/9PL9v/6/vb/+vr6/4yD
+        4/8iCNH/RDHX/8/R+P/6+vr/+v3+//7+/v/++v7/+vr+/7Gs6/9uWuH/OiPe/zEV1/86HNn/LQzT/1I6
+        3v96auT/6en2//7+9v/+/fr/9vr2/42D6/8pBtP/KxTT/6mj8f+0uPX/LhjR/yIGzf+Ecer/+vr6//79
+        +v/6/fr/p5rr/ywSzf8rFNP/rars//36+v/6/fr//fr6//76/v/6/vb/6ev6/5OM4/9ZROP/bWLo/2hW
+        4v9lU+P/dV7b/8vC8//6+vr//v72//76/v/++v7/09H4/zofx/8aAs//XUXX/2FU3f8aA9b/LBLN/9XN
+        +//+/v7//v7+//79+v/Vzfv/RCzO/yIG2P96cN7/8vX2//79+v/+/fr//vr+//7+9v/6/vb/8/P8/9HX
+        6/+mnOj/oJPr/7mz7v/p6fb/+vr+//r9+v/9+vr//vr+//76/v/29v7/hHXl/x0Fzv8iBs3/HQXO/xsF
+        y/91ZOj/+vr6//7+/v/+/v7//v36//b2/v9qU9T/HQLV/0Ql2//Fw/X//fr6//79+v/6+v7/+vr+//79
+        +v/++v7//fr6//r9+v/6/f7/+v3+//76/v/+/vb//v36//79+v/++v7/+v36//b9+f/Pzvn/OyDV/x4E
+        2/8WBc3/NSPO/8G69v/+/v7//v7+//7+/v/+/fr//vr+/8C39P8kCtT/HQLR/2xc4P/u8f3/9v35//r9
+        +v/++v7//v36//76/v/9/PH//v36//79+v/++v7//fr2//7+9v/+/fr//v7+//76/v/+/v7/+v36//L1
+        9v+EdeX/HwnS/xoF0v9yXuf/6+r8//79+v/+/v7//v7+//79+v/++v7/8vX9/2FU3f8eCcv/JgzR/5SM
+        3v/u8f3/+v36//79+v/+/vb/+vr6//79+v/++v7/+vr+//r+9v/9+vr//v7+//7+/v/+/fr//v36//r6
+        /v/++v7//v72/8G96/87K8v/MhXb/7Sr8f/++v7/+/3y//7+/v/+/v7//v7+//369v/3+fr/zdP0/0c7
+        1/8eBtL/KhXG/4Z73f/l4/3//v36//r9+v/6/f7//v7+//79+v/6/fr/+v3+//r9/v/+/fr//v7+//r9
+        +v/2+vb//vr+//76/v/+/v7/+fX+/3xq4f9uWuH/9/n6//36+v/6/f7//v7+//7+/v/6/f7//vr+//79
+        +v/19vn/urHx/0w3zP8aBdL/LBLN/3Vk6P/KxPH/9fb2//r6/v/+/v7//v7+//76/v/++v7//v7+//r6
+        +v/l6fv/tKXt/8m88v/6/fr//v72//76/v/++v7/08fs/87E6v/++v7/+v36//7+/v/+/v7//v7+//r9
+        /v/++v7//v36//388f/y8vr/urHx/zEi0/8dBc7/KQnW/0Qszv94beH/tbX6/+ju9f/2/fn/9v35//L1
+        /f/a1fb/pJrd/1dK3/8xGc3/YlHV/9ve+v/2/fn/+v36//r+9v/59f7/+fX+//r+9v/6/vb//v7+//7+
+        /v/+/v7/+v3+//7+/v/9+vr//v72//388f/6+vr/wMn1/2FN3v8rFNP/HQLV/x8J0v8lEtL/OhvV/zob
+        1f80HNP/OhzZ/zgU3/8rDdX/GgXS/yIG2P9JL87/wb3r//r+9v/9+vr//v36//7+/v/+/fr//v36//79
+        +v/+/v7//v7+//7+/v/6/fr/+v3+//76/v/+/fr//v36//79+v/4+vf/7vH9/6uk7f9gStX/QCbS/yMG
+        0/8bBcv/GgLP/yQF3f8dAtX/HQXO/y4Y0f9NOtL/e2/e/9PR+P/6+v7//vr+//79+v/+/v7//v7+//7+
+        /v/+/v7//vr+//76/v/+/v7//v7+//r9+v/6/f7/+v3+//7+/v/++v7//vr+//369v/+/v7/+vr+/+Xj
+        /f/At/T/nZPo/4R15f96auT/fWzq/35x5P+KhOL/qaPx/9PL9v/y9f3/9fb2//z68//9+vb//fr6//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//vr+//r9+v/6/fr/+v3+//r9/v/6/f7//vr+//7+
+        /v/+/fr/+v36//r+9v/6/fr/9O7+//Hv/v/y8vr/8vL6//b6/v/9+vr//v72//36+v/6+vr/9v35//b9
+        +f/6/fr//v36//7+/v/+/v7//v36//79+v/+/fr//v7+//7+/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Menu Definition Browse</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Name" xml:space="preserve">
+    <value>cmbViewListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbViewListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Name" xml:space="preserve">
+    <value>btnViewDetail</value>
+  </data>
+  <data name="&gt;&gt;btnViewDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Name" xml:space="preserve">
+    <value>txtQuickSearchRepos</value>
+  </data>
+  <data name="&gt;&gt;txtQuickSearchRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Name" xml:space="preserve">
+    <value>cmbReportListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbReportListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Name" xml:space="preserve">
+    <value>btnReportDetail</value>
+  </data>
+  <data name="&gt;&gt;btnReportDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Name" xml:space="preserve">
+    <value>cmbFilterListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbFilterListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Name" xml:space="preserve">
+    <value>btnFilterDetail</value>
+  </data>
+  <data name="&gt;&gt;btnFilterDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Name" xml:space="preserve">
+    <value>cmbDefaultListRepos</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultListRepos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Name" xml:space="preserve">
+    <value>btnDefaultDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel1.Name" xml:space="preserve">
+    <value>StatusBarPanel1</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Name" xml:space="preserve">
+    <value>RightMouseMenu</value>
+  </data>
+  <data name="&gt;&gt;RightMouseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Name" xml:space="preserve">
+    <value>PopMenuNew</value>
+  </data>
+  <data name="&gt;&gt;PopMenuNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Name" xml:space="preserve">
+    <value>PopMenuEdit</value>
+  </data>
+  <data name="&gt;&gt;PopMenuEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Name" xml:space="preserve">
+    <value>PopMenuDelete</value>
+  </data>
+  <data name="&gt;&gt;PopMenuDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Name" xml:space="preserve">
+    <value>PopMenuSave</value>
+  </data>
+  <data name="&gt;&gt;PopMenuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem5.Name" xml:space="preserve">
+    <value>MenuItem5</value>
+  </data>
+  <data name="&gt;&gt;MenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Name" xml:space="preserve">
+    <value>PopMenuPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;PopMenuPrintPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem7.Name" xml:space="preserve">
+    <value>MenuItem7</value>
+  </data>
+  <data name="&gt;&gt;MenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Name" xml:space="preserve">
+    <value>PopMenuAssociatedTasks</value>
+  </data>
+  <data name="&gt;&gt;PopMenuAssociatedTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Name" xml:space="preserve">
+    <value>MenuItem9</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopMenuUserTasks.Name" xml:space="preserve">
+    <value>PopMenuUserTasks</value>
+  </data>
+  <data name="&gt;&gt;PopMenuUserTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objDS.Name" xml:space="preserve">
+    <value>objDS</value>
+  </data>
+  <data name="&gt;&gt;objDS.Type" xml:space="preserve">
+    <value>BizzLib.dsSystem, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Name" xml:space="preserve">
+    <value>GridView1</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuID.Name" xml:space="preserve">
+    <value>colMenuID</value>
+  </data>
+  <data name="&gt;&gt;colMenuID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuLabel.Name" xml:space="preserve">
+    <value>colMenuLabel</value>
+  </data>
+  <data name="&gt;&gt;colMenuLabel.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colFormName.Name" xml:space="preserve">
+    <value>colFormName</value>
+  </data>
+  <data name="&gt;&gt;colFormName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuIcon.Name" xml:space="preserve">
+    <value>colMenuIcon</value>
+  </data>
+  <data name="&gt;&gt;colMenuIcon.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuIconExpanded.Name" xml:space="preserve">
+    <value>colMenuIconExpanded</value>
+  </data>
+  <data name="&gt;&gt;colMenuIconExpanded.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartID.Name" xml:space="preserve">
+    <value>colMenuStartID</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode.Name" xml:space="preserve">
+    <value>colMenuStartCode</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode2.Name" xml:space="preserve">
+    <value>colMenuStartCode2</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuAssembly.Name" xml:space="preserve">
+    <value>colMenuAssembly</value>
+  </data>
+  <data name="&gt;&gt;colMenuAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuLandScape.Name" xml:space="preserve">
+    <value>colMenuLandScape</value>
+  </data>
+  <data name="&gt;&gt;colMenuLandScape.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter1.Name" xml:space="preserve">
+    <value>OleDbDataAdapter1</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbDataAdapter, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbDeleteCommand1.Name" xml:space="preserve">
+    <value>OleDbDeleteCommand1</value>
+  </data>
+  <data name="&gt;&gt;OleDbDeleteCommand1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbConnection1.Name" xml:space="preserve">
+    <value>OleDbConnection1</value>
+  </data>
+  <data name="&gt;&gt;OleDbConnection1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbConnection, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbInsertCommand1.Name" xml:space="preserve">
+    <value>OleDbInsertCommand1</value>
+  </data>
+  <data name="&gt;&gt;OleDbInsertCommand1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand1.Name" xml:space="preserve">
+    <value>OleDbSelectCommand1</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbUpdateCommand1.Name" xml:space="preserve">
+    <value>OleDbUpdateCommand1</value>
+  </data>
+  <data name="&gt;&gt;OleDbUpdateCommand1.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolBarButton1.Name" xml:space="preserve">
+    <value>ToolBarButton1</value>
+  </data>
+  <data name="&gt;&gt;ToolBarButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew1.Name" xml:space="preserve">
+    <value>btnNew1</value>
+  </data>
+  <data name="&gt;&gt;btnNew1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit1.Name" xml:space="preserve">
+    <value>btnEdit1</value>
+  </data>
+  <data name="&gt;&gt;btnEdit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete1.Name" xml:space="preserve">
+    <value>btnDelete1</value>
+  </data>
+  <data name="&gt;&gt;btnDelete1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave1.Name" xml:space="preserve">
+    <value>btnSave1</value>
+  </data>
+  <data name="&gt;&gt;btnSave1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSep1.Name" xml:space="preserve">
+    <value>btnSep1</value>
+  </data>
+  <data name="&gt;&gt;btnSep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrint1.Name" xml:space="preserve">
+    <value>btnPrint1</value>
+  </data>
+  <data name="&gt;&gt;btnPrint1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colMenuLabel1.Name" xml:space="preserve">
+    <value>colMenuLabel1</value>
+  </data>
+  <data name="&gt;&gt;colMenuLabel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colSequence.Name" xml:space="preserve">
+    <value>colSequence</value>
+  </data>
+  <data name="&gt;&gt;colSequence.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartID1.Name" xml:space="preserve">
+    <value>colMenuStartID1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartID1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode1.Name" xml:space="preserve">
+    <value>colMenuStartCode1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode21.Name" xml:space="preserve">
+    <value>colMenuStartCode21</value>
+  </data>
+  <data name="&gt;&gt;colMenuStartCode21.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Name" xml:space="preserve">
+    <value>btnPlus</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Name" xml:space="preserve">
+    <value>btnMinus</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.Name" xml:space="preserve">
+    <value>btnLeft</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRight.Name" xml:space="preserve">
+    <value>btnRight</value>
+  </data>
+  <data name="&gt;&gt;btnRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;separator2.Name" xml:space="preserve">
+    <value>separator2</value>
+  </data>
+  <data name="&gt;&gt;separator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUp.Name" xml:space="preserve">
+    <value>btnUp</value>
+  </data>
+  <data name="&gt;&gt;btnUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDown.Name" xml:space="preserve">
+    <value>btnDown</value>
+  </data>
+  <data name="&gt;&gt;btnDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Name" xml:space="preserve">
+    <value>ImageList2</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter2.Name" xml:space="preserve">
+    <value>OleDbDataAdapter2</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter2.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbDataAdapter, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand3.Name" xml:space="preserve">
+    <value>OleDbSelectCommand3</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand3.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter3.Name" xml:space="preserve">
+    <value>OleDbDataAdapter3</value>
+  </data>
+  <data name="&gt;&gt;OleDbDataAdapter3.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbDataAdapter, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbDeleteCommand2.Name" xml:space="preserve">
+    <value>OleDbDeleteCommand2</value>
+  </data>
+  <data name="&gt;&gt;OleDbDeleteCommand2.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbInsertCommand2.Name" xml:space="preserve">
+    <value>OleDbInsertCommand2</value>
+  </data>
+  <data name="&gt;&gt;OleDbInsertCommand2.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand2.Name" xml:space="preserve">
+    <value>OleDbSelectCommand2</value>
+  </data>
+  <data name="&gt;&gt;OleDbSelectCommand2.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OleDbUpdateCommand2.Name" xml:space="preserve">
+    <value>OleDbUpdateCommand2</value>
+  </data>
+  <data name="&gt;&gt;OleDbUpdateCommand2.Type" xml:space="preserve">
+    <value>System.Data.OleDb.OleDbCommand, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Name" xml:space="preserve">
+    <value>HelpProvider1</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSystemMenu_Browse</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BizzLib.frmBKForm, BizzLib, Version=1.0.3210.18722, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
