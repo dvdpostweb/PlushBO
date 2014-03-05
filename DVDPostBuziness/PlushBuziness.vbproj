@@ -150,20 +150,20 @@
     <Compile Include="Site\ClsLandings.vb" />
     <Compile Include="Site\ClsTranslate.vb" />
     <Compile Include="Site\ClsSurveys.vb" />
-    <Compile Include="StatusDVD\ClsBadLabel.vb" />
-    <Compile Include="StatusDVD\clsBizarrementPerdu.vb" />
-    <Compile Include="StatusDVD\ClsBrokenCustomer.vb" />
-    <Compile Include="StatusDVD\ClsCustServ.vb" />
-    <Compile Include="StatusDVD\ClsDamaged.vb" />
-    <Compile Include="StatusDVD\ClsIN.vb" />
-    <Compile Include="StatusDVD\ClsMID.vb" />
-    <Compile Include="StatusDVD\ClsOut.vb" />
-    <Compile Include="StatusDVD\ClsPrepForSale.vb" />
-    <Compile Include="StatusDVD\ClsPurchase.vb" />
-    <Compile Include="StatusDVD\ClsSale.vb" />
-    <Compile Include="StatusDVD\ClsContext.vb" />
-    <Compile Include="StatusDVD\ClsStock.vb" />
-    <Compile Include="StatusDVD\ClsEntretienLogistic.vb" />
+    <Compile Include="Payment\StatusDVD\ClsBadLabel.vb" />
+    <Compile Include="Payment\StatusDVD\clsBizarrementPerdu.vb" />
+    <Compile Include="Payment\StatusDVD\ClsBrokenCustomer.vb" />
+    <Compile Include="Payment\StatusDVD\ClsCustServ.vb" />
+    <Compile Include="Payment\StatusDVD\ClsDamaged.vb" />
+    <Compile Include="Payment\StatusDVD\ClsIN.vb" />
+    <Compile Include="Payment\StatusDVD\ClsMID.vb" />
+    <Compile Include="Payment\StatusDVD\ClsOut.vb" />
+    <Compile Include="Payment\StatusDVD\ClsPrepForSale.vb" />
+    <Compile Include="Payment\StatusDVD\ClsPurchase.vb" />
+    <Compile Include="Payment\StatusDVD\ClsSale.vb" />
+    <Compile Include="Payment\StatusDVD\ClsContext.vb" />
+    <Compile Include="Payment\StatusDVD\ClsStock.vb" />
+    <Compile Include="Payment\StatusDVD\ClsEntretienLogistic.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Controls\FrmPurchaseControl.resx">

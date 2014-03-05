@@ -489,7 +489,7 @@
     <value>DS</value>
   </data>
   <data name="&gt;&gt;DS.Type" xml:space="preserve">
-    <value>PlushLib.dsMarketting, PlushLib, Version=2.0.5038.7, Culture=neutral, PublicKeyToken=null</value>
+    <value>PlushLib.dsMarketting, PlushLib, Version=2.0.5070.1, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;GridViewActivationCode.Name" xml:space="preserve">
     <value>GridViewActivationCode</value>
@@ -1569,7 +1569,7 @@
     <value>0</value>
   </data>
   <data name="TabChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1095, 417</value>
+    <value>1183, 811</value>
   </data>
   <data name="&gt;&gt;TabChart.Name" xml:space="preserve">
     <value>TabChart</value>
@@ -1584,7 +1584,7 @@
     <value>5</value>
   </data>
   <data name="TabAnalyse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1095, 417</value>
+    <value>1183, 811</value>
   </data>
   <data name="&gt;&gt;TabAnalyse.Name" xml:space="preserve">
     <value>TabAnalyse</value>
@@ -3519,7 +3519,7 @@
     <value>46</value>
   </data>
   <data name="TabParameters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1095, 417</value>
+    <value>1183, 811</value>
   </data>
   <data name="TabParameters.Text" xml:space="preserve">
     <value>Generate</value>
@@ -3540,7 +3540,7 @@
     <value>226, 17</value>
   </metadata>
   <data name="UcPivotGrid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1095, 417</value>
+    <value>1183, 811</value>
   </data>
   <data name="&gt;&gt;UcPivotGrid1.Name" xml:space="preserve">
     <value>UcPivotGrid1</value>
@@ -3555,7 +3555,7 @@
     <value>0</value>
   </data>
   <data name="UcChart1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1095, 417</value>
+    <value>1183, 811</value>
   </data>
   <data name="&gt;&gt;UcChart1.Name" xml:space="preserve">
     <value>UcChart1</value>

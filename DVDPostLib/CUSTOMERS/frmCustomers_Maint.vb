@@ -6995,7 +6995,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit1.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
-        Me.CheckEdit1.Size = New System.Drawing.Size(115, 18)
+        Me.CheckEdit1.Size = New System.Drawing.Size(115, 19)
         Me.CheckEdit1.TabIndex = 38
         '
         'TextEdit7
@@ -7049,7 +7049,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit2.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.CheckEdit2.Properties.ValueChecked = 1
         Me.CheckEdit2.Properties.ValueUnchecked = 0
-        Me.CheckEdit2.Size = New System.Drawing.Size(115, 18)
+        Me.CheckEdit2.Size = New System.Drawing.Size(115, 19)
         Me.CheckEdit2.TabIndex = 30
         '
         'LookUpEdit5
@@ -7412,7 +7412,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit3.Properties.Caption = "Red Listed"
         Me.CheckEdit3.Properties.ValueChecked = 1
         Me.CheckEdit3.Properties.ValueUnchecked = 0
-        Me.CheckEdit3.Size = New System.Drawing.Size(154, 18)
+        Me.CheckEdit3.Size = New System.Drawing.Size(154, 19)
         Me.CheckEdit3.TabIndex = 54
         '
         'TextEdit14
@@ -7433,7 +7433,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit4.Properties.Caption = "Black Listed"
         Me.CheckEdit4.Properties.ValueChecked = 1
         Me.CheckEdit4.Properties.ValueUnchecked = 0
-        Me.CheckEdit4.Size = New System.Drawing.Size(177, 18)
+        Me.CheckEdit4.Size = New System.Drawing.Size(177, 19)
         Me.CheckEdit4.TabIndex = 53
         '
         'TextEdit15
@@ -7453,7 +7453,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit5.Properties.Caption = "NewsLetter Partner"
         Me.CheckEdit5.Properties.ValueChecked = 1
         Me.CheckEdit5.Properties.ValueUnchecked = 0
-        Me.CheckEdit5.Size = New System.Drawing.Size(183, 18)
+        Me.CheckEdit5.Size = New System.Drawing.Size(183, 19)
         Me.CheckEdit5.TabIndex = 52
         '
         'LabelControl72
@@ -7474,7 +7474,7 @@ Public Class frmCustomers_Maint
         Me.CheckEdit6.Properties.ValueChecked = 1
         Me.CheckEdit6.Properties.ValueUnchecked = 0
         Me.CheckEdit6.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.CheckEdit6.Size = New System.Drawing.Size(154, 18)
+        Me.CheckEdit6.Size = New System.Drawing.Size(154, 19)
         Me.CheckEdit6.TabIndex = 51
         '
         'TextEdit16
@@ -10216,7 +10216,7 @@ Public Class frmCustomers_Maint
     End Sub
 
     Private Sub suspendForHolidays(ByVal customers_id As Integer, ByVal date_end As Date, ByVal old_date_end As Date)
-        If Not PlushBuziness.ClsCustomers.SuspendForHolidayCustomer(customers_id, cmbABO.EditValue, DateEndOfHoliday.EditValue).Equals(String.Empty) Then
+        If Not PlushBuziness.ClsCustomers.SuspendForHolidayCustomer(customers_id, cmbABO.EditValue, DateEndOfHoliday.EditValue, date_end).Equals(String.Empty) Then
             MsgBox("Error Suspension Payment", MsgBoxStyle.Critical)
         End If
         'If Not PlushBuziness.ClsWebServices.CallSuspended(customers_id, date_end, PlushBuziness.ClsWebServices.TypeSuspend.HOLIDAYS) Then

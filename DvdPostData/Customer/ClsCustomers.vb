@@ -810,7 +810,7 @@ Public Class ClsCustomersData
     Public Shared Function GetSelectDiscountCode(ByVal discount_code_id As Integer) As String
         Dim sql As String
 
-        sql = "select dc.discount_code, dc.next_discount,dc.discount_type type ,dc.discount_value value,dc.discount_validityto date ,dc.discount_abo_validityto_value,dc.discount_abo_validityto_type ,discount_recurring_nbr_of_month,next_abo_type " & _
+        sql = "select dc.discount_code, dc.next_discount,dc.discount_type type ,dc.discount_value value,dc.discount_validityto date ,dc.discount_abo_validityto_value,dc.discount_abo_validityto_type ,discount_recurring_nbr_of_month,next_abo_type, abo_auto_stop_next_reconduction " & _
         " from discount_code dc where dc.discount_code_id = " & discount_code_id
         Return sql
     End Function
@@ -1010,8 +1010,8 @@ Public Class ClsCustomersData
         If code_id = "" Then
             code_id = "null"
         End If
-        sql = "insert into abo(Customerid ,code_id, Action , Date , product_id, payment_method) " & _
-               " values(" & customers_id & "," & code_id & "," & actionCode & ", now(), '" & product_id & "', '" & type_payment & "' )"
+        sql = "insert into abo(Customerid ,code_id, Action , Date , product_id, payment_method, comment) " & _
+               " values(" & customers_id & "," & code_id & "," & actionCode & ", now(), '" & product_id & "', '" & type_payment & "','' )"
 
         Return sql
     End Function
@@ -1088,9 +1088,9 @@ Public Class ClsCustomersData
         Return sql
     End Function
 
-    Public Shared Function GetUpdateSuspendedForHolidayCustomers(ByVal customers_id As Integer) As String
+    Public Shared Function GetUpdateSuspendedForHolidayCustomers(ByVal customers_id As Integer, ByVal daysToAdd As Integer) As String
         Dim sql As String
-        sql = "update customers set customers_abo_suspended = " & Suspended.HOLIDAY & " where customers_id = " & customers_id & " and customers_abo = 1 "
+        sql = "update customers set customers_abo_suspended = " & Suspended.HOLIDAY & " , customers_abo_validityto = date_add( customers_abo_validityto, Interval " & daysToAdd & " day) where customers_id = " & customers_id & " and customers_abo = 1 "
         Return sql
     End Function
 
@@ -1107,7 +1107,7 @@ Public Class ClsCustomersData
         Return sql
     End Function
 
-    Public Shared Function GetUpdateDiscountCode(ByVal customers_id As Integer, ByVal newdiscount_code As Integer, ByVal discount_recurring_of_month As Integer, ByVal activation_discount_code_type As String, Optional ByVal discount_code As Integer = 0) As String
+    Public Shared Function GetUpdateDiscountCode(ByVal customers_id As Integer, ByVal newdiscount_code As Integer, ByVal discount_recurring_of_month As Integer, ByVal activation_discount_code_type As String, Optional ByVal abo_auto_stop_next_reconduction As Integer = 0, Optional ByVal discount_code As Integer = 0) As String
         Dim sql As String
         Dim RecurringDate As DateTime
         Dim strRecurringdate As String
@@ -1123,6 +1123,7 @@ Public Class ClsCustomersData
         sql = sql & " , customers_abo_discount_recurring_to_date = " & strRecurringdate & ""
         sql = sql & " , activation_discount_code_type = '" & activation_discount_code_type & "'"
         sql = sql & " , customers_next_discount_code = " & discount_code
+        sql = sql & " , customers_abo_auto_stop_next_reconduction = " & abo_auto_stop_next_reconduction
         sql = sql & " where customers_id = " & customers_id
         Return sql
     End Function

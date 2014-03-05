@@ -498,6 +498,10 @@ Public Class ClsCustomers
         Return drDiscount("discount_recurring_nbr_of_month")
     End Function
 
+    Private Function GetDiscount_abo_auto_stop_next_reconduction(ByVal drDiscount As DataRow) As Integer
+        Return drDiscount("abo_auto_stop_next_reconduction")
+    End Function
+
 
 
     Private Function ManageReduction(ByRef drCustomer As DataRow, _
@@ -721,7 +725,7 @@ Public Class ClsCustomers
             Return Nothing
         Else
             strDurationActivation = GetDurationActivation(GetDiscountCodeTypeDate(drNextDiscount), GetDiscountCodeValueDate(drNextDiscount))
-            sql = PlushData.ClsCustomersData.GetUpdateDiscountCode(customers_id, discount_id, Getdiscount_recurring_nbr_of_month(drNextDiscount), ClsCustomersData.CODE_DISCOUNT)
+            sql = PlushData.ClsCustomersData.GetUpdateDiscountCode(customers_id, discount_id, Getdiscount_recurring_nbr_of_month(drNextDiscount), ClsCustomersData.CODE_DISCOUNT, GetDiscount_abo_auto_stop_next_reconduction(drNextDiscount))
             PlushData.clsConnection.ExecuteNonQuery(sql)
 
             sql = PlushData.ClsCustomersData.GetInsertDiscountUse(customers_id, discount_id)
@@ -2240,7 +2244,7 @@ Public Class ClsCustomers
 
                 PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetUpdateSuspendedCustomers(Customers_id))
                 PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, Nothing, lastId, ClsCustomersData.Payment_Method.OGONE, 20))
-                PlushData.clsConnection.ExecuteNonQuery(PlushData.clsAboSuspended.GetInsertAboSuspendedHistory(Customers_id, PlushData.clsAboSuspended.Payment, DateTime.Now.ToShortDateString()))
+                PlushData.clsConnection.ExecuteNonQuery(PlushData.clsAboSuspended.GetInsertAboSuspendedHistory(Customers_id, PlushData.clsAboSuspended.Payment, String.Empty))
                 clsMail.SendMail(Customers_id, clsMail.Mail.MAIL_PLUSH_PAYMENT_NOT_RECEIVED_CREATE_RECOVERY)
 
                 Return ""
@@ -2248,7 +2252,8 @@ Public Class ClsCustomers
             Return "the payment ogone doesn't exist (customer_id : " & Customers_id & " / batch_id : " & batch_id & ")"
 
         Catch ex As Exception
-            Return "the payment ogone doesn't exist (customer_id : " & Customers_id & " / batch_id : " & batch_id & ")"
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, ex, Customers_id)
+            Return "Error suspending customer customer_id : " & Customers_id & " / batch_id : " & batch_id & ") " & ex.Message
 
         End Try
     End Function
@@ -2261,23 +2266,37 @@ Public Class ClsCustomers
                 Return "Customer has unpaid payments"
             End If
 
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "1", Customers_id)
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetUpdateUnsuspendedForPaymentCustomer(Customers_id), Customers_id)
             PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetUpdateUnsuspendedForPaymentCustomer(Customers_id))
-            PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, Nothing, abo_products_id, "OGONE", 23))
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "11", Customers_id)
+
+
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "2", Customers_id)
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, String.Empty, abo_products_id, "OGONE", 23), Customers_id)
+            PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, String.Empty, abo_products_id, "OGONE", 23))
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "21", Customers_id)
+
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "3", Customers_id)
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.clsAboSuspended.GetUpdateAboSuspendedHistory(Customers_id), Customers_id)
             PlushData.clsConnection.ExecuteNonQuery(PlushData.clsAboSuspended.GetUpdateAboSuspendedHistory(Customers_id))
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "31", Customers_id)
 
             Return ""
 
         Catch ex As Exception
+            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, ex, Customers_id)
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "UnsuspendPaymentCustomer " + Customers_id + abo_products_id)
             Return ex.Message
 
         End Try
     End Function
 
-    Public Shared Function SuspendForHolidayCustomer(ByVal Customers_id As Integer, ByVal abo_products_id As Integer, ByVal date_end As String) As String
-       
+    Public Shared Function SuspendForHolidayCustomer(ByVal Customers_id As Integer, ByVal abo_products_id As Integer, ByVal date_end As String, ByVal dend As Date) As String
+
         Try
 
-            PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetUpdateSuspendedForHolidayCustomers(Customers_id))
+            PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetUpdateSuspendedForHolidayCustomers(Customers_id, (dend.Date - DateTime.Now.Date).Days))
             PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, Nothing, abo_products_id, "OGONE", 19))
             PlushData.clsConnection.ExecuteNonQuery(PlushData.clsAboSuspended.GetInsertAboSuspendedHistory(Customers_id, PlushData.clsAboSuspended.Holidays, date_end))
             Return ""

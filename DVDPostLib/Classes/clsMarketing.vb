@@ -617,5 +617,84 @@ Public Class clsMarketing
         End Function
     End Class
 #End Region
+
+#Region "Streaming_code"
+    Public Class clsStreamingCode
+
+        Public Shared Function GetStreamingId(ByVal dr As DataRow) As Integer
+            If Not IsDBNull(dr("id")) Then
+                Return dr("id")
+            Else
+                Return 0
+            End If
+        End Function
+
+        Public Shared Function GetStreamingCode(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("name")) Then
+                Return dr("name")
+            Else
+                Return ""
+            End If
+        End Function
+
+        Public Shared Function GetActivationGroupId(ByVal dr As DataRow) As Integer
+            If Not IsDBNull(dr("activation_group_id")) Then
+                Return dr("activation_group_id")
+            Else
+                Return 0
+            End If
+        End Function
+
+        Public Shared Function GetStreamingCodeCreationAt(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("created_at")) Then
+                Return dr("created_at")
+            Else
+                Return ""
+            End If
+        End Function
+
+        Public Shared Function GetStreamingCodeExpirationAt(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("expiration_at")) Then
+                Return dr("expiration_at")
+            Else
+                Return ""
+            End If
+        End Function
+
+        Public Shared Function GetStrimingCodeWhiteLabel(ByVal dr As DataRow) As Integer
+            If Not IsDBNull(dr("white_label")) Then
+                Return dr("white_label")
+            Else
+                Return 0
+            End If
+        End Function
+
+        Public Shared Function GetStrimingCodeUsedAt(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("used_at")) Then
+                Return dr("used_at")
+            Else
+                Return ""
+            End If
+        End Function
+
+        Public Shared Function GetStreamingCodeMailID(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("mail_id")) Then
+                Return dr("mail_id")
+            Else
+                Return ""
+            End If
+        End Function
+
+        Public Shared Function GetStrimingCodeEmail(ByVal dr As DataRow) As String
+            If Not IsDBNull(dr("email")) Then
+                Return dr("email")
+            Else
+                Return ""
+            End If
+        End Function
+
+
+    End Class
+#End Region
 End Class
 

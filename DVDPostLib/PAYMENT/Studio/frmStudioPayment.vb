@@ -1780,13 +1780,13 @@ Public Class frmStudioPayment
                 sql = PlushData.clsStudio.getInsertStudio(txtStudioName.EditValue, cmbStudioType.EditValue, spedCreditNew.EditValue, spedCredit.EditValue, txtFeeNew.EditValue, _
                     txt_fee_backcatalogue.EditValue, txtMinNewVOD.EditValue, txtMinBackcatalogueVOD.EditValue, txtMinGlobal.EditValue, chkHasBillingReport.Checked, _
                     chkVODBe.Checked, chkVODLux.Checked, chkVODNL.Checked, txtPriceNew.EditValue, txtPriceBackcatalogue.EditValue, txt_svod_fee_new.EditValue, txt_svod_fee_backcatalogue.EditValue, _
-                    txtSVODMinNewVOD.EditValue, txtMinBackcatalogueVOD.EditValue, txtSVODMinGlobal.EditValue)
+                    txtSVODMinNewVOD.EditValue, txtSVODMinBackcatalogueVOD.EditValue, txtSVODMinGlobal.EditValue)
                 PlushData.clsConnection.ExecuteNonQuery(sql)
             Else
                 sql = PlushData.clsStudio.getUpdateStudio(txtId.EditValue, txtStudioName.EditValue, cmbStudioType.EditValue, spedCreditNew.EditValue, spedCredit.EditValue, _
                     txtFeeNew.EditValue, txt_fee_backcatalogue.EditValue, txtMinNewVOD.EditValue, txtMinBackcatalogueVOD.EditValue, txtMinGlobal.EditValue, chkHasBillingReport.Checked, _
                     chkVODBe.Checked, chkVODLux.Checked, chkVODNL.Checked, txtPriceNew.EditValue, txtPriceBackcatalogue.EditValue, txt_svod_fee_new.EditValue, txt_svod_fee_backcatalogue.EditValue, _
-                    txtSVODMinNewVOD.EditValue, txtMinBackcatalogueVOD.EditValue, txtSVODMinGlobal.EditValue)
+                    txtSVODMinNewVOD.EditValue, txtSVODMinBackcatalogueVOD.EditValue, txtSVODMinGlobal.EditValue)
                 PlushData.clsConnection.ExecuteNonQuery(sql)
 
             End If

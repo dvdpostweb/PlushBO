@@ -93,7 +93,7 @@ Public Class clsAboSuspended
         If date_end <> "" Then
             date_end = " '" & PlushTools.ClsDate.formatDate(date_end) & "' "
         Else
-            date_end = "DEFAULTVALUE(date_end)"
+            date_end = "null"
         End If
         sql = "INSERT INTO suspensions(customer_id , status , date_added , date_end , last_modified , user_modified) VALUES (" & customer_id & ", '" & status & "',  now()," & date_end & "  , now(), " & PlushData.clsSession.user_id & " )"
         Return sql
@@ -112,7 +112,7 @@ Public Class clsAboSuspended
 
 
 
-        sql = " update suspensions set date_end = " & date_end & " , last_modified = now() , user_modified = " & PlushData.clsSession.user_id & " where id = " & id
+        sql = " update suspensions set date_end = " & date_end & " , last_modified = now() , user_modified = " & PlushData.clsSession.user_id & " where date_end is null and customer_id = " & id
         Return sql
     End Function
 

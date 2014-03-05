@@ -26,7 +26,7 @@ Public Class clsOffLinePayments
     'Public Const PAYMENT_OFFLINE_STATUS_RECEIVED_AT_EUROFIDES As Integer = 21
 
 
-    Public Const DAYS_CREATE_RECOVERY As Integer = 1
+    Public Const DAYS_CREATE_RECOVERY As Integer = 7 '1
     Public Const DAYS_MAIL_SENT As Integer = 7
     Public Const DAYS_MAIL2_SENT As Integer = 7
     'Public Const DAYS_LETTER_SENT As Integer = 30
@@ -128,8 +128,8 @@ Public Class clsOffLinePayments
         'sendLetter(PaymentOfflineData.TypeSend.LETTER, PaymentOfflineData.StepPayment.LETTER_TO_SEND)
         'applyTransition(PaymentOfflineData.StepPayment.LETTER_SENT)
 
-        applyTransition(PaymentOfflineData.StepPayment.CALL)
-        applyTransition(PaymentOfflineData.StepPayment.RECALL_CUSTOMERS)
+        'applyTransition(PaymentOfflineData.StepPayment.CALL)
+        'applyTransition(PaymentOfflineData.StepPayment.RECALL_CUSTOMERS)
         'applyTransition(PaymentOfflineData.StepPayment.LETTER_AVOCAT_SENT)
 
         PlushData.clsConnection.CommitTransaction(True)

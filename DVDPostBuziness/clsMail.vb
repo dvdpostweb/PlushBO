@@ -58,8 +58,10 @@ Public Class clsMail
         'MAIL_REGISTRATION = 600
         MAIL_PLUSH_PAYMENT_NOT_RECEIVED = 602
         MAIL2_PLUSH_PAYMENT_NOT_RECEIVED = 603
-        MAIL_PLUSH_PAYMENT_NOT_RECEIVED_CREATE_RECOVERY = 604
+        MAIL_PLUSH_PAYMENT_NOT_RECEIVED_CREATE_RECOVERY = 627
         MAIL_PLUSH_REPLY = 605
+        MAIL_PLUSH_SVOD_CONFIRMATION = 623
+        MAIL_PLUSH_TVOD_CONFIRMATION = 624
 
     End Enum
     Public Shared Function CreateVariableGeneric(ByVal str As String) As String
@@ -465,21 +467,26 @@ Public Class clsMail
 
         strSubject = MailRow("messages_subject")
         strmessage = MailRow("messages_html")
-        ' IsExistInString(strmessage, "$$$customers_name$$$") And
-        ' If CustRow.Table.Columns.Contains("customers_firstname") Then
+        If IsExistInString(strmessage, "$$$customers_name$$$") And CustRow.Table.Columns.Contains("customers_firstname") And CustRow.Table.Columns.Contains("customers_lastname") Then
 
+            Dim firstname As String = PlushTools.ClsString.Capitalize(CustRow("customers_firstname").ToString())
+            Dim lastname As String = PlushTools.ClsString.Capitalize(CustRow("customers_lastname").ToString())
+            strmessage = Replace(strmessage, "$$$customers_name$$$", firstname & " " & lastname)
 
-        '  Dim firstname As String = PlushTools.ClsString.Capitalize(CustRow("customers_firstname").ToString())
-        '  Dim lastname As String = PlushTools.ClsString.Capitalize(CustRow("customers_lastname").ToString())
+        End If
+        If IsExistInString(strmessage, "$$$customers_name$$$") And CustRow.Table.Columns.Contains("customers_name") Then
 
+            Dim custname As String = PlushTools.ClsString.Capitalize(CustRow("customers_name").ToString())
+            strmessage = Replace(strmessage, "$$$customers_name$$$", custname)
 
+        End If
         'titre
 
         strmessage = ReplaceVar(strmessage, balise & "title" & balise, MailRow("messages_title"), lstvariable)
 
         'customers_name
         'strmessage = Replace(strmessage, "$$$name$$$", firstname & " " & lastname)
-        'strmessage = Replace(strmessage, "$$$customers_name$$$", firstname & " " & lastname)
+
         'strmessage = Replace(strmessage, "$$$customers_email$$$", CustRow("email"))
         'strmessage = Replace(strmessage, "$$$email$$$", CustRow("email"))
         ''site & Logo
@@ -495,12 +502,11 @@ Public Class clsMail
         strmessage = ReplaceVar(strmessage, balise & "mail_id" & balise, mailHistoryId, lstvariable)
         strmessage = ReplaceVar(strmessage, balise & "mail_messages_sent_history_id" & balise, mailHistoryId + 1, lstvariable, True)
         ''customers_id
-        'strmessage = Replace(strmessage, "$$$customers_id$$$", CustRow("customers_id"))
+        strmessage = Replace(strmessage, "$$$customers_id$$$", CustRow("customers_id"))
 
         'strmessage = Replace(strmessage, "$$$dvdathome$$$", CustRow("customers_abo_dvd_home_norm") + CustRow("customers_abo_dvd_home_adult"))
         ''customers_abo_validityto
         'strmessage = Replace(strmessage, "$$$next_reconduction_date$$$", CustRow("customers_abo_validityto") & "")
-        '   End If
 
     End Sub
     Private Shared Sub replacePaymentOffline(ByVal CustRow As DataRow, ByRef strmessage As String)
@@ -510,13 +516,15 @@ Public Class clsMail
             strmessage = Replace(strmessage, "$$$payment_offline_reason_date$$$", CustRow("date_reconduction") & "")
         End If
     End Sub
-    'Private Shared Sub replaceProductPicture(ByVal CustRow As DataRow, ByRef strmessage As String)
-    '    If IsExistInString(strmessage, "$$$products_image$$$") And CustRow.Table.Columns.Contains("products_image_big") Then
-    '        strmessage = Replace(strmessage, "$$$products_image$$$", CustRow("products_image_big"))
-    '        strmessage = Replace(strmessage, "$$$products_name$$$", CustRow("products_name"))
-    '        strmessage = Replace(strmessage, "$$$products_id$$$", CustRow("Products_id"))
-    '    End If
-    'End Sub
+    Private Shared Sub replaceProductNamePictureAndImage(ByVal CustRow As DataRow, ByRef strmessage As String)
+        If IsExistInString(strmessage, "$$$products_image$$$") And CustRow.Table.Columns.Contains("products_image_big") And CustRow.Table.Columns.Contains("products_id") And CustRow.Table.Columns.Contains("products_year") Then
+            strmessage = Replace(strmessage, "$$$products_image$$$", CustRow("products_image_big"))
+            strmessage = Replace(strmessage, "$$$products_name$$$", CustRow("products_name"))
+            strmessage = Replace(strmessage, "$$$products_id$$$", CustRow("products_id"))
+            strmessage = Replace(strmessage, "$$$products_year$$$", CustRow("products_year"))
+            strmessage = Replace(strmessage, "$$$products_description$$$", CustRow("products_description"))
+        End If
+    End Sub
 
     'Private Shared Sub replaceProduct(ByVal CustRow As DataRow, ByRef strmessage As String)
     '    If IsExistInString(strmessage, "$$$products_name$$$") And CustRow.Table.Columns.Contains("Products_titles") Then
@@ -686,11 +694,15 @@ Public Class clsMail
         'replacePromoCode(rowcustomers, strMessage)
         'replaceMailSponsor(rowcustomers, strMessage, strSubject)
         ReplaceGender(rowcustomers, customers_language, strMessage, lstvariable)
+        ReplaceDirectorsNameAndSlug(rowcustomers, customers_language, strMessage, lstvariable)
+        ReplaceIMDB_ID(rowcustomers, customers_language, strMessage, lstvariable)
         ReplaceActors(rowcustomers, strMessage, lstvariable)
+        ReplaceActorsVODConfirmation(rowcustomers, strMessage, lstvariable)
         ReplaceInvoiceOpen(rowcustomers, strMessage, lstvariable)
         ReplaceIN_OUT(rowcustomers, RowMail, strMessage, lstvariable)
         ReplaceINDISPONIBLE(rowcustomers, RowMail, strMessage, lstvariable)
-        'replaceProductPicture(rowcustomers, strMessage)
+        replaceProductNamePictureAndImage(rowcustomers, strMessage)
+        ReplaceRatingImages(rowcustomers, customers_language, strMessage, lstvariable)
         Return CreateMail(rowcustomers("email"), strMessage, strSubject, eMailTest, emailFrom, emailName)
 
     End Function
@@ -705,6 +717,88 @@ Public Class clsMail
 
     End Sub
 
+    Private Shared Sub ReplaceDirectorsNameAndSlug(ByVal CustRow As DataRow, ByVal customers_language As Integer, ByRef strMessage As String, ByRef lstvariable As String)
+        Dim balise As String = Getbalise()
+        If IsExistInString(strMessage, balise & "director_slug" & balise) Then
+            strMessage = ReplaceVar(strMessage, balise & "director_slug" & balise, CustRow("director_slug"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "director_name" & balise, CustRow("director_name"), lstvariable)
+        End If
+
+    End Sub
+
+    Private Shared Sub ReplaceIMDB_ID(ByVal CustRow As DataRow, ByVal customers_language As Integer, ByRef strMessage As String, ByRef lstvariable As String)
+        Dim balise As String = Getbalise()
+        If IsExistInString(strMessage, balise & "imdb_id" & balise) Then
+            strMessage = ReplaceVar(strMessage, balise & "imdb_id" & balise, CustRow("imdb_id"), lstvariable)
+        End If
+
+    End Sub
+
+    Private Shared Sub ReplaceRatingImages(ByVal CustRow As DataRow, ByVal customers_language As Integer, ByRef strMessage As String, ByRef lstvariable As String)
+        Dim balise As String = Getbalise()
+        If IsExistInString(strMessage, balise & "image1" & balise) _
+            AndAlso IsExistInString(strMessage, balise & "image2" & balise) _
+            AndAlso IsExistInString(strMessage, balise & "image3" & balise) _
+            AndAlso IsExistInString(strMessage, balise & "image4" & balise) _
+            AndAlso IsExistInString(strMessage, balise & "image5" & balise) _
+            AndAlso Not CustRow("movie_rating") Is Nothing Then
+            If CustRow("movie_rating") = 1 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 1.5 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-half.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 2 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 2.5 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-half.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 3 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 3.5 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, CustRow("imdb_id"), lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, CustRow("imdb_id"), lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, CustRow("imdb_id"), lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-half.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 4 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
+            ElseIf CustRow("movie_rating") = 4.5 Then
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-half.png", lstvariable)
+            Else
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-on.png", lstvariable)
+            End If
+        End If
+    End Sub
 
 #Region "member get member"
     'Private Shared Function loadCmbCadeaux() As DataTable
@@ -953,6 +1047,53 @@ Public Class clsMail
             End If
             strMessage = ReplaceVar(strMessage, balise & "products_rating" & balise, products_rating, lstvariable)
         End If
+    End Sub
+    Private Shared Sub ReplaceActorsVODConfirmation(ByVal CustRow As DataRow, ByRef strMessage As String, ByRef lstvariable As String)
+        Dim balise As String = Getbalise()
+        Dim dtactors As DataTable
+        Dim products_id As Integer
+        Dim containsActors As Boolean
+        Dim list_actor_name As String = String.Empty
+        Dim director_id As String = String.Empty
+        Dim director_name As String = String.Empty
+        Dim products_rating As String = String.Empty
+
+        If IsExistInString(strMessage, balise & "actors" & balise) _
+           AndAlso CustRow.Table.Columns.Contains("products_id") Then
+
+
+            products_id = CustRow("products_id")
+            dtactors = getListActors(products_id)
+            containsActors = dtactors.Rows.Count > 0
+            Dim j As Integer
+            For i As Integer = 1 To dtactors.Rows.Count
+                j = i - 1
+                If i > 1 AndAlso dtactors.Rows(j)("actors_name") IsNot DBNull.Value Then
+                    list_actor_name += ", " + dtactors.Rows(j)("actors_name")
+                ElseIf dtactors.Rows(j)("actors_name") IsNot DBNull.Value Then
+                    list_actor_name += dtactors.Rows(j)("actors_name")
+                Else
+                    list_actor_name = String.Empty
+                End If
+
+            Next
+            strMessage = ReplaceVar(strMessage, balise & "actors" & balise, list_actor_name, lstvariable)
+        End If
+
+        'If containsActors Then
+        '    If dtactors.Rows(0)("directors_id") IsNot DBNull.Value Then
+        '        director_id = dtactors.Rows(0)("directors_id")
+        '        director_name = dtactors.Rows(0)("directors_name")
+        '    End If
+
+        'End If
+        'strMessage = ReplaceVar(strMessage, balise & "directors_id" & balise, director_id, lstvariable)
+        'strMessage = ReplaceVar(strMessage, balise & "directors" & balise, director_name, lstvariable)
+        'If CustRow("products_rating") IsNot DBNull.Value Then
+        '    products_rating = CustRow("products_rating")
+        'End If
+        'strMessage = ReplaceVar(strMessage, balise & "products_rating" & balise, products_rating, lstvariable)
+
     End Sub
 #End Region
 #Region "Picture"

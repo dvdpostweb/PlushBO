@@ -618,9 +618,9 @@ Public Class frmMain
         'SessionInfo.DBConnType = UsedConnection
 
         Login()
+
         SessionInfo = New BizzLib.clsSessionInfo(PlushData.clsSession.user_id, 1, _
                     PlushData.clsConnection.typeEnv, PlushData.clsConnection.ConnectionString, "MySQL")
-
         BKGlobal = New BizzLib.clsGlobal(SessionInfo)
         'myBKGlobal = New BizzlibNew.BizzLibNew.clsGlobal(DvdPostData.Session.MySession)
         '    BKCombo = New BizzLib.clsCombo(SessionInfo)

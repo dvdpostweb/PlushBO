@@ -202,7 +202,7 @@ Public Class clsProductDvd
     Public Shared Function GetSelectListActors(ByVal products_id As Integer) As String
 
         Dim sql As String
-        sql = " select pa.products_id, pa.actors_id, a.actors_name,d.directors_id,d.directors_name " & _
+        sql = " select pa.products_id, pa.actors_id, a.actors_name,d.directors_id,d.directors_name, d.slug directors_slug " & _
               " from products_to_actors pa  " & _
               " join products p on pa.products_id = p.products_id " & _
               " left join actors a on a.actors_id = pa.actors_id " & _
