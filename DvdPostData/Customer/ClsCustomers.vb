@@ -2,6 +2,7 @@
 Public Class ClsCustomersData
     Public Const CODE_DISCOUNT As String = "D"
     Public Const CODE_ACTIVATION As String = "A"
+    Public Const TVOD_ANYONE_ABO As Integer = 6
 
 #Region "enum"
 
@@ -628,7 +629,7 @@ Public Class ClsCustomersData
         sql = sql & " FROM customers c join products p on c.customers_next_abo_type = p.products_id "
         sql = sql & " join products_abo panext on c.customers_next_abo_type = panext.products_id "
         sql = sql & " join products_abo pa on c.customers_abo_type = pa.products_id "
-        sql = sql & " WHERE date(customers_abo_validityto) <= '" & strmysqldate & "'"
+        sql = sql & " WHERE customers_abo_validityto is not null and date(customers_abo_validityto) <= '" & strmysqldate & "'"
         sql = sql & " AND customers_abo = 1 "
         sql = sql & " and customers_abo_suspended = 0 "
 

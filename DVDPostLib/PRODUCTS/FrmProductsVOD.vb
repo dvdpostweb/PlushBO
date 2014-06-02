@@ -926,8 +926,16 @@ Public Class FrmProductsVOD
         cmbgridStatus.Items.AddRange(arrst)
         cmbgridStatusTrailer.Items.AddRange(arrst)
         'studio
+        Dim dtKind As DataTable
+        sql = PlushData.ClsVod.GetEnumMysqlSVODKind()
+        dtKind = PlushData.clsConnection.FillDataSet(sql)
 
-
+        Dim kind As String = dtKind.Rows()(0)(1)
+        kind = kind.Replace("'", "")
+        kind = kind.Replace("enum(", "")
+        kind = kind.Replace(")", "")
+        Dim arrkind As String() = kind.Split(",")
+        lkupSVODKind.DataSource = arrkind
 
 
     End Sub

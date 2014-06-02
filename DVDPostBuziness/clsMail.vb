@@ -62,6 +62,7 @@ Public Class clsMail
         MAIL_PLUSH_REPLY = 605
         MAIL_PLUSH_SVOD_CONFIRMATION = 623
         MAIL_PLUSH_TVOD_CONFIRMATION = 624
+        MAIL_PLUSH_TVOD_TO_ANYONE_WELCOME = 634
 
     End Enum
     Public Shared Function CreateVariableGeneric(ByVal str As String) As String
@@ -703,6 +704,7 @@ Public Class clsMail
         ReplaceINDISPONIBLE(rowcustomers, RowMail, strMessage, lstvariable)
         replaceProductNamePictureAndImage(rowcustomers, strMessage)
         ReplaceRatingImages(rowcustomers, customers_language, strMessage, lstvariable)
+        ReplaceProducts_id_1_4(rowcustomers, customers_language, strMessage, lstvariable)
         Return CreateMail(rowcustomers("email"), strMessage, strSubject, eMailTest, emailFrom, emailName)
 
     End Function
@@ -730,6 +732,28 @@ Public Class clsMail
         Dim balise As String = Getbalise()
         If IsExistInString(strMessage, balise & "imdb_id" & balise) Then
             strMessage = ReplaceVar(strMessage, balise & "imdb_id" & balise, CustRow("imdb_id"), lstvariable)
+        End If
+
+    End Sub
+
+    Private Shared Sub ReplaceProducts_id_1_4(ByVal CustRow As DataRow, ByVal customers_language As Integer, ByRef strMessage As String, ByRef lstvariable As String)
+        Dim balise As String = Getbalise()
+        If IsExistInString(strMessage, balise & "products_id1" & balise) Then
+            strMessage = ReplaceVar(strMessage, balise & "products_id1" & balise, CustRow("products_id1"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id2" & balise, CustRow("products_id2"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id3" & balise, CustRow("products_id3"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id4" & balise, CustRow("products_id4"), lstvariable)
+
+
+            strMessage = ReplaceVar(strMessage, balise & "products_id1_name" & balise, CustRow("products_id1_name"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id2_name" & balise, CustRow("products_id2_name"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id3_name" & balise, CustRow("products_id3_name"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id4_name" & balise, CustRow("products_id4_name"), lstvariable)
+
+            strMessage = ReplaceVar(strMessage, balise & "products_id1_img" & balise, CustRow("products_id1_img"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id2_img" & balise, CustRow("products_id2_img"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id3_img" & balise, CustRow("products_id3_img"), lstvariable)
+            strMessage = ReplaceVar(strMessage, balise & "products_id4_img" & balise, CustRow("products_id4_img"), lstvariable)
         End If
 
     End Sub

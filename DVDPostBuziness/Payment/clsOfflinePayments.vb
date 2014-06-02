@@ -263,7 +263,7 @@ Public Class clsOffLinePayments
             Case "Irrecoverable"
                 ToChangeStatus(PaymentOfflineData.StepPayment.IRRECOVERABLE, GridView1, True)
             Case "Eurofides To Send"
-                ToChangeStatus(PaymentOfflineData.StepPayment.EUROFIDES_TO_SEND, GridView1, True)
+                ToChangeStatus(PaymentOfflineData.StepPayment.EUROFIDES_TO_SEND, GridView1, False)
             Case "Design Report"
                 designReport()
         End Select

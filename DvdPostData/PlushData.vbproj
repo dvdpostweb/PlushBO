@@ -88,6 +88,7 @@
     <Compile Include="Customer\clsDiscountCode.vb" />
     <Compile Include="Customer\clsMessagerie.vb" />
     <Compile Include="Customer\clsStreamingCode.vb" />
+    <Compile Include="Customer\clsWelcomeCall.vb" />
     <Compile Include="Payment\clsInvoice.vb" />
     <Compile Include="Payment\clsPPVPayments.vb" />
     <Compile Include="Payment\clsStudio.vb" />

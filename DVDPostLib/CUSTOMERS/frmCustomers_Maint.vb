@@ -8842,6 +8842,10 @@ Public Class frmCustomers_Maint
         Return (Not PlushData.clsSession.isDVDPostUser Or PlushData.clsSession.isEnvTest)
     End Function
 
+    Private Function isTVODABO() As Boolean
+        Return cmbABO.EditValue = PlushData.ClsCustomersData.TVOD_ANYONE_ABO
+    End Function
+
     Private Function isLockedForReconduction() As Boolean
         Return chkCustomerLockedForReconduction.Checked
     End Function
@@ -8879,7 +8883,7 @@ Public Class frmCustomers_Maint
         ChangeStateControl(cmbDiscType, Enabling And isrightAccess())
         ChangeStateControl(txtABO, Enabling And isrightAccess())
         ChangeStateControl(cmbSuspended, Enabling And isrightAccess())
-        'ChangeStateControl(cmbABO, Enabling And isrightAccess())
+        ChangeStateControl(cmbABO, Enabling And isrightAccess() And Not isTVODABO())
         ChangeStateControl(cmbNextABO, Enabling And isrightAccess() And Not isLockedForReconduction())
         'ChangeStateControl(txtABOCredit, Enabling And isrightAccess() And Not PlushBuziness.ClsInventory.isAboprocessRun())
         'ChangeStateControl(txtRemainDVD, Enabling And isrightAccess() And PlushBuziness.ClsInventory.isNPP(txtCustomers_id.Text) And Not PlushBuziness.ClsInventory.isAboprocessRun())

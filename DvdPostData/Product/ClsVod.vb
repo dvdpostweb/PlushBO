@@ -160,7 +160,7 @@ Public Class ClsVod
 
     Public Shared Function SearchSVODDates(ByVal imdb_id As Integer) As String
         Dim sql As String
-        sql = " SELECT id, start_on, imdb_id, end_on, created_at, updated_at from svod_dates where imdb_id = " & imdb_id
+        sql = " SELECT id, start_on, imdb_id, end_on, created_at, updated_at, kind, prepaid_start_on, prepaid_end_on from svod_dates where imdb_id = " & imdb_id
         Return sql
     End Function
 
@@ -795,6 +795,13 @@ Public Class ClsVod
         Dim sql As String
 
         sql = "SHOW COLUMNS FROM streaming_products LIKE 'status' "
+        Return sql
+    End Function
+
+    Public Shared Function GetEnumMysqlSVODKind() As String
+        Dim sql As String
+
+        sql = "SHOW COLUMNS FROM svod_dates LIKE 'kind' "
         Return sql
     End Function
 

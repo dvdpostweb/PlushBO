@@ -125,6 +125,8 @@ Public Class frmLandings
         Me.ContextMenu1 = New PlushBuziness.contextMenu
         Me.XtraTabControlTheme = New DevExpress.XtraTab.XtraTabControl
         Me.tabDetail = New DevExpress.XtraTab.XtraTabPage
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl
+        Me.imgLandingsSmartTV = New DevExpress.XtraEditors.PictureEdit
         Me.lblImageiPad = New DevExpress.XtraEditors.LabelControl
         Me.imgLandingiPad = New DevExpress.XtraEditors.PictureEdit
         Me.lblImageiPhone = New DevExpress.XtraEditors.LabelControl
@@ -156,8 +158,6 @@ Public Class frmLandings
         Me.txtTitleEdit = New DevExpress.XtraEditors.TextEdit
         Me.lblTitleEdit = New DevExpress.XtraEditors.LabelControl
         Me.OFDPicture = New System.Windows.Forms.OpenFileDialog
-        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl
-        Me.imgLandingsSmartTV = New DevExpress.XtraEditors.PictureEdit
         CType(Me.cmbViewListRepos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtQuickSearchRepos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbReportListRepos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -180,6 +180,7 @@ Public Class frmLandings
         CType(Me.XtraTabControlTheme, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControlTheme.SuspendLayout()
         Me.tabDetail.SuspendLayout()
+        CType(Me.imgLandingsSmartTV.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imgLandingiPad.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imgLandingiPhone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbLogin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -194,7 +195,6 @@ Public Class frmLandings
         CType(Me.cmbKindEdit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TxtLandingId_edit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtTitleEdit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgLandingsSmartTV.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tabSearch
@@ -389,6 +389,17 @@ Public Class frmLandings
         Me.tabDetail.Name = "tabDetail"
         resources.ApplyResources(Me.tabDetail, "tabDetail")
         '
+        'LabelControl1
+        '
+        resources.ApplyResources(Me.LabelControl1, "LabelControl1")
+        Me.LabelControl1.Name = "LabelControl1"
+        '
+        'imgLandingsSmartTV
+        '
+        resources.ApplyResources(Me.imgLandingsSmartTV, "imgLandingsSmartTV")
+        Me.imgLandingsSmartTV.Name = "imgLandingsSmartTV"
+        Me.imgLandingsSmartTV.Properties.ShowMenu = False
+        '
         'lblImageiPad
         '
         resources.ApplyResources(Me.lblImageiPad, "lblImageiPad")
@@ -581,17 +592,6 @@ Public Class frmLandings
         '
         resources.ApplyResources(Me.OFDPicture, "OFDPicture")
         '
-        'LabelControl1
-        '
-        resources.ApplyResources(Me.LabelControl1, "LabelControl1")
-        Me.LabelControl1.Name = "LabelControl1"
-        '
-        'imgLandingsSmartTV
-        '
-        resources.ApplyResources(Me.imgLandingsSmartTV, "imgLandingsSmartTV")
-        Me.imgLandingsSmartTV.Name = "imgLandingsSmartTV"
-        Me.imgLandingsSmartTV.Properties.ShowMenu = False
-        '
         'frmLandings
         '
         resources.ApplyResources(Me, "$this")
@@ -622,6 +622,7 @@ Public Class frmLandings
         Me.XtraTabControlTheme.ResumeLayout(False)
         Me.tabDetail.ResumeLayout(False)
         Me.tabDetail.PerformLayout()
+        CType(Me.imgLandingsSmartTV.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgLandingiPad.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgLandingiPhone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbLogin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -636,7 +637,6 @@ Public Class frmLandings
         CType(Me.cmbKindEdit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TxtLandingId_edit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtTitleEdit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgLandingsSmartTV.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1075,6 +1075,10 @@ Public Class frmLandings
         If AddPicture(PlushBuziness.clsPicture.TypePicture.landingssmarttv_plush) Then
             RefreshPicture(imgLandingsSmartTV, TxtLandingId_edit.EditValue, PlushBuziness.clsPicture.TypePicture.landingssmarttv_plush)
         End If
+    End Sub
+
+    Private Sub imgLandingsSmartTV_EditValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles imgLandingsSmartTV.EditValueChanged
+
     End Sub
 End Class
 
