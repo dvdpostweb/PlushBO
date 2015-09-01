@@ -488,7 +488,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="reviews" msprop:Generator_UserTableName="reviews" msprop:Generator_RowDeletedName="reviewsRowDeleted" msprop:Generator_TableClassName="reviewsDataTable" msprop:Generator_RowChangedName="reviewsRowChanged" msprop:Generator_RowClassName="reviewsRow" msprop:Generator_RowChangingName="reviewsRowChanging" msprop:Generator_RowEvArgName="reviewsRowChangeEvent" msprop:Generator_RowEvHandlerName="reviewsRowChangeEventHandler" msprop:Generator_TablePropName="reviews" msprop:Generator_TableVarName="tablereviews" msprop:Generator_RowDeletingName="reviewsRowDeleting">
+        <xs:element name="reviews" msprop:Generator_UserTableName="reviews" msprop:Generator_RowDeletedName="reviewsRowDeleted" msprop:Generator_RowChangedName="reviewsRowChanged" msprop:Generator_RowClassName="reviewsRow" msprop:Generator_RowChangingName="reviewsRowChanging" msprop:Generator_RowEvArgName="reviewsRowChangeEvent" msprop:Generator_RowEvHandlerName="reviewsRowChangeEventHandler" msprop:Generator_TableClassName="reviewsDataTable" msprop:Generator_TableVarName="tablereviews" msprop:Generator_RowDeletingName="reviewsRowDeleting" msprop:Generator_TablePropName="reviews">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="reviews_id" msprop:Generator_UserColumnName="reviews_id" msprop:Generator_ColumnPropNameInRow="reviews_id" msprop:Generator_ColumnVarNameInTable="columnreviews_id" msprop:Generator_ColumnPropNameInTable="reviews_idColumn" type="xs:int" />

@@ -283,10 +283,14 @@ Public Class frmDVD_Maint
     Friend WithEvents Splitter2 As System.Windows.Forms.Splitter
     Friend WithEvents BandedGridColumn7 As DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn
     Friend WithEvents chkVodNextNL As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents txtEpisodeID As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents txtSeasonID As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents chkVodNextLU As DevExpress.XtraEditors.CheckEdit
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Dim FilterCondition1 As DevExpress.XtraTreeList.FilterCondition = New DevExpress.XtraTreeList.FilterCondition
-        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition
+        Dim FilterCondition2 As DevExpress.XtraTreeList.FilterCondition = New DevExpress.XtraTreeList.FilterCondition
+        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition
         Me.colcategory_selected = New DevExpress.XtraTreeList.Columns.TreeListColumn
         Me.chkSelectCategory = New DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit
         Me.XTabControlProduct = New DevExpress.XtraTab.XtraTabControl
@@ -344,6 +348,10 @@ Public Class frmDVD_Maint
         Me.cmbSerie = New DevExpress.XtraEditors.LookUpEdit
         Me.lblSeries = New DevExpress.XtraEditors.LabelControl
         Me.grpMain = New DevExpress.XtraEditors.GroupControl
+        Me.txtEpisodeID = New DevExpress.XtraEditors.TextEdit
+        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl
+        Me.txtSeasonID = New DevExpress.XtraEditors.TextEdit
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl
         Me.chkVodNextNL = New DevExpress.XtraEditors.CheckEdit
         Me.chkVodNextLU = New DevExpress.XtraEditors.CheckEdit
         Me.chkVodNext = New DevExpress.XtraEditors.CheckEdit
@@ -450,11 +458,6 @@ Public Class frmDVD_Maint
         Me.PanelControl4 = New DevExpress.XtraEditors.PanelControl
         Me.btnLang = New DevExpress.XtraEditors.SimpleButton
         Me.tabTrailers = New DevExpress.XtraTab.XtraTabPage
-        Me.imgIMDBID_5 = New DevExpress.XtraEditors.PictureEdit
-        Me.imgIMDBID_4 = New DevExpress.XtraEditors.PictureEdit
-        Me.imgIMDBID_3 = New DevExpress.XtraEditors.PictureEdit
-        Me.imgIMDBID_2 = New DevExpress.XtraEditors.PictureEdit
-        Me.imgIMDBID_1 = New DevExpress.XtraEditors.PictureEdit
         Me.SplitterControl3 = New DevExpress.XtraEditors.SplitterControl
         Me.grpTrailers = New DevExpress.XtraEditors.GroupControl
         Me.Panel2 = New System.Windows.Forms.Panel
@@ -505,6 +508,11 @@ Public Class frmDVD_Maint
         Me.GridVODWishlist = New DevExpress.XtraGrid.GridControl
         Me.gridViewVODWishlist = New DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView
         Me.GridBand12 = New DevExpress.XtraGrid.Views.BandedGrid.GridBand
+        Me.imgIMDBID_5 = New DevExpress.XtraEditors.PictureEdit
+        Me.imgIMDBID_4 = New DevExpress.XtraEditors.PictureEdit
+        Me.imgIMDBID_3 = New DevExpress.XtraEditors.PictureEdit
+        Me.imgIMDBID_2 = New DevExpress.XtraEditors.PictureEdit
+        Me.imgIMDBID_1 = New DevExpress.XtraEditors.PictureEdit
         Me.BandedGridColumn6 = New DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn
         Me.PanelControl10 = New DevExpress.XtraEditors.PanelControl
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit
@@ -570,6 +578,8 @@ Public Class frmDVD_Maint
         CType(Me.cmbSerie.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grpMain, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grpMain.SuspendLayout()
+        CType(Me.txtEpisodeID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtSeasonID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkVodNextNL.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkVodNextLU.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkVodNext.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -637,11 +647,6 @@ Public Class frmDVD_Maint
         CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl4.SuspendLayout()
         Me.tabTrailers.SuspendLayout()
-        CType(Me.imgIMDBID_5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgIMDBID_4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgIMDBID_3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgIMDBID_2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgIMDBID_1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grpTrailers, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grpTrailers.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -668,6 +673,11 @@ Public Class frmDVD_Maint
         Me.tabVodWishlist.SuspendLayout()
         CType(Me.GridVODWishlist, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gridViewVODWishlist, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgIMDBID_5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgIMDBID_4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgIMDBID_3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgIMDBID_2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgIMDBID_1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl10.SuspendLayout()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1244,6 +1254,10 @@ Public Class frmDVD_Maint
         'grpMain
         '
         Me.grpMain.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly
+        Me.grpMain.Controls.Add(Me.txtEpisodeID)
+        Me.grpMain.Controls.Add(Me.LabelControl8)
+        Me.grpMain.Controls.Add(Me.txtSeasonID)
+        Me.grpMain.Controls.Add(Me.LabelControl1)
         Me.grpMain.Controls.Add(Me.chkVodNextNL)
         Me.grpMain.Controls.Add(Me.chkVodNextLU)
         Me.grpMain.Controls.Add(Me.chkVodNext)
@@ -1290,12 +1304,46 @@ Public Class frmDVD_Maint
         Me.grpMain.TabIndex = 0
         Me.grpMain.Text = "General Info"
         '
+        'txtEpisodeID
+        '
+        Me.txtEpisodeID.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.episode_id", True))
+        Me.txtEpisodeID.Enabled = False
+        Me.txtEpisodeID.Location = New System.Drawing.Point(104, 318)
+        Me.txtEpisodeID.Name = "txtEpisodeID"
+        Me.txtEpisodeID.Size = New System.Drawing.Size(104, 20)
+        Me.txtEpisodeID.TabIndex = 59
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Location = New System.Drawing.Point(16, 321)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(37, 13)
+        Me.LabelControl8.TabIndex = 60
+        Me.LabelControl8.Text = "Episode"
+        '
+        'txtSeasonID
+        '
+        Me.txtSeasonID.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.season_id", True))
+        Me.txtSeasonID.Enabled = False
+        Me.txtSeasonID.Location = New System.Drawing.Point(104, 294)
+        Me.txtSeasonID.Name = "txtSeasonID"
+        Me.txtSeasonID.Size = New System.Drawing.Size(104, 20)
+        Me.txtSeasonID.TabIndex = 57
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Location = New System.Drawing.Point(16, 297)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(35, 13)
+        Me.LabelControl1.TabIndex = 58
+        Me.LabelControl1.Text = "Season"
+        '
         'chkVodNextNL
         '
         Me.chkVodNextNL.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.vod_next_nl", True))
         Me.chkVodNextNL.EditValue = 0
         Me.chkVodNextNL.Enabled = False
-        Me.chkVodNextNL.Location = New System.Drawing.Point(326, 425)
+        Me.chkVodNextNL.Location = New System.Drawing.Point(319, 440)
         Me.chkVodNextNL.Name = "chkVodNextNL"
         Me.chkVodNextNL.Properties.Caption = "Soon in VOD Nl"
         Me.chkVodNextNL.Properties.ValueChecked = 1
@@ -1308,7 +1356,7 @@ Public Class frmDVD_Maint
         Me.chkVodNextLU.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.vod_next_lux", True))
         Me.chkVodNextLU.EditValue = 0
         Me.chkVodNextLU.Enabled = False
-        Me.chkVodNextLU.Location = New System.Drawing.Point(326, 407)
+        Me.chkVodNextLU.Location = New System.Drawing.Point(203, 440)
         Me.chkVodNextLU.Name = "chkVodNextLU"
         Me.chkVodNextLU.Properties.Caption = "Soon in VOD Lux"
         Me.chkVodNextLU.Properties.ValueChecked = 1
@@ -1321,7 +1369,7 @@ Public Class frmDVD_Maint
         Me.chkVodNext.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.vod_next", True))
         Me.chkVodNext.EditValue = 0
         Me.chkVodNext.Enabled = False
-        Me.chkVodNext.Location = New System.Drawing.Point(326, 391)
+        Me.chkVodNext.Location = New System.Drawing.Point(115, 440)
         Me.chkVodNext.Name = "chkVodNext"
         Me.chkVodNext.Properties.Caption = "Soon in VOD"
         Me.chkVodNext.Properties.ValueChecked = 1
@@ -1385,7 +1433,7 @@ Public Class frmDVD_Maint
         Me.chkInCinemaNow.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.in_cinema_now", True))
         Me.chkInCinemaNow.EditValue = 0
         Me.chkInCinemaNow.Enabled = False
-        Me.chkInCinemaNow.Location = New System.Drawing.Point(203, 391)
+        Me.chkInCinemaNow.Location = New System.Drawing.Point(14, 440)
         Me.chkInCinemaNow.Name = "chkInCinemaNow"
         Me.chkInCinemaNow.Properties.Caption = "In Cinema Now"
         Me.chkInCinemaNow.Properties.ValueChecked = 1
@@ -1418,7 +1466,7 @@ Public Class frmDVD_Maint
         '
         'LabelControl6
         '
-        Me.LabelControl6.Location = New System.Drawing.Point(16, 367)
+        Me.LabelControl6.Location = New System.Drawing.Point(16, 415)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(38, 13)
         Me.LabelControl6.TabIndex = 37
@@ -1505,7 +1553,7 @@ Public Class frmDVD_Maint
         '
         Me.cmbDirector.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.products_directors_id", True))
         Me.cmbDirector.Enabled = False
-        Me.cmbDirector.Location = New System.Drawing.Point(104, 367)
+        Me.cmbDirector.Location = New System.Drawing.Point(104, 415)
         Me.cmbDirector.Name = "cmbDirector"
         Me.cmbDirector.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Plus)})
         Me.cmbDirector.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("directors_id", "directors_id", 75, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far, DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("directors_name", "directors_name", 80, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near)})
@@ -1520,7 +1568,7 @@ Public Class frmDVD_Maint
         '
         Me.cmbPictureFormat.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.products_picture_format", True))
         Me.cmbPictureFormat.Enabled = False
-        Me.cmbPictureFormat.Location = New System.Drawing.Point(104, 319)
+        Me.cmbPictureFormat.Location = New System.Drawing.Point(104, 367)
         Me.cmbPictureFormat.Name = "cmbPictureFormat"
         Me.cmbPictureFormat.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbPictureFormat.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("picture_format_id", "picture_format_id", 30, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far, DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("picture_format_name", "picture_format_name", 109, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near)})
@@ -1533,7 +1581,7 @@ Public Class frmDVD_Maint
         '
         'lblPictureFormat
         '
-        Me.lblPictureFormat.Location = New System.Drawing.Point(16, 319)
+        Me.lblPictureFormat.Location = New System.Drawing.Point(16, 367)
         Me.lblPictureFormat.Name = "lblPictureFormat"
         Me.lblPictureFormat.Size = New System.Drawing.Size(70, 13)
         Me.lblPictureFormat.TabIndex = 24
@@ -1543,7 +1591,7 @@ Public Class frmDVD_Maint
         '
         Me.cmbPublic.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.products_public", True))
         Me.cmbPublic.Enabled = False
-        Me.cmbPublic.Location = New System.Drawing.Point(104, 295)
+        Me.cmbPublic.Location = New System.Drawing.Point(104, 343)
         Me.cmbPublic.Name = "cmbPublic"
         Me.cmbPublic.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbPublic.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("public_id", "public_id", 30, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far, DevExpress.Data.ColumnSortOrder.None), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("public_name", "public_name", 95, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near)})
@@ -1556,7 +1604,7 @@ Public Class frmDVD_Maint
         '
         'lblPublic
         '
-        Me.lblPublic.Location = New System.Drawing.Point(16, 295)
+        Me.lblPublic.Location = New System.Drawing.Point(16, 343)
         Me.lblPublic.Name = "lblPublic"
         Me.lblPublic.Size = New System.Drawing.Size(27, 13)
         Me.lblPublic.TabIndex = 22
@@ -1566,7 +1614,7 @@ Public Class frmDVD_Maint
         '
         Me.cmbStudio.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "products.products_studio", True))
         Me.cmbStudio.Enabled = False
-        Me.cmbStudio.Location = New System.Drawing.Point(104, 343)
+        Me.cmbStudio.Location = New System.Drawing.Point(104, 391)
         Me.cmbStudio.Name = "cmbStudio"
         Me.cmbStudio.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Plus)})
         Me.cmbStudio.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("studio_name", "studio_name", 67, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("studio_type", "studio_type", 63, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near)})
@@ -1579,7 +1627,7 @@ Public Class frmDVD_Maint
         '
         'lblStudio
         '
-        Me.lblStudio.Location = New System.Drawing.Point(16, 343)
+        Me.lblStudio.Location = New System.Drawing.Point(16, 391)
         Me.lblStudio.Name = "lblStudio"
         Me.lblStudio.Size = New System.Drawing.Size(30, 13)
         Me.lblStudio.TabIndex = 20
@@ -2141,11 +2189,11 @@ Public Class frmDVD_Maint
         Me.TreeListCategories.CustomizationFormBounds = New System.Drawing.Rectangle(960, 402, 208, 170)
         Me.TreeListCategories.DataSource = Me.objDS.categories_fr_view1
         Me.TreeListCategories.Dock = System.Windows.Forms.DockStyle.Fill
-        FilterCondition1.Column = Me.colcategory_selected
-        FilterCondition1.Condition = DevExpress.XtraTreeList.FilterConditionEnum.Equals
-        FilterCondition1.Value1 = True
-        FilterCondition1.Visible = True
-        Me.TreeListCategories.FilterConditions.AddRange(New DevExpress.XtraTreeList.FilterCondition() {FilterCondition1})
+        FilterCondition2.Column = Me.colcategory_selected
+        FilterCondition2.Condition = DevExpress.XtraTreeList.FilterConditionEnum.Equals
+        FilterCondition2.Value1 = True
+        FilterCondition2.Visible = True
+        Me.TreeListCategories.FilterConditions.AddRange(New DevExpress.XtraTreeList.FilterCondition() {FilterCondition2})
         Me.TreeListCategories.KeyFieldName = "categories_id"
         Me.TreeListCategories.Location = New System.Drawing.Point(2, 2)
         Me.TreeListCategories.Name = "TreeListCategories"
@@ -2434,46 +2482,6 @@ Public Class frmDVD_Maint
         Me.tabTrailers.Name = "tabTrailers"
         Me.tabTrailers.Size = New System.Drawing.Size(1047, 629)
         Me.tabTrailers.Text = "Trailers"
-        '
-        'imgIMDBID_5
-        '
-        Me.imgIMDBID_5.Location = New System.Drawing.Point(6, 414)
-        Me.imgIMDBID_5.Name = "imgIMDBID_5"
-        Me.imgIMDBID_5.Properties.ReadOnly = True
-        Me.imgIMDBID_5.Size = New System.Drawing.Size(265, 95)
-        Me.imgIMDBID_5.TabIndex = 10
-        '
-        'imgIMDBID_4
-        '
-        Me.imgIMDBID_4.Location = New System.Drawing.Point(6, 319)
-        Me.imgIMDBID_4.Name = "imgIMDBID_4"
-        Me.imgIMDBID_4.Properties.ReadOnly = True
-        Me.imgIMDBID_4.Size = New System.Drawing.Size(265, 95)
-        Me.imgIMDBID_4.TabIndex = 9
-        '
-        'imgIMDBID_3
-        '
-        Me.imgIMDBID_3.Location = New System.Drawing.Point(6, 224)
-        Me.imgIMDBID_3.Name = "imgIMDBID_3"
-        Me.imgIMDBID_3.Properties.ReadOnly = True
-        Me.imgIMDBID_3.Size = New System.Drawing.Size(265, 95)
-        Me.imgIMDBID_3.TabIndex = 8
-        '
-        'imgIMDBID_2
-        '
-        Me.imgIMDBID_2.Location = New System.Drawing.Point(6, 129)
-        Me.imgIMDBID_2.Name = "imgIMDBID_2"
-        Me.imgIMDBID_2.Properties.ReadOnly = True
-        Me.imgIMDBID_2.Size = New System.Drawing.Size(265, 95)
-        Me.imgIMDBID_2.TabIndex = 7
-        '
-        'imgIMDBID_1
-        '
-        Me.imgIMDBID_1.Location = New System.Drawing.Point(6, 23)
-        Me.imgIMDBID_1.Name = "imgIMDBID_1"
-        Me.imgIMDBID_1.Properties.ReadOnly = True
-        Me.imgIMDBID_1.Size = New System.Drawing.Size(265, 106)
-        Me.imgIMDBID_1.TabIndex = 6
         '
         'SplitterControl3
         '
@@ -2954,7 +2962,7 @@ Public Class frmDVD_Maint
         'gridViewVODWishlist
         '
         Me.gridViewVODWishlist.Bands.AddRange(New DevExpress.XtraGrid.Views.BandedGrid.GridBand() {Me.GridBand12})
-        Me.gridViewVODWishlist.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1})
+        Me.gridViewVODWishlist.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition2})
         Me.gridViewVODWishlist.GridControl = Me.GridVODWishlist
         Me.gridViewVODWishlist.Name = "gridViewVODWishlist"
         Me.gridViewVODWishlist.OptionsBehavior.Editable = False
@@ -2963,6 +2971,46 @@ Public Class frmDVD_Maint
         'GridBand12
         '
         Me.GridBand12.Name = "GridBand12"
+        '
+        'imgIMDBID_5
+        '
+        Me.imgIMDBID_5.Location = New System.Drawing.Point(6, 414)
+        Me.imgIMDBID_5.Name = "imgIMDBID_5"
+        Me.imgIMDBID_5.Properties.ReadOnly = True
+        Me.imgIMDBID_5.Size = New System.Drawing.Size(265, 95)
+        Me.imgIMDBID_5.TabIndex = 10
+        '
+        'imgIMDBID_4
+        '
+        Me.imgIMDBID_4.Location = New System.Drawing.Point(6, 319)
+        Me.imgIMDBID_4.Name = "imgIMDBID_4"
+        Me.imgIMDBID_4.Properties.ReadOnly = True
+        Me.imgIMDBID_4.Size = New System.Drawing.Size(265, 95)
+        Me.imgIMDBID_4.TabIndex = 9
+        '
+        'imgIMDBID_3
+        '
+        Me.imgIMDBID_3.Location = New System.Drawing.Point(6, 224)
+        Me.imgIMDBID_3.Name = "imgIMDBID_3"
+        Me.imgIMDBID_3.Properties.ReadOnly = True
+        Me.imgIMDBID_3.Size = New System.Drawing.Size(265, 95)
+        Me.imgIMDBID_3.TabIndex = 8
+        '
+        'imgIMDBID_2
+        '
+        Me.imgIMDBID_2.Location = New System.Drawing.Point(6, 129)
+        Me.imgIMDBID_2.Name = "imgIMDBID_2"
+        Me.imgIMDBID_2.Properties.ReadOnly = True
+        Me.imgIMDBID_2.Size = New System.Drawing.Size(265, 95)
+        Me.imgIMDBID_2.TabIndex = 7
+        '
+        'imgIMDBID_1
+        '
+        Me.imgIMDBID_1.Location = New System.Drawing.Point(6, 23)
+        Me.imgIMDBID_1.Name = "imgIMDBID_1"
+        Me.imgIMDBID_1.Properties.ReadOnly = True
+        Me.imgIMDBID_1.Size = New System.Drawing.Size(265, 106)
+        Me.imgIMDBID_1.TabIndex = 6
         '
         'BandedGridColumn6
         '
@@ -3179,6 +3227,8 @@ Public Class frmDVD_Maint
         CType(Me.grpMain, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grpMain.ResumeLayout(False)
         Me.grpMain.PerformLayout()
+        CType(Me.txtEpisodeID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtSeasonID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkVodNextNL.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkVodNextLU.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkVodNext.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3249,11 +3299,6 @@ Public Class frmDVD_Maint
         CType(Me.PanelControl4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl4.ResumeLayout(False)
         Me.tabTrailers.ResumeLayout(False)
-        CType(Me.imgIMDBID_5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgIMDBID_4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgIMDBID_3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgIMDBID_2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgIMDBID_1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.grpTrailers, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grpTrailers.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
@@ -3282,6 +3327,11 @@ Public Class frmDVD_Maint
         Me.tabVodWishlist.ResumeLayout(False)
         CType(Me.GridVODWishlist, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gridViewVODWishlist, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgIMDBID_5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgIMDBID_4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgIMDBID_3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgIMDBID_2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgIMDBID_1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl10.ResumeLayout(False)
         Me.PanelControl10.PerformLayout()
@@ -4017,6 +4067,8 @@ Public Class frmDVD_Maint
         'txtPictureImage.Enabled = Enabling
         'txtOtherProductID.Enabled = Enabling
         txtIMDB_ID.Enabled = Enabling
+        'txtSeasonID.Enabled = Enabling
+        'txtEpisodeID.Enabled = Enabling
         txtImdb_id_serie.Enabled = Enabling
 
         'PictProducts_Image.Enabled = Enabling

@@ -101,14 +101,17 @@ Public Class clsMsgError
 
     Public Shared Function FileAppend(ByVal namefile As String, ByVal strmsg As String) As Boolean
         Dim path As String = ""
-
+        'System.Windows.Forms.MessageBox.Show("FileAppend " & namefile & " : " & strmsg)
         Try
             namefile = namefile + "_" + DateTime.Now.ToString("dd-MM-yy") & ".txt"
+            'System.Windows.Forms.MessageBox.Show("FileAppend " & namefile)
             strmsg = DateTime.Now.ToString() + " " + PlushData.clsConnection.typeEnv + " " + strmsg
+
             path = Configuration.ConfigurationManager.AppSettings(PATHLOG)
+            'System.Windows.Forms.MessageBox.Show("FileAppend " & path)
+
             path = path + namefile
             PlushTools.clsFile.WriteFileAppend(path, strmsg)
-
             Return True
         Catch ex As Exception
             InsertLogMsg(PlushData.clsMsgError.processType.Batch, ex.Message & " " & path & " " & strmsg)

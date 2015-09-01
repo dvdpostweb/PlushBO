@@ -93,11 +93,25 @@ Public Class ClsBatchOgone
     '    Return sql
     'End Function
 
+    Public Shared Function GetLastPaymentOpenStatus_ogone(ByVal customers_id As Integer, ByVal batch_id As Integer) As String
+        Dim sql As String
+        ' payment 
+        sql = ClsPayment.GetLastPaymentOpenStatus(customers_id, batch_id, ClsCustomersData.Payment_Method.OGONE)
+        Return sql
+    End Function
+
 
     Public Shared Function GetLastPaymentOpenStatus_ogone(ByVal customers_id As Integer) As String
         Dim sql As String
         ' payment 
         sql = ClsPayment.GetLastPaymentOpenStatus(customers_id, ClsCustomersData.Payment_Method.OGONE)
+        Return sql
+    End Function
+
+    Public Shared Function GetLastPaymentOpenNotCreateRecoveryStatus_ogone(ByVal customers_id As Integer) As String
+        Dim sql As String
+        ' payment 
+        sql = ClsPayment.GetLastPaymentOpenNotCreateRecoveryStatus(customers_id, ClsCustomersData.Payment_Method.OGONE)
         Return sql
     End Function
 

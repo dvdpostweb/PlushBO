@@ -71,6 +71,8 @@ Partial Class frmDiscountCode
         Me.tabResult = New System.Windows.Forms.TabPage
         Me.tabDiscount = New System.Windows.Forms.TabPage
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl
+        Me.txtTVODFreeCredits = New DevExpress.XtraEditors.SpinEdit
+        Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl
         Me.cmbDiscountAction = New DevExpress.XtraEditors.LookUpEdit
         Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
@@ -181,6 +183,7 @@ Partial Class frmDiscountCode
         Me.tabDiscount.SuspendLayout()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbDiscountAction.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.CheckDebitCard.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -716,6 +719,8 @@ Partial Class frmDiscountCode
         'PanelControl1
         '
         Me.PanelControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly
+        Me.PanelControl1.Controls.Add(Me.txtTVODFreeCredits)
+        Me.PanelControl1.Controls.Add(Me.LabelControl19)
         Me.PanelControl1.Controls.Add(Me.cmbDiscountAction)
         Me.PanelControl1.Controls.Add(Me.LabelControl21)
         Me.PanelControl1.Controls.Add(Me.GroupBox1)
@@ -767,6 +772,26 @@ Partial Class frmDiscountCode
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(1158, 585)
         Me.PanelControl1.TabIndex = 37
+        '
+        'txtTVODFreeCredits
+        '
+        Me.txtTVODFreeCredits.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.txtTVODFreeCredits.Enabled = False
+        Me.txtTVODFreeCredits.Location = New System.Drawing.Point(681, 285)
+        Me.txtTVODFreeCredits.Name = "txtTVODFreeCredits"
+        Me.txtTVODFreeCredits.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
+        Me.txtTVODFreeCredits.Properties.MaxValue = New Decimal(New Integer() {20, 0, 0, 0})
+        Me.HelpProvider1.SetShowHelp(Me.txtTVODFreeCredits, True)
+        Me.txtTVODFreeCredits.Size = New System.Drawing.Size(100, 20)
+        Me.txtTVODFreeCredits.TabIndex = 92
+        '
+        'LabelControl19
+        '
+        Me.LabelControl19.Location = New System.Drawing.Point(532, 288)
+        Me.LabelControl19.Name = "LabelControl19"
+        Me.LabelControl19.Size = New System.Drawing.Size(85, 13)
+        Me.LabelControl19.TabIndex = 91
+        Me.LabelControl19.Text = "TVOD free credits"
         '
         'cmbDiscountAction
         '
@@ -1679,6 +1704,7 @@ Partial Class frmDiscountCode
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbDiscountAction.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.CheckDebitCard.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1870,5 +1896,7 @@ Partial Class frmDiscountCode
     Friend WithEvents CheckPaypal As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents cmbDiscountAction As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents txtTVODFreeCredits As DevExpress.XtraEditors.SpinEdit
+    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
 
 End Class

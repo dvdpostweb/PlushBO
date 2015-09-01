@@ -36,6 +36,8 @@ Public Class FrmProductsVOD
         txtId.EditValue = Nothing
         TxtFilename.EditValue = blank
         txtImdbView.EditValue = blank
+        txtSeasonID.EditValue = blank
+        txtEpisodeID.EditValue = blank
 
         cmbDateExpired.EditValue = blank
         cmbDateStart.EditValue = blank
@@ -52,7 +54,8 @@ Public Class FrmProductsVOD
         txtPPVPriceLU.EditValue = blank
         chkIsPPVNL.Checked = False
         txtPPVPriceNL.EditValue = blank
-        chkDRM.Checked = blank
+        chkDRM.Checked = False
+        chkVideoland.Checked = False
 
     End Sub
     Private Sub loadData(ByVal row As DataRow)
@@ -65,6 +68,8 @@ Public Class FrmProductsVOD
         End If
 
         txtImdbView.EditValue = row("imdb_id")
+        'txtSeasonID.EditValue = row("season_id")
+        'txtEpisodeID.EditValue = row("episode_id")
 
         If row("expire_at") Is DBNull.Value Then
             cmbDateExpired.EditValue = DateTime.MinValue
@@ -138,6 +143,12 @@ Public Class FrmProductsVOD
             chkDRM.Checked = False
         Else
             chkDRM.Checked = row("drm")
+        End If
+
+        If row("videoland") Is DBNull.Value Then
+            chkVideoland.Checked = False
+        Else
+            chkVideoland.Checked = row("videoland")
         End If
 
     End Sub
@@ -319,6 +330,8 @@ Public Class FrmProductsVOD
 
         TxtFilename.Enabled = enable
         txtImdbView.Enabled = enable
+        txtSeasonID.Enabled = enable
+        txtEpisodeID.Enabled = enable
         cmbDateExpired.Enabled = enable
         cmbDateStart.Enabled = enable
         cmbDateLaterStart.Enabled = enable
@@ -336,6 +349,7 @@ Public Class FrmProductsVOD
         txtPPVPrice.Enabled = enable And chkIsPPV.Checked
         GridSVODDates.Enabled = enable
         chkDRM.Enabled = enable
+        chkVideoland.Enabled = enable
         LuxEnable(enable)
         NLEnable(enable)
 
@@ -791,34 +805,42 @@ Public Class FrmProductsVOD
         Try
 
             If txtId.EditValue Is Nothing Then
-                sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue)
+                'sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue)
+                sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue, chkVideoland.EditValue)
                 PlushData.clsConnection.ExecuteNonQuery(sql)
                 If chkLU.Checked Then
-                    sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "LU", chkDRM.EditValue)
+                    'sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "LU", chkDRM.EditValue)
+                    sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "LU", chkDRM.EditValue, chkVideoland.EditValue)
                     PlushData.clsConnection.ExecuteNonQuery(sql)
                 End If
                 If chkNL.Checked Then
-                    sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "NL", chkDRM.EditValue)
+                    'sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "NL", chkDRM.EditValue)
+                    sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "NL", chkDRM.EditValue, chkVideoland.EditValue)
                     PlushData.clsConnection.ExecuteNonQuery(sql)
                 End If
             Else
-                sql = PlushData.ClsVod.GetUpdateVod(txtId.EditValue, txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue)
+                'sql = PlushData.ClsVod.GetUpdateVod(txtId.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue)
+                sql = PlushData.ClsVod.GetUpdateVod(txtId.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStart.EditValue, cmbDateExpired.EditValue, chkAvailable.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStart.EditValue, cmbDateLaterExpired.EditValue, chkIsPPV.EditValue, txtPPVPrice.EditValue, "BE", chkDRM.EditValue, chkVideoland.EditValue)
                 PlushData.clsConnection.ExecuteNonQuery(sql)
                 If chkLU.Checked Then
                     If txtIdLU.EditValue Is Nothing Then
-                        sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue)
+                        'sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue)
+                        sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue, chkVideoland.EditValue)
                         PlushData.clsConnection.ExecuteNonQuery(sql)
                     Else
-                        sql = PlushData.ClsVod.GetUpdateVod(txtIdLU.EditValue, txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue)
+                        sql = PlushData.ClsVod.GetUpdateVod(txtIdLU.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue, chkVideoland.EditValue)
+                        'sql = PlushData.ClsVod.GetUpdateVod(txtIdLU.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartLU.EditValue, cmbDateExpiredLU.EditValue, chkAvailableLU.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartLU.EditValue, cmbDateLaterExpiredLU.EditValue, chkIsPPVLU.EditValue, txtPPVPriceLU.EditValue, "LU", chkDRM.EditValue)
                         PlushData.clsConnection.ExecuteNonQuery(sql)
                     End If
                 End If
                 If chkNL.Checked Then
                     If txtIdNL.EditValue Is Nothing Then
-                        sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue)
+                        'sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue)
+                        sql = PlushData.ClsVod.GetInsertVod(txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue, chkVideoland.EditValue)
                         PlushData.clsConnection.ExecuteNonQuery(sql)
                     Else
-                        sql = PlushData.ClsVod.GetUpdateVod(txtIdNL.EditValue, txtImdbView.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue)
+                        'sql = PlushData.ClsVod.GetUpdateVod(txtIdNL.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue)
+                        sql = PlushData.ClsVod.GetUpdateVod(txtIdNL.EditValue, txtImdbView.EditValue, txtSeasonID.EditValue, txtEpisodeID.EditValue, TxtFilename.EditValue, cmbDateStartNL.EditValue, cmbDateExpiredNL.EditValue, chkAvailableNL.Checked, cmbLanguageSound.EditValue, cmbLanguageSubtitle.EditValue, cmbStudioEdit.EditValue, cmbStatus.EditValue, cmbQuality.EditValue, cmbSource.EditValue, cmbSupportVod.EditValue, cmbDateLaterStartNL.EditValue, cmbDateLaterExpiredNL.EditValue, chkIsPPVNL.EditValue, txtPPVPriceNL.EditValue, "NL", chkDRM.EditValue, chkVideoland.EditValue)
                         PlushData.clsConnection.ExecuteNonQuery(sql)
                     End If
                 End If
@@ -1033,7 +1055,7 @@ Public Class FrmProductsVOD
                 filename = fileInfo.Name
                 language_audio_id = SearchLangID(elts(PlushBuziness.clsFileZilla.FormatFile.LANGUAGE_AUDIO_ID), filename)
                 language_subtitle_id = SearchLangID(elts(PlushBuziness.clsFileZilla.FormatFile.LANGUAGE_SUBTITLE_ID), filename)
-                sql = PlushData.ClsVod.GetInsertVod(elts(PlushBuziness.clsFileZilla.FormatFile.IMDB_ID), extension + filename, Date.MinValue, Date.MinValue, True, language_audio_id, language_subtitle_id, elts(PlushBuziness.clsFileZilla.FormatFile.STUDIO_ID), "uploaded", strQuality, "SOFTLAYER", 1, Date.MinValue, Date.MinValue, "false", "", "BE", String.Empty)
+                'sql = PlushData.ClsVod.GetInsertVod(elts(PlushBuziness.clsFileZilla.FormatFile.IMDB_ID), extension + filename, Date.MinValue, Date.MinValue, True, language_audio_id, language_subtitle_id, elts(PlushBuziness.clsFileZilla.FormatFile.STUDIO_ID), "uploaded", strQuality, "SOFTLAYER", 1, Date.MinValue, Date.MinValue, "false", "", "BE", String.Empty)
                 PlushData.clsConnection.ExecuteNonQuery(sql)
 
                 fileZilla.InsertNodeQueue(file, fileInfo.Name, fileInfo.Length)
@@ -1538,6 +1560,9 @@ Public Class FrmProductsVOD
                     result(PlushData.ClsVod.ListField.EXPIRE_BACKKATALOGUE_AT) = Date.MinValue
 
                     If Not ExistAlreadyMovie(result) Then
+                        'result(PlushData.ClsVod.ListField.SEASON_ID), _
+                        'result(PlushData.ClsVod.ListField.EPISODE_ID), _
+
                         sql = PlushData.ClsVod.GetInsertVod( _
                                 result(PlushData.ClsVod.ListField.IMDB_ID), _
                                 result(PlushData.ClsVod.ListField.FILENAME), _
@@ -1553,7 +1578,7 @@ Public Class FrmProductsVOD
                                 result(PlushData.ClsVod.ListField.VOD_SUPPORT), _
                                 result(PlushData.ClsVod.ListField.AVAILABLE_BACKCATALOGUE_FROM), _
                                 result(PlushData.ClsVod.ListField.EXPIRE_BACKKATALOGUE_AT), _
-                                "false", "", "BE", String.Empty)
+                                "false", "", "BE", String.Empty, False)
 
                         PlushData.clsConnection.ExecuteNonQuery(sql)
                         LstResult.Items.Add(name)
@@ -1619,8 +1644,10 @@ Public Class FrmProductsVOD
         End If
         For Each dr As DataRow In dt.Rows
             Dim sql As String
+            'IIf(dr("season_id") Is System.DBNull.Value, 0, dr("season_id")), _
+            'IIf(dr("episode_id") Is System.DBNull.Value, 0, dr("episode_id")), _
             sql = PlushData.ClsVod.GetUpdateVod(dr("id"), _
-                                        IIf(dr("imdb_id") Is System.DBNull.Value, 0, dr("imdb_id")), _
+                                        IIf(dr("imdb_id") Is System.DBNull.Value, 0, dr("imdb_id")), 0, 0, _
                                         IIf(dr("filename") Is System.DBNull.Value, "", dr("filename")), _
                                         IIf(dr("available_from") Is System.DBNull.Value, DateTime.MinValue, dr("available_from")), _
                                         IIf(dr("expire_at") Is System.DBNull.Value, DateTime.MinValue, dr("expire_at")), _
@@ -1636,7 +1663,7 @@ Public Class FrmProductsVOD
                                         IIf(dr("expire_backcatalogue_at") Is System.DBNull.Value, DateTime.MinValue, dr("expire_backcatalogue_at")), _
                                         IIf(dr("is_ppv") Is System.DBNull.Value, "false", dr("is_ppv")), _
                                         IIf(dr("ppv_price") Is System.DBNull.Value, "", dr("ppv_price")), _
-                                        dr("country"), True)
+                                        dr("country"), True, False)
             PlushData.clsConnection.ExecuteNonQuery(sql)
 
         Next

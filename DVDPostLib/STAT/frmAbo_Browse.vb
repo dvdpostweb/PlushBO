@@ -377,12 +377,12 @@ Public Class frmAbo_Browse
             " FROM `abo`  a left join abo_action aa on aa.id = a.action " & _
             " left join customers c on c.customers_id = a.customerid " & _
             " left join products p on p.products_id = a.product_id " & _
-            " left join address_book ad on ad.customers_id=a.customerid" & _
+            " left join address_book ad on ad.customers_id=a.customerid and ad.address_book_id = c.customers_default_address_id " & _
             " left join activation_code ac on ac.activation_id = a.code_id AND a.action = 8 " & _
             " left join discount_code dc on dc.discount_code_id = a.code_id AND a.action = 6 " & _
             " left join activation_group ag on ac.activation_group = ag.activation_group_id " & _
             " where a.date >= '" & _DateFromTxt & "' and a.date <= '" & _DateToTxt & "' " & _
-            " AND a.`Action` in (" & txtActionList.Text & ") and ad.address_book_id = c.customers_default_address_id"
+            " AND a.`Action` in (" & txtActionList.Text & ") "
 
 
         lbl1.Text = "Loading ABO Actions"

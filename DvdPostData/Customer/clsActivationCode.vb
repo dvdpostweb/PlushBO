@@ -39,14 +39,15 @@ Public Class clsActivationCode
                                                 ByVal activation_value As Decimal, ByVal group As Integer, ByVal _ActivationGroupID As Integer, _
                                                 ByVal _ValidToStr As String, ByVal cmbProductsID As Integer, ByVal ValidType As Integer, _
                                                 ByVal ValidValue As Integer, ByVal chkWaranty As Integer, ByVal txtComment As String, _
-                                                ByVal _NextDiscountCodeID As Integer, ByVal chkAuto_Stop_at_Next_Reconduction As Integer, ByVal NextAboType As Integer, _
+                                                ByVal _NextDiscountCodeID As Integer, ByVal tvod_free As Integer, ByVal chkAuto_Stop_at_Next_Reconduction As Integer, ByVal NextAboType As Integer, _
                                                 ByVal txtBanner As String, ByVal txtDescFR As String, ByVal txtDescNL As String, ByVal txtDescEN As String, _
                                                 ByVal chkFree_Upgrade_Allowed As Integer, ByVal txtFooter As String, ByVal txtCampaign As String, _
                                                 ByVal combinetActi As String, _
                                                 ByVal paypal As Integer, _
                                                 ByVal creditcard As Integer, _
                                                 ByVal debitcard As Integer, _
-                                                ByVal discount_action As String) As String
+                                                ByVal discount_action As String, _
+                                                ByVal all_cust As Integer) As String
 
         txtComment = replaceSingleCote(txtComment)
         txtDescFR = replaceSingleCote(txtDescFR)
@@ -68,7 +69,7 @@ Public Class clsActivationCode
                                             "validity_type ,validity_value ,activation_waranty ,comment, " & _
                                             "next_discount , abo_auto_stop_next_reconduction , banner , activation_text_fr , " & _
                                             "activation_text_nl ,activation_text_en , free_upgrade_allowed ,footer ,campaign ,combined_action, next_abo_type, " & _
-                                            "paypal, creditcard, debitcard, discount_action) values " & _
+                                            "paypal, creditcard, debitcard, discount_action, tvod_free, all_cust) values " & _
                                             "  ('" & _ActivationCode & "'" & _
                       " ,0 " & _
                       " , " & activation_type & _
@@ -95,7 +96,7 @@ Public Class clsActivationCode
                       " , " & paypal & _
                       " , " & creditcard & _
                       " , " & debitcard & _
-                      " , '" & discount_action & "' )"
+                      " , '" & discount_action & "', " & tvod_free & ", " & all_cust & " )"
 
 
         Return sql
@@ -121,14 +122,15 @@ Public Class clsActivationCode
                                                 ByVal activation_value As Decimal, ByVal _activationGroupID As Integer, _
                                                 ByVal ValidToStr As String, ByVal productsID As Integer, ByVal ValidType As Integer, _
                                                 ByVal ValidValue As Integer, ByVal chkWaranty As Integer, ByVal Comment As String, _
-                                                ByVal nextDiscountCodeId As Integer, ByVal chkAuto_Stop_at_Next_Reconduction As Integer, _
+                                                ByVal nextDiscountCodeId As Integer, ByVal tvod_free As Integer, ByVal chkAuto_Stop_at_Next_Reconduction As Integer, _
                                                 ByVal banner As String, ByVal txtDescFR As String, ByVal txtDescNL As String, ByVal txtDescEN As String, _
                                                 ByVal chkFree_Upgrade_Allowed As Integer, ByVal txtFooter As String, ByVal txtCampaign As String, _
                                                 ByVal combinetActi As String, ByVal activation_code_cretion_date As String, ByVal activation_code_condition As String, ByVal next_abotype As Integer, _
                                                 ByVal paypal As Integer, _
                                                 ByVal creditcard As Integer, _
                                                 ByVal debitcard As Integer, _
-                                                ByVal discount_action As String) As String
+                                                ByVal discount_action As String, _
+                                                ByVal all_cust As Integer) As String
         Comment = replaceSingleCote(Comment)
         txtDescFR = replaceSingleCote(txtDescFR)
         txtDescNL = replaceSingleCote(txtDescNL)
@@ -166,6 +168,8 @@ Public Class clsActivationCode
               " , creditcard = " & creditcard & _
               " , debitcard = " & debitcard & _
               " , discount_action = '" & discount_action & "' " & _
+              ", tvod_free = " & tvod_free & _
+              ", all_cust = " & all_cust & _
               "  where DATE(activation_code_creation_date) = '" & PlushTools.ClsDate.formatDate(activation_code_cretion_date) & "' " & _
               "  and  customers_id = 0 and activation_code like '" & activation_code_condition & "%' " & _
               "  and  campaign = '" & txtCampaign & "' "
@@ -246,7 +250,7 @@ Public Class clsActivationCode
     Public Shared Function GetActivtionCodeAllFields() As String
         Dim sql = "select (select count(*) from vod_wishlists w where w.customer_id = ac.customers_id) size_w, activation_id, activation_type, activation_value, activation_code, activation_group, campaign_id, activation_group_id, activation_pack, activation_code_creation_date, activation_code_validto_date, activation_products_id," & _
                   " validity_month, validity_type, validity_value, activation_waranty, customers_id,   activation_date  , comment, next_discount, credit0_auto_reconduct, " & _
-                  "abo_auto_stop_next_reconduction, banner, activation_text_fr, activation_text_nl, activation_text_en, free_upgrade_allowed, footer, campaign, combined_action,next_abo_type, paypal, creditcard, debitcard, discount_action " & _
+                  "abo_auto_stop_next_reconduction, banner, activation_text_fr, activation_text_nl, activation_text_en, free_upgrade_allowed, footer, campaign, combined_action,next_abo_type, paypal, creditcard, debitcard, discount_action, tvod_free, all_cust " & _
                   " from activation_code ac  where 1 "
         Return sql
         'if (activation_date is null , '0000-00-00 00:00:00',activation_date) as
@@ -412,8 +416,8 @@ Public Class clsActivationCode
                                               ByVal paypal As Integer, _
                                               ByVal creditcard As Integer, _
                                               ByVal debitcard As Integer, _
-                                              ByVal discount_action As String _
-                                              ) As String
+                                              ByVal discount_action As String, _
+                                              ByVal tvod_free As Integer) As String
         Dim sql As String
 
 
@@ -462,6 +466,7 @@ Public Class clsActivationCode
                                       " , creditcard = " & creditcard & _
                                       " , debitcard = " & debitcard & _
                                       " , discount_action = '" & discount_action & "' " & _
+                                      " , tvod_free = " & tvod_free & _
                                       " where discount_code = '" & discount_code & "'"
         Return sql
     End Function
@@ -499,7 +504,8 @@ Public Class clsActivationCode
                                               ByVal paypal As Integer, _
                                               ByVal creditcard As Integer, _
                                               ByVal debitcard As Integer, _
-                                              ByVal discount_action As String) As String
+                                              ByVal discount_action As String, _
+                                              ByVal tvod_free As Integer) As String
         Dim sql As String
 
         If discount_validityto = "" Then
@@ -519,7 +525,7 @@ Public Class clsActivationCode
                                         " discount_commitment, discount_status, discount_text_fr, discount_text_nl, discount_text_en, discount_abo_validityto_type," & _
                                         " discount_abo_validityto_value, comment, discount_nbr_month_before_reuse, discount_recurring_nbr_of_month, bypass_discountuse," & _
                                         " discount_validityto, payable, next_discount, credit0_auto_reconduct, landing_page, landing_page_php, " & _
-                                        " listing_products_allowed, abo_auto_stop_next_reconduction, goto_step, banner, Footer, free_upgrade_allowed, group_id , shopping_discount , droselia,next_abo_type, paypal, creditcard, debitcard, discount_action )" & _
+                                        " listing_products_allowed, abo_auto_stop_next_reconduction, goto_step, banner, Footer, free_upgrade_allowed, group_id , shopping_discount , droselia,next_abo_type, paypal, creditcard, debitcard, discount_action, tvod_free )" & _
                                         " values  ( '" & discount_code & "' " & _
                                                    " , " & discount_type & _
                                                    " , " & PlushTools.ClsPrice.FormatPrice(discount_value) & _
@@ -549,7 +555,7 @@ Public Class clsActivationCode
                                       " , " & free_upgrade_allowed & _
                                       "  , " & group_id & _
                                       " , DEFAULT(shopping_discount) , 0 " & _
-                                       "  , " & nextAboType & " , " & paypal & ", " & creditcard & ", " & debitcard & ", '" & discount_action & "' ) "
+                                       "  , " & nextAboType & " , " & paypal & ", " & creditcard & ", " & debitcard & ", '" & discount_action & "', " & tvod_free & " ) "
 
 
         Return sql

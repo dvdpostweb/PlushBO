@@ -257,6 +257,14 @@ Public Class clsMarketing
             End If
         End Function
 
+        Public Shared Function GetTVODFree(ByVal dr As DataRow) As Integer
+            If Not IsDBNull(dr("tvod_free")) AndAlso Not dr("tvod_free") Is String.Empty Then
+                Return dr("tvod_free")
+            Else
+                Return 0
+            End If
+        End Function
+
         Public Shared Function GetAboType(ByVal dr As DataRow) As Integer
             If Not IsDBNull(dr("listing_products_allowed")) AndAlso Not dr("listing_products_allowed") Is String.Empty Then
                 Return dr("listing_products_allowed")
@@ -351,6 +359,14 @@ Public Class clsMarketing
         Public Shared Function GetDebitCard(ByVal dr As DataRow) As Integer
             If Not IsDBNull(dr("debitcard")) Then
                 Return dr("debitcard")
+            Else
+                Return 0
+            End If
+        End Function
+
+        Public Shared Function GetAllCust(ByVal dr As DataRow) As Integer
+            If Not IsDBNull(dr("all_cust")) Then
+                Return dr("all_cust")
             Else
                 Return 0
             End If

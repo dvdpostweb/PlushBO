@@ -554,8 +554,10 @@ Public Class frmMain
         ' Declare variables.
         Dim separators As String = " "
         Dim commands As String = Microsoft.VisualBasic.Command()
+        'MessageBox.Show("GetCommandLine 1")
         ArgArray = commands.Split(separators.ToCharArray)
         numArgs = ArgArray.Length
+        'MessageBox.Show("GetCommandLine 2")
     End Sub
     Private Sub StartBatch(ByVal vAssembly As String, ByVal vObjectName As String, ByVal vMethodName As String)
         Dim _frm As BizzLib.frmBKForm 'Form
@@ -586,6 +588,7 @@ Public Class frmMain
         '  SessionInfo = New BizzLib.clsSessionInfo(1, 0, "", "", "")
         ' CreateSuperUser() 'Check that Admin User with ID = 0 exist in User, Role, Entity, Holding, ....
         StartSession()
+        'MessageBox.Show("Before GetCommandLine")
         GetCommandLine()
         If numArgs >= 4 Then
             If StrComp(ArgArray(0), "-b", CompareMethod.Text) = 0 Then
@@ -657,12 +660,10 @@ Public Class frmMain
 
         ''affiche la version et le nom de l utilisateur
         'Me.Text = System.Reflection.Assembly.GetExecutingAssembly.GetName.Name & " " & SessionInfo.UserDocPath & " " & assembly.GetName.Version.ToString & _
-        '       " - " & SessionInfo.UserFullName & " - " & SessionInfo.EntityName & "(" & SessionInfo.EntityCurr & ")"
+        '       " - " & SessionInfo.UserFullName & " - " & SessionInfo.EntityName & "(" & SessionInfo.EntityCurr & ")"        
         Me.Text = System.Reflection.Assembly.GetExecutingAssembly.GetName.Name & " " & PlushData.clsConnection.typeEnv & " " & assembly.GetName.Version.ToString & " " & PlushData.clsSession.FullName
         PlushData.clsSession.Version = Me.Text
-
         PlushBuziness.clsMsgError.FileAppend("PLUSH_Log_Connexion", "IN " & PlushData.clsSession.FullName & " " & DateTime.Now().ToString())
-
 #End If
         PlushData.clsSession.Version = Me.Text
         ' MsgBox(Application.StartupPath)

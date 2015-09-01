@@ -30,7 +30,7 @@ Public Class clsReviews
     ''' <remarks></remarks>
     Public Shared Function GetSelectReviewsCustomers(ByVal customers_id As Integer) As String
         Dim sql As String
-        sql = " select reviews_id,date_added,products_id,reviews_rating rating ,reviews_check open,reviews_text critique " & _
+        sql = " select id reviews_id,date_added, imdb_id ,reviews_rating rating ,reviews_check open,reviews_text critique " & _
                 " from common_production.reviews where customers_id = " & customers_id & _
                 " order by last_modified desc "
         Return sql
@@ -48,8 +48,8 @@ Public Class clsReviews
         sql = " select r.customers_id,sum(cpt) cpt_critiques ,sum(pertinente) cpt_critiques_positive,(sum(pertinente) / sum(cpt)) * 100 average_rating_critique " & _
               " from common_production.reviews r left join " & _
               "   ( " & _
-              "     select reviews_id,count(*) cpt,sum(if(reviews_interesting = 1,1,0)) pertinente from reviews_rating group by reviews_id " & _
-              "   ) rr on r.reviews_id = rr.reviews_id " & _
+              "     select review_id,count(*) cpt,sum(if(reviews_interesting = 1,1,0)) pertinente from common_production.reviews_rating group by review_id " & _
+              "   ) rr on r.id = rr.review_id " & _
               " where not cpt is null and r.customers_id = " & customers_id & _
               " group by r.customers_id "
 

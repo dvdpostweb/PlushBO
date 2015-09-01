@@ -9,7 +9,7 @@ Public Class clsWelcomeCall
               " FROM (select * from abo a WHERE a.Action in (1, 6, 8) and a.Date > date_add(now(), interval -30 day) " & _
               "        and not exists(select * from abo a1 where a1.customerid = a.customerid and a1.action in(6, 7, 8)    and a1.date < date_add(now(), interval -30 day)" & _
               " and a1.date > date_add(now(),interval -1 year) ) ) a " & _
-              " join customers c on a.customerid = c.customers_id where c.welcomecall_done = 0 "
+              " join customers c on a.customerid = c.customers_id where c.welcomecall_done = 0 and c.customers_abo_type <> 6 "
 
         Return sql
     End Function

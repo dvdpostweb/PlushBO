@@ -86,7 +86,7 @@ Module start
                 'Sql = DvdPostData.clsProductDvd.GetStepProductDisabled()
                 'DvdPostData.clsConnection.ExecuteNonQuery(sql)
 
-                'PlushBuziness.clsOffLinePayments.matchingOffline()
+                PlushBuziness.clsOffLinePayments.matchingOffline()
                 'DVDPostBuziness.ClsBankTransfer.matching()
                 'clscust.CreateCustomersRotation()
                 'Dim sql As String

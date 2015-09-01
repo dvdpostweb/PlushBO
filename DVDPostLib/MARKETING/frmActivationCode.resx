@@ -167,7 +167,7 @@
     <value>5, 13</value>
   </data>
   <metadata name="BarManager2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>641, 17</value>
+    <value>17, 56</value>
   </metadata>
   <assembly alias="DevExpress.XtraBars.v8.1" name="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
   <data name="BarManager2.Categories" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v8.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -489,7 +489,7 @@
     <value>DS</value>
   </data>
   <data name="&gt;&gt;DS.Type" xml:space="preserve">
-    <value>PlushLib.dsMarketting, PlushLib, Version=2.0.5070.1, Culture=neutral, PublicKeyToken=null</value>
+    <value>PlushLib.dsMarketting, PlushLib, Version=2.0.5371.5, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;GridViewActivationCode.Name" xml:space="preserve">
     <value>GridViewActivationCode</value>
@@ -1569,7 +1569,7 @@
     <value>0</value>
   </data>
   <data name="TabChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 811</value>
+    <value>1095, 417</value>
   </data>
   <data name="&gt;&gt;TabChart.Name" xml:space="preserve">
     <value>TabChart</value>
@@ -1584,7 +1584,7 @@
     <value>5</value>
   </data>
   <data name="TabAnalyse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 811</value>
+    <value>1095, 417</value>
   </data>
   <data name="&gt;&gt;TabAnalyse.Name" xml:space="preserve">
     <value>TabAnalyse</value>
@@ -1612,6 +1612,93 @@
   </data>
   <data name="&gt;&gt;TabResult.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="chkAllCust.EditValue" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAllCust.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkAllCust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 312</value>
+  </data>
+  <data name="chkAllCust.Properties.Caption" xml:space="preserve">
+    <value>All Cust</value>
+  </data>
+  <data name="chkAllCust.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAllCust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 19</value>
+  </data>
+  <data name="chkAllCust.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;chkAllCust.Name" xml:space="preserve">
+    <value>chkAllCust</value>
+  </data>
+  <data name="&gt;&gt;chkAllCust.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;chkAllCust.Parent" xml:space="preserve">
+    <value>TabParameters</value>
+  </data>
+  <data name="&gt;&gt;chkAllCust.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTVODFreeCredits.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTVODFreeCredits.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTVODFreeCredits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 282</value>
+  </data>
+  <data name="txtTVODFreeCredits.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTVODFreeCredits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 20</value>
+  </data>
+  <data name="txtTVODFreeCredits.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txtTVODFreeCredits.Name" xml:space="preserve">
+    <value>txtTVODFreeCredits</value>
+  </data>
+  <data name="&gt;&gt;txtTVODFreeCredits.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;txtTVODFreeCredits.Parent" xml:space="preserve">
+    <value>TabParameters</value>
+  </data>
+  <data name="&gt;&gt;txtTVODFreeCredits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelControl30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 285</value>
+  </data>
+  <data name="LabelControl30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="LabelControl30.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="LabelControl30.Text" xml:space="preserve">
+    <value>TVOD free credits</value>
+  </data>
+  <data name="&gt;&gt;LabelControl30.Name" xml:space="preserve">
+    <value>LabelControl30</value>
+  </data>
+  <data name="&gt;&gt;LabelControl30.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;LabelControl30.Parent" xml:space="preserve">
+    <value>TabParameters</value>
+  </data>
+  <data name="&gt;&gt;LabelControl30.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="txtActivationValue2.EditValue" type="System.Decimal, mscorlib">
     <value>0</value>
@@ -1641,7 +1728,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtActivationValue2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="cmbActivation_Type.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1671,7 +1758,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbActivation_Type.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="LabelControl8.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 170</value>
@@ -1695,7 +1782,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl8.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="LabelControl29.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 144</value>
@@ -1719,7 +1806,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl29.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="cmbDiscountAction.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1749,7 +1836,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbDiscountAction.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="LabelControl28.Location" type="System.Drawing.Point, System.Drawing">
     <value>678, 460</value>
@@ -1773,7 +1860,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl28.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="CheckDebitCard.EditValue" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1896,7 +1983,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>297, 21</value>
@@ -1923,7 +2010,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="btnSaveDiscount.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 21</value>
@@ -1950,7 +2037,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;btnSaveDiscount.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="btnEditActivation.Location" type="System.Drawing.Point, System.Drawing">
     <value>106, 21</value>
@@ -1977,7 +2064,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;btnEditActivation.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="btnNewDiscount.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 21</value>
@@ -2004,7 +2091,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;btnNewDiscount.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="cmbNextAboType.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2034,7 +2121,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbNextAboType.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="LabelControl27.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 200</value>
@@ -2058,7 +2145,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl27.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="LabelControl26.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 197</value>
@@ -2088,7 +2175,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl26.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="txtCreationDate.EditValue" type="System.DateTime, mscorlib">
     <value>12/10/2010 11:14:16</value>
@@ -2124,7 +2211,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtCreationDate.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="LabelControl25.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 92</value>
@@ -2151,7 +2238,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl25.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="txtActivationCodeID.EditValue" xml:space="preserve">
     <value />
@@ -2181,7 +2268,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtActivationCodeID.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="GrpCustomers.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
@@ -2355,7 +2442,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;GrpCustomers.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>20</value>
   </data>
   <data name="LabelControl23.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 418</value>
@@ -2385,7 +2472,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl23.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>21</value>
   </data>
   <data name="cmbValidTo.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 242</value>
@@ -2409,7 +2496,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbValidTo.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>22</value>
   </data>
   <data name="LabelControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 246</value>
@@ -2436,10 +2523,10 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl2.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>23</value>
   </data>
   <data name="LabelControl20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 287</value>
+    <value>355, 258</value>
   </data>
   <data name="LabelControl20.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2466,13 +2553,13 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl20.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>24</value>
   </data>
   <data name="txtValidityMonth.EditValue" type="System.Decimal, mscorlib">
     <value>0</value>
   </data>
   <data name="txtValidityMonth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 285</value>
+    <value>468, 256</value>
   </data>
   <data name="txtValidityMonth.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2496,7 +2583,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtValidityMonth.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>25</value>
   </data>
   <data name="cmbCombinedAction.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 415</value>
@@ -2529,7 +2616,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbCombinedAction.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>26</value>
   </data>
   <data name="txtActivationCode.EditValue" xml:space="preserve">
     <value />
@@ -2559,7 +2646,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtActivationCode.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>27</value>
   </data>
   <data name="LabelControl19.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 118</value>
@@ -2586,7 +2673,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl19.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>28</value>
   </data>
   <data name="LabelControl15.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 392</value>
@@ -2613,7 +2700,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl15.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>29</value>
   </data>
   <data name="txtCampaign.EditValue" xml:space="preserve">
     <value />
@@ -2640,7 +2727,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtCampaign.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>30</value>
   </data>
   <data name="LabelControl14.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 340</value>
@@ -2670,7 +2757,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl14.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>31</value>
   </data>
   <data name="txtFooter.EditValue" xml:space="preserve">
     <value />
@@ -2700,7 +2787,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtFooter.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>32</value>
   </data>
   <data name="chkFree_Upgrade_Allowed.EditValue" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2733,7 +2820,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;chkFree_Upgrade_Allowed.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>33</value>
   </data>
   <data name="GroupControl2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
@@ -2970,7 +3057,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;GroupControl2.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>34</value>
   </data>
   <data name="GroupControl1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
@@ -3129,13 +3216,13 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;GroupControl1.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>35</value>
   </data>
   <data name="chkAuto_Stop_at_Next_Reconduction.EditValue" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="chkAuto_Stop_at_Next_Reconduction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>450, 243</value>
+    <value>469, 227</value>
   </data>
   <data name="chkAuto_Stop_at_Next_Reconduction.Properties.Caption" xml:space="preserve">
     <value>Auto Stop at Next Reconduction</value>
@@ -3144,7 +3231,7 @@
     <value>True</value>
   </data>
   <data name="chkAuto_Stop_at_Next_Reconduction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 19</value>
+    <value>183, 19</value>
   </data>
   <data name="chkAuto_Stop_at_Next_Reconduction.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3159,7 +3246,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;chkAuto_Stop_at_Next_Reconduction.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>36</value>
   </data>
   <data name="chkWaranty.EditValue" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3189,7 +3276,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;chkWaranty.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>37</value>
   </data>
   <data name="txtValidValue.EditValue" type="System.Decimal, mscorlib">
     <value>0</value>
@@ -3213,7 +3300,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtValidValue.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>38</value>
   </data>
   <data name="LabelControl6.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 144</value>
@@ -3240,7 +3327,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl6.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>39</value>
   </data>
   <data name="cmbNextDiscount.Location" type="System.Drawing.Point, System.Drawing">
     <value>468, 141</value>
@@ -3270,7 +3357,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbNextDiscount.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>40</value>
   </data>
   <data name="cmbValidType.Location" type="System.Drawing.Point, System.Drawing">
     <value>468, 89</value>
@@ -3300,7 +3387,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbValidType.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>41</value>
   </data>
   <data name="cmbProductsID.Location" type="System.Drawing.Point, System.Drawing">
     <value>468, 167</value>
@@ -3330,7 +3417,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbProductsID.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>42</value>
   </data>
   <data name="cmbGroup.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 217</value>
@@ -3357,7 +3444,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;cmbGroup.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>43</value>
   </data>
   <data name="LabelControl5.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 366</value>
@@ -3384,7 +3471,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl5.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>44</value>
   </data>
   <data name="LabelControl4.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 118</value>
@@ -3411,7 +3498,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl4.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>45</value>
   </data>
   <data name="LabelControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 92</value>
@@ -3438,7 +3525,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl1.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>46</value>
   </data>
   <data name="LabelControl3.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 169</value>
@@ -3465,7 +3552,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;LabelControl3.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>47</value>
   </data>
   <data name="txtComment.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 363</value>
@@ -3489,7 +3576,7 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;txtComment.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>48</value>
   </data>
   <data name="lblYear.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 221</value>
@@ -3516,10 +3603,10 @@
     <value>TabParameters</value>
   </data>
   <data name="&gt;&gt;lblYear.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>49</value>
   </data>
   <data name="TabParameters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 811</value>
+    <value>1095, 417</value>
   </data>
   <data name="TabParameters.Text" xml:space="preserve">
     <value>Generate</value>
@@ -3540,7 +3627,7 @@
     <value>226, 17</value>
   </metadata>
   <data name="UcPivotGrid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 811</value>
+    <value>1095, 417</value>
   </data>
   <data name="&gt;&gt;UcPivotGrid1.Name" xml:space="preserve">
     <value>UcPivotGrid1</value>
@@ -3555,7 +3642,7 @@
     <value>0</value>
   </data>
   <data name="UcChart1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1183, 811</value>
+    <value>1095, 417</value>
   </data>
   <data name="&gt;&gt;UcChart1.Name" xml:space="preserve">
     <value>UcChart1</value>
@@ -3606,6 +3693,6 @@
     <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
   </data>
   <metadata name="DS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>766, 17</value>
+    <value>142, 56</value>
   </metadata>
 </root>

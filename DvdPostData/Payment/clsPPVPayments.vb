@@ -6,9 +6,11 @@ Public Class clsPPVPayments
         sql = " select c.customers_id, p.products_title, t.imdb_id, t.created_at, t.is_ppv, t.ppv_price amount from " & _
         " tokens t join customers c on t.customer_id = c.customers_id " & _
         " join products p on p.imdb_id = t.imdb_id " & _
-        " where t.kind <> 'TVOD_ONLY' and t.is_ppv = 1 and t.created_at >= '" & PlushTools.ClsDate.formatDate(datetimeFrom) & "' and " & _
-        " t.created_at < '" & PlushTools.ClsDate.formatDate(datetimeTo) & "' group by c.customers_id, p.products_title, t.imdb_id, t.created_at "
+        " where t.payment_kind = 'POSTPAID' " & _
+        "   and t.created_at >= '" & PlushTools.ClsDate.formatDate(datetimeFrom) & "' and " & _
+        "   t.created_at < '" & PlushTools.ClsDate.formatDate(datetimeTo) & "' group by c.customers_id, p.products_title, t.imdb_id, t.created_at "
 
+        '(t.kind in('TVOD_ONLY') and t.source_id = 57) or 
         Return sql
     End Function
 

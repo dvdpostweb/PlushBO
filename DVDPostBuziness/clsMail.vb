@@ -61,7 +61,7 @@ Public Class clsMail
         MAIL_PLUSH_PAYMENT_NOT_RECEIVED_CREATE_RECOVERY = 627
         MAIL_PLUSH_REPLY = 605
         MAIL_PLUSH_SVOD_CONFIRMATION = 623
-        MAIL_PLUSH_TVOD_CONFIRMATION = 624
+        MAIL_PLUSH_TVOD_CONFIRMATION = 637
         MAIL_PLUSH_TVOD_TO_ANYONE_WELCOME = 634
 
     End Enum
@@ -95,11 +95,12 @@ Public Class clsMail
             'Case Mail.MAIL_DVDABOSTOP, Mail.MAIL_DVDABOSTOPBACKLOG, Mail.MAIL_STOP
             '    Return MailCategory.STOABO
             'Case Mail.MAIL_IN, Mail.MAIL_OUT, Mail.MAIL_VOD_CONFIRMATION
-            '    Return MailCategory.ENVOI
-            'Case Mail.MAIL_PAYMENT_INVALID_OGONE, Mail.MAIL_RECOVERY, Mail.MAIL2_RECOVERY
-            '    Return MailCategory.Paiement
-            'Case Mail.MAIL_SON_ACTIVATION, Mail.MAIL_SON_PAID
-            '    Return MailCategory.PARRAINAGE
+            Case Mail.MAIL_PLUSH_TVOD_CONFIRMATION, Mail.MAIL_PLUSH_SVOD_CONFIRMATION, Mail.MAIL_PLUSH_TVOD_TO_ANYONE_WELCOME
+                Return MailCategory.ENVOI
+                'Case Mail.MAIL_PAYMENT_INVALID_OGONE, Mail.MAIL_RECOVERY, Mail.MAIL2_RECOVERY
+                '    Return MailCategory.Paiement
+                'Case Mail.MAIL_SON_ACTIVATION, Mail.MAIL_SON_PAID
+                '    Return MailCategory.PARRAINAGE
             Case Mail.MAIL_PLUSH_PAYMENT_NOT_RECEIVED, Mail.MAIL2_PLUSH_PAYMENT_NOT_RECEIVED, Mail.MAIL_PLUSH_PAYMENT_NOT_RECEIVED_CREATE_RECOVERY
                 Return MailCategory.PAIEMENT
 
@@ -302,7 +303,7 @@ Public Class clsMail
 
             Dim SmtpMail As New Net.Mail.SmtpClient(dr("ParamValue"))
             'SmtpMail.Credentials = New System.Net.NetworkCredential("Administrator", "DVD8(post")
-            SmtpMail.Credentials = New System.Net.NetworkCredential("info@plush.be", "fireball18")
+            SmtpMail.Credentials = New System.Net.NetworkCredential("info@plush.be", "uncharted4$$")
             SmtpMail.Port = 1025
             Try
                 SmtpMail.Send(mymail)
@@ -472,13 +473,13 @@ Public Class clsMail
 
             Dim firstname As String = PlushTools.ClsString.Capitalize(CustRow("customers_firstname").ToString())
             Dim lastname As String = PlushTools.ClsString.Capitalize(CustRow("customers_lastname").ToString())
-            strmessage = Replace(strmessage, "$$$customers_name$$$", firstname & " " & lastname)
+            strmessage = ReplaceVar(strmessage, "$$$customers_name$$$", firstname & " " & lastname, lstvariable)
 
         End If
         If IsExistInString(strmessage, "$$$customers_name$$$") And CustRow.Table.Columns.Contains("customers_name") Then
 
             Dim custname As String = PlushTools.ClsString.Capitalize(CustRow("customers_name").ToString())
-            strmessage = Replace(strmessage, "$$$customers_name$$$", custname)
+            strmessage = ReplaceVar(strmessage, "$$$customers_name$$$", custname, lstvariable)
 
         End If
         'titre
@@ -517,9 +518,9 @@ Public Class clsMail
             strmessage = Replace(strmessage, "$$$payment_offline_reason_date$$$", CustRow("date_reconduction") & "")
         End If
     End Sub
-    Private Shared Sub replaceProductNamePictureAndImage(ByVal CustRow As DataRow, ByRef strmessage As String)
+    Private Shared Sub replaceProductNamePictureAndImage(ByVal CustRow As DataRow, ByRef strmessage As String, ByRef lstvariable As String)
         If IsExistInString(strmessage, "$$$products_image$$$") And CustRow.Table.Columns.Contains("products_image_big") And CustRow.Table.Columns.Contains("products_id") And CustRow.Table.Columns.Contains("products_year") Then
-            strmessage = Replace(strmessage, "$$$products_image$$$", CustRow("products_image_big"))
+            strmessage = ReplaceVar(strmessage, "$$$products_image$$$", CustRow("products_image_big"), lstvariable)
             strmessage = Replace(strmessage, "$$$products_name$$$", CustRow("products_name"))
             strmessage = Replace(strmessage, "$$$products_id$$$", CustRow("products_id"))
             strmessage = Replace(strmessage, "$$$products_year$$$", CustRow("products_year"))
@@ -702,7 +703,7 @@ Public Class clsMail
         ReplaceInvoiceOpen(rowcustomers, strMessage, lstvariable)
         ReplaceIN_OUT(rowcustomers, RowMail, strMessage, lstvariable)
         ReplaceINDISPONIBLE(rowcustomers, RowMail, strMessage, lstvariable)
-        replaceProductNamePictureAndImage(rowcustomers, strMessage)
+        replaceProductNamePictureAndImage(rowcustomers, strMessage, lstvariable)
         ReplaceRatingImages(rowcustomers, customers_language, strMessage, lstvariable)
         ReplaceProducts_id_1_4(rowcustomers, customers_language, strMessage, lstvariable)
         Return CreateMail(rowcustomers("email"), strMessage, strSubject, eMailTest, emailFrom, emailName)
@@ -797,9 +798,9 @@ Public Class clsMail
                 strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-off.png", lstvariable)
                 strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
             ElseIf CustRow("movie_rating") = 3.5 Then
-                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, CustRow("imdb_id"), lstvariable)
-                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, CustRow("imdb_id"), lstvariable)
-                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, CustRow("imdb_id"), lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image1" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image2" & balise, "star-on.png", lstvariable)
+                strMessage = ReplaceVar(strMessage, balise & "image3" & balise, "star-on.png", lstvariable)
                 strMessage = ReplaceVar(strMessage, balise & "image4" & balise, "star-half.png", lstvariable)
                 strMessage = ReplaceVar(strMessage, balise & "image5" & balise, "star-off.png", lstvariable)
             ElseIf CustRow("movie_rating") = 4 Then

@@ -1,5 +1,9 @@
 Public Class ClsVod
 
+
+    'SEASON_ID
+    'EPISODE_ID
+
     Public Enum ListField
         ID = 0
         IMDB_ID
@@ -294,9 +298,13 @@ Public Class ClsVod
         Return sql
     End Function
 
+    'ByVal season_id As Integer, _
+    '   ByVal episode_id As Integer, _
 
     Public Shared Function GetUpdateVod(ByVal streaming_products_id As Integer, _
                                         ByVal imdb_id As Integer, _
+                                        ByVal season_id As Integer, _
+                                        ByVal episode_id As Integer, _
                                         ByVal filename As String, _
                                         ByVal available_from As DateTime, _
                                         ByVal expire_at As DateTime, _
@@ -314,6 +322,7 @@ Public Class ClsVod
                                         ByVal ppv_price As String, _
                                         ByVal country As String, _
                                         ByVal drm As String, _
+                                        ByVal vl As Boolean, _
                                         Optional ByVal doStatusUpdate As Boolean = False) As String
         Dim sql As String
         Dim strLanguageSubtitle As String
@@ -331,8 +340,11 @@ Public Class ClsVod
         Dim str_is_ppv As String
         Dim str_ppv_price As String
         Dim IsSamePPVPriceForAllAudioSubtitle As Boolean = True
+        Dim strlanguagedoStatusUpdate As String
+        Dim strLanguageSubtitledoStatusUpdate As String
         Dim strCountry As String
         Dim str_drm As String
+        Dim strVL As String = "0"
 
         If filename = "" Then
             strfilename = "null"
@@ -376,14 +388,18 @@ Public Class ClsVod
         End If
         If language_id = 0 Then
             strlanguage = "null"
+            strlanguagedoStatusUpdate = " is null"
         Else
             strlanguage = language_id
+            strlanguagedoStatusUpdate = " = " & language_id
         End If
 
         If language_subtitle_id = 0 Then
             strLanguageSubtitle = "null"
+            strLanguageSubtitledoStatusUpdate = " is null"
         Else
             strLanguageSubtitle = language_subtitle_id
+            strLanguageSubtitledoStatusUpdate = " = " & language_subtitle_id
         End If
 
         If quality = "" Then
@@ -428,6 +444,10 @@ Public Class ClsVod
             str_drm = "'" & IIf(drm, 1, 0) & "'"
         End If
 
+        If vl Then
+            strVL = "1"
+        End If
+
         If IsSamePPVPriceForAllAudioSubtitle Then
 
             sql = "update streaming_products sp " & _
@@ -445,23 +465,26 @@ Public Class ClsVod
                   ", quality = " & strQuality & _
                   ", source = '" & source & "'" & _
                   ", imdb_id = " & strimbd_id & _
+                  ", season_id = " & season_id & _
+                  ", episode_id = " & episode_id & _
                   ", vod_support_id = " & strSupport & _
                   ", is_ppv = " & str_is_ppv & _
                   ", ppv_price = " & str_ppv_price & _
                   ", country = " & strCountry & _
                   ", drm = " & str_drm & _
+                  ", videoland = " & strVL & _
                   " where id = " & streaming_products_id
 
             sql = sql & " ; update streaming_products sp " & _
                   " set is_ppv = " & str_is_ppv & _
                   ", ppv_price = " & str_ppv_price & _
                   ", updated_at = now() " & _
-                  " where country = " & strCountry & " and imdb_id = " & imdb_id & "; "
+                  " where country = " & strCountry & " and imdb_id = " & imdb_id & " and season_id = " & season_id & " and episode_id = " & episode_id & "; "
             If doStatusUpdate Then
-                sql = sql & " update streaming_products set status = " & strStatus & _
+                sql = sql & " update streaming_products set status = " & strStatus & ", drm = " & str_drm & ", studio_id = " & strStudio & _
                 ", updated_at = now() " & _
-                " where source = 'alphanetworks' and imdb_id = " & imdb_id & _
-                " and language_id = " & strlanguage & " and subtitle_id = " & strLanguageSubtitle & ";"
+                " where source = 'alphanetworks' and imdb_id = " & imdb_id & " and season_id = " & season_id & " and episode_id = " & episode_id & _
+                " and status <> 'deleted' and language_id " & strlanguagedoStatusUpdate & " and subtitle_id " & strLanguageSubtitledoStatusUpdate & ";"
             End If
         Else
             sql = "update streaming_products sp " & _
@@ -479,13 +502,15 @@ Public Class ClsVod
                   ", quality = " & strQuality & _
                   ", source = '" & source & "'" & _
                   ", imdb_id = " & strimbd_id & _
+                  ", season_id = " & season_id & _
+                  ", episode_id = " & episode_id & _
                   ", vod_support_id = " & strSupport & _
                   ", is_ppv = " & str_is_ppv & _
                   ", ppv_price = " & str_ppv_price & _
                   ", country = " & strCountry & _
                   ", drm = " & str_drm & _
+                  ", videoland = " & strVL & _
                   " where id = " & streaming_products_id
-
         End If
         Return sql
     End Function
@@ -589,6 +614,10 @@ Public Class ClsVod
 
         Return sql
     End Function
+
+    'ByVal season_id As Integer, _
+    'ByVal episode_id As Integer, _
+
     Public Shared Function GetInsertVod(ByVal imdb_id As Integer, _
                                         ByVal filename As String, _
                                         ByVal available_from As DateTime, _
@@ -606,7 +635,8 @@ Public Class ClsVod
                                         ByVal is_ppv As String, _
                                         ByVal ppv_price As String, _
                                         ByVal country As String, _
-                                        ByVal drm As String) As String
+                                        ByVal drm As String, _
+                                        ByVal vl As Boolean) As String
         Dim sql As String
         Dim strLanguageSubtitle As String
         Dim strQuality As String
@@ -621,6 +651,7 @@ Public Class ClsVod
         Dim IsSamePPVPriceForAllAudioSubtitle As Boolean = True
         Dim strCountry As String
         Dim str_drm As String
+        Dim strVL As String = "0"
 
         If language_id <= 0 Then
             strlanguage = "null"
@@ -694,14 +725,20 @@ Public Class ClsVod
             str_drm = "'" & IIf(drm, 1, 0) & "'"
         End If
 
+        If vl Then
+            strVL = "1"
+        End If
+
+        '" and season_id = " & season_id & " and episode_id = " & episode_id &
+
         If (IsSamePPVPriceForAllAudioSubtitle) Then
-            sql = "insert into streaming_products (  id ,  imdb_id ,  filename ,  available_from ,  expire_at ,  available_backcatalogue_from ,  expire_backcatalogue_at ,  available ,  language_id ,  subtitle_id ,  created_at ,  updated_at ,  studio_id ,  status ,  quality ,  source ,  vod_support_id ,  is_ppv ,  ppv_price ,  country)  values (null," & imdb_id & ",'" & filename & "'," & strAvailable_from & _
-                              "," & strExpireAt & ", " & strBackcatalogue_from & ", " & strBackcatalogue_expire & "," & available & "," & strlanguage & "," & strLanguageSubtitle & ",now(),now()," & strStudio & ",'" & status & "'," & strQuality & ",'" & source & "'," & support & "," & str_is_ppv & "," & str_ppv_price & ", " & strCountry & ", " & str_drm & " ) ; " & _
+            sql = "insert into streaming_products (  id ,  imdb_id ,  filename ,  available_from ,  expire_at ,  available_backcatalogue_from ,  expire_backcatalogue_at ,  available ,  language_id ,  subtitle_id ,  created_at ,  updated_at ,  studio_id ,  status ,  quality ,  source ,  vod_support_id ,  is_ppv ,  ppv_price ,  country, drm, videoland)  values (null," & imdb_id & ",'" & filename & "'," & strAvailable_from & _
+                              "," & strExpireAt & ", " & strBackcatalogue_from & ", " & strBackcatalogue_expire & "," & available & "," & strlanguage & "," & strLanguageSubtitle & ",now(),now()," & strStudio & ",'" & status & "'," & strQuality & ",'" & source & "'," & support & "," & str_is_ppv & "," & str_ppv_price & ", " & strCountry & ", " & str_drm & ", " & strVL & " ) ; " & _
                               " update streaming_products set  is_ppv = " & str_is_ppv & ", ppv_price = " & str_ppv_price & " where country = " & strCountry & " and imdb_id = " & imdb_id & ";"
         Else
 
-            sql = "insert into streaming_products(  id ,  imdb_id ,  filename ,  available_from ,  expire_at ,  available_backcatalogue_from ,  expire_backcatalogue_at ,  available ,  language_id ,  subtitle_id ,  created_at ,  updated_at ,  studio_id , status ,  quality ,  source ,  vod_support_id ,  is_ppv ,  ppv_price ,  country)   values (null," & imdb_id & ",'" & filename & "'," & strAvailable_from & _
-                  "," & strExpireAt & ", " & strBackcatalogue_from & ", " & strBackcatalogue_expire & "," & available & "," & strlanguage & "," & strLanguageSubtitle & ",now(),now()," & strStudio & ",'" & status & "'," & strQuality & ",'" & source & "'," & support & "," & str_is_ppv & "," & str_ppv_price & ", " & strCountry & ", " & str_drm & ")"
+            sql = "insert into streaming_products(  id ,  imdb_id ,  filename ,  available_from ,  expire_at ,  available_backcatalogue_from ,  expire_backcatalogue_at ,  available ,  language_id ,  subtitle_id ,  created_at ,  updated_at ,  studio_id , status ,  quality ,  source ,  vod_support_id ,  is_ppv ,  ppv_price ,  country, drm, videoland)   values (null," & imdb_id & ",'" & filename & "'," & strAvailable_from & _
+                  "," & strExpireAt & ", " & strBackcatalogue_from & ", " & strBackcatalogue_expire & "," & available & "," & strlanguage & "," & strLanguageSubtitle & ",now(),now()," & strStudio & ",'" & status & "'," & strQuality & ",'" & source & "'," & support & "," & str_is_ppv & "," & str_ppv_price & ", " & strCountry & ", " & str_drm & ", " & strVL & ")"
         End If
         Return sql
     End Function

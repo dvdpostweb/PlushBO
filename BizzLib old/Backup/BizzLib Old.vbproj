@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15DD02A3-8D24-4E86-9E24-1F775CE1D7BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BizzLibOld</RootNamespace>
+    <AssemblyName>BizzLibold</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BizzLibold.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BizzLibold.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Charts.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Data.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Utils.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.Web.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraBars.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraBars.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.UI, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.1.Web, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraCharts.v8.1.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraEditors.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraGrid.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraLayout.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraNavBar.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1.Core, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPivotGrid.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPrinting.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraPrinting.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v8.1.Import, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraReports.v8.1.Import.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichTextEdit.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraRichTextEdit.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraTreeList.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v8.1.Design, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DevExpress.XtraTreeList.v8.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.0.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BK\bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsBKGenericClass.vb" />
+    <Compile Include="clsBrowseView.vb" />
+    <Compile Include="clsCombo.vb" />
+    <Compile Include="clsCRMcountry.vb" />
+    <Compile Include="clsDataSet.vb" />
+    <Compile Include="clsData_Address.vb" />
+    <Compile Include="clsData_Customer.vb" />
+    <Compile Include="clsData_Employee.vb" />
+    <Compile Include="clsData_Entity.vb" />
+    <Compile Include="clsDefaultSet.vb" />
+    <Compile Include="clsFilter.vb" />
+    <Compile Include="clsGlobal.vb" />
+    <Compile Include="clsOneTableData.vb" />
+    <Compile Include="clsReport.vb" />
+    <Compile Include="clsSessionInfo.vb" />
+    <Compile Include="clsStdShortCut.vb" />
+    <Compile Include="clsUserMenu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsAnalyze.vb" />
+    <Compile Include="dsBrowseView.vb" />
+    <Compile Include="dsDefaultSet.vb" />
+    <Compile Include="dsExcelImport.vb" />
+    <Compile Include="dsFilter.vb" />
+    <Compile Include="dsGeneral.vb" />
+    <Compile Include="dsSecurity.vb" />
+    <Compile Include="dsSystem.vb" />
+    <Compile Include="frmBKForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogNewAnalyze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogNewReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogSelectDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogSelectUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogSelectXMLFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogueSelectExcelFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgeneraldesctranslation_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneral_Browse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneral_BrowseMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneral_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressBarPopUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressPopUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemBrowseView_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemComment_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemDefaultSet_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemFilter_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestDavid.Designer.vb">
+      <DependentUpon>frmTestDavid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTestDavid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moGeneral.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucChart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPivotGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBKForm.resources">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizzLib.frmDialogNewAnalyze.resources" />
+    <EmbeddedResource Include="BizzLib.frmDialogNewReport.resources" />
+    <EmbeddedResource Include="BizzLib.frmDialogSelectDatabase.resources" />
+    <EmbeddedResource Include="BizzLib.frmDialogSelectUser.resources" />
+    <EmbeddedResource Include="BizzLib.frmDialogSelectXMLFile.resources" />
+    <EmbeddedResource Include="BizzLib.frmDialogueSelectExcelFile.resources" />
+    <EmbeddedResource Include="BizzLib.frmgeneraldesctranslation_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmGeneral_Browse.resources" />
+    <EmbeddedResource Include="BizzLib.frmGeneral_BrowseMaint.resources" />
+    <EmbeddedResource Include="BizzLib.frmGeneral_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmProgressBarPopUP.resources" />
+    <EmbeddedResource Include="BizzLib.frmProgressPopUp.resources" />
+    <EmbeddedResource Include="BizzLib.frmSystemBrowseView_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmSystemComment_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmSystemDefaultSet_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmSystemFilter_Maintenance.resources" />
+    <EmbeddedResource Include="BizzLib.frmTest.resources" />
+    <EmbeddedResource Include="BizzLib.ucChart.resources" />
+    <EmbeddedResource Include="BizzLib.ucPivotGrid.resources" />
+    <EmbeddedResource Include="frmTestDavid.resx">
+      <DependentUpon>frmTestDavid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BizzLib.dll.licenses" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

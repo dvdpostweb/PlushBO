@@ -54,6 +54,7 @@ Public Class frmDiscountCode
     Dim _creditcard As Integer
     Dim _debitcard As Integer
     Dim _discount_action As String
+    Dim _tvod_free As Integer
 
     Dim _shoppingdiscountCode As String
     Dim _shoppingDiscountType As Integer
@@ -252,6 +253,8 @@ Public Class frmDiscountCode
 
         cmbDiscountAction.Enabled = Enabling
 
+        txtTVODFreeCredits.Enabled = Enabling
+
     End Sub
 
 
@@ -292,6 +295,7 @@ Public Class frmDiscountCode
         CheckDebitCard.EditValue = clsMarketing.clsDiscountCode.GetDebitCard(dr)
 
         cmbDiscountAction.EditValue = clsMarketing.clsDiscountCode.GetDiscountAction(dr)
+        txtTVODFreeCredits.EditValue = clsMarketing.clsDiscountCode.GetTVODFree(dr)
 
 
     End Sub
@@ -333,6 +337,7 @@ Public Class frmDiscountCode
         _creditcard = CheckCreditCard.EditValue
         _debitcard = CheckDebitCard.EditValue
         _discount_action = cmbDiscountAction.EditValue
+        _tvod_free = txtTVODFreeCredits.EditValue
 
     End Sub
 
@@ -352,7 +357,7 @@ Public Class frmDiscountCode
                                                                    _discountAboValiditytoType, _discountAboValiditytoValue, _commentDiscount, _iscountNbrMonthBeforeReuse, _
                                                                    _discountRecurringNbrOfMonth, _bypassDiscountuse, _discountValidityTo, _payable, _
                                                                    _nextDiscount, _credit0AutoReconduct, _landingPage, _landingPagePhp, _aboType, _
-                                                                   _aboAutoStopNextReconduction, _gotoStep, _bannerDiscount, _footerDiscount, _FreeUpgradeAllowed, _groupId, _NextaboType, _paypal, _creditcard, _debitcard, _discount_action)
+                                                                   _aboAutoStopNextReconduction, _gotoStep, _bannerDiscount, _footerDiscount, _FreeUpgradeAllowed, _groupId, _NextaboType, _paypal, _creditcard, _debitcard, _discount_action, _tvod_free)
             PlushData.clsConnection.CreateTransaction(True)
             cnt = PlushData.clsConnection.ExecuteNonQuery(sql)
             PlushData.clsConnection.ExecuteBulkQuery(PlushData.clsMsgError.processType.Discount, cnt)
@@ -573,7 +578,7 @@ Public Class frmDiscountCode
                                                                    _discountAboValiditytoType, _discountAboValiditytoValue, _commentDiscount, _iscountNbrMonthBeforeReuse, _
                                                                    _discountRecurringNbrOfMonth, _bypassDiscountuse, _discountValidityTo, _payable, _
                                                                    _nextDiscount, _credit0AutoReconduct, _landingPage, _landingPagePhp, _aboType, _
-                                                                   _aboAutoStopNextReconduction, _gotoStep, _bannerDiscount, _footerDiscount, _FreeUpgradeAllowed, _groupId, _NextaboType, _paypal, _creditcard, _debitcard, _discount_action)
+                                                                   _aboAutoStopNextReconduction, _gotoStep, _bannerDiscount, _footerDiscount, _FreeUpgradeAllowed, _groupId, _NextaboType, _paypal, _creditcard, _debitcard, _discount_action, _tvod_free)
         PlushData.clsConnection.CreateTransaction(True)
         cnt = PlushData.clsConnection.ExecuteNonQuery(sql)
         PlushData.clsConnection.ExecuteBulkQuery(PlushData.clsMsgError.processType.Feesharing, cnt)

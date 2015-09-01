@@ -296,6 +296,7 @@ Public Class clsOffLinePayments
 
 
         For Each dr As DataRow In dt.Rows
+            PlushBuziness.ClsCustomers.SuspendPaymentCustomer(dr("customers_id"))
             'ok = PlushBuziness.ClsWebServices.CallSuspended(dr("customers_id"), DateTime.Now, ClsWebServices.TypeSuspend.PAYMENT)
             If ok Then cpt_suspended += 1
         Next
@@ -313,6 +314,7 @@ Public Class clsOffLinePayments
         dt = PlushData.clsConnection.FillDataSet(sql)
 
         For Each dr As DataRow In dt.Rows
+            PlushBuziness.ClsCustomers.UnsuspendForHolidayCustomer(dr("customers_id"), dr("customers_abo_type"), dr("date_end"))
             'ok = PlushBuziness.ClsWebServices.CallUnSuspended(dr("customers_id"), DateTime.Now, ClsWebServices.TypeSuspend.HOLIDAYS)
             If ok Then cpt_unsuspended += 1
         Next
@@ -332,6 +334,7 @@ Public Class clsOffLinePayments
 
 
         For Each dr As DataRow In dt.Rows
+            PlushBuziness.ClsCustomers.UnsuspendPaymentCustomer(dr("customers_id"), dr("customers_abo_type"))
             'ok = PlushBuziness.ClsWebServices.CallUnSuspended(dr("customers_id"), DateTime.Now, ClsWebServices.TypeSuspend.PAYMENT)
             If ok Then cpt_unsuspended += 1
         Next
@@ -422,25 +425,18 @@ Public Class clsOffLinePayments
     Public Shared Sub matchingOffline()
         Dim user_id As Integer = clsSession.user_id
 
-        Dim cpt_recovery As Integer
-        Dim cpt_find_Open As Integer
         Dim cpt_unsuspended As Integer
         Dim cpt_suspended As Integer
         Dim cpt_unsuspended_holiday As Integer
 
-        cpt_recovery = MatchingOfflineRequestCommunicationStructure()
-        cpt_find_Open = MatchingCommunicationStructureOrNameFirtsName()
         'for suspension call webservice
-        cpt_unsuspended = UnsuspendedPayment()
-        cpt_suspended = suspendedPayment()
+        'cpt_unsuspended = UnsuspendedPayment()
+        'cpt_suspended = suspendedPayment()
         cpt_unsuspended_holiday = UnsuspendedHolidays()
 
 
-        If (cpt_recovery + cpt_find_Open + cpt_unsuspended + cpt_suspended + cpt_unsuspended_holiday > 0) Then
-            clsMsgError.MsgBox( _
-                   " Matching recovery : " & cpt_recovery & vbNewLine & _
-                   " Finded customers : " & cpt_find_Open & vbNewLine & _
-                   " Unsuspended : " & cpt_unsuspended & vbNewLine & _
+        If (cpt_unsuspended + cpt_suspended + cpt_unsuspended_holiday > 0) Then
+            clsMsgError.MsgBox(" Unsuspended : " & cpt_unsuspended & vbNewLine & _
                    " Suspended : " & cpt_suspended & vbNewLine & _
                    " Unsuspended Holiday : " & cpt_unsuspended_holiday)
         End If

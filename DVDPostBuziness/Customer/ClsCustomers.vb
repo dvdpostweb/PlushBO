@@ -2222,13 +2222,28 @@ Public Class ClsCustomers
 
     End Function
 
+    Private Shared Function GetLastPaymentNotCreateRecoveryOgone(ByVal customers_id As Integer) As DataRow
+        Dim sql As String
+        Dim dt As DataTable
+
+        sql = PlushData.ClsBatchOgone.GetLastPaymentOpenNotCreateRecoveryStatus_ogone(customers_id)
+        dt = PlushData.clsConnection.FillDataSet(sql)
+        If dt.Rows.Count = 1 Then
+            Return dt.Rows(0)
+        Else
+            Return Nothing
+        End If
+
+
+    End Function
+
     Public Shared Function SuspendPaymentCustomer(ByVal Customers_id As Integer, Optional ByVal batch_id As Integer = -1) As String
         Dim dr As DataRow
         Dim sql As String
         Dim lastId As Integer
 
         Try
-            dr = GetLastPaymentOgone(Customers_id)
+            dr = GetLastPaymentNotCreateRecoveryOgone(Customers_id)
             If Not dr Is Nothing Then
 
                 lastId = dr("id")
@@ -2267,13 +2282,13 @@ Public Class ClsCustomers
             End If
 
             'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "1", Customers_id)
-            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetUpdateUnsuspendedForPaymentCustomer(Customers_id), Customers_id)
+            'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetUpdateUnsuspendedForPaymentCustomer(Customers_id), Customers_id)
             PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetUpdateUnsuspendedForPaymentCustomer(Customers_id))
             'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "11", Customers_id)
 
 
             'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "2", Customers_id)
-            clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, String.Empty, abo_products_id, "OGONE", 23), Customers_id)
+            'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, String.Empty, abo_products_id, "OGONE", 23), Customers_id)
             PlushData.clsConnection.ExecuteNonQuery(PlushData.ClsCustomersData.GetInsertHistoryAbo(Customers_id, String.Empty, abo_products_id, "OGONE", 23))
             'clsMsgError.InsertLogMsg(PlushData.clsMsgError.processType.Import_Payment, "21", Customers_id)
 

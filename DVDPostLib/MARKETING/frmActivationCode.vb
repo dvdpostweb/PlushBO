@@ -154,10 +154,13 @@ Public Class frmActivationCode
     Friend WithEvents cmbActivation_Type As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl29 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents txtTVODFreeCredits As DevExpress.XtraEditors.SpinEdit
+    Friend WithEvents LabelControl30 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents barDockControlTop As DevExpress.XtraBars.BarDockControl
     Friend WithEvents barDockControlBottom As DevExpress.XtraBars.BarDockControl
     Friend WithEvents barDockControlLeft As DevExpress.XtraBars.BarDockControl
     Friend WithEvents barDockControlRight As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents chkAllCust As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents txtComment As DevExpress.XtraEditors.TextEdit
 
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
@@ -292,6 +295,9 @@ Public Class frmActivationCode
         Me.cmbActivation_Type = New DevExpress.XtraEditors.LookUpEdit
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl
         Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl
+        Me.txtTVODFreeCredits = New DevExpress.XtraEditors.SpinEdit
+        Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl
+        Me.chkAllCust = New DevExpress.XtraEditors.CheckEdit
         Me.Panel1.SuspendLayout()
         CType(Me.TabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
@@ -366,6 +372,8 @@ Public Class frmActivationCode
         CType(Me.cmbDiscountAction.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtActivationValue2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbActivation_Type.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.chkAllCust.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'StatusBar1
@@ -391,6 +399,9 @@ Public Class frmActivationCode
         '
         'TabParameters
         '
+        Me.TabParameters.Controls.Add(Me.chkAllCust)
+        Me.TabParameters.Controls.Add(Me.txtTVODFreeCredits)
+        Me.TabParameters.Controls.Add(Me.LabelControl30)
         Me.TabParameters.Controls.Add(Me.txtActivationValue2)
         Me.TabParameters.Controls.Add(Me.cmbActivation_Type)
         Me.TabParameters.Controls.Add(Me.LabelControl8)
@@ -1371,6 +1382,28 @@ Public Class frmActivationCode
         resources.ApplyResources(Me.LabelControl29, "LabelControl29")
         Me.LabelControl29.Name = "LabelControl29"
         '
+        'txtTVODFreeCredits
+        '
+        resources.ApplyResources(Me.txtTVODFreeCredits, "txtTVODFreeCredits")
+        Me.txtTVODFreeCredits.Name = "txtTVODFreeCredits"
+        Me.txtTVODFreeCredits.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
+        Me.txtTVODFreeCredits.Properties.MaxValue = New Decimal(New Integer() {20, 0, 0, 0})
+        Me.HelpProvider1.SetShowHelp(Me.txtTVODFreeCredits, CType(resources.GetObject("txtTVODFreeCredits.ShowHelp"), Boolean))
+        '
+        'LabelControl30
+        '
+        resources.ApplyResources(Me.LabelControl30, "LabelControl30")
+        Me.LabelControl30.Name = "LabelControl30"
+        '
+        'chkAllCust
+        '
+        resources.ApplyResources(Me.chkAllCust, "chkAllCust")
+        Me.chkAllCust.Name = "chkAllCust"
+        Me.chkAllCust.Properties.Caption = resources.GetString("chkAllCust.Properties.Caption")
+        Me.chkAllCust.Properties.ValueChecked = 1
+        Me.chkAllCust.Properties.ValueUnchecked = 0
+        Me.HelpProvider1.SetShowHelp(Me.chkAllCust, CType(resources.GetObject("chkAllCust.ShowHelp"), Boolean))
+        '
         'frmActivationCode
         '
         resources.ApplyResources(Me, "$this")
@@ -1470,6 +1503,8 @@ Public Class frmActivationCode
         CType(Me.cmbDiscountAction.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtActivationValue2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbActivation_Type.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.chkAllCust.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1506,6 +1541,7 @@ Public Class frmActivationCode
     Dim _aboDVDRemain As Integer
     Dim _nextDiscount As Integer
     Dim _NextaboType As String
+    Dim _tvod_free As Integer
     Dim _credit0autoReconduct As Integer
     Dim _aboAutoStopNextReconduction As Boolean
     Dim _bannerActivation As String
@@ -1521,6 +1557,7 @@ Public Class frmActivationCode
     Dim _creditcard As Integer
     Dim _debitcard As Integer
     Dim _discount_action As String
+    Dim _all_cust As Integer
 
     Dim _enableField As Boolean
 
@@ -1782,12 +1819,12 @@ Public Class frmActivationCode
                                                                             _activationCodeValidtoDate, _activationProductsId, _
                                                                             _validityType, _validityValue, _
                                                                             _activationWaranty, _commentActivation, _
-                                                                            _nextDiscount, _
+                                                                            _nextDiscount, _tvod_free, _
                                                                             _aboAutoStopNextReconduction, _NextaboType, _bannerActivation, _
                                                                             _activationTextFr, _activationTextNl, _
                                                                             _activationTextEn, _freeUpgradeAllowed, _
                                                                             _footerActivation, _campaignActivation, _
-                                                                            _combinedAction, _paypal, _creditcard, _debitcard, _discount_action)
+                                                                            _combinedAction, _paypal, _creditcard, _debitcard, _discount_action, _all_cust)
             PlushData.clsConnection.ExecuteNonQuery(sql)
 
         Next
@@ -1985,6 +2022,7 @@ Public Class frmActivationCode
         CheckPaypal.Checked = False
         CheckCreditCard.Checked = False
         CheckDebitCard.Checked = False
+        chkAllCust.Checked = False
         cmbDiscountAction.EditValue = Nothing
 
     End Sub
@@ -2026,6 +2064,7 @@ Public Class frmActivationCode
         CheckPaypal.EditValue = clsMarketing.clsDiscountCode.GetPayPal(dr)
         CheckCreditCard.EditValue = clsMarketing.clsDiscountCode.GetCrediCard(dr)
         CheckDebitCard.EditValue = clsMarketing.clsDiscountCode.GetDebitCard(dr)
+        chkAllCust.EditValue = clsMarketing.clsDiscountCode.GetAllCust(dr)
         cmbDiscountAction.EditValue = clsMarketing.clsDiscountCode.GetDiscountAction(dr)
 
     End Sub
@@ -2053,6 +2092,7 @@ Public Class frmActivationCode
         '_aboDvdCredit = txtDVDCredit.EditValue
         '_aboDVDRemain = txtDVDRemain.EditValue
         _nextDiscount = cmbNextDiscount.EditValue
+        _tvod_free = txtTVODFreeCredits.EditValue
         '_credit0autoReconduct 
         _aboAutoStopNextReconduction = chkAuto_Stop_at_Next_Reconduction.Checked
         _bannerActivation = txtBanner.EditValue
@@ -2072,6 +2112,7 @@ Public Class frmActivationCode
         _paypal = CheckPaypal.EditValue
         _creditcard = CheckCreditCard.EditValue
         _debitcard = CheckDebitCard.EditValue
+        _all_cust = chkAllCust.EditValue
         _discount_action = cmbDiscountAction.EditValue
 
     End Sub
@@ -2145,13 +2186,13 @@ Public Class frmActivationCode
                                                                                  _activationCodeValidtoDate, _activationProductsId, _
                                                                                  _validityType, _validityValue, _
                                                                                  _activationWaranty, _commentActivation, _
-                                                                                 _nextDiscount, _
+                                                                                 _nextDiscount, _tvod_free, _
                                                                                  _aboAutoStopNextReconduction, _bannerActivation, _
                                                                                  _activationTextFr, _activationTextNl, _
                                                                                  _activationTextEn, _freeUpgradeAllowed, _
                                                                                  _footerActivation, _campaignActivation, _
                                                                                  _combinedAction, _activationCodeCreationDate, activationCodeCondition, _
-                                                                                 _NextaboType, _paypal, _creditcard, _debitcard, _discount_action)
+                                                                                 _NextaboType, _paypal, _creditcard, _debitcard, _discount_action, _all_cust)
 
             count = PlushData.clsConnection.ExecuteNonQuery(sql)
             If MsgBox("you go to update " & count & " activations codes ", MsgBoxStyle.OkCancel) = MsgBoxResult.Ok Then
@@ -2201,6 +2242,8 @@ Public Class frmActivationCode
         cmbCombinedAction.Enabled = enable
         chkFree_Upgrade_Allowed.Enabled = enable
 
+        txtTVODFreeCredits.Enabled = enable
+
         txtValidityToCustomersChange.Enabled = enable
         txtPrefix.Enabled = enable
 
@@ -2211,6 +2254,7 @@ Public Class frmActivationCode
         CheckPaypal.Enabled = enable
         CheckCreditCard.Enabled = enable
         CheckDebitCard.Enabled = enable
+        chkAllCust.Enabled = enable
 
         cmbDiscountAction.Enabled = enable
         Return ok

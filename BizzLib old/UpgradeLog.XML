@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BizzLib Old">
+</Property><Property Name="Solution File" Value="D:\DVDPost\Plush\BizzLib old\BizzLib Old.sln">
+</Property><Property Name="Date" Value="17 September 2014">
+</Property><Property Name="Time" Value="12:48:58">
+</Property></Properties><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib Old.vbproj" Description="Project file successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib Old.vbproj">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsBKGenericClass.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsBKGenericClass.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsBrowseView.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsBrowseView.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsCombo.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsCombo.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsCRMcountry.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsCRMcountry.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsDataSet.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsDataSet.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsData_Address.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsData_Address.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsData_Customer.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsData_Customer.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsData_Employee.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsData_Employee.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsData_Entity.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsData_Entity.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsDefaultSet.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsDefaultSet.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsFilter.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsFilter.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsGlobal.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsGlobal.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsOneTableData.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsOneTableData.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsReport.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsReport.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsSessionInfo.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsSessionInfo.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsStdShortCut.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsStdShortCut.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="clsUserMenu.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\clsUserMenu.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsAnalyze.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsAnalyze.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsBrowseView.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsBrowseView.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsDefaultSet.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsDefaultSet.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsExcelImport.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsExcelImport.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsFilter.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsFilter.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsGeneral.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsGeneral.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsSecurity.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsSecurity.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="dsSystem.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\dsSystem.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmBKForm.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmBKForm.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogNewAnalyze.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogNewAnalyze.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogNewReport.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogNewReport.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogSelectDatabase.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogSelectDatabase.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogSelectUser.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogSelectUser.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogSelectXMLFile.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogSelectXMLFile.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmDialogueSelectExcelFile.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmDialogueSelectExcelFile.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmgeneraldesctranslation_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmgeneraldesctranslation_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmGeneral_Browse.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmGeneral_Browse.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmGeneral_BrowseMaint.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmGeneral_BrowseMaint.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmGeneral_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmGeneral_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmProgressBarPopUP.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmProgressBarPopUP.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmProgressPopUp.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmProgressPopUp.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmSystemBrowseView_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmSystemBrowseView_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmSystemComment_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmSystemComment_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmSystemDefaultSet_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmSystemDefaultSet_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmSystemFilter_Maintenance.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmSystemFilter_Maintenance.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmTest.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmTest.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmTestDavid.Designer.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmTestDavid.Designer.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmTestDavid.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmTestDavid.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="moGeneral.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\moGeneral.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Application.Designer.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="ucChart.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\ucChart.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="ucPivotGrid.vb" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\ucPivotGrid.vb">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Application.myapp" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Settings.settings" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.dll.licenses" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.dll.licenses">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmBKForm.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmBKForm.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogNewAnalyze.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogNewAnalyze.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogNewReport.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogNewReport.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogSelectDatabase.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogSelectDatabase.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogSelectUser.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogSelectUser.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogSelectXMLFile.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogSelectXMLFile.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmDialogueSelectExcelFile.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmDialogueSelectExcelFile.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmgeneraldesctranslation_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmgeneraldesctranslation_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmGeneral_Browse.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmGeneral_Browse.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmGeneral_BrowseMaint.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmGeneral_BrowseMaint.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmGeneral_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmGeneral_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmProgressBarPopUP.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmProgressBarPopUP.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmProgressPopUp.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmProgressPopUp.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmSystemBrowseView_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmSystemBrowseView_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmSystemComment_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmSystemComment_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmSystemDefaultSet_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmSystemDefaultSet_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmSystemFilter_Maintenance.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmSystemFilter_Maintenance.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.frmTest.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.frmTest.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.ucChart.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.ucChart.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib.ucPivotGrid.resources" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\BizzLib.ucPivotGrid.resources">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="frmTestDavid.resx" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\frmTestDavid.resx">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="My Project\Resources.resx" Description="File successfully backed up as D:\DVDPost\Plush\BizzLib old\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="1" Project="BizzLib Old" Source="BizzLib Old.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib Old.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BizzLib Old" Source="BizzLib Old.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BizzLib Old" Source="BizzLib Old.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

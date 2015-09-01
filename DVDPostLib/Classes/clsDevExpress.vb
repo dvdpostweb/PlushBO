@@ -5,7 +5,11 @@ Public Class clsDevExpress
     Public Shared Property sessionInfo() As BizzLib.clsSessionInfo
         Get
             If _sessionInfo Is Nothing Then
-                _sessionInfo = New BizzLib.clsSessionInfo(0, 1)
+                Try
+                    _sessionInfo = New BizzLib.clsSessionInfo(0, 1)
+                Catch ex As Exception
+                    PlushBuziness.clsMsgError.MsgBox(ex.Message)
+                End Try
             End If
             Return _sessionInfo
         End Get

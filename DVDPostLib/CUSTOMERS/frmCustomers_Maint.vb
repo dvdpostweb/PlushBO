@@ -718,6 +718,8 @@ Public Class frmCustomers_Maint
     Friend WithEvents txtDateCreated As DevExpress.XtraEditors.DateEdit
     Friend WithEvents chkCustomerLockedForReconduction As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents lblAboSumP As System.Windows.Forms.Label
+    Friend WithEvents txtTVODFreeCredits As DevExpress.XtraEditors.SpinEdit
+    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents cmbDiscType As DevExpress.XtraEditors.ComboBoxEdit
 
 
@@ -1010,6 +1012,8 @@ Public Class frmCustomers_Maint
         Me.btnActPhone = New DevExpress.XtraEditors.SimpleButton
         Me.btnReActivate = New DevExpress.XtraEditors.SimpleButton
         Me.GCAboInfo = New DevExpress.XtraEditors.GroupControl
+        Me.txtTVODFreeCredits = New DevExpress.XtraEditors.SpinEdit
+        Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl
         Me.lblAboSumP = New System.Windows.Forms.Label
         Me.chkCustomerLockedForReconduction = New DevExpress.XtraEditors.CheckEdit
         Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl
@@ -1456,6 +1460,7 @@ Public Class frmCustomers_Maint
         CType(Me.DateCallPhoneActivation.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GCAboInfo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GCAboInfo.SuspendLayout()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkCustomerLockedForReconduction.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateConfirmationSentAt.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateConfirmationSentAt.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -4230,6 +4235,8 @@ Public Class frmCustomers_Maint
         'GCAboInfo
         '
         Me.GCAboInfo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly
+        Me.GCAboInfo.Controls.Add(Me.txtTVODFreeCredits)
+        Me.GCAboInfo.Controls.Add(Me.LabelControl19)
         Me.GCAboInfo.Controls.Add(Me.lblAboSumP)
         Me.GCAboInfo.Controls.Add(Me.chkCustomerLockedForReconduction)
         Me.GCAboInfo.Controls.Add(Me.LabelControl15)
@@ -4259,9 +4266,30 @@ Public Class frmCustomers_Maint
         Me.GCAboInfo.Controls.Add(Me.lblAbo)
         Me.GCAboInfo.Location = New System.Drawing.Point(632, 67)
         Me.GCAboInfo.Name = "GCAboInfo"
-        Me.GCAboInfo.Size = New System.Drawing.Size(336, 420)
+        Me.GCAboInfo.Size = New System.Drawing.Size(336, 445)
         Me.GCAboInfo.TabIndex = 5
         Me.GCAboInfo.Text = "ABO Info"
+        '
+        'txtTVODFreeCredits
+        '
+        Me.txtTVODFreeCredits.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "customers.tvod_free", True))
+        Me.txtTVODFreeCredits.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.txtTVODFreeCredits.Enabled = False
+        Me.txtTVODFreeCredits.Location = New System.Drawing.Point(161, 284)
+        Me.txtTVODFreeCredits.Name = "txtTVODFreeCredits"
+        Me.txtTVODFreeCredits.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
+        Me.txtTVODFreeCredits.Properties.MaxValue = New Decimal(New Integer() {20, 0, 0, 0})
+        Me.HelpProvider1.SetShowHelp(Me.txtTVODFreeCredits, True)
+        Me.txtTVODFreeCredits.Size = New System.Drawing.Size(100, 20)
+        Me.txtTVODFreeCredits.TabIndex = 94
+        '
+        'LabelControl19
+        '
+        Me.LabelControl19.Location = New System.Drawing.Point(8, 291)
+        Me.LabelControl19.Name = "LabelControl19"
+        Me.LabelControl19.Size = New System.Drawing.Size(85, 13)
+        Me.LabelControl19.TabIndex = 93
+        Me.LabelControl19.Text = "TVOD free credits"
         '
         'lblAboSumP
         '
@@ -4287,7 +4315,7 @@ Public Class frmCustomers_Maint
         '
         'LabelControl15
         '
-        Me.LabelControl15.Location = New System.Drawing.Point(8, 368)
+        Me.LabelControl15.Location = New System.Drawing.Point(8, 396)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(98, 13)
         Me.LabelControl15.TabIndex = 64
@@ -4298,7 +4326,7 @@ Public Class frmCustomers_Maint
         Me.DateConfirmationSentAt.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "customers.confirmation_sent_at", True))
         Me.DateConfirmationSentAt.EditValue = Nothing
         Me.DateConfirmationSentAt.Enabled = False
-        Me.DateConfirmationSentAt.Location = New System.Drawing.Point(160, 365)
+        Me.DateConfirmationSentAt.Location = New System.Drawing.Point(160, 393)
         Me.DateConfirmationSentAt.Name = "DateConfirmationSentAt"
         Me.DateConfirmationSentAt.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateConfirmationSentAt.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
@@ -4307,7 +4335,7 @@ Public Class frmCustomers_Maint
         '
         'LabelControl14
         '
-        Me.LabelControl14.Location = New System.Drawing.Point(8, 342)
+        Me.LabelControl14.Location = New System.Drawing.Point(8, 370)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(62, 13)
         Me.LabelControl14.TabIndex = 62
@@ -4318,7 +4346,7 @@ Public Class frmCustomers_Maint
         Me.DateConfirmedAt.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "customers.confirmed_at", True))
         Me.DateConfirmedAt.EditValue = Nothing
         Me.DateConfirmedAt.Enabled = False
-        Me.DateConfirmedAt.Location = New System.Drawing.Point(160, 339)
+        Me.DateConfirmedAt.Location = New System.Drawing.Point(160, 367)
         Me.DateConfirmedAt.Name = "DateConfirmedAt"
         Me.DateConfirmedAt.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateConfirmedAt.Properties.VistaTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton})
@@ -4396,7 +4424,7 @@ Public Class frmCustomers_Maint
         'btnGoto30
         '
         Me.btnGoto30.Enabled = False
-        Me.btnGoto30.Location = New System.Drawing.Point(248, 282)
+        Me.btnGoto30.Location = New System.Drawing.Point(248, 310)
         Me.btnGoto30.Name = "btnGoto30"
         Me.btnGoto30.Size = New System.Drawing.Size(64, 23)
         Me.btnGoto30.TabIndex = 44
@@ -4407,14 +4435,14 @@ Public Class frmCustomers_Maint
         '
         Me.txtRegistrationStep.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "customers.customers_registration_step", True))
         Me.txtRegistrationStep.Enabled = False
-        Me.txtRegistrationStep.Location = New System.Drawing.Point(160, 282)
+        Me.txtRegistrationStep.Location = New System.Drawing.Point(160, 310)
         Me.txtRegistrationStep.Name = "txtRegistrationStep"
         Me.txtRegistrationStep.Size = New System.Drawing.Size(80, 20)
         Me.txtRegistrationStep.TabIndex = 43
         '
         'lblRegistrationStep
         '
-        Me.lblRegistrationStep.Location = New System.Drawing.Point(8, 290)
+        Me.lblRegistrationStep.Location = New System.Drawing.Point(8, 318)
         Me.lblRegistrationStep.Name = "lblRegistrationStep"
         Me.lblRegistrationStep.Size = New System.Drawing.Size(83, 13)
         Me.lblRegistrationStep.TabIndex = 42
@@ -4446,7 +4474,7 @@ Public Class frmCustomers_Maint
         '
         Me.chkAutoStop.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.objDS, "customers.customers_abo_auto_stop_next_reconduction", True))
         Me.chkAutoStop.Enabled = False
-        Me.chkAutoStop.Location = New System.Drawing.Point(120, 314)
+        Me.chkAutoStop.Location = New System.Drawing.Point(120, 342)
         Me.chkAutoStop.Name = "chkAutoStop"
         Me.chkAutoStop.Properties.Caption = "Auto-Stop"
         Me.chkAutoStop.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
@@ -7918,6 +7946,7 @@ Public Class frmCustomers_Maint
         CType(Me.GCAboInfo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GCAboInfo.ResumeLayout(False)
         Me.GCAboInfo.PerformLayout()
+        CType(Me.txtTVODFreeCredits.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkCustomerLockedForReconduction.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateConfirmationSentAt.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateConfirmationSentAt.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -8761,6 +8790,8 @@ Public Class frmCustomers_Maint
             cmbDiscType.SelectedIndex = 1
             cmbDiscountActivation.Refresh()
 
+            'txtTVODFreeCredits.EditValue = drCust("tvod_free")
+
         End If
     End Sub
     Public Sub LoadCustomerInfo()
@@ -8770,6 +8801,7 @@ Public Class frmCustomers_Maint
         'objDS.Tables("customer_attributes").Clear()
         objDS.Tables("customers_svod").Clear()
         objDS.Tables("customers").Clear()
+
 
 
         MainData = New ClsCustomersInfo.clsCustomer(SessionInfo, objDS, _CurrentCustomerID)
@@ -8824,7 +8856,6 @@ Public Class frmCustomers_Maint
         ' change backcolor for chkAutoStop
         CheckboxColor()
         loadDiscountActivation(drCust)
-
         'display addressbook
         loadAddressBook(_CurrentCustomerID)
         'loadAttributesCustomer(_CurrentCustomerID)
@@ -8881,10 +8912,11 @@ Public Class frmCustomers_Maint
 
         ChangeStateControl(cmbDiscountActivation, Enabling And isrightAccess())
         ChangeStateControl(cmbDiscType, Enabling And isrightAccess())
+        ChangeStateControl(txtTVODFreeCredits, Enabling And isrightAccess())
         ChangeStateControl(txtABO, Enabling And isrightAccess())
         ChangeStateControl(cmbSuspended, Enabling And isrightAccess())
         ChangeStateControl(cmbABO, Enabling And isrightAccess() And Not isTVODABO())
-        ChangeStateControl(cmbNextABO, Enabling And isrightAccess() And Not isLockedForReconduction())
+        ChangeStateControl(cmbNextABO, Enabling And isrightAccess()) ' And Not isLockedForReconduction())
         'ChangeStateControl(txtABOCredit, Enabling And isrightAccess() And Not PlushBuziness.ClsInventory.isAboprocessRun())
         'ChangeStateControl(txtRemainDVD, Enabling And isrightAccess() And PlushBuziness.ClsInventory.isNPP(txtCustomers_id.Text) And Not PlushBuziness.ClsInventory.isAboprocessRun())
         ChangeStateControl(cmbNextDiscCode, Enabling And isrightAccess())

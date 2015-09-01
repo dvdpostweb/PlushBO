@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>161, 17</value>
+    <value>142, 17</value>
   </metadata>
   <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAE
-        DgAAAk1TRnQBSQFMAgEBBgEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DgAAAk1TRnQBSQFMAgEBBgEAARwBAAEcAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -193,17 +193,17 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="StatusBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 532</value>
+    <value>0, 535</value>
   </data>
   <data name="StatusBarPanel1.Name" xml:space="preserve">
     <value>StatusBarPanel1</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="StatusBarPanel1.Width" type="System.Int32, mscorlib">
-    <value>1051</value>
+    <value>1055</value>
   </data>
   <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 103</value>
+    <value>1236, 17</value>
   </metadata>
   <data name="HelpProvider1.HelpNamespace" xml:space="preserve">
     <value>.\Help\BizzKeys.chm</value>
@@ -212,7 +212,7 @@
     <value>False</value>
   </data>
   <data name="StatusBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1072, 26</value>
+    <value>1072, 23</value>
   </data>
   <data name="StatusBar1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -233,7 +233,7 @@
     <value>3</value>
   </data>
   <metadata name="RightMouseMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>287, 17</value>
+    <value>252, 17</value>
   </metadata>
   <data name="PopMenuNew.Text" xml:space="preserve">
     <value>New</value>
@@ -269,13 +269,13 @@
     <value>systemmenu</value>
   </data>
   <metadata name="objDS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>461, 17</value>
+    <value>401, 17</value>
   </metadata>
   <data name="Grid1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="Grid1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 37</value>
+    <value>0, 32</value>
   </data>
   <data name="colMenuID.Caption" xml:space="preserve">
     <value>ID</value>
@@ -395,7 +395,7 @@
     <value>False</value>
   </data>
   <data name="Grid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>563, 460</value>
+    <value>648, 473</value>
   </data>
   <data name="Grid1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -413,7 +413,7 @@
     <value>0</value>
   </data>
   <metadata name="OleDbDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>554, 17</value>
+    <value>485, 17</value>
   </metadata>
   <metadata name="OleDbDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -428,7 +428,7 @@
     <value>DELETE FROM systemmenu WHERE (MenuID = ?) AND (MenuAssembly = ? OR ? IS NULL AND MenuAssembly IS NULL) AND (MenuForm = ? OR ? IS NULL AND MenuForm IS NULL) AND (MenuIcon = ? OR ? IS NULL AND MenuIcon IS NULL) AND (MenuIconExpanded = ? OR ? IS NULL AND MenuIconExpanded IS NULL) AND (MenuLabel = ? OR ? IS NULL AND MenuLabel IS NULL) AND (MenuLandScape = ? OR ? IS NULL AND MenuLandScape IS NULL) AND (MenuStartCode = ? OR ? IS NULL AND MenuStartCode IS NULL) AND (MenuStartCode2 = ? OR ? IS NULL AND MenuStartCode2 IS NULL) AND (MenuStartID = ? OR ? IS NULL AND MenuStartID IS NULL)</value>
   </data>
   <metadata name="OleDbConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 60</value>
+    <value>647, 17</value>
   </metadata>
   <data name="OleDbConnection1.ConnectionString" xml:space="preserve">
     <value>Integrated Security=SSPI;User ID=CashIBA;Data Source="BizzKEys-Acer";Tag with column collation when possible=False;Initial Catalog=CashIBA;Use Procedure for Prepare=1;Auto Translate=True;Persist Security Info=False;Provider="SQLOLEDB.1";Workstation ID="BIZZKEYS-ACER";Use Encryption for Data=False;Packet Size=4096</value>
@@ -500,7 +500,7 @@
     <value>True</value>
   </data>
   <data name="ToolBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 72</value>
+    <value>271, 28</value>
   </data>
   <data name="ToolBar1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -527,7 +527,7 @@
     <value>False</value>
   </data>
   <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 37</value>
+    <value>271, 32</value>
   </data>
   <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -551,13 +551,13 @@
     <value>NoControl</value>
   </data>
   <data name="Splitter2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 0</value>
+    <value>271, 0</value>
   </data>
   <data name="Splitter2.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Splitter2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 37</value>
+    <value>9, 32</value>
   </data>
   <data name="Splitter2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -578,13 +578,13 @@
     <value>Right</value>
   </data>
   <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 0</value>
+    <value>280, 0</value>
   </data>
   <data name="Panel4.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 37</value>
+    <value>368, 32</value>
   </data>
   <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -611,7 +611,7 @@
     <value>False</value>
   </data>
   <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>563, 37</value>
+    <value>648, 32</value>
   </data>
   <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -632,13 +632,13 @@
     <value>Fill</value>
   </data>
   <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 35</value>
+    <value>424, 30</value>
   </data>
   <data name="Panel1.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>563, 497</value>
+    <value>648, 505</value>
   </data>
   <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -728,7 +728,7 @@
     <value>False</value>
   </data>
   <data name="TreeList1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>499, 469</value>
+    <value>416, 477</value>
   </data>
   <data name="TreeList1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -773,14 +773,14 @@
     <value>True</value>
   </data>
   <metadata name="ImageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>199, 60</value>
+    <value>802, 17</value>
   </metadata>
   <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABQ
-        CwAAAk1TRnQBSQFMAgEBBwEAARQBAAEUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CwAAAk1TRnQBSQFMAgEBBwEAARwBAAEcAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -844,7 +844,7 @@
     <value>True</value>
   </data>
   <data name="ToolBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>499, 28</value>
+    <value>416, 28</value>
   </data>
   <data name="ToolBar2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -865,13 +865,13 @@
     <value>Left</value>
   </data>
   <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 35</value>
+    <value>0, 30</value>
   </data>
   <data name="Panel2.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>499, 497</value>
+    <value>416, 505</value>
   </data>
   <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -892,13 +892,13 @@
     <value>NoControl</value>
   </data>
   <data name="Splitter1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>499, 35</value>
+    <value>416, 30</value>
   </data>
   <data name="Splitter1.ShowHelp" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Splitter1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 497</value>
+    <value>8, 505</value>
   </data>
   <data name="Splitter1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -916,7 +916,7 @@
     <value>1</value>
   </data>
   <metadata name="OleDbDataAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>325, 60</value>
+    <value>912, 17</value>
   </metadata>
   <metadata name="OleDbSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -931,7 +931,7 @@
     <value>SELECT systemmenutree.ParentID, systemmenu_1.MenuID, systemmenu_1.MenuLabel, SystemMenu_1.MenuForm, systemmenu_1.MenuIcon, systemmenu_1.MenuIconExpanded, SystemMenuTree.Sequence, systemmenu_1.MenuStartID, systemmenu_1.MenuStartCode, SystemMenu_1.MenuStartCode2 FROM systemmenu systemmenu_1 RIGHT OUTER JOIN systemmenutree ON systemmenu_1.MenuID = systemmenutree.MenuID LEFT OUTER JOIN systemmenu ON SystemMenuTree.ParentID = systemmenu.MenuID</value>
   </data>
   <metadata name="OleDbDataAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>516, 60</value>
+    <value>1074, 17</value>
   </metadata>
   <metadata name="OleDbDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -976,7 +976,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
-    <value>6, 15</value>
+    <value>5, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1072, 558</value>

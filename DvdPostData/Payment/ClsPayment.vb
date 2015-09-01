@@ -35,7 +35,7 @@ Public Class ClsPayment
 
     Public Shared Function GetCountOfCustomersUnpaidPayments(ByVal customers_id As Integer) As String
         Dim sql As String
-        sql = " select count(*) from payment p where p.payment_status not in (" & PaymentOfflineData.GetListPaid() & ") and p.customers_id = " & customers_id
+        sql = " select count(*) from payment p where p.payment_status not in (" & PaymentOfflineData.GetListPaid() & ", " & PaymentOfflineData.GetListClose() & ") and p.customers_id = " & customers_id
         Return sql
     End Function
 
@@ -54,6 +54,37 @@ Public Class ClsPayment
 
         sql = " select id,payment_status,batch_id from payment " & _
               " where payment_status not in (" & PlushData.PaymentOfflineData.GetListClose() & ") " & _
+              " and payment_method = " & method & _
+              " and customers_id = " & customers_id & " order by 1 desc limit 1"
+        Return sql
+    End Function
+
+    Public Shared Function GetLastPaymentOpenStatus(ByVal customers_id As Integer, ByVal batch_id As Integer, ByVal method As ClsCustomersData.Payment_Method) As String
+        Dim sql As String
+
+        sql = " select id,payment_status,batch_id from payment " & _
+              " where payment_status not in (" & PlushData.PaymentOfflineData.GetListClose() & ") " & _
+              " and payment_method = " & method & _
+              " and customers_id = " & customers_id & _
+              " and batch_id = " & batch_id & " order by 1 desc limit 1"
+        Return sql
+    End Function
+
+    'Public Shared Function GetLastPaymentOpenNotCreateRecoveryStatus(ByVal customers_id As Integer, ByVal method As ClsCustomersData.Payment_Method) As String
+    '    Dim sql As String
+
+    '    sql = " select id,payment_status,batch_id from payment " & _
+    '          " where payment_status not in (9, " & PlushData.PaymentOfflineData.GetListClose() & ") " & _
+    '          " and payment_method = " & method & _
+    '          " and customers_id = " & customers_id & " order by 1 desc limit 1"
+    '    Return sql
+    'End Function
+
+    Public Shared Function GetLastPaymentOpenNotCreateRecoveryStatus(ByVal customers_id As Integer, ByVal method As ClsCustomersData.Payment_Method) As String
+        Dim sql As String
+
+        sql = " select id,payment_status,batch_id from payment " & _
+              " where payment_status not in (9, " & PlushData.PaymentOfflineData.GetListClose() & ") " & _
               " and payment_method = " & method & _
               " and customers_id = " & customers_id & " order by 1 desc limit 1"
         Return sql
